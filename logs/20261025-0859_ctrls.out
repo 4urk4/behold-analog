@@ -1,0 +1,82 @@
+# v4l2 controls 2026-10-25T08:59:26+03:00
+== install modules
+== reload driver
+dec_init=1 dcsc_power=1
+== list controls
+
+User Controls
+
+                     brightness 0x00980900 (int)    : min=0 max=255 step=1 default=128 value=128 flags=slider, has-min-max
+                       contrast 0x00980901 (int)    : min=0 max=127 step=1 default=68 value=68 flags=slider, has-min-max
+                     saturation 0x00980902 (int)    : min=0 max=127 step=1 default=64 value=64 flags=slider, has-min-max
+                            hue 0x00980903 (int)    : min=-127 max=127 step=1 default=0 value=0 flags=slider, has-min-max
+                      sharpness 0x0098091b (int)    : min=0 max=15 step=1 default=0 value=0 flags=slider, has-min-max
+== A: defaults
+<<<<<<<<<<<<<<<<<<<<<<<<<
+Video input set to 0 (Composite: Camera, ok)
+v4l2-ctl exit=0
+== B: brightness=0x20 saturation=0x60 hue=0x40
+                     brightness 0x00980900 (int)    : min=0 max=255 step=1 default=128 value=32 flags=slider, has-min-max
+                     saturation 0x00980902 (int)    : min=0 max=127 step=1 default=64 value=96 flags=slider, has-min-max
+                            hue 0x00980903 (int)    : min=-127 max=127 step=1 default=0 value=64 flags=slider, has-min-max
+<<<<<<<<<<<<<<<<<<<<<<<<<
+Video input set to 0 (Composite: Camera, ok)
+v4l2-ctl exit=0
+-rw-r--r-- 1 root root 604159 окт 25 08:59 /home/otakoi/_hueta/behold-analog/logs/20261025-0859_ctrlA.png
+-rw-r--r-- 1 root root   4281 окт 25 08:59 /home/otakoi/_hueta/behold-analog/logs/20261025-0859_ctrlB.png
+== brightness/U-V check
+A: mean luma 29.8, U/V distinct 14
+B: mean luma 1.2, U/V distinct 19
+delta luma: -28.6
+VERDICT: CONTROLS WORK
+== driver log
+[12326.118099] saa7231 avis: input table done
+[12326.118126] saa7231 avis: input setup done
+[12326.118129] saa7231 avis: timing done
+[12326.118156] saa7231 vfl: avis program done
+[12326.118157] saa7231 vfl: run
+[12326.130292] saa7231 vfl: streaming
+[12326.180422] saa7231 vfl: first frame (dma 1)
+[12327.184264] saa7231 vfl: stop, frames=25
+== done: /home/otakoi/_hueta/behold-analog/logs/20261025-0859_ctrls.out / /home/otakoi/_hueta/behold-analog/logs/20261025-0859_ctrlA.png / /home/otakoi/_hueta/behold-analog/logs/20261025-0859_ctrlB.png
+# v4l2 controls 2026-10-25T08:59:59+03:00
+== install modules
+== reload driver
+dec_init=1 dcsc_power=1
+== list controls
+
+User Controls
+
+                     brightness 0x00980900 (int)    : min=0 max=255 step=1 default=128 value=128 flags=slider, has-min-max
+                       contrast 0x00980901 (int)    : min=0 max=127 step=1 default=68 value=68 flags=slider, has-min-max
+                     saturation 0x00980902 (int)    : min=0 max=127 step=1 default=64 value=64 flags=slider, has-min-max
+                            hue 0x00980903 (int)    : min=-127 max=127 step=1 default=0 value=0 flags=slider, has-min-max
+                      sharpness 0x0098091b (int)    : min=0 max=15 step=1 default=0 value=0 flags=slider, has-min-max
+== A: defaults
+<<<<<<<<<<<<<<<<<<<<<<<<<
+Video input set to 0 (Composite: Camera, ok)
+v4l2-ctl exit=0
+== B: brightness=0x20 saturation=0x60 hue=0x40
+                     brightness 0x00980900 (int)    : min=0 max=255 step=1 default=128 value=32 flags=slider, has-min-max
+                     saturation 0x00980902 (int)    : min=0 max=127 step=1 default=64 value=96 flags=slider, has-min-max
+                            hue 0x00980903 (int)    : min=-127 max=127 step=1 default=0 value=64 flags=slider, has-min-max
+<<<<<<<<<<<<<<<<<<<<<<<<<
+Video input set to 0 (Composite: Camera, ok)
+v4l2-ctl exit=0
+-rw-r--r-- 1 root root 763732 окт 25 09:00 /home/otakoi/_hueta/behold-analog/logs/20261025-0859_ctrlA.png
+-rw-r--r-- 1 root root 646101 окт 25 09:00 /home/otakoi/_hueta/behold-analog/logs/20261025-0859_ctrlB.png
+== brightness/U-V check
+A: mean luma 124.7, U/V distinct 35
+B: mean luma 31.4, U/V distinct 44
+delta luma: -93.3
+VERDICT: CONTROLS WORK
+== driver log
+[12358.980863] saa7231 avis: input table done
+[12358.980890] saa7231 avis: input setup done
+[12358.980893] saa7231 avis: timing done
+[12358.980920] saa7231 vfl: avis program done
+[12358.980921] saa7231 vfl: run
+[12358.993621] saa7231 vfl: streaming
+[12359.070458] saa7231 vfl: first frame (dma 1)
+[12360.081434] saa7231 vfl: stop, frames=25
+== done: /home/otakoi/_hueta/behold-analog/logs/20261025-0859_ctrls.out / /home/otakoi/_hueta/behold-analog/logs/20261025-0859_ctrlA.png / /home/otakoi/_hueta/behold-analog/logs/20261025-0859_ctrlB.png

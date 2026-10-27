@@ -1,0 +1,17 @@
+# audio rgu/chctrl 2026-10-25T09:50:06+03:00
+== before any stream
+-- idle: 0x00000=%s 0x0000c=%s 0x0001c=%s 0x0003c=%s ffffffff ffffffff ffffffff ffffffff
+== run1 rgu=0: audio_rgu=0 audio_chctrl=0x29c
+-- t0: 0x00000=%s 0x0000c=%s 0x0001c=%s 0x0003c=%s ffffffff ffffffff ffffffff ffffffff
+-- t1: 0x00000=%s 0x0000c=%s 0x0001c=%s 0x0003c=%s ffffffff ffffffff ffffffff ffffffff
+-- audio buffers: 0
+== run2 rgu=1: audio_rgu=1 audio_chctrl=0x29c
+-- t0: 0x00000=%s 0x0000c=%s 0x0001c=%s 0x0003c=%s 00000000 00006400 00000000 005d6000
+-- t1: 0x00000=%s 0x0000c=%s 0x0001c=%s 0x0003c=%s 00000000 0000610c 00fd5f80 005d4000
+-- audio buffers: 0
+== run3 rgu=1 vendor chctrl: audio_rgu=1 audio_chctrl=0x39c
+-- t0: 0x00000=%s 0x0000c=%s 0x0001c=%s 0x0003c=%s 00000000 000064d1 00ff4d00 005d4000
+-- t1: 0x00000=%s 0x0000c=%s 0x0001c=%s 0x0003c=%s 00000000 000066c1 00ffff80 005cd000
+-- audio buffers: 0
+== audio report lines
+== done: /home/otakoi/_hueta/behold-analog/logs/20261025-0950_audio_chctrl.out

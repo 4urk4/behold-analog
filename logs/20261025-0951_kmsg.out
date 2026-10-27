@@ -1,0 +1,1392 @@
+[   67.347762] saa7231 snap 0x2084c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.347785] saa7231 snap 0x2084e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.347808] saa7231 snap 0x208500: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.347831] saa7231 snap 0x208520: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.347854] saa7231 snap 0x208540: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.347878] saa7231 snap 0x208560: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.347901] saa7231 snap 0x208580: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.347924] saa7231 snap 0x2085a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.347947] saa7231 snap 0x2085c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.347970] saa7231 snap 0x2085e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.347993] saa7231 snap 0x208600: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348016] saa7231 snap 0x208620: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348039] saa7231 snap 0x208640: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348062] saa7231 snap 0x208660: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348084] saa7231 snap 0x208680: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348119] saa7231 snap 0x2086a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348143] saa7231 snap 0x2086c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348166] saa7231 snap 0x2086e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348189] saa7231 snap 0x208700: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348212] saa7231 snap 0x208720: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348235] saa7231 snap 0x208740: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348258] saa7231 snap 0x208760: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348281] saa7231 snap 0x208780: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348305] saa7231 snap 0x2087a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348327] saa7231 snap 0x2087c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348348] saa7231 snap 0x2087e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348370] saa7231 snap 0x208800: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348393] saa7231 snap 0x208820: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348416] saa7231 snap 0x208840: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348439] saa7231 snap 0x208860: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348462] saa7231 snap 0x208880: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348485] saa7231 snap 0x2088a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348508] saa7231 snap 0x2088c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348532] saa7231 snap 0x2088e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348555] saa7231 snap 0x208900: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348578] saa7231 snap 0x208920: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348600] saa7231 snap 0x208940: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348623] saa7231 snap 0x208960: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348646] saa7231 snap 0x208980: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348669] saa7231 snap 0x2089a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348692] saa7231 snap 0x2089c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348715] saa7231 snap 0x2089e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348738] saa7231 snap 0x208a00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348761] saa7231 snap 0x208a20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348784] saa7231 snap 0x208a40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348807] saa7231 snap 0x208a60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348830] saa7231 snap 0x208a80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348853] saa7231 snap 0x208aa0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348876] saa7231 snap 0x208ac0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348899] saa7231 snap 0x208ae0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348923] saa7231 snap 0x208b00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348946] saa7231 snap 0x208b20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348969] saa7231 snap 0x208b40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.348992] saa7231 snap 0x208b60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349014] saa7231 snap 0x208b80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349037] saa7231 snap 0x208ba0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349060] saa7231 snap 0x208bc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349083] saa7231 snap 0x208be0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349106] saa7231 snap 0x208c00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349129] saa7231 snap 0x208c20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349152] saa7231 snap 0x208c40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349175] saa7231 snap 0x208c60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349198] saa7231 snap 0x208c80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349221] saa7231 snap 0x208ca0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349244] saa7231 snap 0x208cc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349267] saa7231 snap 0x208ce0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349291] saa7231 snap 0x208d00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349314] saa7231 snap 0x208d20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349337] saa7231 snap 0x208d40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349359] saa7231 snap 0x208d60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349382] saa7231 snap 0x208d80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349405] saa7231 snap 0x208da0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349427] saa7231 snap 0x208dc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349450] saa7231 snap 0x208de0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349473] saa7231 snap 0x208e00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349496] saa7231 snap 0x208e20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349519] saa7231 snap 0x208e40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349542] saa7231 snap 0x208e60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349566] saa7231 snap 0x208e80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349588] saa7231 snap 0x208ea0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349612] saa7231 snap 0x208ec0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349635] saa7231 snap 0x208ee0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349659] saa7231 snap 0x208f00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349682] saa7231 snap 0x208f20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349704] saa7231 snap 0x208f40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349727] saa7231 snap 0x208f60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349751] saa7231 snap 0x208f80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349774] saa7231 snap 0x208fa0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349797] saa7231 snap 0x208fc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349820] saa7231 snap 0x208fe0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349842] saa7231 snap 0x209000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349865] saa7231 snap 0x209020: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349889] saa7231 snap 0x209040: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349911] saa7231 snap 0x209060: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349934] saa7231 snap 0x209080: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349956] saa7231 snap 0x2090a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.349979] saa7231 snap 0x2090c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350003] saa7231 snap 0x2090e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350026] saa7231 snap 0x209100: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350049] saa7231 snap 0x209120: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350071] saa7231 snap 0x209140: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350094] saa7231 snap 0x209160: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350117] saa7231 snap 0x209180: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350140] saa7231 snap 0x2091a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350164] saa7231 snap 0x2091c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350187] saa7231 snap 0x2091e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350209] saa7231 snap 0x209200: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350233] saa7231 snap 0x209220: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350256] saa7231 snap 0x209240: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350279] saa7231 snap 0x209260: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350301] saa7231 snap 0x209280: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350325] saa7231 snap 0x2092a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350347] saa7231 snap 0x2092c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350371] saa7231 snap 0x2092e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350393] saa7231 snap 0x209300: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350417] saa7231 snap 0x209320: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350439] saa7231 snap 0x209340: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350462] saa7231 snap 0x209360: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350484] saa7231 snap 0x209380: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350507] saa7231 snap 0x2093a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350531] saa7231 snap 0x2093c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350554] saa7231 snap 0x2093e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350577] saa7231 snap 0x209400: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350600] saa7231 snap 0x209420: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350623] saa7231 snap 0x209440: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350647] saa7231 snap 0x209460: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350670] saa7231 snap 0x209480: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350692] saa7231 snap 0x2094a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350715] saa7231 snap 0x2094c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350739] saa7231 snap 0x2094e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350762] saa7231 snap 0x209500: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350786] saa7231 snap 0x209520: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350809] saa7231 snap 0x209540: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350832] saa7231 snap 0x209560: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350855] saa7231 snap 0x209580: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350878] saa7231 snap 0x2095a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350901] saa7231 snap 0x2095c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350924] saa7231 snap 0x2095e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350946] saa7231 snap 0x209600: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350970] saa7231 snap 0x209620: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.350992] saa7231 snap 0x209640: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351016] saa7231 snap 0x209660: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351039] saa7231 snap 0x209680: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351062] saa7231 snap 0x2096a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351085] saa7231 snap 0x2096c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351109] saa7231 snap 0x2096e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351131] saa7231 snap 0x209700: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351154] saa7231 snap 0x209720: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351177] saa7231 snap 0x209740: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351200] saa7231 snap 0x209760: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351223] saa7231 snap 0x209780: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351246] saa7231 snap 0x2097a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351269] saa7231 snap 0x2097c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351292] saa7231 snap 0x2097e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351316] saa7231 snap 0x209800: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351338] saa7231 snap 0x209820: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351362] saa7231 snap 0x209840: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351385] saa7231 snap 0x209860: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351407] saa7231 snap 0x209880: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351442] saa7231 snap 0x2098a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351465] saa7231 snap 0x2098c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351488] saa7231 snap 0x2098e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351512] saa7231 snap 0x209900: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351534] saa7231 snap 0x209920: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351557] saa7231 snap 0x209940: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351580] saa7231 snap 0x209960: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351603] saa7231 snap 0x209980: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351626] saa7231 snap 0x2099a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351649] saa7231 snap 0x2099c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351672] saa7231 snap 0x2099e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351695] saa7231 snap 0x209a00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351717] saa7231 snap 0x209a20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351741] saa7231 snap 0x209a40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351764] saa7231 snap 0x209a60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351787] saa7231 snap 0x209a80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351809] saa7231 snap 0x209aa0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351832] saa7231 snap 0x209ac0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351855] saa7231 snap 0x209ae0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351878] saa7231 snap 0x209b00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351901] saa7231 snap 0x209b20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351924] saa7231 snap 0x209b40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351947] saa7231 snap 0x209b60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351970] saa7231 snap 0x209b80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.351994] saa7231 snap 0x209ba0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352017] saa7231 snap 0x209bc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352040] saa7231 snap 0x209be0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352063] saa7231 snap 0x209c00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352086] saa7231 snap 0x209c20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352109] saa7231 snap 0x209c40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352132] saa7231 snap 0x209c60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352156] saa7231 snap 0x209c80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352179] saa7231 snap 0x209ca0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352202] saa7231 snap 0x209cc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352224] saa7231 snap 0x209ce0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352247] saa7231 snap 0x209d00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352270] saa7231 snap 0x209d20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352293] saa7231 snap 0x209d40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352316] saa7231 snap 0x209d60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352339] saa7231 snap 0x209d80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352362] saa7231 snap 0x209da0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352385] saa7231 snap 0x209dc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352408] saa7231 snap 0x209de0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352431] saa7231 snap 0x209e00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352454] saa7231 snap 0x209e20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352477] saa7231 snap 0x209e40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352501] saa7231 snap 0x209e60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352524] saa7231 snap 0x209e80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352547] saa7231 snap 0x209ea0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352570] saa7231 snap 0x209ec0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352593] saa7231 snap 0x209ee0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352616] saa7231 snap 0x209f00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352639] saa7231 snap 0x209f20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352663] saa7231 snap 0x209f40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352686] saa7231 snap 0x209f60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352709] saa7231 snap 0x209f80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352731] saa7231 snap 0x209fa0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352755] saa7231 snap 0x209fc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352777] saa7231 snap 0x209fe0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352800] saa7231 snap 0x20a000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352823] saa7231 snap 0x20a020: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352846] saa7231 snap 0x20a040: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352869] saa7231 snap 0x20a060: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352893] saa7231 snap 0x20a080: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352916] saa7231 snap 0x20a0a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352939] saa7231 snap 0x20a0c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352962] saa7231 snap 0x20a0e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.352985] saa7231 snap 0x20a100: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.353007] saa7231 snap 0x20a120: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.353031] saa7231 snap 0x20a140: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.353054] saa7231 snap 0x20a160: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.353077] saa7231 snap 0x20a180: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.353100] saa7231 snap 0x20a1a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.353123] saa7231 snap 0x20a1c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.353146] saa7231 snap 0x20a1e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.353169] saa7231 snap 0x20a200: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.353192] saa7231 snap 0x20a220: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.353214] saa7231 snap 0x20a240: 00000088 00000089 00000000 00000000 00000020 00000000 00000000 00000000
+[   67.353237] saa7231 snap 0x20a260: 00000040 00000000 00000040 00000080 00000080 00000044 00000000 00000000
+[   67.353260] saa7231 snap 0x20a280: 00000040 00000000 00000000 0000002a 00000006 00000001 00000000 00000000
+[   67.353282] saa7231 snap 0x20a2a0: 000000a9 000000c2 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353305] saa7231 snap 0x20a2c0: 00000051 00000077 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353328] saa7231 snap 0x20a2e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353350] saa7231 snap 0x20a300: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353373] saa7231 snap 0x20a320: 00000071 00000071 000000da 00000000 00000000 0000008f 000000d4 00000006
+[   67.353396] saa7231 snap 0x20a340: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.353419] saa7231 snap 0x20a360: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.353441] saa7231 snap 0x20a380: 00000000 00000000 00000000 00000000 00000000 00000000 00000004 00000000
+[   67.353464] saa7231 snap 0x20a3a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353487] saa7231 snap 0x20a3c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353510] saa7231 snap 0x20a3e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353533] saa7231 snap 0x20a400: 00000000 00000000 00000000 00000000 00000000 00000010 00000000 00000000
+[   67.353555] saa7231 snap 0x20a420: 00000000 00000080 00000040 00000040 00000000 00000000 00000000 00000000
+[   67.353578] saa7231 snap 0x20a440: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353601] saa7231 snap 0x20a460: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353623] saa7231 snap 0x20a480: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353646] saa7231 snap 0x20a4a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353669] saa7231 snap 0x20a4c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353691] saa7231 snap 0x20a4e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353714] saa7231 snap 0x20a500: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353737] saa7231 snap 0x20a520: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000003
+[   67.353759] saa7231 snap 0x20a540: 000000c3 000000fe 000000a8 000000f1 00000097 000000f9 000000de 00000099
+[   67.353782] saa7231 snap 0x20a560: 0000007e 000000f0 00000023 000000a5 000000fe 000000d2 000000fe 000000ae
+[   67.353804] saa7231 snap 0x20a580: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353827] saa7231 snap 0x20a5a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353850] saa7231 snap 0x20a5c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353872] saa7231 snap 0x20a5e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353895] saa7231 snap 0x20a600: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353918] saa7231 snap 0x20a620: 00000000 00000000 00000009 00000000 00000000 00000000 0000003c 00000003
+[   67.353940] saa7231 snap 0x20a640: 000000a0 0000002d 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.353962] saa7231 snap 0x20a660: 000000ff 00000007 000000ff 00000007 00000004 00000068 00000001 00000000
+[   67.353985] saa7231 snap 0x20a680: 00000087 0000004f 00000001 00000000 00000000 00000000 00000001 00000000
+[   67.354008] saa7231 snap 0x20a6a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.354030] saa7231 snap 0x20a6c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.354053] saa7231 snap 0x20a6e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.354075] saa7231 snap 0x20a700: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.354097] saa7231 snap 0x20a720: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.354120] saa7231 snap 0x20a740: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.354143] saa7231 snap 0x20a760: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.354166] saa7231 snap 0x20a780: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.354188] saa7231 snap 0x20a7a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.354211] saa7231 snap 0x20a7c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.354234] saa7231 snap 0x20a7e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.354257] saa7231 snap 0x20a800: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354280] saa7231 snap 0x20a820: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354302] saa7231 snap 0x20a840: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354326] saa7231 snap 0x20a860: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354349] saa7231 snap 0x20a880: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354372] saa7231 snap 0x20a8a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354395] saa7231 snap 0x20a8c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354418] saa7231 snap 0x20a8e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354441] saa7231 snap 0x20a900: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354464] saa7231 snap 0x20a920: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354486] saa7231 snap 0x20a940: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354509] saa7231 snap 0x20a960: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354532] saa7231 snap 0x20a980: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354555] saa7231 snap 0x20a9a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354579] saa7231 snap 0x20a9c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354602] saa7231 snap 0x20a9e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354625] saa7231 snap 0x20aa00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354648] saa7231 snap 0x20aa20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354671] saa7231 snap 0x20aa40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354694] saa7231 snap 0x20aa60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354718] saa7231 snap 0x20aa80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354741] saa7231 snap 0x20aaa0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354775] saa7231 snap 0x20aac0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354799] saa7231 snap 0x20aae0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354822] saa7231 snap 0x20ab00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354845] saa7231 snap 0x20ab20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354868] saa7231 snap 0x20ab40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354891] saa7231 snap 0x20ab60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354914] saa7231 snap 0x20ab80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354937] saa7231 snap 0x20aba0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354960] saa7231 snap 0x20abc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.354982] saa7231 snap 0x20abe0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355005] saa7231 snap 0x20ac00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355029] saa7231 snap 0x20ac20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355052] saa7231 snap 0x20ac40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355075] saa7231 snap 0x20ac60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355098] saa7231 snap 0x20ac80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355120] saa7231 snap 0x20aca0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355143] saa7231 snap 0x20acc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355166] saa7231 snap 0x20ace0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355189] saa7231 snap 0x20ad00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355212] saa7231 snap 0x20ad20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355235] saa7231 snap 0x20ad40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355258] saa7231 snap 0x20ad60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355281] saa7231 snap 0x20ad80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355304] saa7231 snap 0x20ada0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355327] saa7231 snap 0x20adc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355350] saa7231 snap 0x20ade0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355373] saa7231 snap 0x20ae00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355396] saa7231 snap 0x20ae20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355419] saa7231 snap 0x20ae40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355442] saa7231 snap 0x20ae60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355466] saa7231 snap 0x20ae80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355489] saa7231 snap 0x20aea0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355512] saa7231 snap 0x20aec0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355535] saa7231 snap 0x20aee0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355558] saa7231 snap 0x20af00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355581] saa7231 snap 0x20af20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355605] saa7231 snap 0x20af40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355627] saa7231 snap 0x20af60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355650] saa7231 snap 0x20af80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355674] saa7231 snap 0x20afa0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355697] saa7231 snap 0x20afc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355720] saa7231 snap 0x20afe0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355743] saa7231 snap 0x20b000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355765] saa7231 snap 0x20b020: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355788] saa7231 snap 0x20b040: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355812] saa7231 snap 0x20b060: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355834] saa7231 snap 0x20b080: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355858] saa7231 snap 0x20b0a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.355880] saa7231 snap 0x20b0c0: 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff
+[   67.355903] saa7231 snap 0x20b0e0: 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff
+[   67.355926] saa7231 snap 0x20b100: 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff
+[   67.355949] saa7231 snap 0x20b120: 000000ff 000000ff 00000047 00000003 00000000 00000000 00000000 00000000
+[   67.355972] saa7231 snap 0x20b140: 00000003 00000000 00000000 00000000 00000040 00000002 00000000 00000000
+[   67.355994] saa7231 snap 0x20b160: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.356017] saa7231 snap 0x20b180: 00000000 00000000 00000000 00000000 00000001 00000000 00000000 00000000
+[   67.356040] saa7231 snap 0x20b1a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.356062] saa7231 snap 0x20b1c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000048 00000000
+[   67.356085] saa7231 snap 0x20b1e0: 00000000 0000002c 000000a0 00000000 00000000 00000000 00000000 00000000
+[   67.356108] saa7231 snap 0x20b200: 00000000 000000a0 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.356130] saa7231 snap 0x20b220: 00000000 00000000 00000000 00000040 000000a0 00000000 00000000 00000000
+[   67.356153] saa7231 snap 0x20b240: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.356175] saa7231 snap 0x20b260: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.356198] saa7231 snap 0x20b280: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.356220] saa7231 snap 0x20b2a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.356243] saa7231 snap 0x20b2c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356266] saa7231 snap 0x20b2e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356289] saa7231 snap 0x20b300: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356313] saa7231 snap 0x20b320: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356335] saa7231 snap 0x20b340: 00000000 00000000 00000002 00000001 000000d0 00000000 00000000 00000000
+[   67.356357] saa7231 snap 0x20b360: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.356380] saa7231 snap 0x20b380: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.356403] saa7231 snap 0x20b3a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.356426] saa7231 snap 0x20b3c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.356449] saa7231 snap 0x20b3e0: 00000000 00000000 00000000 00000000 00000003 00000001 00000000 00000000
+[   67.356472] saa7231 snap 0x20b400: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356495] saa7231 snap 0x20b420: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356518] saa7231 snap 0x20b440: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356541] saa7231 snap 0x20b460: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356564] saa7231 snap 0x20b480: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356587] saa7231 snap 0x20b4a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356610] saa7231 snap 0x20b4c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356633] saa7231 snap 0x20b4e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356656] saa7231 snap 0x20b500: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356679] saa7231 snap 0x20b520: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356702] saa7231 snap 0x20b540: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356725] saa7231 snap 0x20b560: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356748] saa7231 snap 0x20b580: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356772] saa7231 snap 0x20b5a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356795] saa7231 snap 0x20b5c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356818] saa7231 snap 0x20b5e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.356841] saa7231 snap 0x20b600: 00000001 00000000 00000024 00000001 00000027 00000004 00000010 00000084
+[   67.356863] saa7231 snap 0x20b620: 00000008 00000085 000000f6 00000092 00000055 00000055 00000055 00000021
+[   67.356886] saa7231 snap 0x20b640: 00000011 00000001 000000a0 00000090 00000067 00000088 000000f0 0000003f
+[   67.356909] saa7231 snap 0x20b660: 00000002 00000088 00000080 00000000 0000006f 00000001 00000073 00000010
+[   67.356931] saa7231 snap 0x20b680: 00000000 00000000 00000000 00000004 00000000 00000000 00000020 0000007f
+[   67.356953] saa7231 snap 0x20b6a0: 000000ff 000000ff 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.356975] saa7231 snap 0x20b6c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.356997] saa7231 snap 0x20b6e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.357020] saa7231 snap 0x20b700: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.357042] saa7231 snap 0x20b720: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.357065] saa7231 snap 0x20b740: 00000000 00000000 00000000 00000000 00000000 00000000 00000004 000000fe
+[   67.357087] saa7231 snap 0x20b760: 0000000f 000000fa 0000000f 000000ef 0000000f 000000dd 0000000f 000000be
+[   67.357110] saa7231 snap 0x20b780: 0000000f 0000008a 0000000f 00000032 0000000f 0000006f 0000000f 000000f4
+[   67.357133] saa7231 snap 0x20b7a0: 0000000a 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.357156] saa7231 snap 0x20b7c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.357179] saa7231 snap 0x20b7e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.357202] saa7231 snap 0x20b800: 0000000a 00000002 000000dc 00000004 000000e6 00000004 000000c6 00000003
+[   67.357225] saa7231 snap 0x20b820: 00000056 00000005 000000e1 00000004 000000dc 00000004 000000e2 00000004
+[   67.357248] saa7231 snap 0x20b840: 00000016 00000000 000000cc 00000004 000000c0 00000004 00000002 00000005
+[   67.357270] saa7231 snap 0x20b860: 0000007e 00000004 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.357293] saa7231 snap 0x20b880: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.357316] saa7231 snap 0x20b8a0: 00000000 00000000 00000000 00000000 00000004 00000000 00000029 00000000
+[   67.357339] saa7231 snap 0x20b8c0: 000000db 00000004 00000000 00000000 00000000 00000000 00000029 00000000
+[   67.357361] saa7231 snap 0x20b8e0: 000000d9 00000004 00000000 00000000 00000000 00000000 00000001 0000003f
+[   67.357383] saa7231 snap 0x20b900: 00000000 00000000 00000008 00000034 00000034 00000034 00000034 0000002d
+[   67.357406] saa7231 snap 0x20b920: 0000002d 00000014 00000014 0000000a 0000000a 0000000a 0000000a 00000080
+[   67.357429] saa7231 snap 0x20b940: 0000000e 00000060 00000000 00000000 00000000 00000000 00000000 00000002
+[   67.357452] saa7231 snap 0x20b960: 0000000f 000000e4 0000000e 00000024 00000000 000000fd 0000000f 000000ed
+[   67.357474] saa7231 snap 0x20b980: 0000000f 00000067 00000001 00000065 00000001 000000b7 0000000f 000000b5
+[   67.357497] saa7231 snap 0x20b9a0: 0000000f 00000024 0000000f 00000026 0000000f 00000025 0000000f 00000000
+[   67.357519] saa7231 snap 0x20b9c0: 00000000 00000000 00000000 0000002b 00000000 0000009b 0000000f 00000000
+[   67.357542] saa7231 snap 0x20b9e0: 00000000 00000000 00000000 00000023 00000000 000000ee 0000000f 00000017
+[   67.357566] saa7231 snap 0x20ba00: 00000000 000000ff 0000000f 00000021 00000000 000000db 0000000f 00000052
+[   67.357588] saa7231 snap 0x20ba20: 0000000e 000000d8 00000000 00000002 0000000f 000000e4 0000000e 00000024
+[   67.357611] saa7231 snap 0x20ba40: 00000000 000000fd 0000000f 000000ed 0000000f 00000067 00000001 00000065
+[   67.357633] saa7231 snap 0x20ba60: 00000001 000000b7 0000000f 000000b5 0000000f 00000024 0000000f 00000026
+[   67.357656] saa7231 snap 0x20ba80: 0000000f 00000025 0000000f 00000000 00000000 00000000 00000000 0000002b
+[   67.357679] saa7231 snap 0x20baa0: 00000000 0000009b 0000000f 00000000 00000000 00000000 00000000 00000000
+[   67.357702] saa7231 snap 0x20bac0: 00000000 00000000 00000000 00000017 00000000 000000ff 0000000f 00000021
+[   67.357724] saa7231 snap 0x20bae0: 00000000 000000db 0000000f 00000052 0000000e 000000d8 00000000 00000000
+[   67.357747] saa7231 snap 0x20bb00: 00000000 00000000 00000000 00000000 000000e1 00000004 00000000 00000000
+[   67.357769] saa7231 snap 0x20bb20: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.357792] saa7231 snap 0x20bb40: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.357814] saa7231 snap 0x20bb60: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.357837] saa7231 snap 0x20bb80: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.357860] saa7231 snap 0x20bba0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.357882] saa7231 snap 0x20bbc0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.357905] saa7231 snap 0x20bbe0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.357928] saa7231 snap 0x20bc00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.357951] saa7231 snap 0x20bc20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.357974] saa7231 snap 0x20bc40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.357997] saa7231 snap 0x20bc60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358020] saa7231 snap 0x20bc80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358043] saa7231 snap 0x20bca0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358067] saa7231 snap 0x20bcc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358102] saa7231 snap 0x20bce0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358126] saa7231 snap 0x20bd00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358150] saa7231 snap 0x20bd20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358173] saa7231 snap 0x20bd40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358199] saa7231 snap 0x20bd60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358222] saa7231 snap 0x20bd80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358245] saa7231 snap 0x20bda0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358268] saa7231 snap 0x20bdc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358291] saa7231 snap 0x20bde0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358316] saa7231 snap 0x20be00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358340] saa7231 snap 0x20be20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358363] saa7231 snap 0x20be40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358386] saa7231 snap 0x20be60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358410] saa7231 snap 0x20be80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358433] saa7231 snap 0x20bea0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358456] saa7231 snap 0x20bec0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358480] saa7231 snap 0x20bee0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358502] saa7231 snap 0x20bf00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358526] saa7231 snap 0x20bf20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358549] saa7231 snap 0x20bf40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358573] saa7231 snap 0x20bf60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358596] saa7231 snap 0x20bf80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358619] saa7231 snap 0x20bfa0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358643] saa7231 snap 0x20bfc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358666] saa7231 snap 0x20bfe0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358690] saa7231 snap 0x20c000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358713] saa7231 snap 0x20c020: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358736] saa7231 snap 0x20c040: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358760] saa7231 snap 0x20c060: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358783] saa7231 snap 0x20c080: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358806] saa7231 snap 0x20c0a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358829] saa7231 snap 0x20c0c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358853] saa7231 snap 0x20c0e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358876] saa7231 snap 0x20c100: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358899] saa7231 snap 0x20c120: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358922] saa7231 snap 0x20c140: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358945] saa7231 snap 0x20c160: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358969] saa7231 snap 0x20c180: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.358992] saa7231 snap 0x20c1a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359015] saa7231 snap 0x20c1c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359039] saa7231 snap 0x20c1e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359062] saa7231 snap 0x20c200: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359085] saa7231 snap 0x20c220: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359109] saa7231 snap 0x20c240: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359132] saa7231 snap 0x20c260: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359156] saa7231 snap 0x20c280: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359179] saa7231 snap 0x20c2a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359202] saa7231 snap 0x20c2c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359226] saa7231 snap 0x20c2e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359249] saa7231 snap 0x20c300: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359272] saa7231 snap 0x20c320: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359296] saa7231 snap 0x20c340: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359319] saa7231 snap 0x20c360: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359342] saa7231 snap 0x20c380: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359365] saa7231 snap 0x20c3a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359388] saa7231 snap 0x20c3c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359412] saa7231 snap 0x20c3e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359435] saa7231 snap 0x20c400: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359459] saa7231 snap 0x20c420: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359482] saa7231 snap 0x20c440: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359505] saa7231 snap 0x20c460: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359528] saa7231 snap 0x20c480: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359552] saa7231 snap 0x20c4a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359575] saa7231 snap 0x20c4c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359599] saa7231 snap 0x20c4e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359622] saa7231 snap 0x20c500: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359645] saa7231 snap 0x20c520: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359668] saa7231 snap 0x20c540: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359692] saa7231 snap 0x20c560: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359715] saa7231 snap 0x20c580: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359738] saa7231 snap 0x20c5a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359762] saa7231 snap 0x20c5c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359785] saa7231 snap 0x20c5e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359808] saa7231 snap 0x20c600: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359831] saa7231 snap 0x20c620: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359855] saa7231 snap 0x20c640: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359878] saa7231 snap 0x20c660: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359902] saa7231 snap 0x20c680: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359925] saa7231 snap 0x20c6a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359948] saa7231 snap 0x20c6c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359972] saa7231 snap 0x20c6e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.359995] saa7231 snap 0x20c700: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360019] saa7231 snap 0x20c720: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360042] saa7231 snap 0x20c740: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360065] saa7231 snap 0x20c760: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360088] saa7231 snap 0x20c780: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360111] saa7231 snap 0x20c7a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360135] saa7231 snap 0x20c7c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360158] saa7231 snap 0x20c7e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360181] saa7231 snap 0x20c800: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360203] saa7231 snap 0x20c820: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360226] saa7231 snap 0x20c840: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360249] saa7231 snap 0x20c860: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360272] saa7231 snap 0x20c880: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360295] saa7231 snap 0x20c8a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360318] saa7231 snap 0x20c8c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360342] saa7231 snap 0x20c8e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360365] saa7231 snap 0x20c900: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360388] saa7231 snap 0x20c920: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360412] saa7231 snap 0x20c940: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360435] saa7231 snap 0x20c960: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360458] saa7231 snap 0x20c980: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360481] saa7231 snap 0x20c9a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360505] saa7231 snap 0x20c9c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360528] saa7231 snap 0x20c9e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360551] saa7231 snap 0x20ca00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360573] saa7231 snap 0x20ca20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360596] saa7231 snap 0x20ca40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360619] saa7231 snap 0x20ca60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360642] saa7231 snap 0x20ca80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360665] saa7231 snap 0x20caa0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360689] saa7231 snap 0x20cac0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360712] saa7231 snap 0x20cae0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360735] saa7231 snap 0x20cb00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360759] saa7231 snap 0x20cb20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360783] saa7231 snap 0x20cb40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360806] saa7231 snap 0x20cb60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360830] saa7231 snap 0x20cb80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360853] saa7231 snap 0x20cba0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360876] saa7231 snap 0x20cbc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360899] saa7231 snap 0x20cbe0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360922] saa7231 snap 0x20cc00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360946] saa7231 snap 0x20cc20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360969] saa7231 snap 0x20cc40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.360992] saa7231 snap 0x20cc60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361016] saa7231 snap 0x20cc80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361039] saa7231 snap 0x20cca0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361062] saa7231 snap 0x20ccc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361086] saa7231 snap 0x20cce0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361109] saa7231 snap 0x20cd00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361132] saa7231 snap 0x20cd20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361156] saa7231 snap 0x20cd40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361178] saa7231 snap 0x20cd60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361202] saa7231 snap 0x20cd80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361225] saa7231 snap 0x20cda0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361248] saa7231 snap 0x20cdc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361272] saa7231 snap 0x20cde0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361295] saa7231 snap 0x20ce00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361319] saa7231 snap 0x20ce20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361342] saa7231 snap 0x20ce40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361365] saa7231 snap 0x20ce60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361388] saa7231 snap 0x20ce80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361412] saa7231 snap 0x20cea0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361447] saa7231 snap 0x20cec0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361471] saa7231 snap 0x20cee0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361495] saa7231 snap 0x20cf00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361519] saa7231 snap 0x20cf20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361542] saa7231 snap 0x20cf40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361565] saa7231 snap 0x20cf60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361588] saa7231 snap 0x20cf80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361612] saa7231 snap 0x20cfa0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361635] saa7231 snap 0x20cfc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361658] saa7231 snap 0x20cfe0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361681] saa7231 snap 0x20d000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361705] saa7231 snap 0x20d020: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361728] saa7231 snap 0x20d040: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361752] saa7231 snap 0x20d060: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361775] saa7231 snap 0x20d080: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361799] saa7231 snap 0x20d0a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361822] saa7231 snap 0x20d0c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361845] saa7231 snap 0x20d0e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361868] saa7231 snap 0x20d100: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361892] saa7231 snap 0x20d120: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361915] saa7231 snap 0x20d140: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361938] saa7231 snap 0x20d160: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361962] saa7231 snap 0x20d180: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.361985] saa7231 snap 0x20d1a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362008] saa7231 snap 0x20d1c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362032] saa7231 snap 0x20d1e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362054] saa7231 snap 0x20d200: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362078] saa7231 snap 0x20d220: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362101] saa7231 snap 0x20d240: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362124] saa7231 snap 0x20d260: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362148] saa7231 snap 0x20d280: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362171] saa7231 snap 0x20d2a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362194] saa7231 snap 0x20d2c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362217] saa7231 snap 0x20d2e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362240] saa7231 snap 0x20d300: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362264] saa7231 snap 0x20d320: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362287] saa7231 snap 0x20d340: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362311] saa7231 snap 0x20d360: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362334] saa7231 snap 0x20d380: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362357] saa7231 snap 0x20d3a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362381] saa7231 snap 0x20d3c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362405] saa7231 snap 0x20d3e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362427] saa7231 snap 0x20d400: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362451] saa7231 snap 0x20d420: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362474] saa7231 snap 0x20d440: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362497] saa7231 snap 0x20d460: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362521] saa7231 snap 0x20d480: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362544] saa7231 snap 0x20d4a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362568] saa7231 snap 0x20d4c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362591] saa7231 snap 0x20d4e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362614] saa7231 snap 0x20d500: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362637] saa7231 snap 0x20d520: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362661] saa7231 snap 0x20d540: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362683] saa7231 snap 0x20d560: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362707] saa7231 snap 0x20d580: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362730] saa7231 snap 0x20d5a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362754] saa7231 snap 0x20d5c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362777] saa7231 snap 0x20d5e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362800] saa7231 snap 0x20d600: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362823] saa7231 snap 0x20d620: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362847] saa7231 snap 0x20d640: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362871] saa7231 snap 0x20d660: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362894] saa7231 snap 0x20d680: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362917] saa7231 snap 0x20d6a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362941] saa7231 snap 0x20d6c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362963] saa7231 snap 0x20d6e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.362987] saa7231 snap 0x20d700: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363010] saa7231 snap 0x20d720: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363033] saa7231 snap 0x20d740: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363056] saa7231 snap 0x20d760: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363079] saa7231 snap 0x20d780: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363103] saa7231 snap 0x20d7a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363126] saa7231 snap 0x20d7c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363149] saa7231 snap 0x20d7e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363173] saa7231 snap 0x20d800: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363196] saa7231 snap 0x20d820: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363219] saa7231 snap 0x20d840: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363242] saa7231 snap 0x20d860: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363266] saa7231 snap 0x20d880: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363289] saa7231 snap 0x20d8a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363312] saa7231 snap 0x20d8c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363335] saa7231 snap 0x20d8e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363359] saa7231 snap 0x20d900: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363382] saa7231 snap 0x20d920: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363405] saa7231 snap 0x20d940: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363429] saa7231 snap 0x20d960: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363452] saa7231 snap 0x20d980: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363474] saa7231 snap 0x20d9a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363496] saa7231 snap 0x20d9c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363519] saa7231 snap 0x20d9e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363542] saa7231 snap 0x20da00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363566] saa7231 snap 0x20da20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363589] saa7231 snap 0x20da40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363613] saa7231 snap 0x20da60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363636] saa7231 snap 0x20da80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363659] saa7231 snap 0x20daa0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363683] saa7231 snap 0x20dac0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363706] saa7231 snap 0x20dae0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363729] saa7231 snap 0x20db00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363752] saa7231 snap 0x20db20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363775] saa7231 snap 0x20db40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363799] saa7231 snap 0x20db60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363822] saa7231 snap 0x20db80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363845] saa7231 snap 0x20dba0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363869] saa7231 snap 0x20dbc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363892] saa7231 snap 0x20dbe0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363915] saa7231 snap 0x20dc00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363938] saa7231 snap 0x20dc20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363962] saa7231 snap 0x20dc40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.363985] saa7231 snap 0x20dc60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364008] saa7231 snap 0x20dc80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364032] saa7231 snap 0x20dca0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364055] saa7231 snap 0x20dcc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364078] saa7231 snap 0x20dce0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364102] saa7231 snap 0x20dd00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364125] saa7231 snap 0x20dd20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364148] saa7231 snap 0x20dd40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364171] saa7231 snap 0x20dd60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364195] saa7231 snap 0x20dd80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364218] saa7231 snap 0x20dda0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364242] saa7231 snap 0x20ddc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364264] saa7231 snap 0x20dde0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364288] saa7231 snap 0x20de00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364311] saa7231 snap 0x20de20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364334] saa7231 snap 0x20de40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364358] saa7231 snap 0x20de60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364381] saa7231 snap 0x20de80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364404] saa7231 snap 0x20dea0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364427] saa7231 snap 0x20dec0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364451] saa7231 snap 0x20dee0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364474] saa7231 snap 0x20df00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364498] saa7231 snap 0x20df20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364521] saa7231 snap 0x20df40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364544] saa7231 snap 0x20df60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364567] saa7231 snap 0x20df80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364590] saa7231 snap 0x20dfa0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364614] saa7231 snap 0x20dfc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364637] saa7231 snap 0x20dfe0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364661] saa7231 snap 0x20e000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364684] saa7231 snap 0x20e020: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364707] saa7231 snap 0x20e040: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364730] saa7231 snap 0x20e060: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364753] saa7231 snap 0x20e080: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364789] saa7231 snap 0x20e0a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364812] saa7231 snap 0x20e0c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364836] saa7231 snap 0x20e0e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364859] saa7231 snap 0x20e100: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364882] saa7231 snap 0x20e120: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364906] saa7231 snap 0x20e140: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364928] saa7231 snap 0x20e160: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364952] saa7231 snap 0x20e180: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364975] saa7231 snap 0x20e1a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.364998] saa7231 snap 0x20e1c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.365022] saa7231 snap 0x20e1e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.365045] saa7231 snap 0x20e200: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.365068] saa7231 snap 0x20e220: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.365092] saa7231 snap 0x20e240: 00000088 00000089 00000000 00000000 00000020 00000000 00000000 00000000
+[   67.365114] saa7231 snap 0x20e260: 00000040 00000000 00000040 00000080 00000080 00000044 00000000 00000000
+[   67.365137] saa7231 snap 0x20e280: 00000040 00000000 00000000 0000002a 00000006 00000001 00000000 00000000
+[   67.365160] saa7231 snap 0x20e2a0: 000000a9 000000c2 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365183] saa7231 snap 0x20e2c0: 00000051 00000077 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365206] saa7231 snap 0x20e2e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365228] saa7231 snap 0x20e300: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365251] saa7231 snap 0x20e320: 00000071 00000071 000000ea 00000000 00000000 0000008f 000000d4 00000006
+[   67.365275] saa7231 snap 0x20e340: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.365298] saa7231 snap 0x20e360: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.365321] saa7231 snap 0x20e380: 00000000 00000000 00000000 00000000 00000000 00000000 00000004 00000000
+[   67.365344] saa7231 snap 0x20e3a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365367] saa7231 snap 0x20e3c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365390] saa7231 snap 0x20e3e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365413] saa7231 snap 0x20e400: 00000000 00000000 00000000 00000000 00000000 00000010 00000000 00000000
+[   67.365435] saa7231 snap 0x20e420: 00000000 00000080 00000040 00000040 00000000 00000000 00000000 00000000
+[   67.365459] saa7231 snap 0x20e440: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365482] saa7231 snap 0x20e460: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365505] saa7231 snap 0x20e480: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365528] saa7231 snap 0x20e4a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365550] saa7231 snap 0x20e4c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365573] saa7231 snap 0x20e4e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365596] saa7231 snap 0x20e500: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365619] saa7231 snap 0x20e520: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000003
+[   67.365642] saa7231 snap 0x20e540: 000000c3 000000fe 000000a8 000000f1 00000097 000000f9 000000de 00000099
+[   67.365665] saa7231 snap 0x20e560: 0000007e 000000f0 00000023 000000a5 000000fe 000000d2 000000fe 000000ae
+[   67.365688] saa7231 snap 0x20e580: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365711] saa7231 snap 0x20e5a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365735] saa7231 snap 0x20e5c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365757] saa7231 snap 0x20e5e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365781] saa7231 snap 0x20e600: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365804] saa7231 snap 0x20e620: 00000000 00000000 00000009 00000000 00000000 00000000 0000003c 00000003
+[   67.365826] saa7231 snap 0x20e640: 000000a0 0000002d 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365849] saa7231 snap 0x20e660: 000000ff 00000007 000000ff 00000007 00000004 00000068 00000001 00000000
+[   67.365873] saa7231 snap 0x20e680: 00000087 0000004f 00000001 00000000 00000000 00000000 00000001 00000000
+[   67.365895] saa7231 snap 0x20e6a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365918] saa7231 snap 0x20e6c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365941] saa7231 snap 0x20e6e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365964] saa7231 snap 0x20e700: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.365987] saa7231 snap 0x20e720: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.366010] saa7231 snap 0x20e740: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.366033] saa7231 snap 0x20e760: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.366056] saa7231 snap 0x20e780: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.366079] saa7231 snap 0x20e7a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.366102] saa7231 snap 0x20e7c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.366125] saa7231 snap 0x20e7e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.366148] saa7231 snap 0x20e800: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366172] saa7231 snap 0x20e820: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366195] saa7231 snap 0x20e840: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366218] saa7231 snap 0x20e860: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366242] saa7231 snap 0x20e880: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366265] saa7231 snap 0x20e8a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366288] saa7231 snap 0x20e8c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366312] saa7231 snap 0x20e8e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366335] saa7231 snap 0x20e900: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366358] saa7231 snap 0x20e920: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366382] saa7231 snap 0x20e940: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366405] saa7231 snap 0x20e960: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366428] saa7231 snap 0x20e980: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366452] saa7231 snap 0x20e9a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366474] saa7231 snap 0x20e9c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366498] saa7231 snap 0x20e9e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366522] saa7231 snap 0x20ea00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366545] saa7231 snap 0x20ea20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366568] saa7231 snap 0x20ea40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366591] saa7231 snap 0x20ea60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366615] saa7231 snap 0x20ea80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366638] saa7231 snap 0x20eaa0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366661] saa7231 snap 0x20eac0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366684] saa7231 snap 0x20eae0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366708] saa7231 snap 0x20eb00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366730] saa7231 snap 0x20eb20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366754] saa7231 snap 0x20eb40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366777] saa7231 snap 0x20eb60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366800] saa7231 snap 0x20eb80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366823] saa7231 snap 0x20eba0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366846] saa7231 snap 0x20ebc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366870] saa7231 snap 0x20ebe0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366893] saa7231 snap 0x20ec00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366916] saa7231 snap 0x20ec20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366940] saa7231 snap 0x20ec40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366963] saa7231 snap 0x20ec60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.366986] saa7231 snap 0x20ec80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367010] saa7231 snap 0x20eca0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367033] saa7231 snap 0x20ecc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367056] saa7231 snap 0x20ece0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367080] saa7231 snap 0x20ed00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367103] saa7231 snap 0x20ed20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367126] saa7231 snap 0x20ed40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367149] saa7231 snap 0x20ed60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367173] saa7231 snap 0x20ed80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367196] saa7231 snap 0x20eda0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367219] saa7231 snap 0x20edc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367243] saa7231 snap 0x20ede0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367266] saa7231 snap 0x20ee00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367289] saa7231 snap 0x20ee20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367312] saa7231 snap 0x20ee40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367336] saa7231 snap 0x20ee60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367359] saa7231 snap 0x20ee80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367382] saa7231 snap 0x20eea0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367406] saa7231 snap 0x20eec0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367429] saa7231 snap 0x20eee0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367452] saa7231 snap 0x20ef00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367476] saa7231 snap 0x20ef20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367499] saa7231 snap 0x20ef40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367522] saa7231 snap 0x20ef60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367546] saa7231 snap 0x20ef80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367569] saa7231 snap 0x20efa0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367593] saa7231 snap 0x20efc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367615] saa7231 snap 0x20efe0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367639] saa7231 snap 0x20f000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367662] saa7231 snap 0x20f020: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367685] saa7231 snap 0x20f040: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367709] saa7231 snap 0x20f060: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367732] saa7231 snap 0x20f080: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367755] saa7231 snap 0x20f0a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.367778] saa7231 snap 0x20f0c0: 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff
+[   67.367801] saa7231 snap 0x20f0e0: 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff
+[   67.367825] saa7231 snap 0x20f100: 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff 000000ff
+[   67.367848] saa7231 snap 0x20f120: 000000ff 000000ff 00000047 00000003 00000000 00000000 00000000 00000000
+[   67.367870] saa7231 snap 0x20f140: 00000003 00000000 00000000 00000000 00000040 00000002 00000000 00000000
+[   67.367893] saa7231 snap 0x20f160: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.367916] saa7231 snap 0x20f180: 00000000 00000000 00000000 00000000 00000001 00000000 00000000 00000000
+[   67.367939] saa7231 snap 0x20f1a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.367962] saa7231 snap 0x20f1c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000048 00000000
+[   67.367984] saa7231 snap 0x20f1e0: 00000000 0000002c 000000a0 00000000 00000000 00000000 00000000 00000000
+[   67.368007] saa7231 snap 0x20f200: 00000000 000000a0 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.368030] saa7231 snap 0x20f220: 00000000 00000000 00000000 00000040 000000a0 00000000 00000000 00000000
+[   67.368053] saa7231 snap 0x20f240: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.368077] saa7231 snap 0x20f260: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.368112] saa7231 snap 0x20f280: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.368135] saa7231 snap 0x20f2a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.368159] saa7231 snap 0x20f2c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368182] saa7231 snap 0x20f2e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368206] saa7231 snap 0x20f300: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368229] saa7231 snap 0x20f320: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368252] saa7231 snap 0x20f340: 00000000 00000000 00000002 00000001 000000d0 00000000 00000000 00000000
+[   67.368275] saa7231 snap 0x20f360: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.368298] saa7231 snap 0x20f380: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.368321] saa7231 snap 0x20f3a0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.368344] saa7231 snap 0x20f3c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.368367] saa7231 snap 0x20f3e0: 00000000 00000000 00000000 00000000 00000003 00000001 00000000 00000000
+[   67.368390] saa7231 snap 0x20f400: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368414] saa7231 snap 0x20f420: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368438] saa7231 snap 0x20f440: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368461] saa7231 snap 0x20f460: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368484] saa7231 snap 0x20f480: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368508] saa7231 snap 0x20f4a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368531] saa7231 snap 0x20f4c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368555] saa7231 snap 0x20f4e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368578] saa7231 snap 0x20f500: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368602] saa7231 snap 0x20f520: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368625] saa7231 snap 0x20f540: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368649] saa7231 snap 0x20f560: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368672] saa7231 snap 0x20f580: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368695] saa7231 snap 0x20f5a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368719] saa7231 snap 0x20f5c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368741] saa7231 snap 0x20f5e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.368765] saa7231 snap 0x20f600: 00000001 00000000 00000024 00000001 00000027 00000004 00000010 00000084
+[   67.368787] saa7231 snap 0x20f620: 00000008 00000085 000000f6 00000092 00000055 00000055 00000055 00000021
+[   67.368810] saa7231 snap 0x20f640: 00000011 00000001 000000a0 00000090 00000067 00000088 000000f0 0000003f
+[   67.368834] saa7231 snap 0x20f660: 00000002 00000088 00000080 00000000 0000006f 00000001 00000073 00000010
+[   67.368857] saa7231 snap 0x20f680: 00000000 00000000 00000000 00000004 00000000 00000000 00000020 0000007f
+[   67.368880] saa7231 snap 0x20f6a0: 000000ff 000000ff 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.368903] saa7231 snap 0x20f6c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.368926] saa7231 snap 0x20f6e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.368949] saa7231 snap 0x20f700: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.368972] saa7231 snap 0x20f720: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.368995] saa7231 snap 0x20f740: 00000000 00000000 00000000 00000000 00000000 00000000 00000004 000000fe
+[   67.369018] saa7231 snap 0x20f760: 0000000f 000000fa 0000000f 000000ef 0000000f 000000dd 0000000f 000000be
+[   67.369041] saa7231 snap 0x20f780: 0000000f 0000008a 0000000f 00000032 0000000f 0000006f 0000000f 000000f4
+[   67.369063] saa7231 snap 0x20f7a0: 0000000a 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.369086] saa7231 snap 0x20f7c0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.369109] saa7231 snap 0x20f7e0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.369132] saa7231 snap 0x20f800: 0000000a 00000002 000000dc 00000004 000000e6 00000004 000000c6 00000003
+[   67.369155] saa7231 snap 0x20f820: 00000056 00000005 000000e1 00000004 000000dc 00000004 000000e2 00000004
+[   67.369178] saa7231 snap 0x20f840: 00000016 00000000 000000cc 00000004 000000c0 00000004 00000002 00000005
+[   67.369201] saa7231 snap 0x20f860: 0000007e 00000004 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.369224] saa7231 snap 0x20f880: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.369247] saa7231 snap 0x20f8a0: 00000000 00000000 00000000 00000000 00000004 00000000 00000029 00000000
+[   67.369270] saa7231 snap 0x20f8c0: 000000db 00000004 00000000 00000000 00000000 00000000 00000029 00000000
+[   67.369293] saa7231 snap 0x20f8e0: 000000d9 00000004 00000000 00000000 00000000 00000000 00000001 0000003f
+[   67.369316] saa7231 snap 0x20f900: 00000000 00000000 00000008 00000034 00000034 00000034 00000034 0000002d
+[   67.369340] saa7231 snap 0x20f920: 0000002d 00000014 00000014 0000000a 0000000a 0000000a 0000000a 00000080
+[   67.369363] saa7231 snap 0x20f940: 0000000e 00000060 00000000 00000000 00000000 00000000 00000000 00000002
+[   67.369386] saa7231 snap 0x20f960: 0000000f 000000e4 0000000e 00000024 00000000 000000fd 0000000f 000000ed
+[   67.369409] saa7231 snap 0x20f980: 0000000f 00000067 00000001 00000065 00000001 000000b7 0000000f 000000b5
+[   67.369432] saa7231 snap 0x20f9a0: 0000000f 00000024 0000000f 00000026 0000000f 00000025 0000000f 00000000
+[   67.369454] saa7231 snap 0x20f9c0: 00000000 00000000 00000000 0000002b 00000000 0000009b 0000000f 00000000
+[   67.369478] saa7231 snap 0x20f9e0: 00000000 00000000 00000000 00000023 00000000 000000ee 0000000f 00000017
+[   67.369501] saa7231 snap 0x20fa00: 00000000 000000ff 0000000f 00000021 00000000 000000db 0000000f 00000052
+[   67.369524] saa7231 snap 0x20fa20: 0000000e 000000d8 00000000 00000002 0000000f 000000e4 0000000e 00000024
+[   67.369547] saa7231 snap 0x20fa40: 00000000 000000fd 0000000f 000000ed 0000000f 00000067 00000001 00000065
+[   67.369570] saa7231 snap 0x20fa60: 00000001 000000b7 0000000f 000000b5 0000000f 00000024 0000000f 00000026
+[   67.369593] saa7231 snap 0x20fa80: 0000000f 00000025 0000000f 00000000 00000000 00000000 00000000 0000002b
+[   67.369616] saa7231 snap 0x20faa0: 00000000 0000009b 0000000f 00000000 00000000 00000000 00000000 00000000
+[   67.369638] saa7231 snap 0x20fac0: 00000000 00000000 00000000 00000017 00000000 000000ff 0000000f 00000021
+[   67.369661] saa7231 snap 0x20fae0: 00000000 000000db 0000000f 00000052 0000000e 000000d8 00000000 00000000
+[   67.369684] saa7231 snap 0x20fb00: 00000000 00000000 00000000 00000000 000000e1 00000004 00000000 00000000
+[   67.369707] saa7231 snap 0x20fb20: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.369730] saa7231 snap 0x20fb40: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.369753] saa7231 snap 0x20fb60: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.369775] saa7231 snap 0x20fb80: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.369798] saa7231 snap 0x20fba0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.369822] saa7231 snap 0x20fbc0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.369845] saa7231 snap 0x20fbe0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.369868] saa7231 snap 0x20fc00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.369892] saa7231 snap 0x20fc20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.369915] saa7231 snap 0x20fc40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.369938] saa7231 snap 0x20fc60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.369962] saa7231 snap 0x20fc80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.369985] saa7231 snap 0x20fca0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370008] saa7231 snap 0x20fcc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370032] saa7231 snap 0x20fce0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370055] saa7231 snap 0x20fd00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370079] saa7231 snap 0x20fd20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370102] saa7231 snap 0x20fd40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370125] saa7231 snap 0x20fd60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370149] saa7231 snap 0x20fd80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370173] saa7231 snap 0x20fda0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370196] saa7231 snap 0x20fdc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370219] saa7231 snap 0x20fde0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370243] saa7231 snap 0x20fe00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370266] saa7231 snap 0x20fe20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370289] saa7231 snap 0x20fe40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370312] saa7231 snap 0x20fe60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370335] saa7231 snap 0x20fe80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370359] saa7231 snap 0x20fea0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370382] saa7231 snap 0x20fec0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370406] saa7231 snap 0x20fee0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370429] saa7231 snap 0x20ff00: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370452] saa7231 snap 0x20ff20: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370476] saa7231 snap 0x20ff40: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370499] saa7231 snap 0x20ff60: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370523] saa7231 snap 0x20ff80: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370546] saa7231 snap 0x20ffa0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370569] saa7231 snap 0x20ffc0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.370592] saa7231 snap 0x20ffe0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.371220] saa7231 snap 0x280000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.371860] saa7231 snap 0x280020: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.372488] saa7231 snap 0x280040: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.373117] saa7231 snap 0x280060: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.373745] saa7231 snap 0x280080: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.374373] saa7231 snap 0x2800a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.375016] saa7231 snap 0x2800c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.375645] saa7231 snap 0x2800e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.375667] saa7231 snap 0x280100: 00000000 00000000 00000000 00000000 00000000 00034180 000000e1 000000e2
+[   67.375690] saa7231 snap 0x280120: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.375711] saa7231 snap 0x280140: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.375733] saa7231 snap 0x280160: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.375754] saa7231 snap 0x280180: 00000000 00000006 68208200 00001249 00000000 00000000 00000000 00000000
+[   67.375776] saa7231 snap 0x2801a0: 00000000 00c20000 00000000 00000000 00000000 00000000 00000000 00000000
+[   67.375798] saa7231 snap 0x2801c0: 00000000 00000000 00000000 00000000 00002020 00324bca 00000000 01000002
+[   67.375822] saa7231 snap 0x2801e0: 00000000 00000000 00000001 00000002 00000000 00000000 00000000 ffffffff
+[   67.375844] saa7231 snap 0x280200: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.375867] saa7231 snap 0x280220: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.375890] saa7231 snap 0x280240: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.375912] saa7231 snap 0x280260: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.375935] saa7231 snap 0x280280: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.375957] saa7231 snap 0x2802a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.375979] saa7231 snap 0x2802c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376001] saa7231 snap 0x2802e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376024] saa7231 snap 0x280300: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376046] saa7231 snap 0x280320: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376068] saa7231 snap 0x280340: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376091] saa7231 snap 0x280360: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376113] saa7231 snap 0x280380: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376136] saa7231 snap 0x2803a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376159] saa7231 snap 0x2803c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376181] saa7231 snap 0x2803e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376204] saa7231 snap 0x280400: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376226] saa7231 snap 0x280420: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376248] saa7231 snap 0x280440: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376271] saa7231 snap 0x280460: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376293] saa7231 snap 0x280480: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376316] saa7231 snap 0x2804a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376339] saa7231 snap 0x2804c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376361] saa7231 snap 0x2804e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376383] saa7231 snap 0x280500: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376406] saa7231 snap 0x280520: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376428] saa7231 snap 0x280540: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376450] saa7231 snap 0x280560: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376472] saa7231 snap 0x280580: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376495] saa7231 snap 0x2805a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376517] saa7231 snap 0x2805c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376539] saa7231 snap 0x2805e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376562] saa7231 snap 0x280600: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376585] saa7231 snap 0x280620: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376607] saa7231 snap 0x280640: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376629] saa7231 snap 0x280660: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376652] saa7231 snap 0x280680: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376674] saa7231 snap 0x2806a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376696] saa7231 snap 0x2806c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376718] saa7231 snap 0x2806e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376741] saa7231 snap 0x280700: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376763] saa7231 snap 0x280720: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376786] saa7231 snap 0x280740: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376808] saa7231 snap 0x280760: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376830] saa7231 snap 0x280780: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376853] saa7231 snap 0x2807a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376875] saa7231 snap 0x2807c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376897] saa7231 snap 0x2807e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376919] saa7231 snap 0x2ff000: 00000016 ffffffff ffffffff 00001064 000005f2 ffffffff ffffffff ffffffff
+[   67.376940] saa7231 snap 0x2ff020: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376963] saa7231 snap 0x2ff040: 00000060 ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.376984] saa7231 snap 0x2ff060: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[   67.545835] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[   67.546263] tda10048_readreg: readreg error (ret == -6)
+[   67.546336] tda10048_readreg: readreg error (ret == -6)
+[   67.649721] tda10048_readreg: readreg error (ret == -5)
+[   67.753120] tda10048_readreg: readreg error (ret == -5)
+[   67.764801] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[  282.652661] warning: `ThreadPoolForeg' uses wireless extensions which will stop working for Wi-Fi 7 hardware; use nl80211
+[  880.289595] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[  880.290215] tda10048_readreg: readreg error (ret == -6)
+[  880.290291] tda10048_readreg: readreg error (ret == -6)
+[  880.394513] tda10048_readreg: readreg error (ret == -5)
+[  880.497556] tda10048_readreg: readreg error (ret == -5)
+[  880.511459] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[  881.543072] saa7231 vfl: start, allocating stream
+[  881.545048] saa7231 vfl: stream allocated
+[  881.545052] saa7231 vfl: acquire
+[  881.545055] saa7231 s2d: setparams port=0 type=2
+[  881.545057] saa7231 s2d: reset done
+[  881.545059] saa7231 s2d: ptables done
+[  881.545068] saa7231 s2d: id=0xa0b21000
+[  881.545072] saa7231 s2d: setparams done
+[  881.545073] saa7231 vfl: avis program, input type 3
+[  881.545092] saa7231 avis: base init done
+[  881.545220] saa7231 avis: input table done
+[  881.545247] saa7231 avis: input setup done
+[  881.545250] saa7231 avis: timing done
+[  881.545277] saa7231 vfl: avis program done
+[  881.545278] saa7231 vfl: run
+[  881.545279] saa7231 s2d: run, loading PTAs (ch=1)
+[  881.558091] saa7231 s2d: PTAs loaded, enabling channel
+[  881.558299] saa7231 s2d: setparams port=6 type=1
+[  881.558302] saa7231 s2d: reset done
+[  881.558304] saa7231 s2d: ptables done
+[  881.558319] saa7231 s2d: id=0xa0af1000
+[  881.558322] saa7231 s2d: setparams done
+[  881.588063] saa7231 s2d: run, loading PTAs (ch=7)
+[  881.601370] saa7231 s2d: PTAs loaded, enabling channel
+[  881.601485] saa7231 audio: streaming 32000 Hz
+[  881.601489] saa7231 vfl: streaming
+[  881.641533] saa7231 vfl: first frame (dma 1)
+[  883.532300] saa7231 dbg_dump bar0 0x280000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  883.532942] saa7231 dbg_dump bar0 0x280020: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  884.741926] saa7231 dbg_dump bar0 0x280000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  884.742560] saa7231 dbg_dump bar0 0x280020: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  889.681430] saa7231 s2d: setparams port=6 type=1
+[  889.681439] saa7231 s2d: reset done
+[  889.681441] saa7231 s2d: ptables done
+[  889.681450] saa7231 s2d: id=0xa0af1000
+[  889.681454] saa7231 s2d: setparams done
+[  889.681509] saa7231 audio: stop, 1 buffers
+[  889.728039] saa7231 s2d: setparams port=0 type=2
+[  889.728046] saa7231 s2d: reset done
+[  889.728048] saa7231 s2d: ptables done
+[  889.728057] saa7231 s2d: id=0xa0b21000
+[  889.728060] saa7231 s2d: setparams done
+[  889.728278] saa7231 vfl: stop, frames=201
+[  890.742080] saa7231 vfl: start, allocating stream
+[  890.743874] saa7231 vfl: stream allocated
+[  890.743878] saa7231 vfl: acquire
+[  890.743881] saa7231 s2d: setparams port=0 type=2
+[  890.743883] saa7231 s2d: reset done
+[  890.743885] saa7231 s2d: ptables done
+[  890.743894] saa7231 s2d: id=0xa0b21000
+[  890.743898] saa7231 s2d: setparams done
+[  890.743899] saa7231 vfl: avis program, input type 3
+[  890.743918] saa7231 avis: base init done
+[  890.744046] saa7231 avis: input table done
+[  890.744073] saa7231 avis: input setup done
+[  890.744076] saa7231 avis: timing done
+[  890.744103] saa7231 vfl: avis program done
+[  890.744104] saa7231 vfl: run
+[  890.744105] saa7231 s2d: run, loading PTAs (ch=1)
+[  890.754758] saa7231 s2d: PTAs loaded, enabling channel
+[  890.754948] saa7231 s2d: setparams port=6 type=1
+[  890.754951] saa7231 s2d: reset done
+[  890.754953] saa7231 s2d: ptables done
+[  890.754969] saa7231 s2d: id=0xa0af1000
+[  890.754972] saa7231 s2d: setparams done
+[  890.784833] saa7231 s2d: run, loading PTAs (ch=7)
+[  890.798118] saa7231 s2d: PTAs loaded, enabling channel
+[  890.798329] saa7231 audio: streaming 32000 Hz
+[  890.798343] saa7231 vfl: streaming
+[  890.838189] saa7231 vfl: first frame (dma 2)
+[  892.737964] saa7231 dbg_dump bar0 0x280000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  892.738623] saa7231 dbg_dump bar0 0x280020: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  893.943764] saa7231 dbg_dump bar0 0x280000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  893.944407] saa7231 dbg_dump bar0 0x280020: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  898.854716] saa7231 s2d: setparams port=6 type=1
+[  898.854725] saa7231 s2d: reset done
+[  898.854728] saa7231 s2d: ptables done
+[  898.854738] saa7231 s2d: id=0xa0af1000
+[  898.854742] saa7231 s2d: setparams done
+[  898.854802] saa7231 audio: stop, 1 buffers
+[  898.908045] saa7231 s2d: setparams port=0 type=2
+[  898.908053] saa7231 s2d: reset done
+[  898.908057] saa7231 s2d: ptables done
+[  898.908066] saa7231 s2d: id=0xa0b21000
+[  898.908070] saa7231 s2d: setparams done
+[  898.908659] saa7231 vfl: stop, frames=201
+[  969.899684] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[  969.900242] tda10048_readreg: readreg error (ret == -6)
+[  969.900314] tda10048_readreg: readreg error (ret == -6)
+[  970.005878] tda10048_readreg: readreg error (ret == -5)
+[  970.109094] tda10048_readreg: readreg error (ret == -5)
+[  970.121450] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[  971.138258] saa7231 dbg_dump bar0 0x280000: ffffffff
+[  971.293996] saa7231 dbg_dump bar0 0x28000c: ffffffff
+[  971.449502] saa7231 dbg_dump bar0 0x28001c: ffffffff
+[  971.604618] saa7231 dbg_dump bar0 0x28003c: ffffffff
+[  971.765729] saa7231 vfl: start, allocating stream
+[  971.767536] saa7231 vfl: stream allocated
+[  971.767540] saa7231 vfl: acquire
+[  971.767543] saa7231 s2d: setparams port=0 type=2
+[  971.767545] saa7231 s2d: reset done
+[  971.767548] saa7231 s2d: ptables done
+[  971.767556] saa7231 s2d: id=0xa0b21000
+[  971.767560] saa7231 s2d: setparams done
+[  971.767561] saa7231 vfl: avis program, input type 3
+[  971.767581] saa7231 avis: base init done
+[  971.767708] saa7231 avis: input table done
+[  971.767735] saa7231 avis: input setup done
+[  971.767738] saa7231 avis: timing done
+[  971.767765] saa7231 vfl: avis program done
+[  971.767766] saa7231 vfl: run
+[  971.767767] saa7231 s2d: run, loading PTAs (ch=1)
+[  971.781372] saa7231 s2d: PTAs loaded, enabling channel
+[  971.781528] saa7231 s2d: setparams port=6 type=1
+[  971.781531] saa7231 s2d: reset done
+[  971.781533] saa7231 s2d: ptables done
+[  971.781548] saa7231 s2d: id=0xa0af1000
+[  971.781551] saa7231 s2d: setparams done
+[  971.814718] saa7231 s2d: run, loading PTAs (ch=7)
+[  971.828069] saa7231 s2d: PTAs loaded, enabling channel
+[  971.828321] saa7231 audio: streaming 32000 Hz
+[  971.828327] saa7231 vfl: streaming
+[  971.868187] saa7231 vfl: first frame (dma 2)
+[  973.763525] saa7231 dbg_dump bar0 0x280000: ffffffff
+[  973.917922] saa7231 dbg_dump bar0 0x28000c: ffffffff
+[  974.072202] saa7231 dbg_dump bar0 0x28001c: ffffffff
+[  974.226415] saa7231 dbg_dump bar0 0x28003c: ffffffff
+[  975.382194] saa7231 dbg_dump bar0 0x280000: ffffffff
+[  975.539155] saa7231 dbg_dump bar0 0x28000c: ffffffff
+[  975.694585] saa7231 dbg_dump bar0 0x28001c: ffffffff
+[  975.851258] saa7231 dbg_dump bar0 0x28003c: ffffffff
+[  977.878049] saa7231 s2d: setparams port=6 type=1
+[  977.878065] saa7231 s2d: reset done
+[  977.878070] saa7231 s2d: ptables done
+[  977.878078] saa7231 s2d: id=0xa0af1000
+[  977.878085] saa7231 s2d: setparams done
+[  977.878169] saa7231 audio: stop, 1 buffers
+[  977.928099] saa7231 s2d: setparams port=0 type=2
+[  977.928109] saa7231 s2d: reset done
+[  977.928114] saa7231 s2d: ptables done
+[  977.928121] saa7231 s2d: id=0xa0b21000
+[  977.928128] saa7231 s2d: setparams done
+[  977.928913] saa7231 vfl: stop, frames=151
+[  978.945081] saa7231 vfl: start, allocating stream
+[  978.947013] saa7231 vfl: stream allocated
+[  978.947018] saa7231 vfl: acquire
+[  978.947021] saa7231 s2d: setparams port=0 type=2
+[  978.947023] saa7231 s2d: reset done
+[  978.947025] saa7231 s2d: ptables done
+[  978.947034] saa7231 s2d: id=0xa0b21000
+[  978.947038] saa7231 s2d: setparams done
+[  978.947039] saa7231 vfl: avis program, input type 3
+[  978.947058] saa7231 avis: base init done
+[  978.947186] saa7231 avis: input table done
+[  978.947213] saa7231 avis: input setup done
+[  978.947216] saa7231 avis: timing done
+[  978.947243] saa7231 vfl: avis program done
+[  978.947244] saa7231 vfl: run
+[  978.947245] saa7231 s2d: run, loading PTAs (ch=1)
+[  978.961438] saa7231 s2d: PTAs loaded, enabling channel
+[  978.961581] saa7231 s2d: setparams port=6 type=1
+[  978.961583] saa7231 s2d: reset done
+[  978.961585] saa7231 s2d: ptables done
+[  978.961602] saa7231 s2d: id=0xa0af1000
+[  978.961605] saa7231 s2d: setparams done
+[  979.014782] saa7231 s2d: run, loading PTAs (ch=7)
+[  979.028108] saa7231 s2d: PTAs loaded, enabling channel
+[  979.028393] saa7231 audio: streaming 32000 Hz
+[  979.028397] saa7231 vfl: streaming
+[  979.064840] saa7231 vfl: first frame (dma 2)
+[  980.941636] saa7231 dbg_dump bar0 0x280000: 00000000
+[  981.098132] saa7231 dbg_dump bar0 0x28000c: 00006400
+[  981.254385] saa7231 dbg_dump bar0 0x28001c: 00000000
+[  981.409385] saa7231 dbg_dump bar0 0x28003c: 005d6000
+[  982.567332] saa7231 dbg_dump bar0 0x280000: 00000000
+[  982.722546] saa7231 dbg_dump bar0 0x28000c: 0000610c
+[  982.876903] saa7231 dbg_dump bar0 0x28001c: 00fd5f80
+[  983.031074] saa7231 dbg_dump bar0 0x28003c: 005d4000
+[  985.081427] saa7231 s2d: setparams port=6 type=1
+[  985.081443] saa7231 s2d: reset done
+[  985.081449] saa7231 s2d: ptables done
+[  985.081469] saa7231 s2d: id=0xa0af1000
+[  985.081472] saa7231 s2d: setparams done
+[  985.081630] saa7231 audio: stop, 1 buffers
+[  985.124768] saa7231 s2d: setparams port=0 type=2
+[  985.124778] saa7231 s2d: reset done
+[  985.124783] saa7231 s2d: ptables done
+[  985.124791] saa7231 s2d: id=0xa0b21000
+[  985.124797] saa7231 s2d: setparams done
+[  985.126007] saa7231 vfl: stop, frames=151
+[  986.137362] saa7231 vfl: start, allocating stream
+[  986.139260] saa7231 vfl: stream allocated
+[  986.139265] saa7231 vfl: acquire
+[  986.139268] saa7231 s2d: setparams port=0 type=2
+[  986.139270] saa7231 s2d: reset done
+[  986.139272] saa7231 s2d: ptables done
+[  986.139281] saa7231 s2d: id=0xa0b21000
+[  986.139285] saa7231 s2d: setparams done
+[  986.139286] saa7231 vfl: avis program, input type 3
+[  986.139305] saa7231 avis: base init done
+[  986.139363] saa7231 avis: input table done
+[  986.139391] saa7231 avis: input setup done
+[  986.139393] saa7231 avis: timing done
+[  986.139420] saa7231 vfl: avis program done
+[  986.139421] saa7231 vfl: run
+[  986.139422] saa7231 s2d: run, loading PTAs (ch=1)
+[  986.151360] saa7231 s2d: PTAs loaded, enabling channel
+[  986.151504] saa7231 s2d: setparams port=6 type=1
+[  986.151506] saa7231 s2d: reset done
+[  986.151508] saa7231 s2d: ptables done
+[  986.151525] saa7231 s2d: id=0xa0af1000
+[  986.151527] saa7231 s2d: setparams done
+[  986.208106] saa7231 s2d: run, loading PTAs (ch=7)
+[  986.221460] saa7231 s2d: PTAs loaded, enabling channel
+[  986.221732] saa7231 audio: streaming 32000 Hz
+[  986.221753] saa7231 vfl: streaming
+[  986.264899] saa7231 vfl: first frame (dma 4)
+[  988.135684] saa7231 dbg_dump bar0 0x280000: 00000000
+[  988.292244] saa7231 dbg_dump bar0 0x28000c: 000064d1
+[  988.448060] saa7231 dbg_dump bar0 0x28001c: 00ff4d00
+[  988.604329] saa7231 dbg_dump bar0 0x28003c: 005d4000
+[  989.760530] saa7231 dbg_dump bar0 0x280000: 00000000
+[  989.916521] saa7231 dbg_dump bar0 0x28000c: 000066c1
+[  990.072283] saa7231 dbg_dump bar0 0x28001c: 00ffff80
+[  990.228082] saa7231 dbg_dump bar0 0x28003c: 005cd000
+[  992.268099] saa7231 s2d: setparams port=6 type=1
+[  992.268107] saa7231 s2d: reset done
+[  992.268110] saa7231 s2d: ptables done
+[  992.268118] saa7231 s2d: id=0xa0af1000
+[  992.268122] saa7231 s2d: setparams done
+[  992.268213] saa7231 audio: stop, 1 buffers
+[  992.308119] saa7231 s2d: setparams port=0 type=2
+[  992.308123] saa7231 s2d: reset done
+[  992.308126] saa7231 s2d: ptables done
+[  992.308135] saa7231 s2d: id=0xa0b21000
+[  992.308138] saa7231 s2d: setparams done
+[  992.309281] saa7231 vfl: stop, frames=151
+[ 1058.029230] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[ 1058.029739] tda10048_readreg: readreg error (ret == -6)
+[ 1058.029814] tda10048_readreg: readreg error (ret == -6)
+[ 1058.136446] tda10048_readreg: readreg error (ret == -5)
+[ 1058.241533] tda10048_readreg: readreg error (ret == -5)
+[ 1058.254759] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[ 1059.278027] saa7231 vfl: start, allocating stream
+[ 1059.279880] saa7231 vfl: stream allocated
+[ 1059.279884] saa7231 vfl: acquire
+[ 1059.279887] saa7231 s2d: setparams port=0 type=2
+[ 1059.279889] saa7231 s2d: reset done
+[ 1059.279891] saa7231 s2d: ptables done
+[ 1059.279900] saa7231 s2d: id=0xa0b21000
+[ 1059.279903] saa7231 s2d: setparams done
+[ 1059.279905] saa7231 vfl: avis program, input type 3
+[ 1059.279924] saa7231 avis: base init done
+[ 1059.279990] saa7231 avis: input table done
+[ 1059.280016] saa7231 avis: input setup done
+[ 1059.280019] saa7231 avis: timing done
+[ 1059.280046] saa7231 vfl: avis program done
+[ 1059.280047] saa7231 vfl: run
+[ 1059.280048] saa7231 s2d: run, loading PTAs (ch=1)
+[ 1059.291373] saa7231 s2d: PTAs loaded, enabling channel
+[ 1059.291531] saa7231 s2d: setparams port=6 type=1
+[ 1059.291533] saa7231 s2d: reset done
+[ 1059.291536] saa7231 s2d: ptables done
+[ 1059.291552] saa7231 s2d: id=0xa0af1000
+[ 1059.291556] saa7231 s2d: setparams done
+[ 1059.348033] saa7231 s2d: run, loading PTAs (ch=7)
+[ 1059.361459] saa7231 s2d: PTAs loaded, enabling channel
+[ 1059.361709] saa7231 audio: streaming 32000 Hz
+[ 1059.361715] saa7231 vfl: streaming
+[ 1059.401564] saa7231 vfl: first frame (dma 3)
+[ 1061.275756] saa7231 dbg_dump bar0 0x12c110: 00000000 00000000 00000000 00000000 00000000 00000001 00000000 00000000
+[ 1062.435324] saa7231 dbg_dump bar0 0x12c110: 00000000 00000000 00000000 00000000 00000000 00000001 00000000 00000000
+[ 1065.414755] saa7231 s2d: setparams port=6 type=1
+[ 1065.414768] saa7231 s2d: reset done
+[ 1065.414773] saa7231 s2d: ptables done
+[ 1065.414781] saa7231 s2d: id=0xa0af1000
+[ 1065.414787] saa7231 s2d: setparams done
+[ 1065.414918] saa7231 audio: stop, 1 buffers
+[ 1065.444806] saa7231 s2d: setparams port=0 type=2
+[ 1065.444826] saa7231 s2d: reset done
+[ 1065.444828] saa7231 s2d: ptables done
+[ 1065.444837] saa7231 s2d: id=0xa0b21000
+[ 1065.444840] saa7231 s2d: setparams done
+[ 1065.445857] saa7231 vfl: stop, frames=151
+[ 1066.460264] saa7231 vfl: start, allocating stream
+[ 1066.462248] saa7231 vfl: stream allocated
+[ 1066.462253] saa7231 vfl: acquire
+[ 1066.462255] saa7231 s2d: setparams port=0 type=2
+[ 1066.462257] saa7231 s2d: reset done
+[ 1066.462259] saa7231 s2d: ptables done
+[ 1066.462268] saa7231 s2d: id=0xa0b21000
+[ 1066.462272] saa7231 s2d: setparams done
+[ 1066.462273] saa7231 vfl: avis program, input type 3
+[ 1066.462292] saa7231 avis: base init done
+[ 1066.462350] saa7231 avis: input table done
+[ 1066.462377] saa7231 avis: input setup done
+[ 1066.462380] saa7231 avis: timing done
+[ 1066.462408] saa7231 vfl: avis program done
+[ 1066.462408] saa7231 vfl: run
+[ 1066.462409] saa7231 s2d: run, loading PTAs (ch=1)
+[ 1066.478029] saa7231 s2d: PTAs loaded, enabling channel
+[ 1066.478183] saa7231 s2d: setparams port=6 type=1
+[ 1066.478186] saa7231 s2d: reset done
+[ 1066.478188] saa7231 s2d: ptables done
+[ 1066.478204] saa7231 s2d: id=0xa0af1000
+[ 1066.478207] saa7231 s2d: setparams done
+[ 1066.531465] saa7231 s2d: run, loading PTAs (ch=7)
+[ 1066.544802] saa7231 s2d: PTAs loaded, enabling channel
+[ 1066.545067] saa7231 audio: streaming 32000 Hz
+[ 1066.545075] saa7231 vfl: streaming
+[ 1066.584900] saa7231 vfl: first frame (dma 4)
+[ 1068.457498] saa7231 dbg_dump bar0 0x12c110: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[ 1069.617226] saa7231 dbg_dump bar0 0x12c110: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[ 1072.611418] saa7231 s2d: setparams port=6 type=1
+[ 1072.611432] saa7231 s2d: reset done
+[ 1072.611436] saa7231 s2d: ptables done
+[ 1072.611444] saa7231 s2d: id=0xa0af1000
+[ 1072.611451] saa7231 s2d: setparams done
+[ 1072.611548] saa7231 audio: stop, 1 buffers
+[ 1072.658134] saa7231 s2d: setparams port=0 type=2
+[ 1072.658151] saa7231 s2d: reset done
+[ 1072.658153] saa7231 s2d: ptables done
+[ 1072.658162] saa7231 s2d: id=0xa0b21000
+[ 1072.658165] saa7231 s2d: setparams done
+[ 1072.659240] saa7231 vfl: stop, frames=151

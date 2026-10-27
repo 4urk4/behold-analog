@@ -1,0 +1,33 @@
+# inputs 2026-10-23T08:46:17+03:00
+== install modules
+== reload driver
+
+=== in0_composite  input=0
+v4l2-ctl exit=0
+frames: 10
+first  half: distinct=254 top=[(88, 4074), (86, 3876)]
+second half: distinct=1 top=[(170, 414720)]
+
+=== in1_svideo  input=1
+v4l2-ctl exit=0
+frames: 10
+first  half: distinct=1 top=[(1, 414720)]
+second half: distinct=1 top=[(170, 414720)]
+
+=== in2_ypbpr  input=2
+v4l2-ctl exit=0
+frames: 10
+first  half: distinct=2 top=[(16, 332445), (15, 82275)]
+second half: distinct=1 top=[(170, 414720)]
+
+=== in3_rgb  input=3
+v4l2-ctl exit=0
+frames: 10
+first  half: distinct=2 top=[(85, 407435), (84, 7285)]
+second half: distinct=1 top=[(170, 414720)]
+
+== done: /home/otakoi/_hueta/behold-analog/logs/20261023-0846_inputs.out
+-rw-r--r-- 1 root root 320997 окт 23 08:46 /home/otakoi/_hueta/behold-analog/logs/20261023-0846_in0_composite_luma.png
+-rw-r--r-- 1 root root   1620 окт 23 08:46 /home/otakoi/_hueta/behold-analog/logs/20261023-0846_in1_svideo_luma.png
+-rw-r--r-- 1 root root  79305 окт 23 08:46 /home/otakoi/_hueta/behold-analog/logs/20261023-0846_in2_ypbpr_luma.png
+-rw-r--r-- 1 root root  23646 окт 23 08:46 /home/otakoi/_hueta/behold-analog/logs/20261023-0846_in3_rgb_luma.png

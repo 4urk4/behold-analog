@@ -1,0 +1,20 @@
+# audio chctrl 2026-10-25T09:48:33+03:00
+== run1 fork: audio_chctrl=0x29c
+-- t=0:
+[  883.532300] saa7231 dbg_dump bar0 0x280000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+-- t=1:
+[  884.741926] saa7231 dbg_dump bar0 0x280000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+-- audio buffers: 0
+== run2 vendor: audio_chctrl=0x39c
+-- t=0:
+[  892.737964] saa7231 dbg_dump bar0 0x280000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+-- t=1:
+[  893.943764] saa7231 dbg_dump bar0 0x280000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+-- audio buffers: 0
+== counters (0x0c 0x1c 0x3c) and deltas per second
+Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+    rows.append((w[3], w[7], w[15]))          # 0x0c, 0x1c, 0x3c
+                             ~^^^^
+IndexError: list index out of range
+== done: /home/otakoi/_hueta/behold-analog/logs/20261025-0948_audio_chctrl.out

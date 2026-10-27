@@ -1,0 +1,103 @@
+# Phase 1 state 2026-10-23T05:51:33+03:00
+## uname
+Linux komp 6.18.57-2-lts #1 SMP PREEMPT_DYNAMIC Fri, 16 Oct 2026 00:26:56 +0000 x86_64 GNU/Linux
+
+## lspci
+0a:00.0 Multimedia controller [0480]: NXP Semiconductors SAA7231 [1131:7231] (rev ca)
+	Subsystem: Beholder International Ltd. Behold TV H8 [5ace:8000]
+	Kernel driver in use: SAA7231
+	Kernel modules: saa7231_drv
+
+## lsmod
+saa7231_drv            45056  0
+saa7231_core          274432  1 saa7231_drv
+tda18271               61440  0
+tda10048               32768  0
+dvb_core              217088  1 saa7231_core
+
+## module params
+0
+0
+
+## modinfo
+filename:       /lib/modules/6.18.57-2-lts/extra/saa7231/saa7231_drv.ko
+license:        GPL
+author:         Manu Abraham
+description:    SAA7231 driver
+srcversion:     140256D143DD42E542D88ED
+alias:          pci:v00001131d00007231sv00005ACEsd00008201bc*sc*i*
+alias:          pci:v00001131d00007231sv00005ACEsd00008001bc*sc*i*
+alias:          pci:v00001131d00007231sv00005ACEsd00008000bc*sc*i*
+
+## /dev
+(eval):1: no matches found: /dev/video*
+
+## v4l2-ctl
+
+## sysfs video
+ls: cannot access '/sys/class/video4linux': No such file or directory
+
+## dmesg (journalctl -k)
+окт 23 02:31:42 komp kernel: saa7231_core: loading out-of-tree module taints kernel.
+окт 23 02:31:42 komp kernel: saa7231_core: module verification failed: signature and/or required key missing - tainting kernel
+окт 23 02:31:43 komp kernel: SAA7231 0000:0a:00.0: enabling device (0000 -> 0002)
+окт 23 02:31:43 komp kernel: dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+окт 23 02:31:43 komp kernel: dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+окт 23 02:36:38 komp kernel: saa7231_pci_init (0): Loading SAA7231 ver 0.0.93 ..
+окт 23 02:36:38 komp kernel: saa7231_pci_init (0): found a Beholder International Ltd. BEHOLDH8 DVB-T + Analog device
+окт 23 02:36:38 komp kernel: saa7231_pci_init (0): BAR 0 Offset: 04 BAR 2 Offset: 04
+окт 23 02:36:38 komp kernel: saa7231_pci_init (0): BAR0 Start=fb400000 length=4M
+окт 23 02:36:38 komp kernel: saa7231_pci_init (0): BAR2 Start=fb000000 length=4M
+окт 23 02:36:38 komp kernel:     SAA7231NE [5ace:8000], 
+окт 23 02:36:38 komp kernel:     SAA7231 64Bit, MSI Disabled, MSI-X=1 msgs
+окт 23 02:36:38 komp kernel: saa7231_get_version (0): SAA7231 PCI Express V1A found
+окт 23 02:36:38 komp kernel: saa7231_cgu_init (0): Initializing CGU
+окт 23 02:36:38 komp kernel: saa7231_cgu_init (0): Using 27MHz RootClock
+окт 23 02:36:38 komp kernel: saa7231_cgu_init (0): PLL Status CDEC160: 01 REF550: 00 ADPLL: 01 DSP: 00
+окт 23 02:36:38 komp kernel: saa7231_i2c_hwinit (0): DBG init dev=109000 status=0000015d ctrl=000000c0 clkhi=00000034 clklo=00000044 hold=00000011 modconf=00000150 modid=32045500
+окт 23 02:36:38 komp kernel: saa7231_i2c_hwinit (0): DBG init dev=10a000 status=0000015d ctrl=000000c0 clkhi=00000034 clklo=00000044 hold=00000011 modconf=00000150 modid=32045500
+окт 23 02:36:38 komp kernel: saa7231_i2c_reset (0): dev=10b000: SDA stuck low (status=00000151), clocking bus free
+окт 23 02:36:38 komp kernel: saa7231_i2c_reset (0): dev=10b000: bus not idle after reset (status=00000151)
+окт 23 02:36:38 komp kernel: saa7231_i2c_hwinit (0): DBG init dev=10b000 status=00000151 ctrl=000000c0 clkhi=00000034 clklo=00000044 hold=00000011 modconf=00000150 modid=32045500
+окт 23 02:36:38 komp kernel: saa7231_i2c_reset (0): dev=10c000: SDA stuck low (status=00000151), clocking bus free
+окт 23 02:36:38 komp kernel: saa7231_i2c_reset (0): dev=10c000: bus not idle after reset (status=00000151)
+окт 23 02:36:38 komp kernel: saa7231_i2c_hwinit (0): DBG init dev=10c000 status=00000151 ctrl=000000c0 clkhi=00000034 clklo=00000044 hold=00000011 modconf=00000150 modid=32045500
+окт 23 02:36:38 komp kernel: saa7231_dvb_init (0): INFO: Found internal DVB-T support!
+окт 23 02:36:38 komp kernel: saa7231_dvb_init (0): INFO: Device supoort 2 DVB adapters
+окт 23 02:36:38 komp kernel: dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+окт 23 02:36:38 komp kernel: saa7231_frontend_attach (0): H8: probing TDA10048 on I2C bus 0
+окт 23 02:36:38 komp kernel: saa7231_i2c_wait_int (0): dev=109000: I2C error irq=0x05 status=0000015d
+окт 23 02:36:38 komp kernel: saa7231_i2c_xfer (0): Bus(109000) no ACK from address 0x08
+окт 23 02:36:38 komp kernel: saa7231_i2c_xfer (0): ERROR: Bailing out <-6>
+окт 23 02:36:38 komp kernel: saa7231_frontend_attach (0): H8: probing TDA10048 on I2C bus 1
+окт 23 02:36:38 komp kernel: saa7231_i2c_wait_int (0): dev=10a000: I2C error irq=0x05 status=0000015d
+окт 23 02:36:38 komp kernel: saa7231_i2c_xfer (0): Bus(10a000) no ACK from address 0x08
+окт 23 02:36:38 komp kernel: saa7231_i2c_xfer (0): ERROR: Bailing out <-6>
+окт 23 02:36:38 komp kernel: saa7231_frontend_attach (0): H8: probing TDA10048 on I2C bus 2
+окт 23 02:36:38 komp kernel: saa7231_i2c_reset (0): dev=10b000: SDA stuck low (status=00000151), clocking bus free
+окт 23 02:36:38 komp kernel: saa7231_i2c_reset (0): dev=10b000: bus not idle after reset (status=00000151)
+окт 23 02:36:38 komp kernel: saa7231_i2c_wait_int (0): dev=10b000: no I2C interrupt (isr=00000800 status=00000151)
+окт 23 02:36:38 komp kernel: saa7231_i2c_xfer (0): Bus(10b000) no ACK from address 0x08
+окт 23 02:36:38 komp kernel: saa7231_i2c_xfer (0): ERROR: Bailing out <-5>
+окт 23 02:36:38 komp kernel: saa7231_i2c_reset (0): dev=10b000: SDA stuck low (status=00000151), clocking bus free
+окт 23 02:36:38 komp kernel: saa7231_i2c_reset (0): dev=10b000: bus not idle after reset (status=00000151)
+окт 23 02:36:38 komp kernel: saa7231_frontend_attach (0): H8: probing TDA10048 on I2C bus 3
+окт 23 02:36:38 komp kernel: saa7231_i2c_reset (0): dev=10c000: SDA stuck low (status=00000151), clocking bus free
+окт 23 02:36:38 komp kernel: saa7231_i2c_reset (0): dev=10c000: bus not idle after reset (status=00000151)
+окт 23 02:36:38 komp kernel: saa7231_i2c_wait_int (0): dev=10c000: no I2C interrupt (isr=00000800 status=00000151)
+окт 23 02:36:38 komp kernel: saa7231_i2c_xfer (0): Bus(10c000) no ACK from address 0x08
+окт 23 02:36:38 komp kernel: saa7231_i2c_xfer (0): ERROR: Bailing out <-5>
+окт 23 02:36:38 komp kernel: saa7231_i2c_reset (0): dev=10c000: SDA stuck low (status=00000151), clocking bus free
+окт 23 02:36:38 komp kernel: saa7231_i2c_reset (0): dev=10c000: bus not idle after reset (status=00000151)
+окт 23 02:36:38 komp kernel: saa7231_frontend_attach (0): Frontend:0 attach failed
+окт 23 02:36:38 komp kernel: saa7231_dvb_init (0): SAA7231 frontend initialization failed
+окт 23 02:36:38 komp kernel: saa7231_dvb_init (0): A frontend driver was not found for [1131:7231] subsystem [5ace:8000]
+окт 23 02:36:38 komp kernel: saa7231_activate_clocks (0): INFO: activate use case index 0
+окт 23 02:36:38 komp kernel: saa7231_stream_init (0): INFO: Initialized MODE:0x20 for PORT:8
+окт 23 02:36:38 komp kernel: saa7231_dvb_init (0): INFO: Registered Stream for Adapter:0
+окт 23 02:36:38 komp kernel: dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+окт 23 02:36:38 komp kernel: saa7231_dvb_init (0): A frontend driver was not found for [1131:7231] subsystem [5ace:8000]
+окт 23 02:36:38 komp kernel: saa7231_activate_clocks (0): INFO: activate use case index 0
+окт 23 02:36:38 komp kernel: saa7231_ts2dtl_setparams (0): ERROR: TS Module ID: 0xffffffff unsupported
+окт 23 02:36:38 komp kernel: saa7231_stream_init (0): INFO: Initialized MODE:0x20 for PORT:11
+окт 23 02:36:38 komp kernel: saa7231_dvb_init (0): INFO: Registered Stream for Adapter:1

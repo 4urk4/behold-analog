@@ -1,0 +1,121 @@
+# s2d only 2026-10-23T07:05:38+03:00
+== install modules
+== reload driver
+== dec_init stays 0
+0
+== kernel log to /home/otakoi/_hueta/behold-analog/logs/20261023-0705_kmsg.out
+== stream 1 frame (S2D only), 10s timeout
+/home/otakoi/_hueta/behold-analog/trash/step_05_s2d_only.sh: line 56:  3891 Killed                     timeout --kill-after=5 10 v4l2-ctl -d /dev/video0 --set-input=0 --stream-mmap --stream-count=1 --stream-to="$RAW"
+v4l2-ctl exit=137
+== marker tail (from kmsg file)
+[   27.248043] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.248806] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.249552] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.250243] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.251215] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.255039] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.269603] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.270195] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.270763] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.271330] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.271911] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.272749] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.276660] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.291228] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.291823] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.292393] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.292956] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.293523] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.294397] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.298434] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.312951] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.313532] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.314099] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.314663] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.315236] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.316083] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.705673] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.706261] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.706829] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.707395] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.707958] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  104.766598] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[  104.767187] tda10048_readreg: readreg error (ret == -6)
+[  104.767260] tda10048_readreg: readreg error (ret == -6)
+[  104.871417] tda10048_readreg: readreg error (ret == -5)
+[  104.974479] tda10048_readreg: readreg error (ret == -5)
+[  104.988210] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[  107.029114] saa7231 vfl: start, allocating stream
+[  107.030934] saa7231 vfl: stream allocated
+[  107.030939] saa7231 vfl: acquire
+== read 0x120000 (07:06:01)
+== read 0x12000c (07:06:03)
+== read 0x1200a0 (07:06:04)
+== read 0x1200a4 (07:06:05)
+== read 0x120fd8 (07:06:06)
+== read 0x120fdc (07:06:07)
+== read 0x120ffc (07:06:08)
+== frame file
+-rw-r--r-- 1 root root 0 окт 23 07:05 /home/otakoi/_hueta/behold-analog/logs/20261023-0705_frame.raw
+== dmesg tail
+[   27.204144] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.204706] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.205275] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.206047] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.209346] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.224300] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.225030] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.225613] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.226183] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.226748] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.227595] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.231248] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.247282] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.248043] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.248806] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.249552] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.250243] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.251215] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.255039] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.269603] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.270195] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.270763] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.271330] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.271911] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.272749] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.276660] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.291228] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.291823] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.292393] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.292956] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.293523] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.294397] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.298434] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.312951] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.313532] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.314099] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.314663] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.315236] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.316083] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.705673] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.706261] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.706829] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.707395] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[   27.707958] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  104.766598] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[  104.767187] tda10048_readreg: readreg error (ret == -6)
+[  104.767260] tda10048_readreg: readreg error (ret == -6)
+[  104.871417] tda10048_readreg: readreg error (ret == -5)
+[  104.974479] tda10048_readreg: readreg error (ret == -5)
+[  104.988210] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[  107.029114] saa7231 vfl: start, allocating stream
+[  107.030934] saa7231 vfl: stream allocated
+[  107.030939] saa7231 vfl: acquire
+[  123.103774] saa7231 dbg_mmio bar0: [0x120000] = 0xffffffff
+[  124.131001] saa7231 dbg_mmio bar0: [0x12000c] = 0xffffffff
+[  125.160083] saa7231 dbg_mmio bar0: [0x1200a0] = 0xffffffff
+[  126.187892] saa7231 dbg_mmio bar0: [0x1200a4] = 0xffffffff
+[  127.214178] saa7231 dbg_mmio bar0: [0x120fd8] = 0xffffffff
+[  128.245629] saa7231 dbg_mmio bar0: [0x120fdc] = 0xffffffff
+[  129.271454] saa7231 dbg_mmio bar0: [0x120ffc] = 0xa0b21000
+== done: /home/otakoi/_hueta/behold-analog/logs/20261023-0705_s2d_only.out

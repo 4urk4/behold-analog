@@ -1,0 +1,1561 @@
+[    0.366646] pci 0000:00:01.0: PCI bridge to [bus 01]
+[    0.366720] pci 0000:00:01.0: PME# supported from D0 D3hot D3cold
+[    0.366877] pci 0000:00:01.1: [8086:3c03] type 01 class 0x060400 PCIe Root Port
+[    0.366897] pci 0000:00:01.1: PCI bridge to [bus 02]
+[    0.366970] pci 0000:00:01.1: PME# supported from D0 D3hot D3cold
+[    0.367126] pci 0000:00:02.0: [8086:3c04] type 01 class 0x060400 PCIe Root Port
+[    0.367146] pci 0000:00:02.0: PCI bridge to [bus 03]
+[    0.367149] pci 0000:00:02.0:   bridge window [io  0xe000-0xefff]
+[    0.367152] pci 0000:00:02.0:   bridge window [mem 0xfbb00000-0xfbbfffff]
+[    0.367160] pci 0000:00:02.0:   bridge window [mem 0xe0000000-0xf01fffff 64bit pref]
+[    0.367223] pci 0000:00:02.0: PME# supported from D0 D3hot D3cold
+[    0.367373] pci 0000:00:03.0: [8086:3c08] type 01 class 0x060400 PCIe Root Port
+[    0.367393] pci 0000:00:03.0: PCI bridge to [bus 04]
+[    0.367410] pci 0000:00:03.0: enabling Extended Tags
+[    0.367468] pci 0000:00:03.0: PME# supported from D0 D3hot D3cold
+[    0.367604] pci 0000:00:05.0: [8086:3c28] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    0.367714] pci 0000:00:05.2: [8086:3c2a] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    0.367816] pci 0000:00:05.4: [8086:3c2c] type 00 class 0x080020 conventional PCI endpoint
+[    0.367845] pci 0000:00:05.4: BAR 0 [mem 0xfbc09000-0xfbc09fff]
+[    0.367933] pci 0000:00:11.0: [8086:1d3e] type 01 class 0x060400 PCIe Root Port
+[    0.367963] pci 0000:00:11.0: PCI bridge to [bus 05]
+[    0.368048] pci 0000:00:11.0: PME# supported from D0 D3hot D3cold
+[    0.368169] pci 0000:00:16.0: [8086:1d3a] type 00 class 0x078000 conventional PCI endpoint
+[    0.368211] pci 0000:00:16.0: BAR 0 [mem 0xfbc08000-0xfbc0800f 64bit]
+[    0.368250] pci 0000:00:16.0: PME# supported from D0 D3hot D3cold
+[    0.368317] pci 0000:00:1a.0: [8086:1d2d] type 00 class 0x0c0320 conventional PCI endpoint
+[    0.368358] pci 0000:00:1a.0: BAR 0 [mem 0xfbc07000-0xfbc073ff]
+[    0.368403] pci 0000:00:1a.0: PME# supported from D0 D3hot D3cold
+[    0.368490] pci 0000:00:1b.0: [8086:1d20] type 00 class 0x040300 PCIe Root Complex Integrated Endpoint
+[    0.368524] pci 0000:00:1b.0: BAR 0 [mem 0xfbc00000-0xfbc03fff 64bit]
+[    0.368574] pci 0000:00:1b.0: PME# supported from D0 D3hot D3cold
+[    0.368652] pci 0000:00:1c.0: [8086:1d10] type 01 class 0x060400 PCIe Root Port
+[    0.368678] pci 0000:00:1c.0: PCI bridge to [bus 06]
+[    0.368714] pci 0000:00:1c.0: removing 2.5GT/s downstream link speed restriction
+[    1.368040] pci 0000:00:1c.0: retraining failed
+[    2.368119] pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+[    2.368242] pci 0000:00:1c.1: [8086:1d12] type 01 class 0x060400 PCIe Root Port
+[    2.368268] pci 0000:00:1c.1: PCI bridge to [bus 07]
+[    2.368273] pci 0000:00:1c.1:   bridge window [io  0xd000-0xdfff]
+[    2.368276] pci 0000:00:1c.1:   bridge window [mem 0xfba00000-0xfbafffff]
+[    2.368308] pci 0000:00:1c.1: removing 2.5GT/s downstream link speed restriction
+[    2.368353] pci 0000:00:1c.1: PME# supported from D0 D3hot D3cold
+[    2.368467] pci 0000:00:1c.2: [8086:1d14] type 01 class 0x060400 PCIe Root Port
+[    2.368493] pci 0000:00:1c.2: PCI bridge to [bus 08]
+[    2.368499] pci 0000:00:1c.2:   bridge window [mem 0xfb900000-0xfb9fffff]
+[    2.368568] pci 0000:00:1c.2: PME# supported from D0 D3hot D3cold
+[    2.368677] pci 0000:00:1c.3: [8086:1d16] type 01 class 0x060400 PCIe Root Port
+[    2.368703] pci 0000:00:1c.3: PCI bridge to [bus 09]
+[    2.368709] pci 0000:00:1c.3:   bridge window [mem 0xfb800000-0xfb8fffff]
+[    2.368778] pci 0000:00:1c.3: PME# supported from D0 D3hot D3cold
+[    2.368892] pci 0000:00:1c.4: [8086:1d18] type 01 class 0x060400 PCIe Root Port
+[    2.368918] pci 0000:00:1c.4: PCI bridge to [bus 0a]
+[    2.368924] pci 0000:00:1c.4:   bridge window [mem 0xfb000000-0xfb7fffff]
+[    2.368956] pci 0000:00:1c.4: removing 2.5GT/s downstream link speed restriction
+[    2.369001] pci 0000:00:1c.4: PME# supported from D0 D3hot D3cold
+[    2.369110] pci 0000:00:1d.0: [8086:1d26] type 00 class 0x0c0320 conventional PCI endpoint
+[    2.369152] pci 0000:00:1d.0: BAR 0 [mem 0xfbc06000-0xfbc063ff]
+[    2.369196] pci 0000:00:1d.0: PME# supported from D0 D3hot D3cold
+[    2.369289] pci 0000:00:1e.0: [8086:244e] type 01 class 0x060401 conventional PCI bridge
+[    2.369311] pci 0000:00:1e.0: PCI bridge to [bus 0b] (subtractive decode)
+[    2.369421] pci 0000:00:1f.0: [8086:1d41] type 00 class 0x060100 conventional PCI endpoint
+[    2.369591] pci 0000:00:1f.2: [8086:1d02] type 00 class 0x010601 conventional PCI endpoint
+[    2.369622] pci 0000:00:1f.2: BAR 0 [io  0xf070-0xf077]
+[    2.369625] pci 0000:00:1f.2: BAR 1 [io  0xf060-0xf063]
+[    2.369627] pci 0000:00:1f.2: BAR 2 [io  0xf050-0xf057]
+[    2.369629] pci 0000:00:1f.2: BAR 3 [io  0xf040-0xf043]
+[    2.369631] pci 0000:00:1f.2: BAR 4 [io  0xf020-0xf03f]
+[    2.369633] pci 0000:00:1f.2: BAR 5 [mem 0xfbc05000-0xfbc057ff]
+[    2.369666] pci 0000:00:1f.2: PME# supported from D3hot
+[    2.369744] pci 0000:00:1f.3: [8086:1d22] type 00 class 0x0c0500 conventional PCI endpoint
+[    2.369779] pci 0000:00:1f.3: BAR 0 [mem 0xfbc04000-0xfbc040ff 64bit]
+[    2.369783] pci 0000:00:1f.3: BAR 4 [io  0xf000-0xf01f]
+[    2.369884] pci 0000:00:01.0: PCI bridge to [bus 01]
+[    2.369926] pci 0000:00:01.1: PCI bridge to [bus 02]
+[    2.369974] pci 0000:03:00.0: [1002:6fdf] type 00 class 0x030000 PCIe Legacy Endpoint
+[    2.369997] pci 0000:03:00.0: BAR 0 [mem 0xe0000000-0xefffffff 64bit pref]
+[    2.370000] pci 0000:03:00.0: BAR 2 [mem 0xf0000000-0xf01fffff 64bit pref]
+[    2.370002] pci 0000:03:00.0: BAR 4 [io  0xe000-0xe0ff]
+[    2.370004] pci 0000:03:00.0: BAR 5 [mem 0xfbb00000-0xfbb3ffff]
+[    2.370006] pci 0000:03:00.0: ROM [mem 0xfbb40000-0xfbb5ffff pref]
+[    2.370011] pci 0000:03:00.0: enabling Extended Tags
+[    2.370033] pci 0000:03:00.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[    2.370069] pci 0000:03:00.0: supports D1 D2
+[    2.370071] pci 0000:03:00.0: PME# supported from D1 D2 D3hot D3cold
+[    2.370188] pci 0000:03:00.1: [1002:aaf0] type 00 class 0x040300 PCIe Legacy Endpoint
+[    2.370211] pci 0000:03:00.1: BAR 0 [mem 0xfbb60000-0xfbb63fff 64bit]
+[    2.370219] pci 0000:03:00.1: enabling Extended Tags
+[    2.370256] pci 0000:03:00.1: supports D1 D2
+[    2.370328] pci 0000:00:02.0: ASPM: current common clock configuration is inconsistent, reconfiguring
+[    2.374730] pci 0000:00:02.0: PCI bridge to [bus 03]
+[    2.374794] pci 0000:00:03.0: PCI bridge to [bus 04]
+[    2.374839] pci 0000:00:11.0: PCI bridge to [bus 05]
+[    2.374887] pci 0000:00:1c.0: PCI bridge to [bus 06]
+[    2.374959] pci 0000:07:00.0: [10ec:8168] type 00 class 0x020000 PCIe Endpoint
+[    2.375027] pci 0000:07:00.0: BAR 0 [io  0xd000-0xd0ff]
+[    2.375033] pci 0000:07:00.0: BAR 2 [mem 0xfba04000-0xfba04fff 64bit]
+[    2.375038] pci 0000:07:00.0: BAR 4 [mem 0xfba00000-0xfba03fff 64bit]
+[    2.375171] pci 0000:07:00.0: supports D1 D2
+[    2.375172] pci 0000:07:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[    2.375355] pci 0000:00:1c.1: PCI bridge to [bus 07]
+[    2.375428] pci 0000:08:00.0: [1106:3483] type 00 class 0x0c0330 PCIe Endpoint
+[    2.375488] pci 0000:08:00.0: BAR 0 [mem 0xfb900000-0xfb900fff 64bit]
+[    2.375570] pci 0000:08:00.0: PME# supported from D0 D3cold
+[    2.375654] pci 0000:00:1c.2: PCI bridge to [bus 08]
+[    2.375724] pci 0000:09:00.0: [1106:3483] type 00 class 0x0c0330 PCIe Endpoint
+[    2.375784] pci 0000:09:00.0: BAR 0 [mem 0xfb800000-0xfb800fff 64bit]
+[    2.375865] pci 0000:09:00.0: PME# supported from D0 D3cold
+[    2.375949] pci 0000:00:1c.3: PCI bridge to [bus 09]
+[    2.376024] pci 0000:0a:00.0: [1131:7231] type 00 class 0x048000 PCIe Endpoint
+[    2.376100] pci 0000:0a:00.0: BAR 0 [mem 0xfb400000-0xfb7fffff 64bit]
+[    2.376105] pci 0000:0a:00.0: BAR 2 [mem 0xfb000000-0xfb3fffff 64bit]
+[    2.376208] pci 0000:0a:00.0: supports D1 D2
+[    2.376210] pci 0000:0a:00.0: PME# supported from D0 D1 D2 D3hot
+[    2.381394] pci 0000:00:1c.4: PCI bridge to [bus 0a]
+[    2.381442] pci_bus 0000:0b: extended config space not accessible
+[    2.381492] pci 0000:00:1e.0: PCI bridge to [bus 0b] (subtractive decode)
+[    2.381500] pci 0000:00:1e.0:   bridge window [io  0x0000-0x03af window] (subtractive decode)
+[    2.381502] pci 0000:00:1e.0:   bridge window [io  0x03e0-0x0cf7 window] (subtractive decode)
+[    2.381503] pci 0000:00:1e.0:   bridge window [io  0x03b0-0x03df window] (subtractive decode)
+[    2.381504] pci 0000:00:1e.0:   bridge window [io  0x0d00-0xffff window] (subtractive decode)
+[    2.381506] pci 0000:00:1e.0:   bridge window [mem 0x000a0000-0x000dffff window] (subtractive decode)
+[    2.381507] pci 0000:00:1e.0:   bridge window [mem 0xcc000000-0xfbffffff window] (subtractive decode)
+[    2.382886] ACPI: PCI Root Bridge [UNC0] (domain 0000 [bus ff])
+[    2.382891] acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+[    2.382908] acpi PNP0A03:00: _OSC: OS now controls [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+[    2.382910] acpi PNP0A03:00: FADT indicates ASPM is unsupported, using BIOS configuration
+[    2.382961] PCI host bridge to bus 0000:ff
+[    2.382965] pci_bus 0000:ff: root bus resource [bus ff]
+[    2.382974] pci 0000:ff:08.0: [8086:3c80] type 00 class 0x088000 conventional PCI endpoint
+[    2.383032] pci 0000:ff:08.3: [8086:3c83] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.383100] pci 0000:ff:08.4: [8086:3c84] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.383175] pci 0000:ff:09.0: [8086:3c90] type 00 class 0x088000 conventional PCI endpoint
+[    2.383233] pci 0000:ff:09.3: [8086:3c93] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.383298] pci 0000:ff:09.4: [8086:3c94] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.383373] pci 0000:ff:0a.0: [8086:3cc0] type 00 class 0x088000 conventional PCI endpoint
+[    2.383419] pci 0000:ff:0a.1: [8086:3cc1] type 00 class 0x088000 conventional PCI endpoint
+[    2.383462] pci 0000:ff:0a.2: [8086:3cc2] type 00 class 0x088000 conventional PCI endpoint
+[    2.383505] pci 0000:ff:0a.3: [8086:3cd0] type 00 class 0x088000 conventional PCI endpoint
+[    2.383549] pci 0000:ff:0b.0: [8086:3ce0] type 00 class 0x088000 conventional PCI endpoint
+[    2.383590] pci 0000:ff:0b.3: [8086:3ce3] type 00 class 0x088000 conventional PCI endpoint
+[    2.383638] pci 0000:ff:0c.0: [8086:3ce8] type 00 class 0x088000 conventional PCI endpoint
+[    2.383679] pci 0000:ff:0c.1: [8086:3ce8] type 00 class 0x088000 conventional PCI endpoint
+[    2.383720] pci 0000:ff:0c.2: [8086:3ce8] type 00 class 0x088000 conventional PCI endpoint
+[    2.383766] pci 0000:ff:0c.6: [8086:3cf4] type 00 class 0x088000 conventional PCI endpoint
+[    2.383807] pci 0000:ff:0c.7: [8086:3cf6] type 00 class 0x088000 conventional PCI endpoint
+[    2.383849] pci 0000:ff:0d.0: [8086:3ce8] type 00 class 0x088000 conventional PCI endpoint
+[    2.383890] pci 0000:ff:0d.1: [8086:3ce8] type 00 class 0x088000 conventional PCI endpoint
+[    2.383932] pci 0000:ff:0d.2: [8086:3ce8] type 00 class 0x088000 conventional PCI endpoint
+[    2.383979] pci 0000:ff:0d.6: [8086:3cf5] type 00 class 0x088000 conventional PCI endpoint
+[    2.384021] pci 0000:ff:0e.0: [8086:3ca0] type 00 class 0x088000 conventional PCI endpoint
+[    2.384067] pci 0000:ff:0e.1: [8086:3c46] type 00 class 0x110100 conventional PCI endpoint
+[    2.384116] pci 0000:ff:0f.0: [8086:3ca8] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.384174] pci 0000:ff:0f.1: [8086:3c71] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.384232] pci 0000:ff:0f.2: [8086:3caa] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.384292] pci 0000:ff:0f.3: [8086:3cab] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.384350] pci 0000:ff:0f.4: [8086:3cac] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.384412] pci 0000:ff:0f.5: [8086:3cad] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.384474] pci 0000:ff:0f.6: [8086:3cae] type 00 class 0x088000 conventional PCI endpoint
+[    2.384523] pci 0000:ff:10.0: [8086:3cb0] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.384581] pci 0000:ff:10.1: [8086:3cb1] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.384642] pci 0000:ff:10.2: [8086:3cb2] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.384704] pci 0000:ff:10.3: [8086:3cb3] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.384764] pci 0000:ff:10.4: [8086:3cb4] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.384830] pci 0000:ff:10.5: [8086:3cb5] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.384894] pci 0000:ff:10.6: [8086:3cb6] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.384952] pci 0000:ff:10.7: [8086:3cb7] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.385013] pci 0000:ff:11.0: [8086:3cb8] type 00 class 0x088000 conventional PCI endpoint
+[    2.385062] pci 0000:ff:13.0: [8086:3ce4] type 00 class 0x088000 conventional PCI endpoint
+[    2.385104] pci 0000:ff:13.1: [8086:3c43] type 00 class 0x110100 conventional PCI endpoint
+[    2.385146] pci 0000:ff:13.4: [8086:3ce6] type 00 class 0x110100 conventional PCI endpoint
+[    2.385188] pci 0000:ff:13.5: [8086:3c44] type 00 class 0x110100 conventional PCI endpoint
+[    2.385232] pci 0000:ff:13.6: [8086:3c45] type 00 class 0x088000 conventional PCI endpoint
+[    2.385676] ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+[    2.385725] ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+[    2.385772] ACPI: PCI: Interrupt link LNKC configured for IRQ 3
+[    2.385819] ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+[    2.385865] ACPI: PCI: Interrupt link LNKE configured for IRQ 0
+[    2.385867] ACPI: PCI: Interrupt link LNKE disabled
+[    2.385913] ACPI: PCI: Interrupt link LNKF configured for IRQ 0
+[    2.385914] ACPI: PCI: Interrupt link LNKF disabled
+[    2.385960] ACPI: PCI: Interrupt link LNKG configured for IRQ 5
+[    2.386007] ACPI: PCI: Interrupt link LNKH configured for IRQ 7
+[    2.387526] iommu: Default domain type: Translated
+[    2.387526] iommu: DMA domain TLB invalidation policy: lazy mode
+[    2.387526] SCSI subsystem initialized
+[    2.387526] libata version 3.00 loaded.
+[    2.387526] ACPI: bus type USB registered
+[    2.387526] usbcore: registered new interface driver usbfs
+[    2.387526] usbcore: registered new interface driver hub
+[    2.387526] usbcore: registered new device driver usb
+[    2.387526] EDAC MC: Ver: 3.0.0
+[    2.388167] efivars: Registered efivars operations
+[    2.388245] NetLabel: Initializing
+[    2.388247] NetLabel:  domain hash size = 128
+[    2.388248] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[    2.388262] NetLabel:  unlabeled traffic allowed by default
+[    2.388266] mctp: management component transport protocol core
+[    2.388267] NET: Registered PF_MCTP protocol family
+[    2.388284] PCI: Using ACPI for IRQ routing
+[    2.394518] PCI: pci_cache_line_size set to 64 bytes
+[    2.394612] e820: reserve RAM buffer [mem 0xafddf000-0xafffffff]
+[    2.394614] e820: reserve RAM buffer [mem 0xbb0e1000-0xbbffffff]
+[    2.394615] e820: reserve RAM buffer [mem 0xbb920000-0xbbffffff]
+[    2.394711] pci 0000:03:00.0: vgaarb: setting as boot VGA device
+[    2.394714] pci 0000:03:00.0: vgaarb: bridge control possible
+[    2.394715] pci 0000:03:00.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[    2.394723] vgaarb: loaded
+[    2.394813] Monitor-Mwait will be used to enter C-1 state
+[    2.394819] Monitor-Mwait will be used to enter C-2 state
+[    2.394912] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+[    2.394912] hpet0: 8 comparators, 64-bit 14.318180 MHz counter
+[    2.396861] clocksource: Switched to clocksource hpet
+[    2.396878] VFS: Disk quotas dquot_6.6.0
+[    2.396878] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    2.396878] pnp: PnP ACPI init
+[    2.396878] system 00:00: [mem 0xfc000000-0xfcffffff] has been reserved
+[    2.396878] system 00:00: [mem 0xfd000000-0xfdffffff] has been reserved
+[    2.396878] system 00:00: [mem 0xfe000000-0xfeafffff] has been reserved
+[    2.396878] system 00:00: [mem 0xfeb00000-0xfebfffff] has been reserved
+[    2.396878] system 00:00: [mem 0xfed00400-0xfed3ffff] could not be reserved
+[    2.396878] system 00:00: [mem 0xfed45000-0xfedfffff] has been reserved
+[    2.396878] system 00:00: [mem 0xfee00000-0xfeefffff] has been reserved
+[    2.396878] system 00:01: [io  0x0a00-0x0a0f] has been reserved
+[    2.396878] system 00:01: [io  0x0a10-0x0a1f] has been reserved
+[    2.396878] system 00:01: [io  0x0a20-0x0a2f] has been reserved
+[    2.396878] pnp 00:04: [dma 0 disabled]
+[    2.396990] system 00:05: [io  0x04d0-0x04d1] has been reserved
+[    2.397166] system 00:06: [io  0x0400-0x0453] has been reserved
+[    2.397168] system 00:06: [io  0x0458-0x047f] has been reserved
+[    2.397170] system 00:06: [io  0x1180-0x119f] has been reserved
+[    2.397172] system 00:06: [io  0x0500-0x057f] has been reserved
+[    2.397174] system 00:06: [mem 0xfed1c000-0xfed1ffff] has been reserved
+[    2.397176] system 00:06: [mem 0xfec00000-0xfecfffff] could not be reserved
+[    2.397177] system 00:06: [mem 0xff000000-0xffffffff] has been reserved
+[    2.397506] pnp: PnP ACPI: found 7 devices
+[    2.403851] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    2.404060] NET: Registered PF_INET protocol family
+[    2.404281] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    2.420832] tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+[    2.420867] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    2.420935] TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    2.421265] TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+[    2.421549] TCP: Hash tables configured (established 131072 bind 65536)
+[    2.421662] MPTCP token hash table entries: 16384 (order: 7, 393216 bytes, linear)
+[    2.421769] UDP hash table entries: 8192 (order: 7, 524288 bytes, linear)
+[    2.421894] UDP-Lite hash table entries: 8192 (order: 7, 524288 bytes, linear)
+[    2.422033] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    2.422044] NET: Registered PF_XDP protocol family
+[    2.422068] pci 0000:00:01.0: PCI bridge to [bus 01]
+[    2.422080] pci 0000:00:01.1: PCI bridge to [bus 02]
+[    2.422089] pci 0000:00:02.0: PCI bridge to [bus 03]
+[    2.422091] pci 0000:00:02.0:   bridge window [io  0xe000-0xefff]
+[    2.422095] pci 0000:00:02.0:   bridge window [mem 0xfbb00000-0xfbbfffff]
+[    2.422098] pci 0000:00:02.0:   bridge window [mem 0xe0000000-0xf01fffff 64bit pref]
+[    2.422103] pci 0000:00:03.0: PCI bridge to [bus 04]
+[    2.422112] pci 0000:00:11.0: PCI bridge to [bus 05]
+[    2.422123] pci 0000:00:1c.0: PCI bridge to [bus 06]
+[    2.422133] pci 0000:00:1c.1: PCI bridge to [bus 07]
+[    2.422135] pci 0000:00:1c.1:   bridge window [io  0xd000-0xdfff]
+[    2.422140] pci 0000:00:1c.1:   bridge window [mem 0xfba00000-0xfbafffff]
+[    2.422147] pci 0000:00:1c.2: PCI bridge to [bus 08]
+[    2.422151] pci 0000:00:1c.2:   bridge window [mem 0xfb900000-0xfb9fffff]
+[    2.422159] pci 0000:00:1c.3: PCI bridge to [bus 09]
+[    2.422163] pci 0000:00:1c.3:   bridge window [mem 0xfb800000-0xfb8fffff]
+[    2.422170] pci 0000:00:1c.4: PCI bridge to [bus 0a]
+[    2.422174] pci 0000:00:1c.4:   bridge window [mem 0xfb000000-0xfb7fffff]
+[    2.422181] pci 0000:00:1e.0: PCI bridge to [bus 0b]
+[    2.422191] pci_bus 0000:00: resource 4 [io  0x0000-0x03af window]
+[    2.422193] pci_bus 0000:00: resource 5 [io  0x03e0-0x0cf7 window]
+[    2.422194] pci_bus 0000:00: resource 6 [io  0x03b0-0x03df window]
+[    2.422195] pci_bus 0000:00: resource 7 [io  0x0d00-0xffff window]
+[    2.422197] pci_bus 0000:00: resource 8 [mem 0x000a0000-0x000dffff window]
+[    2.422198] pci_bus 0000:00: resource 9 [mem 0xcc000000-0xfbffffff window]
+[    2.422200] pci_bus 0000:03: resource 0 [io  0xe000-0xefff]
+[    2.422201] pci_bus 0000:03: resource 1 [mem 0xfbb00000-0xfbbfffff]
+[    2.422202] pci_bus 0000:03: resource 2 [mem 0xe0000000-0xf01fffff 64bit pref]
+[    2.422204] pci_bus 0000:07: resource 0 [io  0xd000-0xdfff]
+[    2.422205] pci_bus 0000:07: resource 1 [mem 0xfba00000-0xfbafffff]
+[    2.422207] pci_bus 0000:08: resource 1 [mem 0xfb900000-0xfb9fffff]
+[    2.422208] pci_bus 0000:09: resource 1 [mem 0xfb800000-0xfb8fffff]
+[    2.422209] pci_bus 0000:0a: resource 1 [mem 0xfb000000-0xfb7fffff]
+[    2.422211] pci_bus 0000:0b: resource 4 [io  0x0000-0x03af window]
+[    2.422212] pci_bus 0000:0b: resource 5 [io  0x03e0-0x0cf7 window]
+[    2.422213] pci_bus 0000:0b: resource 6 [io  0x03b0-0x03df window]
+[    2.422215] pci_bus 0000:0b: resource 7 [io  0x0d00-0xffff window]
+[    2.422216] pci_bus 0000:0b: resource 8 [mem 0x000a0000-0x000dffff window]
+[    2.422217] pci_bus 0000:0b: resource 9 [mem 0xcc000000-0xfbffffff window]
+[    2.422300] pci 0000:00:05.0: disabled boot interrupts on device [8086:3c28]
+[    2.422647] pci 0000:03:00.1: D0 power state depends on 0000:03:00.0
+[    2.422979] PCI: CLS 64 bytes, default 64
+[    2.422993] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    2.422994] software IO TLB: mapped [mem 0x00000000abc8c000-0x00000000afc8c000] (64MB)
+[    2.423059] Trying to unpack rootfs image as initramfs...
+[    2.451629] Initialise system trusted keyrings
+[    2.451644] Key type blacklist registered
+[    2.451702] workingset: timestamp_bits=36 max_order=22 bucket_order=0
+[    2.453018] fuse: init (API version 7.45)
+[    2.453219] integrity: Platform Keyring initialized
+[    2.453223] integrity: Machine keyring initialized
+[    2.465903] xor: automatically using best checksumming function   avx       
+[    2.465911] Key type asymmetric registered
+[    2.465912] Asymmetric key parser 'x509' registered
+[    2.465974] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)
+[    2.466069] io scheduler mq-deadline registered
+[    2.466071] io scheduler kyber registered
+[    2.466113] io scheduler bfq registered
+[    2.471548] ledtrig-cpu: registered to indicate activity on CPUs
+[    2.473127] input: Power Button as /devices/platform/PNP0C0C:00/input/input0
+[    2.473143] ACPI: button: Power Button [PWRB]
+[    2.484016] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[    2.484218] 00:04: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+[    2.486960] Non-volatile memory driver v1.3
+[    2.486962] Linux agpgart interface v0.103
+[    2.487023] ACPI: bus type drm_connector registered
+[    2.488579] ahci 0000:00:1f.2: AHCI vers 0001.0300, 32 command slots, 6 Gbps, SATA mode
+[    2.488583] ahci 0000:00:1f.2: 2/6 ports implemented (port mask 0x3)
+[    2.488585] ahci 0000:00:1f.2: flags: 64bit ncq sntf pm led clo pio slum part ems apst 
+[    2.495191] scsi host0: ahci
+[    2.495368] scsi host1: ahci
+[    2.495490] scsi host2: ahci
+[    2.495606] scsi host3: ahci
+[    2.495721] scsi host4: ahci
+[    2.495835] scsi host5: ahci
+[    2.495878] ata1: SATA max UDMA/133 abar m2048@0xfbc05000 port 0xfbc05100 irq 31 lpm-pol 4
+[    2.495881] ata2: SATA max UDMA/133 abar m2048@0xfbc05000 port 0xfbc05180 irq 31 lpm-pol 4
+[    2.495882] ata3: DUMMY
+[    2.495883] ata4: DUMMY
+[    2.495884] ata5: DUMMY
+[    2.495884] ata6: DUMMY
+[    2.496136] xhci_hcd 0000:08:00.0: xHCI Host Controller
+[    2.496156] xhci_hcd 0000:08:00.0: new USB bus registered, assigned bus number 1
+[    2.496396] xhci_hcd 0000:08:00.0: hcc params 0x002841eb hci version 0x100 quirks 0x0000200000000890
+[    2.496590] ehci-pci 0000:00:1d.0: EHCI Host Controller
+[    2.496597] ehci-pci 0000:00:1d.0: new USB bus registered, assigned bus number 2
+[    2.496608] xhci_hcd 0000:08:00.0: xHCI Host Controller
+[    2.496612] xhci_hcd 0000:08:00.0: new USB bus registered, assigned bus number 3
+[    2.496612] ehci-pci 0000:00:1d.0: debug port 2
+[    2.496615] xhci_hcd 0000:08:00.0: Host supports USB 3.0 SuperSpeed
+[    2.496664] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.18
+[    2.496666] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.496668] usb usb1: Product: xHCI Host Controller
+[    2.496669] usb usb1: Manufacturer: Linux 6.18.57-2-lts xhci-hcd
+[    2.496671] usb usb1: SerialNumber: 0000:08:00.0
+[    2.496780] hub 1-0:1.0: USB hub found
+[    2.496789] hub 1-0:1.0: 1 port detected
+[    2.496900] usb usb3: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.18
+[    2.496902] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.496904] usb usb3: Product: xHCI Host Controller
+[    2.496905] usb usb3: Manufacturer: Linux 6.18.57-2-lts xhci-hcd
+[    2.496906] usb usb3: SerialNumber: 0000:08:00.0
+[    2.496999] hub 3-0:1.0: USB hub found
+[    2.497013] hub 3-0:1.0: 4 ports detected
+[    2.500542] ehci-pci 0000:00:1d.0: irq 23, io mem 0xfbc06000
+[    2.511452] ehci-pci 0000:00:1d.0: USB 2.0 started, EHCI 1.00
+[    2.511521] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.18
+[    2.511524] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.511526] usb usb2: Product: EHCI Host Controller
+[    2.511527] usb usb2: Manufacturer: Linux 6.18.57-2-lts ehci_hcd
+[    2.511528] usb usb2: SerialNumber: 0000:00:1d.0
+[    2.511681] hub 2-0:1.0: USB hub found
+[    2.511691] hub 2-0:1.0: 2 ports detected
+[    2.511855] ehci-pci 0000:00:1a.0: EHCI Host Controller
+[    2.511864] ehci-pci 0000:00:1a.0: new USB bus registered, assigned bus number 4
+[    2.511877] ehci-pci 0000:00:1a.0: debug port 2
+[    2.515804] ehci-pci 0000:00:1a.0: irq 16, io mem 0xfbc07000
+[    2.528119] ehci-pci 0000:00:1a.0: USB 2.0 started, EHCI 1.00
+[    2.528179] usb usb4: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.18
+[    2.528182] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.528183] usb usb4: Product: EHCI Host Controller
+[    2.528185] usb usb4: Manufacturer: Linux 6.18.57-2-lts ehci_hcd
+[    2.528186] usb usb4: SerialNumber: 0000:00:1a.0
+[    2.528347] hub 4-0:1.0: USB hub found
+[    2.528355] hub 4-0:1.0: 2 ports detected
+[    2.528501] xhci_hcd 0000:09:00.0: xHCI Host Controller
+[    2.528509] xhci_hcd 0000:09:00.0: new USB bus registered, assigned bus number 5
+[    2.528729] xhci_hcd 0000:09:00.0: hcc params 0x002841eb hci version 0x100 quirks 0x0000200000000890
+[    2.528945] xhci_hcd 0000:09:00.0: xHCI Host Controller
+[    2.528948] xhci_hcd 0000:09:00.0: new USB bus registered, assigned bus number 6
+[    2.528951] xhci_hcd 0000:09:00.0: Host supports USB 3.0 SuperSpeed
+[    2.528990] usb usb5: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.18
+[    2.528993] usb usb5: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.528994] usb usb5: Product: xHCI Host Controller
+[    2.528995] usb usb5: Manufacturer: Linux 6.18.57-2-lts xhci-hcd
+[    2.528996] usb usb5: SerialNumber: 0000:09:00.0
+[    2.529089] hub 5-0:1.0: USB hub found
+[    2.529098] hub 5-0:1.0: 1 port detected
+[    2.529200] usb usb6: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.18
+[    2.529202] usb usb6: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.529203] usb usb6: Product: xHCI Host Controller
+[    2.529205] usb usb6: Manufacturer: Linux 6.18.57-2-lts xhci-hcd
+[    2.529206] usb usb6: SerialNumber: 0000:09:00.0
+[    2.529287] hub 6-0:1.0: USB hub found
+[    2.529298] hub 6-0:1.0: 4 ports detected
+[    2.529471] usbcore: registered new interface driver usbserial_generic
+[    2.529480] usbserial: USB Serial support registered for generic
+[    2.529536] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+[    2.531743] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    2.531749] serio: i8042 AUX port at 0x60,0x64 irq 12
+[    2.531910] rtc_cmos PNP0B00:00: RTC can wake from S4
+[    2.532144] rtc_cmos PNP0B00:00: registered as rtc0
+[    2.532185] rtc_cmos PNP0B00:00: setting system clock to 2026-10-24T10:45:17 UTC (1792838717)
+[    2.532214] rtc_cmos PNP0B00:00: alarms up to one month, y3k, 114 bytes nvram
+[    2.532549] intel_pstate: Intel P-state driver initializing
+[    2.534125] simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic
+[    2.534130] [drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0
+[    2.535025] fbcon: Deferring console take-over
+[    2.535028] simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+[    2.535085] hid: raw HID events driver (C) Jiri Kosina
+[    2.535108] usbcore: registered new interface driver usbhid
+[    2.535110] usbhid: USB HID core driver
+[    2.535160] rust_binder: Loaded Rust Binder.
+[    2.535189] drop_monitor: Initializing network drop monitor service
+[    2.535408] NET: Registered PF_INET6 protocol family
+[    2.535746] Segment Routing with IPv6
+[    2.535747] RPL Segment Routing with IPv6
+[    2.535756] In-situ OAM (IOAM) with IPv6
+[    2.535774] NET: Registered PF_PACKET protocol family
+[    2.537309] microcode: Current revision: 0x0000071a
+[    2.537311] microcode: Updated early from: 0x00000710
+[    2.537700] IPI shorthand broadcast: enabled
+[    2.540137] registered taskstats version 1
+[    2.541077] Loading compiled-in X.509 certificates
+[    2.597022] Freeing initrd memory: 62184K
+[    2.615166] Loaded X.509 cert 'Build time autogenerated kernel key: 79cb84db5891d3c14e0773eddeee7aea1e11994c'
+[    2.620246] zswap: loaded using pool zstd
+[    2.620359] Demotion targets for Node 0: null
+[    2.620816] Key type .fscrypt registered
+[    2.620818] Key type fscrypt-provisioning registered
+[    2.621826] Btrfs loaded, zoned=yes, fsverity=yes
+[    2.621889] Key type big_key registered
+[    2.623260] PM:   Magic number: 14:125:781
+[    2.623303] dma_heap system: hash matches
+[    2.623355] acpi LNXCPU:6b: hash matches
+[    2.625037] RAS: Correctable Errors collector initialized.
+[    2.632996] Unstable clock detected, switching default tracing clock to "global"
+               If you want to keep using the local clock, then add:
+                 "trace_clock=local"
+               on the kernel command line
+[    2.633193] clk: Disabling unused clocks
+[    2.633197] PM: genpd: Disabling unused power domains
+[    2.738180] usb 1-1: new high-speed USB device number 2 using xhci_hcd
+[    2.758236] usb 2-1: new high-speed USB device number 2 using ehci-pci
+[    2.771509] usb 5-1: new high-speed USB device number 2 using xhci_hcd
+[    2.774848] usb 4-1: new high-speed USB device number 2 using ehci-pci
+[    2.805583] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[    2.805615] ata2: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[    2.805914] ata2.00: ATA-10: KINGSTON SA400S37240G, SBFKB1E1, max UDMA/133
+[    2.806068] ata2.00: 468862128 sectors, multi 1: LBA48 NCQ (depth 32), AA
+[    2.806080] ata2.00: Features: DIPM
+[    2.806218] ata1.00: ATA-9: WDC WD10EZEX-08M2NA0, 01.01A01, max UDMA/100
+[    2.806570] ata2.00: configured for UDMA/133
+[    2.806703] ata1.00: 1953525168 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[    2.807665] ata1.00: configured for UDMA/100
+[    2.818151] scsi 0:0:0:0: Direct-Access     ATA      WDC WD10EZEX-08M 1A01 PQ: 0 ANSI: 5
+[    2.818958] sd 0:0:0:0: [sda] 1953525168 512-byte logical blocks: (1.00 TB/932 GiB)
+[    2.818958] scsi 1:0:0:0: Direct-Access     ATA      KINGSTON SA400S3 B1E1 PQ: 0 ANSI: 5
+[    2.818966] sd 0:0:0:0: [sda] 4096-byte physical blocks
+[    2.818990] sd 0:0:0:0: [sda] Write Protect is off
+[    2.818996] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    2.819030] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    2.819089] sd 0:0:0:0: [sda] Preferred minimum I/O size 4096 bytes
+[    2.819663] sd 1:0:0:0: [sdb] 468862128 512-byte logical blocks: (240 GB/224 GiB)
+[    2.819700] sd 1:0:0:0: [sdb] Write Protect is off
+[    2.819706] sd 1:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+[    2.819739] sd 1:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    2.819860] sd 1:0:0:0: [sdb] Preferred minimum I/O size 512 bytes
+[    2.849484]  sdb: sdb1 sdb2 sdb3 sdb4 sdb5
+[    2.850480] sd 1:0:0:0: [sdb] Attached SCSI disk
+[    2.870878] usb 1-1: New USB device found, idVendor=2109, idProduct=3431, bcdDevice= 4.20
+[    2.870890] usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[    2.870894] usb 1-1: Product: USB2.0 Hub
+[    2.872385] hub 1-1:1.0: USB hub found
+[    2.872683] hub 1-1:1.0: 4 ports detected
+[    2.898967] usb 2-1: New USB device found, idVendor=8087, idProduct=0024, bcdDevice= 0.00
+[    2.898979] usb 2-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    2.899559] hub 2-1:1.0: USB hub found
+[    2.899832] hub 2-1:1.0: 8 ports detected
+[    2.904868]  sda: sda1 sda2 sda3 sda4 sda5 sda6 sda7 sda8 sda9 sda10 sda11
+[    2.906423] sd 0:0:0:0: [sda] Attached SCSI disk
+[    2.907475] usb 5-1: New USB device found, idVendor=2109, idProduct=3431, bcdDevice= 4.20
+[    2.907486] usb 5-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[    2.907491] usb 5-1: Product: USB2.0 Hub
+[    2.908846] hub 5-1:1.0: USB hub found
+[    2.909132] hub 5-1:1.0: 4 ports detected
+[    2.913618] Freeing unused decrypted memory: 2028K
+[    2.915281] usb 4-1: New USB device found, idVendor=8087, idProduct=0024, bcdDevice= 0.00
+[    2.915293] usb 4-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    2.915503] Freeing unused kernel image (initmem) memory: 4768K
+[    2.915640] Write protecting the kernel read-only data: 40960k
+[    2.915816] hub 4-1:1.0: USB hub found
+[    2.916012] hub 4-1:1.0: 6 ports detected
+[    2.916838] Freeing unused kernel image (text/rodata gap) memory: 1024K
+[    2.918082] Freeing unused kernel image (rodata/data gap) memory: 1948K
+[    2.963437] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    2.963442] rodata_test: all tests were successful
+[    2.963444] x86/mm: Checking user space page tables
+[    3.008309] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    3.008337] Run /init as init process
+[    3.008339]   with arguments:
+[    3.008340]     /init
+[    3.008341]   with environment:
+[    3.008342]     HOME=/
+[    3.008343]     TERM=linux
+[    3.008343]     nvme_load=YES
+[    3.071693] systemd[1]: Successfully made /usr/ read-only.
+[    3.071993] systemd[1]: systemd 262.1-1-arch running in system mode (+PAM +AUDIT -SELINUX +APPARMOR -IMA +IPE +SMACK +SECCOMP +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF +XKBCOMMON +UTMP +LIBARCHIVE)
+[    3.072002] systemd[1]: Detected architecture x86-64.
+[    3.072006] systemd[1]: Running in initrd.
+[    3.072224] fbcon: Taking over console
+[    3.072687] Console: switching to colour frame buffer device 100x37
+[    3.073739] systemd[1]: Hostname set to <komp>.
+[    3.191466] usb 5-1.1: new full-speed USB device number 3 using xhci_hcd
+[    3.193184] systemd[1]: bpf-restrict-fs: LSM BPF program attached
+[    3.199323] usb 4-1.1: new high-speed USB device number 3 using ehci-pci
+[    3.252902] systemd[1]: Queued start job for default target Initrd Default Target.
+[    3.289003] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[    3.289134] systemd[1]: Expecting device /dev/disk/by-uuid/4266fd9d-f2d1-43f9-8530-e87d06433ca6...
+[    3.289219] systemd[1]: Reached target Initrd /usr File System.
+[    3.289294] systemd[1]: Reached target Path Units.
+[    3.289363] systemd[1]: Reached target Remote File Systems.
+[    3.289427] systemd[1]: Reached target Slice Units.
+[    3.289501] systemd[1]: Reached target Swaps.
+[    3.289568] systemd[1]: Reached target Timer Units.
+[    3.289734] systemd[1]: Listening on Journal Socket (/dev/log).
+[    3.289897] systemd[1]: Listening on Journal Sockets.
+[    3.290020] systemd[1]: Listening on udev Kernel Socket.
+[    3.290208] systemd[1]: Listening on udev Varlink Socket.
+[    3.290285] systemd[1]: Reached target Socket Units.
+[    3.291594] systemd[1]: Starting Create List of Static Device Nodes...
+[    3.291720] systemd[1]: Early Battery Level Check skipped, unmet condition check ConditionDirectoryNotEmpty=/sys/class/power_supply
+[    3.292341] usb 4-1.1: New USB device found, idVendor=0bda, idProduct=c811, bcdDevice= 2.00
+[    3.292346] usb 4-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    3.292348] usb 4-1.1: Product: 802.11ac NIC
+[    3.292349] usb 4-1.1: Manufacturer: Realtek
+[    3.292350] usb 4-1.1: SerialNumber: 123456
+[    3.292427] usb 5-1.1: New USB device found, idVendor=046d, idProduct=c52f, bcdDevice=30.00
+[    3.292430] usb 5-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    3.292431] usb 5-1.1: Product: USB Receiver
+[    3.292432] usb 5-1.1: Manufacturer: Logitech
+[    3.293543] systemd[1]: Starting Journal Service...
+[    3.294558] systemd[1]: Starting Load Kernel Modules...
+[    3.295448] systemd[1]: TPM PCR NvPCR Initialization Separator skipped, unmet condition check ConditionSecurity=measured-os
+[    3.295480] systemd[1]: TPM PCR OS Separator skipped, unmet condition check ConditionSecurity=measured-os
+[    3.295504] systemd[1]: TPM PCR Barrier (initrd) skipped, unmet condition check ConditionSecurity=measured-os
+[    3.296238] systemd[1]: Starting Virtual Console Setup...
+[    3.300130] systemd[1]: Finished Create List of Static Device Nodes.
+[    3.301507] systemd[1]: Starting Create Static Device Nodes in /dev gracefully...
+[    3.304669] input: Logitech USB Receiver as /devices/pci0000:00/0000:00:1c.3/0000:09:00.0/usb5/5-1/5-1.1/5-1.1:1.0/0003:046D:C52F.0001/input/input3
+[    3.307256] hid-generic 0003:046D:C52F.0001: input,hidraw0: USB HID v1.11 Mouse [Logitech USB Receiver] on usb-0000:09:00.0-1.1/input0
+[    3.308409] Asymmetric key parser 'pkcs8' registered
+[    3.308643] i2c_dev: i2c /dev entries driver
+[    3.309549] systemd[1]: Finished Virtual Console Setup.
+[    3.310125] systemd[1]: Finished Load Kernel Modules.
+[    3.311248] systemd[1]: Starting dracut ask for additional cmdline parameters...
+[    3.311254] systemd-journald[212]: Collecting audit messages is disabled.
+[    3.311741] input: Logitech USB Receiver Consumer Control as /devices/pci0000:00/0000:00:1c.3/0000:09:00.0/usb5/5-1/5-1.1/5-1.1:1.1/0003:046D:C52F.0002/input/input4
+[    3.312150] systemd[1]: Starting Apply Kernel Variables...
+[    3.325133] systemd[1]: Finished Create Static Device Nodes in /dev gracefully.
+[    3.326207] systemd[1]: Starting Create Static Device Nodes in /dev...
+[    3.329416] systemd[1]: Finished dracut ask for additional cmdline parameters.
+[    3.330435] systemd[1]: Starting dracut cmdline hook...
+[    3.346616] systemd[1]: Finished Create Static Device Nodes in /dev.
+[    3.346834] systemd[1]: Reached target Preparation for Local File Systems.
+[    3.346916] systemd[1]: Reached target Local File Systems.
+[    3.358132] usb 4-1.2: new full-speed USB device number 4 using ehci-pci
+[    3.368299] hid-generic 0003:046D:C52F.0002: input,hiddev96,hidraw1: USB HID v1.11 Device [Logitech USB Receiver] on usb-0000:09:00.0-1.1/input1
+[    3.369237] systemd[1]: Finished Apply Kernel Variables.
+[    3.376748] systemd[1]: Finished dracut cmdline hook.
+[    3.377848] systemd[1]: Starting dracut pre-udev hook...
+[    3.399752] systemd[1]: Started Journal Service.
+[    3.442297] usb 5-1.2: new full-speed USB device number 4 using xhci_hcd
+[    3.465340] usb 4-1.2: New USB device found, idVendor=1532, idProduct=010b, bcdDevice= 0.03
+[    3.465348] usb 4-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    3.465350] usb 4-1.2: Product: Razer Arctosa
+[    3.465352] usb 4-1.2: Manufacturer: Razer
+[    3.469744] input: Razer Razer Arctosa as /devices/pci0000:00/0000:00:1a.0/usb4/4-1/4-1.2/4-1.2:1.0/0003:1532:010B.0003/input/input7
+[    3.654968] hid-generic 0003:1532:010B.0003: input,hidraw2: USB HID v1.11 Keyboard [Razer Razer Arctosa] on usb-0000:00:1a.0-1.2/input0
+[    3.656871] usb 5-1.2: New USB device found, idVendor=08bb, idProduct=2902, bcdDevice= 1.00
+[    3.656876] usb 5-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    3.656879] usb 5-1.2: Product: USB Audio CODEC 
+[    3.656881] usb 5-1.2: Manufacturer: Burr-Brown from TI              
+[    3.657743] input: Razer Razer Arctosa Consumer Control as /devices/pci0000:00/0000:00:1a.0/usb4/4-1/4-1.2/4-1.2:1.1/0003:1532:010B.0004/input/input8
+[    3.661563] input: Burr-Brown from TI               USB Audio CODEC  as /devices/pci0000:00/0000:00:1c.3/0000:09:00.0/usb5/5-1/5-1.2/5-1.2:1.3/0003:08BB:2902.0005/input/input10
+[    3.708248] input: Razer Razer Arctosa System Control as /devices/pci0000:00/0000:00:1a.0/usb4/4-1/4-1.2/4-1.2:1.1/0003:1532:010B.0004/input/input9
+[    3.708342] hid-generic 0003:1532:010B.0004: input,hidraw3: USB HID v1.11 Device [Razer Razer Arctosa] on usb-0000:00:1a.0-1.2/input1
+[    3.761606] hid-generic 0003:08BB:2902.0005: input,hidraw4: USB HID v1.00 Device [Burr-Brown from TI               USB Audio CODEC ] on usb-0000:09:00.0-1.2/input3
+[    6.728828] amdgpu: Virtual CRAT table created for CPU
+[    6.728860] amdgpu: Topology: Add CPU node
+[    6.729045] amdgpu 0000:03:00.0: amdgpu: initializing kernel modesetting (POLARIS10 0x1002:0x6FDF 0x1DA2:0xE353 0xEF).
+[    6.729058] amdgpu 0000:03:00.0: amdgpu: register mmio base: 0xFBB00000
+[    6.729059] amdgpu 0000:03:00.0: amdgpu: register mmio size: 262144
+[    6.729268] amdgpu 0000:03:00.0: amdgpu: detected ip block number 0 <common_v1_0_0> (vi_common)
+[    6.729275] amdgpu 0000:03:00.0: amdgpu: detected ip block number 1 <gmc_v8_1_0> (gmc_v8_0)
+[    6.729280] amdgpu 0000:03:00.0: amdgpu: detected ip block number 2 <ih_v3_0_0> (tonga_ih)
+[    6.729284] amdgpu 0000:03:00.0: amdgpu: detected ip block number 3 <gfx_v8_0_0> (gfx_v8_0)
+[    6.729288] amdgpu 0000:03:00.0: amdgpu: detected ip block number 4 <sdma_v3_1_0> (sdma_v3_0)
+[    6.729292] amdgpu 0000:03:00.0: amdgpu: detected ip block number 5 <smu_v1_0_0> (powerplay)
+[    6.729297] amdgpu 0000:03:00.0: amdgpu: detected ip block number 6 <dce_v1_0_0> (dm)
+[    6.729301] amdgpu 0000:03:00.0: amdgpu: detected ip block number 7 <uvd_v6_3_0> (uvd_v6_0)
+[    6.729315] amdgpu 0000:03:00.0: amdgpu: detected ip block number 8 <vce_v3_4_0> (vce_v3_0)
+[    6.729493] amdgpu 0000:03:00.0: No more images in PCI ROM
+[    6.729512] amdgpu 0000:03:00.0: amdgpu: Fetched VBIOS from ROM BAR
+[    6.729515] amdgpu: ATOM BIOS: 113-FE3534U-O42
+[    6.729798] [drm] UVD is enabled in VM mode
+[    6.729800] [drm] UVD ENC is enabled in VM mode
+[    6.729802] [drm] VCE enabled in VM mode
+[    6.765167] Console: switching to colour dummy device 80x25
+[    6.785373] amdgpu 0000:03:00.0: vgaarb: deactivate vga console
+[    6.785377] amdgpu 0000:03:00.0: amdgpu: Trusted Memory Zone (TMZ) feature not supported
+[    6.785379] amdgpu 0000:03:00.0: amdgpu: PCIE atomic ops is not supported
+[    6.785588] amdgpu 0000:03:00.0: amdgpu: vm size is 64 GB, 2 levels, block size is 10-bit, fragment size is 9-bit
+[    6.785853] amdgpu 0000:03:00.0: amdgpu: VRAM: 4096M 0x000000F400000000 - 0x000000F4FFFFFFFF (4096M used)
+[    6.785857] amdgpu 0000:03:00.0: amdgpu: GART: 256M 0x000000FF00000000 - 0x000000FF0FFFFFFF
+[    6.785863] [drm] Detected VRAM RAM=4096M, BAR=256M
+[    6.785864] [drm] RAM width 256bits GDDR5
+[    6.786163] amdgpu 0000:03:00.0: amdgpu: amdgpu: 4096M of VRAM memory ready
+[    6.786167] amdgpu 0000:03:00.0: amdgpu: amdgpu: 7954M of GTT memory ready.
+[    6.786183] [drm] GART: num cpu pages 65536, num gpu pages 65536
+[    6.786830] [drm] PCIE GART of 256M enabled (table at 0x000000F400200000).
+[    6.787546] [drm] Chained IB support enabled!
+[    6.790390] amdgpu: hwmgr_sw_init smu backed is polaris10_smu
+[    6.792798] [drm] Found UVD firmware Version: 1.130 Family ID: 16
+[    6.794198] [drm] Found VCE firmware Version: 53.26 Binary ID: 3
+[    6.857842] amdgpu 0000:03:00.0: amdgpu: [drm] Display Core v3.2.351 initialized on DCE 11.2
+[    6.932112] [drm] UVD and UVD ENC initialized successfully.
+[    7.033059] [drm] VCE initialized successfully.
+[    7.035668] kfd kfd: amdgpu: skipped device 1002:6fdf, PCI rejects atomics 730<0
+[    7.035692] amdgpu 0000:03:00.0: amdgpu: SE 4, SH per SE 1, CU per SH 9, active_cu_number 32
+[    7.037761] amdgpu 0000:03:00.0: amdgpu: Using BACO for runtime pm
+[    7.038534] amdgpu 0000:03:00.0: [drm] Registered 6 planes with drm panic
+[    7.038536] [drm] Initialized amdgpu 3.64.0 for 0000:03:00.0 on minor 1
+[    7.055885] fbcon: amdgpudrmfb (fb0) is primary device
+[    7.073413] Console: switching to colour frame buffer device 160x45
+[    7.088686] amdgpu 0000:03:00.0: [drm] fb0: amdgpudrmfb frame buffer device
+[    7.218565] logitech-djreceiver 0003:046D:C52F.0001: hidraw0: USB HID v1.11 Mouse [Logitech USB Receiver] on usb-0000:09:00.0-1.1/input0
+[    7.312105] logitech-djreceiver 0003:046D:C52F.0002: hiddev96,hidraw1: USB HID v1.11 Device [Logitech USB Receiver] on usb-0000:09:00.0-1.1/input1
+[    7.366105] logitech-djreceiver 0003:046D:C52F.0002: device of type eQUAD step 4 DJ (0x04) connected on slot 1
+[    7.366478] input: Logitech Wireless Mouse PID:4055 Mouse as /devices/pci0000:00/0000:00:1c.3/0000:09:00.0/usb5/5-1/5-1.1/5-1.1:1.1/0003:046D:C52F.0002/0003:046D:4055.0006/input/input11
+[    7.366874] input: Logitech Wireless Mouse PID:4055 Consumer Control as /devices/pci0000:00/0000:00:1c.3/0000:09:00.0/usb5/5-1/5-1.1/5-1.1:1.1/0003:046D:C52F.0002/0003:046D:4055.0006/input/input12
+[    7.366987] hid-generic 0003:046D:4055.0006: input,hidraw5: USB HID v1.11 Mouse [Logitech Wireless Mouse PID:4055] on usb-0000:09:00.0-1.1/input1:1
+[    7.532273] input: Logitech Wireless Mouse as /devices/pci0000:00/0000:00:1c.3/0000:09:00.0/usb5/5-1/5-1.1/5-1.1:1.1/0003:046D:C52F.0002/0003:046D:4055.0006/input/input16
+[    7.532369] logitech-hidpp-device 0003:046D:4055.0006: input,hidraw5: USB HID v1.11 Mouse [Logitech Wireless Mouse] on usb-0000:09:00.0-1.1/input1:1
+[    8.328998] EXT4-fs (sdb5): mounted filesystem 4266fd9d-f2d1-43f9-8530-e87d06433ca6 r/w with ordered data mode. Quota mode: none.
+[    9.004926] systemd-journald[212]: Received SIGTERM from PID 1 (systemd).
+[    9.164619] systemd[1]: systemd 262.1-1-arch running in system mode (+PAM +AUDIT -SELINUX +APPARMOR -IMA +IPE +SMACK +SECCOMP +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF +XKBCOMMON +UTMP +LIBARCHIVE)
+[    9.164630] systemd[1]: Detected architecture x86-64.
+[    9.342204] systemd[1]: bpf-restrict-fs: LSM BPF program attached
+[    9.985264] systemd[1]: initrd-switch-root.service: Deactivated successfully.
+[    9.985467] systemd[1]: Stopped Switch Root.
+[    9.988349] systemd[1]: systemd-journald.service: Scheduled restart job, restart counter is at 1.
+[    9.989024] systemd[1]: Created slice Slice /system/dirmngr.
+[    9.989998] systemd[1]: Created slice Slice /system/getty.
+[    9.990924] systemd[1]: Created slice Slice /system/gpg-agent.
+[    9.991861] systemd[1]: Created slice Slice /system/gpg-agent-browser.
+[    9.992766] systemd[1]: Created slice Slice /system/gpg-agent-extra.
+[    9.993666] systemd[1]: Created slice Slice /system/gpg-agent-ssh.
+[    9.994557] systemd[1]: Created slice Slice /system/keyboxd.
+[    9.995494] systemd[1]: Created slice Slice /system/systemd-fsck.
+[    9.996258] systemd[1]: Created slice User and Session Slice.
+[    9.996814] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[    9.997366] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    9.998071] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[    9.999016] systemd[1]: Expecting device /dev/disk/by-uuid/01D72FB9F6960100...
+[    9.999528] systemd[1]: Expecting device /dev/disk/by-uuid/0280-C0CC...
+[   10.000025] systemd[1]: Expecting device /dev/disk/by-uuid/C4CC82C9CC82B4E8...
+[   10.000536] systemd[1]: Reached target Local dm-clone Devices.
+[   10.001074] systemd[1]: Reached target Login Prompts.
+[   10.001618] systemd[1]: Reached target Image Downloads.
+[   10.002149] systemd[1]: Stopped target Switch Root.
+[   10.004895] systemd[1]: Stopped target Initrd File Systems.
+[   10.005490] systemd[1]: Stopped target Initrd Root File System.
+[   10.006043] systemd[1]: Reached target Local Integrity Protected Volumes.
+[   10.006598] systemd[1]: Reached target Path Units.
+[   10.007128] systemd[1]: Reached target Remote File Systems.
+[   10.007654] systemd[1]: Reached target Slice Units.
+[   10.008230] systemd[1]: Reached target Local Verity Protected Volumes.
+[   10.008884] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[   10.009535] systemd[1]: Listening on LVM2 poll daemon socket.
+[   10.011145] systemd[1]: Listening on Query the User Interactively for a Password.
+[   10.017229] systemd[1]: Listening on Process Core Dump Socket.
+[   10.018567] systemd[1]: Listening on Credential Encryption/Decryption.
+[   10.019957] systemd[1]: Listening on Disk Encryption Enrollment Service Socket.
+[   10.021566] systemd[1]: Listening on Factory Reset Management.
+[   10.022239] systemd[1]: Listening on Hostname Service Socket.
+[   10.024301] systemd[1]: Listening on Console Output Muting Service Socket.
+[   10.025704] systemd[1]: TPM PCR Measurements skipped, unmet condition check ConditionSecurity=measured-os
+[   10.025743] systemd[1]: Make TPM PCR Policy skipped, unmet condition check ConditionSecurity=measured-uki
+[   10.026675] systemd[1]: Listening on Disk Repartitioning Service Socket.
+[   10.028271] systemd[1]: Listening on Simple Block Device Backed Storage Provider.
+[   10.029851] systemd[1]: Listening on Simple File System Backed Storage Provider.
+[   10.031274] systemd[1]: Listening on System Install Tool.
+[   10.033095] systemd[1]: Listening on System Updates.
+[   10.033709] systemd[1]: Listening on udev Varlink Socket.
+[   10.034307] systemd[1]: Listening on User Database Manager Socket.
+[   10.036382] systemd[1]: Mounting Huge Pages File System...
+[   10.037814] systemd[1]: Mounting POSIX Message Queue File System...
+[   10.039348] systemd[1]: Mounting Kernel Debug File System...
+[   10.040823] systemd[1]: Mounting Kernel Trace File System...
+[   10.062651] systemd[1]: Starting Create List of Static Device Nodes...
+[   10.064258] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[   10.064876] systemd[1]: Load Kernel Module configfs skipped, unmet condition check ConditionKernelModuleLoaded=!configfs
+[   10.064927] systemd[1]: Load Kernel Module drm skipped, unmet condition check ConditionKernelModuleLoaded=!drm
+[   10.064966] systemd[1]: Load Kernel Module fuse skipped, unmet condition check ConditionKernelModuleLoaded=!fuse
+[   10.065937] systemd[1]: Mounting FUSE Control File System...
+[   10.067025] systemd[1]: Clear Stale Hibernate Storage Info skipped, unmet condition check ConditionPathExists=/sys/firmware/efi/efivars/HibernateLocation-8cf2644b-4b0b-428f-9387-6d876050dc67
+[   10.069943] systemd[1]: Starting Journal Service...
+[   10.074053] systemd[1]: Starting Load Kernel Modules...
+[   10.074839] systemd[1]: TPM PCR Machine ID Measurement skipped, unmet condition check ConditionSecurity=measured-os
+[   10.074906] systemd[1]: TPM PCR OS Separator skipped, unmet condition check ConditionSecurity=measured-os
+[   10.076232] systemd[1]: Starting Remount Root and Kernel File Systems...
+[   10.077057] systemd[1]: Early TPM SRK Setup skipped, unmet condition check ConditionSecurity=measured-os
+[   10.077102] systemd[1]: TPM PCR NvPCR Initialization Separator skipped, unmet condition check ConditionPathExists=/etc/initrd-release
+[   10.077139] systemd[1]: Reached target Local Encrypted Volumes.
+[   10.077804] systemd[1]: TPM NvPCR Product ID Measurement skipped, unmet condition check ConditionSecurity=measured-os
+[   10.078949] systemd[1]: Starting Load udev Rules from Credentials...
+[   10.081409] systemd[1]: Starting Coldplug All udev Devices...
+[   10.087962] systemd[1]: Mounted Huge Pages File System.
+[   10.089220] systemd[1]: Mounted POSIX Message Queue File System.
+[   10.090339] systemd[1]: Mounted Kernel Debug File System.
+[   10.091476] systemd[1]: Mounted Kernel Trace File System.
+[   10.092818] systemd[1]: Finished Create List of Static Device Nodes.
+[   10.093909] systemd[1]: Mounted FUSE Control File System.
+[   10.095754] systemd[1]: Starting Create Static Device Nodes in /dev gracefully...
+[   10.101787] systemd[1]: Finished Load udev Rules from Credentials.
+[   10.108334] EXT4-fs (sdb5): re-mounted 4266fd9d-f2d1-43f9-8530-e87d06433ca6.
+[   10.109240] systemd-journald[493]: Collecting audit messages is disabled.
+[   10.109605] systemd[1]: Finished Remount Root and Kernel File Systems.
+[   10.111385] systemd[1]: Activating swap /swapfile...
+[   10.113372] systemd[1]: Rebuild Hardware Database skipped, no trigger condition checks were met.
+[   10.114375] systemd[1]: Starting Load/Save OS Random Seed...
+[   10.115071] systemd[1]: TPM SRK Setup skipped, unmet condition check ConditionSecurity=measured-os
+[   10.116199] systemd[1]: Started Journal Service.
+[   10.136659] Adding 4194300k swap on /swapfile.  Priority:-2 extents:6 across:6643708k SS
+[   10.140309] systemd-journald[493]: Received client request to flush runtime journal.
+[   10.142517] systemd-journald[493]: File /var/log/journal/b3acf838a9174340b8cef7cc35e5064b/system.journal corrupted or uncleanly shut down, renaming and replacing: Device or resource busy
+[   10.314782] random: crng init done
+[   10.352787] device-mapper: uevent: version 1.0.3
+[   10.352895] device-mapper: ioctl: 4.50.0-ioctl (2025-04-28) initialised: dm-devel@lists.linux.dev
+[   10.717957] mc: Linux media interface: v0.10
+[   10.729587] mousedev: PS/2 mouse device common for all mice
+[   10.755758] videodev: Linux video capture interface: v2.00
+[   10.821335] input: PC Speaker as /devices/platform/pcspkr/input/input18
+[   10.823415] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[   10.829358] Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[   10.829635] Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+[   10.838285] r8169 0000:07:00.0: can't disable ASPM; OS doesn't have ASPM control
+[   10.862750] r8169 0000:07:00.0 eth0: RTL8168h/8111h, 0a:e0:af:b5:03:04, XID 541, IRQ 36
+[   10.862760] r8169 0000:07:00.0 eth0: jumbo features [frames: 9194 bytes, tx checksumming: ko]
+[   10.879986] r8169 0000:07:00.0 enp7s0: renamed from eth0
+[   10.909181] iTCO_vendor_support: vendor-support=0
+[   10.919305] snd_hda_intel 0000:00:1b.0: enabling device (0000 -> 0002)
+[   10.919620] snd_hda_intel 0000:03:00.1: Force to non-snoop mode
+[   10.997649] RAPL PMU: API unit is 2^-32 Joules, 2 fixed counters, 163840 ms ovfl timer
+[   10.997655] RAPL PMU: hw unit of domain pp0-core 2^-16 Joules
+[   10.997656] RAPL PMU: hw unit of domain package 2^-16 Joules
+[   10.997758] i801_smbus 0000:00:1f.3: enabling device (0001 -> 0003)
+[   10.997926] i801_smbus 0000:00:1f.3: SMBus using PCI interrupt
+[   11.005707] iTCO_wdt iTCO_wdt.1.auto: Found a Patsburg TCO device (Version=2, TCOBASE=0x0460)
+[   11.005806] iTCO_wdt iTCO_wdt.1.auto: initialized. heartbeat=30 sec (nowayout=0)
+[   11.006443] snd_hda_intel 0000:03:00.1: bound 0000:03:00.0 (ops amdgpu_dm_audio_component_bind_ops [amdgpu])
+[   11.009287] input: HDA ATI HDMI HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:02.0/0000:03:00.1/sound/card2/input19
+[   11.009380] input: HDA ATI HDMI HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:02.0/0000:03:00.1/sound/card2/input20
+[   11.009460] input: HDA ATI HDMI HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:02.0/0000:03:00.1/sound/card2/input21
+[   11.009528] input: HDA ATI HDMI HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:02.0/0000:03:00.1/sound/card2/input22
+[   11.009573] input: HDA ATI HDMI HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:02.0/0000:03:00.1/sound/card2/input23
+[   11.009615] input: HDA ATI HDMI HDMI/DP,pcm=11 as /devices/pci0000:00/0000:00:02.0/0000:03:00.1/sound/card2/input24
+[   11.018903] saa7231_core: loading out-of-tree module taints kernel.
+[   11.018919] saa7231_core: module verification failed: signature and/or required key missing - tainting kernel
+[   11.026724] snd_hda_codec_alc662 hdaudioC1D2: ALC892: SKU not ready 0x00000100
+[   11.027309] snd_hda_codec_alc662 hdaudioC1D2: autoconfig for ALC892: line_outs=4 (0x14/0x16/0x15/0x17/0x0) type:line
+[   11.027312] snd_hda_codec_alc662 hdaudioC1D2:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[   11.027314] snd_hda_codec_alc662 hdaudioC1D2:    hp_outs=1 (0x1b/0x0/0x0/0x0/0x0)
+[   11.027316] snd_hda_codec_alc662 hdaudioC1D2:    mono: mono_out=0x0
+[   11.027317] snd_hda_codec_alc662 hdaudioC1D2:    dig-out=0x1e/0x0
+[   11.027318] snd_hda_codec_alc662 hdaudioC1D2:    inputs:
+[   11.027320] snd_hda_codec_alc662 hdaudioC1D2:      Rear Mic=0x18
+[   11.027321] snd_hda_codec_alc662 hdaudioC1D2:      Front Mic=0x19
+[   11.027322] snd_hda_codec_alc662 hdaudioC1D2:      Line=0x1a
+[   11.027323] snd_hda_codec_alc662 hdaudioC1D2:      CD=0x1c
+[   11.036562] ntfs3: Enabled Linux POSIX ACLs support
+[   11.036566] ntfs3: Read-only LZX/Xpress compression included
+[   11.042095] input: HDA Intel PCH Rear Mic as /devices/pci0000:00/0000:00:1b.0/sound/card1/input25
+[   11.042183] input: HDA Intel PCH Front Mic as /devices/pci0000:00/0000:00:1b.0/sound/card1/input26
+[   11.042268] input: HDA Intel PCH Line as /devices/pci0000:00/0000:00:1b.0/sound/card1/input27
+[   11.042334] input: HDA Intel PCH Line Out Front as /devices/pci0000:00/0000:00:1b.0/sound/card1/input28
+[   11.042405] input: HDA Intel PCH Line Out Surround as /devices/pci0000:00/0000:00:1b.0/sound/card1/input29
+[   11.042462] input: HDA Intel PCH Line Out CLFE as /devices/pci0000:00/0000:00:1b.0/sound/card1/input30
+[   11.042503] input: HDA Intel PCH Line Out Side as /devices/pci0000:00/0000:00:1b.0/sound/card1/input31
+[   11.042546] input: HDA Intel PCH Front Headphone as /devices/pci0000:00/0000:00:1b.0/sound/card1/input32
+[   11.043005] SAA7231 0000:0a:00.0: enabling device (0000 -> 0002)
+[   11.054320] rtw88_8821cu 4-1.1:1.0: Firmware version 24.11.0, H2C version 12
+[   11.070290] usbcore: registered new interface driver snd-usb-audio
+[   11.192159] EDAC sbridge: Seeking for: PCI ID 8086:3ca0
+[   11.192178] EDAC sbridge: Seeking for: PCI ID 8086:3ca0
+[   11.192184] EDAC sbridge: Seeking for: PCI ID 8086:3ca8
+[   11.192190] EDAC sbridge: Seeking for: PCI ID 8086:3ca8
+[   11.192193] EDAC sbridge: Seeking for: PCI ID 8086:3c71
+[   11.192198] EDAC sbridge: Seeking for: PCI ID 8086:3c71
+[   11.192200] EDAC sbridge: Seeking for: PCI ID 8086:3caa
+[   11.192205] EDAC sbridge: Seeking for: PCI ID 8086:3caa
+[   11.192208] EDAC sbridge: Seeking for: PCI ID 8086:3cab
+[   11.192214] EDAC sbridge: Seeking for: PCI ID 8086:3cab
+[   11.192217] EDAC sbridge: Seeking for: PCI ID 8086:3cac
+[   11.192223] EDAC sbridge: Seeking for: PCI ID 8086:3cac
+[   11.192226] EDAC sbridge: Seeking for: PCI ID 8086:3cad
+[   11.192230] EDAC sbridge: Seeking for: PCI ID 8086:3cad
+[   11.192231] EDAC sbridge: Seeking for: PCI ID 8086:3cb8
+[   11.192236] EDAC sbridge: Seeking for: PCI ID 8086:3cb8
+[   11.192238] EDAC sbridge: Seeking for: PCI ID 8086:3cf4
+[   11.192242] EDAC sbridge: Seeking for: PCI ID 8086:3cf4
+[   11.192245] EDAC sbridge: Seeking for: PCI ID 8086:3cf6
+[   11.192250] EDAC sbridge: Seeking for: PCI ID 8086:3cf6
+[   11.192252] EDAC sbridge: Seeking for: PCI ID 8086:3cf5
+[   11.192257] EDAC sbridge: Seeking for: PCI ID 8086:3cf5
+[   11.192359] EDAC MC0: Giving out device to module sb_edac controller Sandy Bridge SrcID#0_Ha#0: DEV 0000:ff:0e.0 (INTERRUPT)
+[   11.192362] EDAC sbridge:  Ver: 1.1.2 
+[   11.207468] intel_rapl_common: Found RAPL domain package
+[   11.207473] intel_rapl_common: Found RAPL domain core
+[   11.215470] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[   11.224193] tda10048_readreg: readreg error (ret == -6)
+[   11.224269] tda10048_readreg: readreg error (ret == -6)
+[   11.329419] tda10048_readreg: readreg error (ret == -5)
+[   11.435023] tda10048_readreg: readreg error (ret == -5)
+[   11.448172] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[   11.459582] usbcore: registered new interface driver rtw88_8821cu
+[   12.124808] Generic FE-GE Realtek PHY r8169-0-700:00: attached PHY driver (mii_bus:phy_addr=r8169-0-700:00, irq=MAC)
+[   12.298347] r8169 0000:07:00.0 enp7s0: Link is Down
+[   21.431310] wlan0: authenticate with 5a:22:fc:d1:57:13 (local address=a0:47:d7:60:7b:d1)
+[   21.455866] wlan0: send auth to 5a:22:fc:d1:57:13 (try 1/3)
+[   21.572813] wlan0: authenticate with 5a:22:fc:d1:57:13 (local address=a0:47:d7:60:7b:d1)
+[   21.572826] wlan0: send auth to 5a:22:fc:d1:57:13 (try 1/3)
+[   21.589312] wlan0: authenticated
+[   21.594896] wlan0: associate with 5a:22:fc:d1:57:13 (try 1/3)
+[   21.596687] wlan0: RX AssocResp from 5a:22:fc:d1:57:13 (capab=0x11 status=0 aid=1)
+[   21.609618] wlan0: associated
+[   21.734130] wlan0: Limiting TX power to 0 (-128 - 0) dBm as advertised by 5a:22:fc:d1:57:13
+[   26.627151] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.250.154.95 DST=10.163.46.106 LEN=125 TOS=0x00 PREC=0x00 TTL=254 ID=42794 PROTO=TCP SPT=443 DPT=57248 WINDOW=65069 RES=0x00 ACK PSH URGP=0 
+[   33.612824] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=149.154.167.50 DST=10.163.46.106 LEN=1500 TOS=0x00 PREC=0x00 TTL=254 ID=42795 PROTO=TCP SPT=443 DPT=44694 WINDOW=65528 RES=0x00 ACK URGP=0 
+[   35.659005] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=149.154.167.41 DST=10.163.46.106 LEN=1500 TOS=0x00 PREC=0x00 TTL=254 ID=42798 PROTO=TCP SPT=443 DPT=37100 WINDOW=65247 RES=0x00 ACK URGP=0 
+[   37.320524] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=172.217.117.4 DST=10.163.46.106 LEN=113 TOS=0x00 PREC=0x00 TTL=254 ID=42799 PROTO=TCP SPT=443 DPT=43766 WINDOW=64538 RES=0x00 ACK PSH URGP=0 
+[   38.675046] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=172.217.117.4 DST=10.163.46.106 LEN=113 TOS=0x00 PREC=0x00 TTL=254 ID=42800 PROTO=TCP SPT=443 DPT=43766 WINDOW=64538 RES=0x00 ACK PSH URGP=0 
+[   40.122783] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=192.178.183.138 DST=10.163.46.106 LEN=113 TOS=0x00 PREC=0x00 TTL=254 ID=42801 PROTO=TCP SPT=443 DPT=45172 WINDOW=64111 RES=0x00 ACK PSH URGP=0 
+[   41.192527] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=192.178.183.138 DST=10.163.46.106 LEN=113 TOS=0x00 PREC=0x00 TTL=254 ID=42802 PROTO=TCP SPT=443 DPT=45172 WINDOW=64111 RES=0x00 ACK PSH URGP=0 
+[   41.495375] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=172.217.117.4 DST=10.163.46.106 LEN=113 TOS=0x00 PREC=0x00 TTL=254 ID=42803 PROTO=TCP SPT=443 DPT=43766 WINDOW=64538 RES=0x00 ACK PSH URGP=0 
+[   44.034688] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=192.178.183.138 DST=10.163.46.106 LEN=113 TOS=0x00 PREC=0x00 TTL=254 ID=42807 PROTO=TCP SPT=443 DPT=45172 WINDOW=64111 RES=0x00 ACK PSH URGP=0 
+[   47.393771] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=172.217.117.4 DST=10.163.46.106 LEN=113 TOS=0x00 PREC=0x00 TTL=254 ID=42810 PROTO=TCP SPT=443 DPT=43766 WINDOW=64538 RES=0x00 ACK PSH URGP=0 
+[   54.036149] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=192.178.183.138 DST=10.163.46.106 LEN=113 TOS=0x00 PREC=0x00 TTL=254 ID=42813 PROTO=TCP SPT=443 DPT=45172 WINDOW=64111 RES=0x00 ACK PSH URGP=0 
+[   69.104502] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.251.110.17 DST=10.163.46.106 LEN=113 TOS=0x00 PREC=0x00 TTL=254 ID=42819 PROTO=TCP SPT=443 DPT=46154 WINDOW=65454 RES=0x00 ACK PSH URGP=0 
+[   76.060574] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.251.110.17 DST=10.163.46.106 LEN=96 TOS=0x00 PREC=0x00 TTL=254 ID=42828 PROTO=TCP SPT=443 DPT=46154 WINDOW=65454 RES=0x00 ACK PSH FIN URGP=0 
+[   80.322635] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.251.110.17 DST=10.163.46.106 LEN=96 TOS=0x00 PREC=0x00 TTL=254 ID=42834 PROTO=TCP SPT=443 DPT=46154 WINDOW=65454 RES=0x00 ACK PSH FIN URGP=0 
+[   85.933062] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.251.154.4 DST=10.163.46.106 LEN=96 TOS=0x00 PREC=0x00 TTL=254 ID=42838 PROTO=TCP SPT=443 DPT=55048 WINDOW=65450 RES=0x00 ACK PSH FIN URGP=0 
+[   90.912986] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.250.154.95 DST=10.163.46.106 LEN=113 TOS=0x00 PREC=0x00 TTL=254 ID=42840 PROTO=TCP SPT=443 DPT=57234 WINDOW=65489 RES=0x00 ACK PSH URGP=0 
+[   90.913034] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.250.154.95 DST=10.163.46.106 LEN=96 TOS=0x00 PREC=0x00 TTL=254 ID=42841 PROTO=TCP SPT=443 DPT=57234 WINDOW=65489 RES=0x00 ACK PSH FIN URGP=0 
+[   92.426248] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.251.110.17 DST=10.163.46.106 LEN=96 TOS=0x00 PREC=0x00 TTL=254 ID=42843 PROTO=TCP SPT=443 DPT=46154 WINDOW=65454 RES=0x00 ACK PSH FIN URGP=0 
+[   95.453880] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=172.217.117.4 DST=10.163.46.106 LEN=96 TOS=0x00 PREC=0x00 TTL=254 ID=42848 PROTO=TCP SPT=443 DPT=43766 WINDOW=64538 RES=0x00 ACK PSH FIN URGP=0 
+[   98.286289] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=192.178.183.138 DST=10.163.46.106 LEN=96 TOS=0x00 PREC=0x00 TTL=254 ID=42850 PROTO=TCP SPT=443 DPT=45172 WINDOW=64111 RES=0x00 ACK PSH FIN URGP=0 
+[   99.786331] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=91.105.192.100 DST=10.163.46.106 LEN=40 TOS=0x00 PREC=0x00 TTL=254 ID=42851 PROTO=TCP SPT=443 DPT=49504 WINDOW=63743 RES=0x00 ACK RST URGP=0 
+[   99.786360] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=91.105.192.100 DST=10.163.46.106 LEN=40 TOS=0x00 PREC=0x00 TTL=254 ID=42852 PROTO=TCP SPT=443 DPT=49560 WINDOW=63743 RES=0x00 ACK RST URGP=0 
+[  107.266014] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.250.154.95 DST=10.163.46.106 LEN=113 TOS=0x00 PREC=0x00 TTL=254 ID=42853 PROTO=TCP SPT=443 DPT=57234 WINDOW=65489 RES=0x00 ACK PSH URGP=0 
+[  110.230733] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.251.154.4 DST=10.163.46.106 LEN=96 TOS=0x00 PREC=0x00 TTL=254 ID=42858 PROTO=TCP SPT=443 DPT=55048 WINDOW=65450 RES=0x00 ACK PSH FIN URGP=0 
+[  111.955504] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=91.105.192.100 DST=10.163.46.106 LEN=40 TOS=0x00 PREC=0x00 TTL=254 ID=42859 PROTO=TCP SPT=443 DPT=49558 WINDOW=63743 RES=0x00 ACK RST URGP=0 
+[  116.030330] input: ydotoold virtual device as /devices/virtual/input/input33
+[  116.894854] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.251.110.17 DST=10.163.46.106 LEN=96 TOS=0x00 PREC=0x00 TTL=254 ID=42868 PROTO=TCP SPT=443 DPT=46154 WINDOW=65454 RES=0x00 ACK PSH FIN URGP=0 
+[  118.327315] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.327856] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.328673] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.346099] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.435125] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.449747] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.450477] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.482909] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.497739] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.498510] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.499277] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.523982] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.538792] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.539535] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.540258] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.541000] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.559182] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.606399] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.607165] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.607915] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.608689] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.609466] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.619090] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.677989] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.678767] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.679530] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.680271] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.681014] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.681776] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.685635] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.714042] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.714644] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.715238] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.715804] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.716365] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.717246] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.721037] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.740751] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.741330] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.741922] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.742489] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.743050] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.743887] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.747518] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.782324] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.782900] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.783466] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.784027] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.784588] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.785428] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.788928] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.805392] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.805966] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.806531] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.807093] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.807654] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.808465] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.811831] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.848960] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.849534] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.850098] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.850659] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.851220] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.852050] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.855684] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.873251] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.873824] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.874387] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.874962] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.875522] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.876316] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.879972] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.900787] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.901360] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.901954] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.902519] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.903080] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.903908] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.907623] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.928868] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.929443] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.930007] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.930570] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.931130] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.931963] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.935405] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.971711] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.972293] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.972861] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.973424] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.973986] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.974885] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.978456] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.992792] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.993367] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.993933] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.994504] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.995084] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.995916] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  118.999551] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.013806] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.014376] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.014962] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.015527] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.016088] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.016865] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.020284] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.034647] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.035244] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.035822] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.036391] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.036952] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.037776] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.062514] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.076890] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.077464] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.078030] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.078605] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.079176] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.079996] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.083700] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.097975] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.098566] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.099133] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.099697] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.100259] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.101078] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.104602] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.118884] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.119454] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.120025] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.120603] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.121167] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.121974] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.125326] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.140143] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.140728] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.141297] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.141881] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.142447] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.143331] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.147144] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.162060] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.162653] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.163225] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.163791] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.164354] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.165260] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.168925] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.183467] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.184051] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.184619] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.185199] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.185766] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.186617] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.190462] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.205146] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.205732] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.206300] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.206865] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.207427] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.208319] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.211883] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.226217] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.226792] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.227358] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.227923] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.228506] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.229408] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.233529] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.247908] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.248527] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.249103] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.249678] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.250244] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.251086] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.254759] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.269361] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.269946] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.270515] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.271080] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.271660] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.272539] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.276207] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.290723] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.291308] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.291891] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.292460] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.293023] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.293867] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.297585] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.311884] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.312458] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.313023] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.313587] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.314147] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.314964] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.318467] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.332895] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.333475] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.334042] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.334605] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.335184] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.336042] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.339625] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.356752] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.357333] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.357901] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.358482] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.359048] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.359914] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.363833] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.378361] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.378965] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.379547] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.380119] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.380685] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.381550] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.385139] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.399422] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.399992] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.400556] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.401129] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.401749] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.402656] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.406807] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.421196] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.421785] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.422353] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.422917] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.423480] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.424306] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.428011] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.444104] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.444690] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.445291] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.445882] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.446468] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.447343] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.452536] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.467328] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.467911] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.468492] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.469058] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.469619] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.470481] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.474185] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.489701] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.490540] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.491356] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.492175] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.492811] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.493711] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.498837] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.517042] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.517631] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.518219] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.518793] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.519362] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.520225] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.525749] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.540535] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.541117] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.541711] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.542282] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.542852] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.543748] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.547598] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.562368] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.562954] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.563521] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.564157] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.564882] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.565790] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.569387] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.583869] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.584451] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.585048] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.585629] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.586202] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.587094] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.590980] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.605666] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.606257] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.606830] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.607403] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.607974] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.608901] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.612962] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.627491] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.628064] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.628645] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.629221] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.629782] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.630624] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.634308] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.648769] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.649345] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.649910] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.650471] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.651031] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.651861] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.655321] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.669914] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.670490] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.671055] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.671631] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.672195] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.673044] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.676609] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.691062] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.691654] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.692223] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.692784] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.693348] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.694180] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.697766] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.712317] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.712893] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.713458] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.714018] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.714577] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.715430] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.718958] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.733628] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.734207] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.734792] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.735358] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.735919] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.736763] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.740416] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.755179] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.755762] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.756330] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.756893] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.757453] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.758303] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.761803] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.776330] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.776908] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.777474] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.778035] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.778617] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.779465] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.783111] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.797678] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.798268] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.798835] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.799396] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.799955] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.800964] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.804787] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.819357] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.819928] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.820490] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.821049] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.821623] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.822414] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.826045] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.840821] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.841391] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.841975] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.842570] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.843296] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.844112] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.847616] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.862159] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.862730] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.863293] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.863853] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.864412] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.865218] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.868498] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.883606] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.884213] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.884806] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.885374] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.885935] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.886787] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.890395] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.904907] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.905493] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.906061] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.906625] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.907243] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.908319] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.912484] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.927240] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.927829] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.928478] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.929221] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.929852] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.930755] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.934691] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.949508] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.950090] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.950657] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.951219] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.951799] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.952644] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.956486] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.971384] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.972027] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.972601] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.973168] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.973737] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.974620] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.978541] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.993179] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.993765] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.994336] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.994939] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.995536] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  119.996428] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.000611] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.015784] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.016377] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.016948] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.017516] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.018080] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.018959] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.038514] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.054665] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.055371] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.056111] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.056874] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.057543] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.058433] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.062124] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.079207] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.080003] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.080782] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.081571] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.082376] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.083547] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.087614] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.104128] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.104888] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.105538] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.106141] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.106886] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.107945] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.112137] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.126847] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.127653] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.128434] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.129210] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.129972] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.130828] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.134597] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.151652] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.152458] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.153245] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.154024] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.154823] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.155941] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.161196] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.180804] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.181630] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.182412] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.183176] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.183953] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.185060] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.191207] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.210664] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.211475] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.212261] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.213046] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.213827] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.214997] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.801883] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.802471] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.803040] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.803605] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  120.804169] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  124.658820] warning: `ThreadPoolForeg' uses wireless extensions which will stop working for Wi-Fi 7 hardware; use nl80211
+[  131.034266] logitech-hidpp-device 0003:046D:4055.0006: HID++ 4.5 device connected.
+[  131.246031] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.250.154.95 DST=10.163.46.106 LEN=113 TOS=0x00 PREC=0x00 TTL=254 ID=49865 PROTO=TCP SPT=443 DPT=57234 WINDOW=65489 RES=0x00 ACK PSH URGP=0 
+[  136.171467] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=104.24.31.5 DST=10.163.46.106 LEN=40 TOS=0x00 PREC=0x00 TTL=254 ID=55713 PROTO=TCP SPT=443 DPT=52720 WINDOW=63743 RES=0x00 ACK RST URGP=0 
+[  153.006606] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.250.154.95 DST=10.163.46.106 LEN=125 TOS=0x00 PREC=0x00 TTL=254 ID=4585 PROTO=TCP SPT=443 DPT=57248 WINDOW=65069 RES=0x00 ACK PSH URGP=0 
+[  167.924074] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.250.154.95 DST=10.163.46.106 LEN=113 TOS=0x00 PREC=0x00 TTL=254 ID=8688 PROTO=TCP SPT=443 DPT=57234 WINDOW=65489 RES=0x00 ACK PSH URGP=0 
+[  180.016306] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=3.173.21.63 DST=10.163.46.106 LEN=40 TOS=0x00 PREC=0x00 TTL=254 ID=8734 PROTO=TCP SPT=443 DPT=55014 WINDOW=64176 RES=0x00 ACK FIN URGP=0 
+[  183.087606] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=3.173.21.63 DST=10.163.46.106 LEN=40 TOS=0x00 PREC=0x00 TTL=254 ID=8751 PROTO=TCP SPT=443 DPT=55014 WINDOW=64176 RES=0x00 ACK FIN URGP=0 
+[  188.414469] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=3.173.21.63 DST=10.163.46.106 LEN=79 TOS=0x00 PREC=0x00 TTL=254 ID=8817 PROTO=TCP SPT=443 DPT=55014 WINDOW=64176 RES=0x00 ACK PSH URGP=0 
+[  199.572820] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=3.173.21.63 DST=10.163.46.106 LEN=40 TOS=0x00 PREC=0x00 TTL=254 ID=9384 PROTO=TCP SPT=443 DPT=55014 WINDOW=64176 RES=0x00 ACK FIN URGP=0 
+[  216.834622] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.251.154.4 DST=10.163.46.106 LEN=113 TOS=0x00 PREC=0x00 TTL=254 ID=9798 PROTO=TCP SPT=443 DPT=55048 WINDOW=65450 RES=0x00 ACK PSH URGP=0 
+[  216.835355] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.251.154.4 DST=10.163.46.106 LEN=96 TOS=0x00 PREC=0x00 TTL=254 ID=9799 PROTO=TCP SPT=443 DPT=55048 WINDOW=65450 RES=0x00 ACK PSH FIN URGP=0 
+[  232.371791] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=149.154.167.50 DST=10.163.46.106 LEN=1500 TOS=0x00 PREC=0x00 TTL=254 ID=9838 PROTO=TCP SPT=443 DPT=44694 WINDOW=65528 RES=0x00 ACK URGP=0 
+[  271.008921] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=3.173.21.63 DST=10.163.46.106 LEN=79 TOS=0x00 PREC=0x00 TTL=254 ID=10035 PROTO=TCP SPT=443 DPT=55014 WINDOW=64176 RES=0x00 ACK PSH URGP=0 
+[  290.152492] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.251.13.94 DST=10.163.46.106 LEN=113 TOS=0x00 PREC=0x00 TTL=254 ID=10066 PROTO=TCP SPT=443 DPT=42498 WINDOW=64798 RES=0x00 ACK PSH URGP=0 
+[  336.206195] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.250.154.95 DST=10.163.46.106 LEN=125 TOS=0x00 PREC=0x00 TTL=254 ID=10344 PROTO=TCP SPT=443 DPT=57248 WINDOW=65069 RES=0x00 ACK PSH URGP=0 
+[  345.402871] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=149.154.167.41 DST=10.163.46.106 LEN=1500 TOS=0x00 PREC=0x00 TTL=254 ID=10386 PROTO=TCP SPT=443 DPT=37100 WINDOW=65247 RES=0x00 ACK URGP=0 
+[  366.483949] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=3.173.21.63 DST=10.163.46.106 LEN=79 TOS=0x00 PREC=0x00 TTL=254 ID=10442 PROTO=TCP SPT=443 DPT=55014 WINDOW=64176 RES=0x00 ACK PSH URGP=0 
+[  385.521090] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=142.251.13.94 DST=10.163.46.106 LEN=113 TOS=0x00 PREC=0x00 TTL=254 ID=10475 PROTO=TCP SPT=443 DPT=42498 WINDOW=64798 RES=0x00 ACK PSH URGP=0 
+[  433.004014] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  433.004792] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  433.005582] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  433.006342] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  433.007093] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  458.378430] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  458.379202] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  458.379946] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  458.380688] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  458.381449] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[  487.257740] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=149.154.167.50 DST=10.163.46.106 LEN=1500 TOS=0x00 PREC=0x00 TTL=254 ID=10950 PROTO=TCP SPT=443 DPT=44694 WINDOW=65528 RES=0x00 ACK URGP=0 
+[  533.638444] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=149.154.167.41 DST=10.163.46.106 LEN=1500 TOS=0x00 PREC=0x00 TTL=254 ID=11810 PROTO=TCP SPT=443 DPT=37100 WINDOW=65247 RES=0x00 ACK URGP=0 
+[  715.926463] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=149.154.167.41 DST=10.163.46.106 LEN=1500 TOS=0x00 PREC=0x00 TTL=254 ID=63742 PROTO=TCP SPT=443 DPT=37100 WINDOW=65247 RES=0x00 ACK URGP=0 
+[  730.442025] [UFW BLOCK] IN=wlan0 OUT= MAC=a0:47:d7:60:7b:d1:5a:22:03:d1:57:13:08:00 SRC=149.154.167.50 DST=10.163.46.106 LEN=1500 TOS=0x00 PREC=0x00 TTL=254 ID=63841 PROTO=TCP SPT=443 DPT=44694 WINDOW=65528 RES=0x00 ACK URGP=0 
+[ 2156.569806] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[ 2156.570590] tda10048_readreg: readreg error (ret == -6)
+[ 2156.570669] tda10048_readreg: readreg error (ret == -6)
+[ 2156.675218] tda10048_readreg: readreg error (ret == -5)
+[ 2156.778686] tda10048_readreg: readreg error (ret == -5)
+[ 2156.791332] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[ 2157.826771] saa7231 vfl: start, allocating stream
+[ 2157.828395] saa7231 vfl: stream allocated
+[ 2157.828399] saa7231 vfl: acquire
+[ 2157.828401] saa7231 s2d: setparams port=0 type=2
+[ 2157.828403] saa7231 s2d: reset done
+[ 2157.828405] saa7231 s2d: ptables done
+[ 2157.828414] saa7231 s2d: id=0xa0b21000
+[ 2157.828417] saa7231 s2d: setparams done
+[ 2157.828876] saa7231 vfl: avis program, input type 3
+[ 2157.828891] saa7231 avis: base init done
+[ 2157.829018] saa7231 avis: input table done
+[ 2157.829045] saa7231 avis: input setup done
+[ 2157.829048] saa7231 avis: timing done
+[ 2157.829048] saa7231 vfl: avis program done
+[ 2157.829049] saa7231 vfl: run
+[ 2157.829050] saa7231 s2d: run, loading PTAs (ch=1)
+[ 2157.841251] saa7231 s2d: PTAs loaded, enabling channel
+[ 2157.841273] saa7231 vfl: streaming
+[ 2157.924684] saa7231 vfl: first frame (dma 1)
+[ 2158.354590] saa7231 s2d: setparams port=0 type=2
+[ 2158.354597] saa7231 s2d: reset done
+[ 2158.354600] saa7231 s2d: ptables done
+[ 2158.354608] saa7231 s2d: id=0xa0b21000
+[ 2158.354611] saa7231 s2d: setparams done
+[ 2158.354830] saa7231 vfl: stop, frames=10
+[ 2158.711390] saa7231 vfl: start, allocating stream
+[ 2158.712983] saa7231 vfl: stream allocated
+[ 2158.712988] saa7231 vfl: acquire
+[ 2158.712989] saa7231 s2d: setparams port=0 type=2
+[ 2158.712991] saa7231 s2d: reset done
+[ 2158.712993] saa7231 s2d: ptables done
+[ 2158.713002] saa7231 s2d: id=0xa0b21000
+[ 2158.713005] saa7231 s2d: setparams done
+[ 2158.713420] saa7231 vfl: avis program, input type 9
+[ 2158.713433] saa7231 avis: base init done
+[ 2158.713561] saa7231 avis: input table done
+[ 2158.713588] saa7231 avis: input setup done
+[ 2158.713590] saa7231 avis: timing done
+[ 2158.713591] saa7231 vfl: avis program done
+[ 2158.713591] saa7231 vfl: run
+[ 2158.713592] saa7231 s2d: run, loading PTAs (ch=1)
+[ 2158.724582] saa7231 s2d: PTAs loaded, enabling channel
+[ 2158.724594] saa7231 vfl: streaming
+[ 2158.794648] saa7231 vfl: first frame (dma 1)
+[ 2159.197985] saa7231 s2d: setparams port=0 type=2
+[ 2159.197999] saa7231 s2d: reset done
+[ 2159.198004] saa7231 s2d: ptables done
+[ 2159.198012] saa7231 s2d: id=0xa0b21000
+[ 2159.198018] saa7231 s2d: setparams done
+[ 2159.198541] saa7231 vfl: stop, frames=10
+[ 2159.445777] saa7231 vfl: start, allocating stream
+[ 2159.447399] saa7231 vfl: stream allocated
+[ 2159.447404] saa7231 vfl: acquire
+[ 2159.447406] saa7231 s2d: setparams port=0 type=2
+[ 2159.447409] saa7231 s2d: reset done
+[ 2159.447411] saa7231 s2d: ptables done
+[ 2159.447420] saa7231 s2d: id=0xa0b21000
+[ 2159.447423] saa7231 s2d: setparams done
+[ 2159.448011] saa7231 vfl: avis program, input type 10
+[ 2159.448025] saa7231 avis: base init done
+[ 2159.448153] saa7231 avis: input table done
+[ 2159.448177] saa7231 avis: input setup done
+[ 2159.448180] saa7231 avis: timing done
+[ 2159.448181] saa7231 vfl: avis program done
+[ 2159.448182] saa7231 vfl: run
+[ 2159.448183] saa7231 s2d: run, loading PTAs (ch=1)
+[ 2159.464589] saa7231 s2d: PTAs loaded, enabling channel
+[ 2159.464600] saa7231 vfl: streaming
+[ 2159.511413] saa7231 vfl: first frame (dma 1)
+[ 2159.921324] saa7231 s2d: setparams port=0 type=2
+[ 2159.921331] saa7231 s2d: reset done
+[ 2159.921334] saa7231 s2d: ptables done
+[ 2159.921343] saa7231 s2d: id=0xa0b21000
+[ 2159.921346] saa7231 s2d: setparams done
+[ 2159.921874] saa7231 vfl: stop, frames=10
+[ 2160.241731] saa7231 vfl: start, allocating stream
+[ 2160.243253] saa7231 vfl: stream allocated
+[ 2160.243258] saa7231 vfl: acquire
+[ 2160.243259] saa7231 s2d: setparams port=0 type=2
+[ 2160.243261] saa7231 s2d: reset done
+[ 2160.243263] saa7231 s2d: ptables done
+[ 2160.243272] saa7231 s2d: id=0xa0b21000
+[ 2160.243275] saa7231 s2d: setparams done
+[ 2160.243692] saa7231 vfl: avis program, input type 12
+[ 2160.243706] saa7231 avis: base init done
+[ 2160.243836] saa7231 avis: input table done
+[ 2160.243860] saa7231 avis: input setup done
+[ 2160.243863] saa7231 avis: timing done
+[ 2160.243863] saa7231 vfl: avis program done
+[ 2160.243864] saa7231 vfl: run
+[ 2160.243865] saa7231 s2d: run, loading PTAs (ch=1)
+[ 2160.254580] saa7231 s2d: PTAs loaded, enabling channel
+[ 2160.254590] saa7231 vfl: streaming
+[ 2160.314699] saa7231 vfl: first frame (dma 1)
+[ 2160.714632] saa7231 s2d: setparams port=0 type=2
+[ 2160.714640] saa7231 s2d: reset done
+[ 2160.714642] saa7231 s2d: ptables done
+[ 2160.714651] saa7231 s2d: id=0xa0b21000
+[ 2160.714654] saa7231 s2d: setparams done
+[ 2160.714884] saa7231 vfl: stop, frames=10
+[ 7869.315419] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[ 7869.315978] tda10048_readreg: readreg error (ret == -6)
+[ 7869.316059] tda10048_readreg: readreg error (ret == -6)
+[ 7869.420925] tda10048_readreg: readreg error (ret == -5)
+[ 7869.524354] tda10048_readreg: readreg error (ret == -5)
+[ 7869.537344] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[ 7870.563228] saa7231 vfl: start, allocating stream
+[ 7870.565084] saa7231 vfl: stream allocated
+[ 7870.565088] saa7231 vfl: acquire
+[ 7870.565091] saa7231 s2d: setparams port=0 type=2
+[ 7870.565093] saa7231 s2d: reset done
+[ 7870.565095] saa7231 s2d: ptables done
+[ 7870.565104] saa7231 s2d: id=0xa0b21000
+[ 7870.565107] saa7231 s2d: setparams done
+[ 7870.565618] saa7231 vfl: avis program, input type 3
+[ 7870.565631] saa7231 avis: base init done
+[ 7870.565758] saa7231 avis: input table done
+[ 7870.565785] saa7231 avis: input setup done
+[ 7870.565788] saa7231 avis: timing done
+[ 7870.565789] saa7231 vfl: avis program done
+[ 7870.565789] saa7231 vfl: run
+[ 7870.565790] saa7231 s2d: run, loading PTAs (ch=1)
+[ 7870.577344] saa7231 s2d: PTAs loaded, enabling channel
+[ 7870.577354] saa7231 vfl: streaming
+[ 7870.630820] saa7231 vfl: first frame (dma 1)
+[ 7870.900779] saa7231 s2d: setparams port=0 type=2
+[ 7870.900785] saa7231 s2d: reset done
+[ 7870.900787] saa7231 s2d: ptables done
+[ 7870.900796] saa7231 s2d: id=0xa0b21000
+[ 7870.900799] saa7231 s2d: setparams done
+[ 7870.901152] saa7231 vfl: stop, frames=6
+[ 7871.909964] saa7231 vfl: start, allocating stream
+[ 7871.911813] saa7231 vfl: stream allocated
+[ 7871.911816] saa7231 vfl: acquire
+[ 7871.911818] saa7231 s2d: setparams port=0 type=2
+[ 7871.911820] saa7231 s2d: reset done
+[ 7871.911821] saa7231 s2d: ptables done
+[ 7871.911830] saa7231 s2d: id=0xa0b21000
+[ 7871.911834] saa7231 s2d: setparams done
+[ 7871.911834] saa7231 vfl: avis program, input type 3
+[ 7871.911854] saa7231 avis: base init done
+[ 7871.911981] saa7231 avis: input table done
+[ 7871.912008] saa7231 avis: input setup done
+[ 7871.912011] saa7231 avis: timing done
+[ 7871.912011] saa7231 vfl: avis program done
+[ 7871.912012] saa7231 vfl: run
+[ 7871.912013] saa7231 s2d: run, loading PTAs (ch=1)
+[ 7871.927361] saa7231 s2d: PTAs loaded, enabling channel
+[ 7871.927375] saa7231 vfl: streaming
+[ 7871.974214] saa7231 vfl: first frame (dma 1)
+[ 7873.407058] saa7231 dbg_mmio bar0: [0x120000] = 0x7012d
+[ 7873.458822] saa7231 dbg_mmio bar0: [0x120004] = 0x0
+[ 7873.510532] saa7231 dbg_mmio bar0: [0x120008] = 0x7
+[ 7873.562423] saa7231 dbg_mmio bar0: [0x12000c] = 0x2
+[ 7873.614232] saa7231 dbg_mmio bar0: [0x120010] = 0x2b1
+[ 7873.665900] saa7231 dbg_mmio bar0: [0x120020] = 0x2
+[ 7873.717731] saa7231 dbg_mmio bar0: [0x120024] = 0x200000
+[ 7873.769352] saa7231 dbg_mmio bar0: [0x120028] = 0xca800
+[ 7873.820879] saa7231 dbg_mmio bar0: [0x12002c] = 0x5a0
+[ 7873.872537] saa7231 dbg_mmio bar0: [0x120030] = 0x5a0
+[ 7873.924501] saa7231 dbg_mmio bar0: [0x120034] = 0x240
+[ 7873.976060] saa7231 dbg_mmio bar0: [0x120040] = 0x2
+[ 7874.027570] saa7231 dbg_mmio bar0: [0x120044] = 0x4200000
+[ 7874.078931] saa7231 dbg_mmio bar0: [0x120048] = 0xca800
+[ 7874.130317] saa7231 dbg_mmio bar0: [0x12004c] = 0x5a0
+[ 7874.181714] saa7231 dbg_mmio bar0: [0x120050] = 0x5a0
+[ 7874.233075] saa7231 dbg_mmio bar0: [0x120054] = 0x240
+[ 7874.285237] saa7231 dbg_mmio bar0: [0x202288] = 0x10
+[ 7874.336540] saa7231 dbg_mmio bar0: [0x202290] = 0x6
+[ 7874.387903] saa7231 dbg_mmio bar0: [0x2022a4] = 0xc1
+[ 7874.439550] saa7231 dbg_mmio bar0: [0x2022c0] = 0x70
+[ 7874.490967] saa7231 dbg_mmio bar0: [0x202260] = 0x40
+[ 7874.542699] saa7231 dbg_mmio bar0: [0x202398] = 0xa4
+[ 7874.594505] saa7231 dbg_mmio bar0: [0x20239c] = 0x0
+[ 7874.646118] saa7231 dbg_mmio bar0: [0x2033c0] = 0x2f
+[ 7874.697754] saa7231 dbg_mmio bar0: [0x2033c8] = 0x1
+[ 7874.750317] saa7231 dbg_mmio bar0: [0x2033f4] = 0x1
+[ 7874.802039] saa7231 dbg_mmio bar0: [0x203660] = 0x4
+[ 7874.977420] saa7231 s2d: setparams port=0 type=2
+[ 7874.977425] saa7231 s2d: reset done
+[ 7874.977428] saa7231 s2d: ptables done
+[ 7874.977437] saa7231 s2d: id=0xa0b21000
+[ 7874.977440] saa7231 s2d: setparams done
+[ 7874.978448] saa7231 vfl: stop, frames=75

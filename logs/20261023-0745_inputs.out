@@ -1,0 +1,39 @@
+# inputs 2026-10-23T07:45:00+03:00
+== install modules
+== reload driver
+== dec_init=1 dcsc_power=1
+== input 0
+<<<<<
+Video input set to 0 (Composite: Camera, ok)
+exit=0
+== input 1
+<<<<<
+Video input set to 1 (S-Video: Camera, ok)
+exit=0
+== input 2
+<<<<<
+Video input set to 2 (YPbPr: Camera, ok)
+exit=0
+== input 3
+<<<<<
+Video input set to 3 (RGB: Camera, ok)
+exit=0
+== frame stats
+-- input 0 (/home/otakoi/_hueta/behold-analog/logs/20261023-0745_in0.raw)
+size 829440 nonzero 209366 distinct 170 Y min/max 0 173 Y distinct 168
+-- input 1 (/home/otakoi/_hueta/behold-analog/logs/20261023-0745_in1.raw)
+size 829440 nonzero 205342 distinct 5 Y min/max 0 4 Y distinct 5
+-- input 2 (/home/otakoi/_hueta/behold-analog/logs/20261023-0745_in2.raw)
+size 829440 nonzero 208800 distinct 3 Y min/max 0 16 Y distinct 3
+-- input 3 (/home/otakoi/_hueta/behold-analog/logs/20261023-0745_in3.raw)
+size 829440 nonzero 208800 distinct 2 Y min/max 0 187 Y distinct 2
+== driver frame counters
+[  793.021996] saa7231 vfl: stop, frames=259
+[  882.755005] saa7231 vfl: stop, frames=25
+[  994.965361] saa7231 vfl: stop, frames=25
+[ 1179.669014] saa7231 vfl: stop, frames=25
+[ 1239.742092] saa7231 vfl: stop, frames=5
+[ 1239.938242] saa7231 vfl: stop, frames=5
+[ 1240.138263] saa7231 vfl: stop, frames=5
+[ 1240.338322] saa7231 vfl: stop, frames=5
+== done: /home/otakoi/_hueta/behold-analog/logs/20261023-0745_inputs.out

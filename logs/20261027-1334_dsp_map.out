@@ -1,0 +1,17 @@
+# dsp map 2026-10-27T13:34:34+03:00
+-- AUDIO regs (control) 0x0x280000
+-- AUDIO uncharted 0x0x282000
+-- AUDIO uncharted 0x0x283000
+-- AUDIO uncharted 0x0x284000
+-- AUDIO uncharted 0x0x288000
+-- AUDIO uncharted 0x0x290000
+-- AUDIO uncharted 0x0x298000
+-- AUDIO uncharted 0x0x2a0000
+-- AUDIO uncharted 0x0x2c0000
+-- AUDIO uncharted 0x0x2e0000
+-- AUDIO uncharted 0x0x2fe000
+-- AUDIO top 0x0x2feff0
+-- RGU ctrl/status/active 0x0x10e100
+-- CGU 0x0x180000
+-- audio buffers: 0
+== done: /home/otakoi/_hueta/behold-analog/logs/20261027-1334_dsp_map.out

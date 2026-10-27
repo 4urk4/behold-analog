@@ -1,0 +1,244 @@
+INFO  Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/otakoi/.config/ghidra/ghidra_12.1.2_DEV/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/otakoi/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1747 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (3505 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/otakoi/_hueta/behold-analog/re/scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: /home/otakoi/_hueta/behold-analog/re/ghidra/SAA7231 (HeadlessAnalyzer)  
+INFO  Opening project: /home/otakoi/_hueta/behold-analog/re/ghidra/SAA7231 (HeadlessProject)  
+INFO  REPORT: Processing project file: /saa7231.sys (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DumpAt.java '24f78' '236c8' '252c0'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/otakoi/_hueta/behold-analog/re/scripts/DumpAt.java (HeadlessAnalyzer)  
+INFO  DumpAt.java> === 24f78 (FUN_00024f78 @ 00024f78) === (GhidraScript)  
+INFO  DumpAt.java> 
+void FUN_00024f78(longlong param_1)
+
+{
+  int *_Src;
+  int iVar1;
+  undefined4 uVar2;
+  
+  if (*(longlong **)(param_1 + 0x28) != (longlong *)0x0) {
+    FUN_0001c97c(*(longlong **)(param_1 + 0x28),"Brightness",(undefined4 *)(param_1 + 0x160),
+                 "AVIS\\Video",0x80);
+    FUN_0001c97c(*(longlong **)(param_1 + 0x28),"Contrast",(undefined4 *)(param_1 + 0x164),
+                 "AVIS\\Video",0x40);
+    FUN_0001c97c(*(longlong **)(param_1 + 0x28),"Saturation",(undefined4 *)(param_1 + 0x168),
+                 "AVIS\\Video",0x40);
+    FUN_0001c97c(*(longlong **)(param_1 + 0x28),"Hue",(undefined4 *)(param_1 + 0x16c),"AVIS\\Video",
+                 0);
+    FUN_0001c97c(*(longlong **)(param_1 + 0x28),"Sharpness",(undefined4 *)(param_1 + 0x170),
+                 "AVIS\\Video",0);
+    FUN_0001c97c(*(longlong **)(param_1 + 0x28),"Gain",(undefined4 *)(param_1 + 0x174),"AVIS\\Video"
+                 ,0x80);
+    FUN_0001c97c(*(longlong **)(param_1 + 0x28),"Gain Auto",(undefined4 *)(param_1 + 0x178),
+                 "AVIS\\Video",1);
+    FUN_0001c97c(*(longlong **)(param_1 + 0x28),"Noise Reduction",(undefined4 *)(param_1 + 0x17c),
+                 "AVIS\\Video",0);
+    FUN_0001c97c(*(longlong **)(param_1 + 0x28),"White Peak Control",(undefined4 *)(param_1 + 0x194)
+                 ,"AVIS\\Video",1);
+    FUN_0001c97c(*(longlong **)(param_1 + 0x28),"Color Peak Control",(undefined4 *)(param_1 + 0x198)
+                 ,"AVIS\\Video",1);
+    FUN_0001c97c(*(longlong **)(param_1 + 0x28),"MacroVision Correction",
+                 (undefined4 *)(param_1 + 0x19c),"AVIS\\Video",1);
+    FUN_0001c97c(*(longlong **)(param_1 + 0x28),"H-Timing Constant",(undefined4 *)(param_1 + 0x184),
+                 "AVIS\\Video",3);
+    FUN_0001c97c(*(longlong **)(param_1 + 0x28),"V-Sync Recovery",(undefined4 *)(param_1 + 0x188),
+                 "AVIS\\Video",0);
+    FUN_0001c97c(*(longlong **)(param_1 + 0x28),"Component Input Sync Mode",
+                 (undefined4 *)(param_1 + 0x180),"AVIS\\Video",0);
+    FUN_0001c97c(*(longlong **)(param_1 + 0x28),"Luma Shift",(undefined4 *)(param_1 + 0x18c),
+                 "AVIS\\Video",0);
+    FUN_0001c97c(*(longlong **)(param_1 + 0x28),"Preferred Video Standard",
+                 (undefined4 *)(param_1 + 400),"AVIS\\Video",0x2000);
+  }
+  _Src = (int *)(param_1 + 0x160);
+  if (*_Src < 0) {
+    *_Src = 0;
+  }
+  else if (0xff < *_Src) {
+    *_Src = 0xff;
+  }
+  if (*(int *)(param_1 + 0x164) < 0) {
+    *(undefined4 *)(param_1 + 0x164) = 0;
+  }
+  else if (0x7f < *(int *)(param_1 + 0x164)) {
+    *(undefined4 *)(param_1 + 0x164) = 0x7f;
+  }
+  if (*(int *)(param_1 + 0x168) < 0) {
+    *(undefined4 *)(param_1 + 0x168) = 0;
+  }
+  else if (0x7f < *(int *)(param_1 + 0x168)) {
+    *(undefined4 *)(param_1 + 0x168) = 0x7f;
+  }
+  if (*(int *)(param_1 + 0x16c) < -0x7f) {
+    *(undefined4 *)(param_1 + 0x16c) = 0xffffff81;
+  }
+  else if (0x7f < *(int *)(param_1 + 0x16c)) {
+    *(undefined4 *)(param_1 + 0x16c) = 0x7f;
+  }
+  if (*(int *)(param_1 + 0x170) < -7) {
+    *(undefined4 *)(param_1 + 0x170) = 0xfffffff9;
+  }
+  else if (7 < *(int *)(param_1 + 0x170)) {
+    *(undefined4 *)(param_1 + 0x170) = 7;
+  }
+  memcpy((void *)(param_1 + 0x120),_Src,0x40);
+  iVar1 = *(int *)(param_1 + 0x110);
+  uVar2 = 0xffffffff;
+  if (iVar1 == 0) {
+    uVar2 = *(undefined4 *)(param_1 + 0x4c);
+  }
+  else if (iVar1 == 1) {
+    uVar2 = *(undefined4 *)(param_1 + 0x50);
+  }
+  else if (iVar1 == 2) {
+    uVar2 = *(undefined4 *)(param_1 + 0x54);
+  }
+  else if (iVar1 == 3) {
+    uVar2 = *(undefined4 *)(param_1 + 0x58);
+  }
+  else if (iVar1 == 4) {
+    uVar2 = *(undefined4 *)(param_1 + 0x5c);
+  }
+  else if (iVar1 == 5) {
+    uVar2 = *(undefined4 *)(param_1 + 0x60);
+  }
+  LOCK();
+  *(undefined4 *)(param_1 + 0x1a0) = uVar2;
+  UNLOCK();
+  return;
+}
+
+ (GhidraScript)  
+INFO  DumpAt.java> === 236c8 (FUN_000236c8 @ 000236c8) === (GhidraScript)  
+INFO  DumpAt.java> 
+void FUN_000236c8(longlong *param_1,int param_2)
+
+{
+  bool bVar1;
+  uint uVar2;
+  int iVar3;
+  undefined4 uVar4;
+  uint uVar5;
+  
+  bVar1 = true;
+  if ((param_2 < 0) || (1 < param_2)) {
+    (**(code **)(*param_1 + 8))(param_1,1);
+  }
+  else {
+    bVar1 = false;
+  }
+  FUN_00024a60((longlong)param_1,param_2);
+  FUN_00024af4((longlong)param_1,param_2);
+  uVar5 = 0x10;
+  uVar4 = 0;
+  iVar3 = 0;
+  if (9 < param_2) {
+    uVar2 = 0x10;
+    if (0xb < param_2) {
+      uVar4 = 0;
+      iVar3 = 0;
+      if (0xd < param_2) goto LAB_0002373d;
+      uVar2 = 0;
+    }
+    uVar5 = uVar2;
+    iVar3 = (int)param_1[0x28];
+    uVar4 = 1;
+  }
+LAB_0002373d:
+  if ((int)param_1[0x35] != 0) {
+    uVar4 = 3;
+  }
+  FUN_00023158((longlong)param_1,0x2410,uVar4);
+  FUN_00023194((longlong)param_1,0x2414,uVar5,0x10);
+  FUN_000248e4((longlong)param_1,iVar3);
+  FUN_00023db4((longlong)param_1,*(int *)((longlong)param_1 + 0x134),1);
+  if ((((param_2 != -1) && (param_2 != 10)) && (param_2 != 0xb)) &&
+     ((param_2 != 0xc && (param_2 != 0xd)))) {
+    FUN_00023158((longlong)param_1,0x2250,0x24);
+    FUN_00023158((longlong)param_1,0x2294,1);
+    FUN_00023158((longlong)param_1,0x22c4,0x87);
+    FUN_00023158((longlong)param_1,0x22a0,0xa9);
+    FUN_00023ff4((longlong)param_1);
+    FUN_00023ef4((longlong)param_1,(int)param_1[0x29],1);
+  }
+  if (!bVar1) {
+    (**(code **)(*param_1 + 8))(param_1,0);
+  }
+  return;
+}
+
+ (GhidraScript)  
+INFO  DumpAt.java> === 252c0 (FUN_000252c0 @ 000252c0) === (GhidraScript)  
+INFO  DumpAt.java> 
+void FUN_000252c0(longlong *param_1)
+
+{
+  uint uVar1;
+  undefined4 uVar2;
+  undefined8 uVar3;
+  
+  FUN_00023158((longlong)param_1,0x2240,0x88);
+  FUN_00023158((longlong)param_1,0x2268,0x40);
+  uVar1 = 0x30d4;
+  uVar3 = 0x3118;
+  do {
+    FUN_00023158((longlong)param_1,uVar1,0xcc);
+    uVar1 = uVar1 + 4;
+  } while (uVar1 < (uint)uVar3);
+  FUN_00023158((longlong)param_1,(uint)uVar3,0xcf);
+  FUN_00023158((longlong)param_1,0x3128,0x51);
+  uVar2 = 3;
+  FUN_00023158((longlong)param_1,0x312c,3);
+  FUN_00023158((longlong)param_1,0x3140,uVar2);
+  FUN_00023158((longlong)param_1,0x3144,0);
+  FUN_000249f0((longlong)param_1,0x397,0x27);
+  FUN_00025474((longlong)param_1);
+  FUN_00023158((longlong)param_1,0x1004,0x28000104);
+  FUN_00023158((longlong)param_1,0x104c,0x8e4ef08);
+  FUN_00023158((longlong)param_1,0x105c,0x36191);
+  FUN_00023838((longlong)param_1,0,*(uint *)(param_1 + 0x24),1);
+  FUN_00023838((longlong)param_1,1,*(uint *)((longlong)param_1 + 0x124),1);
+  FUN_00023838((longlong)param_1,2,*(uint *)(param_1 + 0x25),1);
+  FUN_00023838((longlong)param_1,3,*(uint *)((longlong)param_1 + 300),1);
+  FUN_00023838((longlong)param_1,4,*(uint *)(param_1 + 0x26),1);
+  FUN_000236c8(param_1,(int)param_1[0x34]);
+  FUN_00023e90((longlong)param_1,*(int *)((longlong)param_1 + 0x144),1);
+  FUN_00023ef4((longlong)param_1,(int)param_1[0x29],1);
+  FUN_00023f48((longlong)param_1,*(int *)((longlong)param_1 + 0x14c),1);
+  return;
+}
+
+ (GhidraScript)  
+INFO  REPORT: Save succeeded for processed file: /saa7231.sys (HeadlessAnalyzer)  

@@ -1,0 +1,105 @@
+openjdk version "27" 2026-09-15
+OpenJDK Runtime Environment (build 27)
+OpenJDK 64-Bit Server VM (build 27, mixed mode)
+INFO  Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/otakoi/.config/ghidra/ghidra_12.1.2_DEV/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/otakoi/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1699 ms) (ClassSearcher)  
+WARNING: Final field name in class ghidra.util.charset.CharsetInfo has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @58d75e99 (file:/opt/ghidra/Ghidra/Framework/Generic/lib/gson-2.13.2.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (3423 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/opt/ghidra/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/otakoi/_hueta/behold-analog/re/scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: /home/otakoi/_hueta/behold-analog/re/ghidra/SAA7231 (HeadlessAnalyzer)  
+INFO  Opening project: /home/otakoi/_hueta/behold-analog/re/ghidra/SAA7231 (HeadlessProject)  
+INFO  REPORT: Processing project file: /saa7231.sys (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: ExtRefs.java 'KsStreamPointerAdvance' 'KsStreamPointerClone' 'KsStreamPointerDelete' 'KsStreamPointerUnlock' 'KsPinAttemptProcessing' 'KsPinGetLeadingEdgeStreamPointer' 'KsPinAcquireProcessingMutex' 'KsPinReleaseProcessingMutex' 'KsPinGetParentFilter' 'KsGetPinFromIrp'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/otakoi/_hueta/behold-analog/re/scripts/ExtRefs.java (HeadlessAnalyzer)  
+INFO  ExtRefs.java> == KsStreamPointerAdvance (GhidraScript)  
+INFO  ExtRefs.java>    symbol @ EXTERNAL:00000054 Function (GhidraScript)  
+INFO  ExtRefs.java>       <- 00033f80 DATA (GhidraScript)  
+INFO  ExtRefs.java>       <- 00012146 COMPUTED_CALL in FUN_000120ac @000120ac (GhidraScript)  
+INFO  ExtRefs.java>       <- 000168ab COMPUTED_CALL in FUN_000166cc @000166cc (GhidraScript)  
+INFO  ExtRefs.java> == KsStreamPointerClone (GhidraScript)  
+INFO  ExtRefs.java>    symbol @ EXTERNAL:00000048 Function (GhidraScript)  
+INFO  ExtRefs.java>       <- 00033f20 DATA (GhidraScript)  
+INFO  ExtRefs.java>       <- 000167e3 COMPUTED_CALL in FUN_000166cc @000166cc (GhidraScript)  
+INFO  ExtRefs.java> == KsStreamPointerDelete (GhidraScript)  
+INFO  ExtRefs.java>    symbol @ EXTERNAL:00000047 Function (GhidraScript)  
+INFO  ExtRefs.java>       <- 00033f18 DATA (GhidraScript)  
+INFO  ExtRefs.java>       <- 00016a6d COMPUTED_CALL in FUN_0001693c @0001693c (GhidraScript)  
+INFO  ExtRefs.java>       <- 000168d7 COMPUTED_CALL in FUN_000166cc @000166cc (GhidraScript)  
+INFO  ExtRefs.java>       <- 00021837 COMPUTED_CALL in FUN_00021700 @00021700 (GhidraScript)  
+INFO  ExtRefs.java> == KsStreamPointerUnlock (GhidraScript)  
+INFO  ExtRefs.java>    symbol @ EXTERNAL:00000056 Function (GhidraScript)  
+INFO  ExtRefs.java>       <- 00033f90 DATA (GhidraScript)  
+INFO  ExtRefs.java>       <- 00012160 COMPUTED_CALL in FUN_000120ac @000120ac (GhidraScript)  
+INFO  ExtRefs.java>       <- 00014767 COMPUTED_CALL in FUN_00014668 @00014668 (GhidraScript)  
+INFO  ExtRefs.java>       <- 0001690c COMPUTED_CALL in FUN_000166cc @000166cc (GhidraScript)  
+INFO  ExtRefs.java>       <- 000168fd COMPUTED_CALL in FUN_000166cc @000166cc (GhidraScript)  
+INFO  ExtRefs.java> == KsPinAttemptProcessing (GhidraScript)  
+INFO  ExtRefs.java>    symbol @ EXTERNAL:0000004c Function (GhidraScript)  
+INFO  ExtRefs.java>       <- 00033f40 DATA (GhidraScript)  
+INFO  ExtRefs.java>       <- 00016a92 COMPUTED_CALL in FUN_0001693c @0001693c (GhidraScript)  
+INFO  ExtRefs.java>       <- 000163f7 COMPUTED_CALL in FUN_00016300 @00016300 (GhidraScript)  
+INFO  ExtRefs.java> == KsPinGetLeadingEdgeStreamPointer (GhidraScript)  
+INFO  ExtRefs.java>    symbol @ EXTERNAL:00000055 Function (GhidraScript)  
+INFO  ExtRefs.java>       <- 00033f88 DATA (GhidraScript)  
+INFO  ExtRefs.java>       <- 000120cb COMPUTED_CALL in FUN_000120ac @000120ac (GhidraScript)  
+INFO  ExtRefs.java>       <- 0001468a COMPUTED_CALL in FUN_00014668 @00014668 (GhidraScript)  
+INFO  ExtRefs.java>       <- 000166f4 COMPUTED_CALL in FUN_000166cc @000166cc (GhidraScript)  
+INFO  ExtRefs.java> == KsPinAcquireProcessingMutex (GhidraScript)  
+INFO  ExtRefs.java>    symbol @ EXTERNAL:0000004a Function (GhidraScript)  
+INFO  ExtRefs.java>       <- 00033f30 DATA (GhidraScript)  
+INFO  ExtRefs.java>       <- 0001653d COMPUTED_CALL in FUN_00016528 @00016528 (GhidraScript)  
+INFO  ExtRefs.java>       <- 000165b9 COMPUTED_CALL in FUN_00016578 @00016578 (GhidraScript)  
+INFO  ExtRefs.java> == KsPinReleaseProcessingMutex (GhidraScript)  
+INFO  ExtRefs.java>    symbol @ EXTERNAL:00000049 Function (GhidraScript)  
+INFO  ExtRefs.java>       <- 00033f28 DATA (GhidraScript)  
+INFO  ExtRefs.java>       <- 0001654b COMPUTED_CALL in FUN_00016528 @00016528 (GhidraScript)  
+INFO  ExtRefs.java>       <- 00016625 COMPUTED_CALL in FUN_00016578 @00016578 (GhidraScript)  
+INFO  ExtRefs.java> == KsPinGetParentFilter (GhidraScript)  
+INFO  ExtRefs.java>    symbol @ EXTERNAL:0000004e Function (GhidraScript)  
+INFO  ExtRefs.java>       <- 00033f50 DATA (GhidraScript)  
+INFO  ExtRefs.java>       <- 00019657 COMPUTED_CALL in FUN_000195e0 @000195e0 (GhidraScript)  
+INFO  ExtRefs.java>       <- 00013fbf COMPUTED_CALL in FUN_00013f38 @00013f38 (GhidraScript)  
+INFO  ExtRefs.java>       <- 000197a4 COMPUTED_CALL in FUN_00019778 @00019778 (GhidraScript)  
+INFO  ExtRefs.java> == KsGetPinFromIrp (GhidraScript)  
+INFO  ExtRefs.java>    symbol @ EXTERNAL:00000045 Function (GhidraScript)  
+INFO  ExtRefs.java>       <- 00033f08 DATA (GhidraScript)  
+INFO  ExtRefs.java>       <- 00013308 COMPUTED_CALL in FUN_000132f4 @000132f4 (GhidraScript)  
+INFO  REPORT: Save succeeded for processed file: /saa7231.sys (HeadlessAnalyzer)  

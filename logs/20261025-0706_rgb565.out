@@ -1,0 +1,42 @@
+# rgb565 avis_fmt=0x38 ctrl=0xff01002c chctrl=0x290 2026-10-25T07:06:15+03:00
+== install modules
+== reload driver
+== params
+== raw pass: 6 frames, RGB565
+<<<<<<
+Video input set to 0 (Composite: Camera, ok)
+raw pass exit=0
+== registers
+== RGB565 analysis (DMA buffer, whole frame)
+frames: 6 bytes: 4976640
+first32: 42 88 42 88 42 88 42 88 42 88 42 88 42 88 42 88 42 88 42 88 42 88 63 8c 42 88 42 88 42 88 42 88
+aa bytes in frame: 411840 / 829440
+real pixels (non-0xaaaa): 208800
+R min/max/avg: 132 231 159.7
+G min/max/avg: 0 462 168.4
+B min/max/avg: 0 206 59.0
+pixels with channel diff > 8: 208800 / 208800 (100.00%)
+top 8 (r>>4,g>>4,b>>4): [((8, 1, 1), 56676), ((8, 17, 1), 29653), ((11, 23, 7), 11276), ((12, 8, 8), 11027), ((8, 16, 0), 9062), ((11, 7, 7), 9060), ((11, 22, 6), 7192), ((10, 5, 5), 7184)]
+-rw-r--r-- 1 root root 177200 окт 25 07:06 /home/otakoi/_hueta/behold-analog/logs/20261025-0706_rgb565.png
+== driver log
+[ 5533.455731] saa7231 s2d: ptables done
+[ 5533.455739] saa7231 s2d: id=0xa0b21000
+[ 5533.455743] saa7231 s2d: setparams done
+[ 5533.456219] saa7231 vfl: avis program, input type 3
+[ 5533.456233] saa7231 avis: base init done
+[ 5533.456360] saa7231 avis: input table done
+[ 5533.456387] saa7231 avis: input setup done
+[ 5533.456390] saa7231 avis: timing done
+[ 5533.456390] saa7231 vfl: avis program done
+[ 5533.456391] saa7231 vfl: run
+[ 5533.456392] saa7231 s2d: run, loading PTAs (ch=1)
+[ 5533.467646] saa7231 s2d: PTAs loaded, enabling channel
+[ 5533.467660] saa7231 vfl: streaming
+[ 5533.511062] saa7231 vfl: first frame (dma 1)
+[ 5533.760996] saa7231 s2d: setparams port=0 type=2
+[ 5533.761004] saa7231 s2d: reset done
+[ 5533.761006] saa7231 s2d: ptables done
+[ 5533.761015] saa7231 s2d: id=0xa0b21000
+[ 5533.761018] saa7231 s2d: setparams done
+[ 5533.761548] saa7231 vfl: stop, frames=6
+== done: /home/otakoi/_hueta/behold-analog/logs/20261025-0706_rgb565.out / /home/otakoi/_hueta/behold-analog/logs/20261025-0706_rgb565.png

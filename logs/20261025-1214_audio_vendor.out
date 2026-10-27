@@ -1,0 +1,13 @@
+# audio vendor-matched 2026-10-25T12:14:06+03:00
+audio_init=1 rgu=1 rate=2 config=4
+-- AUDIO 0x000-0x03c:
+-- AUDIO 0x040-0x07c:
+-- AUDIO 0x080-0x0bc:
+-- AUDIO 0x180-0x1bc:
+-- AUDIO 0x1c0-0x1fc:
+-- STREAM port 0x100-0x11c:
+-- STREAM port 0x120-0x12c:
+-- AS2D 0x00-0x3c:
+-- audio buffers: 0
+-- audio report:
+== done: /home/otakoi/_hueta/behold-analog/logs/20261025-1214_audio_vendor.out

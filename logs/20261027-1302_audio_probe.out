@@ -1,0 +1,12 @@
+# audio probe 2026-10-27T13:02:45+03:00
+-- t0: addr=00000000 geom= 00001000 00000300 00000300 00000000 ffffffff ffffffff 00000002 04e00000
+            status= ffffffff ffffffff ffffffff ffffffff 00000000 00001800 ffffffff ffffffff
+-- t1: addr=00000000 geom= 00001000 00000300 00000300 00000000 ffffffff ffffffff 00000002 04e00000
+            status= ffffffff ffffffff ffffffff ffffffff 00000000 00001800 ffffffff ffffffff
+-- t2: addr=00000000 geom= 00001000 00000300 00000300 00000000 ffffffff ffffffff 00000002 04e00000
+            status= ffffffff ffffffff ffffffff ffffffff 00000000 00001800 ffffffff ffffffff
+-- audio buffers: 0
+[ 1212.164855] saa7231 audio: stop, 1 buffers
+[ 1287.221669] saa7231 audio: streaming 48000 Hz
+[ 1299.274851] saa7231 audio: stop, 1 buffers
+== done: /home/otakoi/_hueta/behold-analog/logs/20261027-1302_audio_probe.out

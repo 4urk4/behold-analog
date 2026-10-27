@@ -1,0 +1,52 @@
+# sweep 2026-10-23T08:43:19+03:00
+== install modules
+== reload driver
+
+=== base  fmt=0x10 pll=0 digout=0 c0=0x70 stream_on=0 adc_clk=0
+v4l2-ctl exit=0
+frames: 10
+first  half: distinct=146 top=[(54, 7578), (53, 7374)]
+second half: distinct=1 top=[(170, 414720)]
+
+=== fmt50  fmt=0x50 pll=0 digout=0 c0=0x72 stream_on=0 adc_clk=0
+v4l2-ctl exit=0
+frames: 10
+first  half: distinct=218 top=[(74, 4211), (70, 4203)]
+second half: distinct=1 top=[(170, 414720)]
+
+=== digout  fmt=0x10 pll=0 digout=1 c0=0x70 stream_on=0 adc_clk=0
+v4l2-ctl exit=124
+frames: 0
+RESULT: no frames
+
+=== stream  fmt=0x10 pll=0 digout=0 c0=0x70 stream_on=1 adc_clk=0
+v4l2-ctl exit=0
+frames: 10
+first  half: distinct=110 top=[(170, 152270), (1, 103279)]
+second half: distinct=107 top=[(170, 309638), (1, 45110)]
+
+=== stream_dig  fmt=0x10 pll=0 digout=1 c0=0x70 stream_on=1 adc_clk=0
+v4l2-ctl exit=0
+frames: 10
+first  half: distinct=107 top=[(170, 132436), (1, 105833)]
+second half: distinct=102 top=[(170, 332138), (1, 33457)]
+
+=== adcclk  fmt=0x10 pll=0 digout=0 c0=0x70 stream_on=0 adc_clk=1
+v4l2-ctl exit=0
+frames: 10
+first  half: distinct=175 top=[(62, 6643), (58, 6580)]
+second half: distinct=1 top=[(170, 414720)]
+
+=== audiopll  fmt=0x10 pll=1 digout=0 c0=0x70 stream_on=0 adc_clk=0
+v4l2-ctl exit=0
+frames: 10
+first  half: distinct=251 top=[(84, 4512), (88, 4339)]
+second half: distinct=1 top=[(170, 414720)]
+
+== done: /home/otakoi/_hueta/behold-analog/logs/20261023-0843_sweep.out
+-rw-r--r-- 1 root root 290467 окт 23 08:43 /home/otakoi/_hueta/behold-analog/logs/20261023-0843_adcclk_luma.png
+-rw-r--r-- 1 root root 315077 окт 23 08:43 /home/otakoi/_hueta/behold-analog/logs/20261023-0843_audiopll_luma.png
+-rw-r--r-- 1 root root 282165 окт 23 08:43 /home/otakoi/_hueta/behold-analog/logs/20261023-0843_base_luma.png
+-rw-r--r-- 1 root root 287470 окт 23 08:43 /home/otakoi/_hueta/behold-analog/logs/20261023-0843_fmt50_luma.png
+-rw-r--r-- 1 root root 142739 окт 23 08:43 /home/otakoi/_hueta/behold-analog/logs/20261023-0843_stream_dig_luma.png
+-rw-r--r-- 1 root root 130715 окт 23 08:43 /home/otakoi/_hueta/behold-analog/logs/20261023-0843_stream_luma.png

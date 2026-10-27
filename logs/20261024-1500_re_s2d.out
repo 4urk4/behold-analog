@@ -1,0 +1,318 @@
+INFO  Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/otakoi/.config/ghidra/ghidra_12.1.2_DEV/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/otakoi/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1731 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (3526 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/otakoi/_hueta/behold-analog/re/scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: /home/otakoi/_hueta/behold-analog/re/ghidra/SAA7231 (HeadlessAnalyzer)  
+INFO  Opening project: /home/otakoi/_hueta/behold-analog/re/ghidra/SAA7231 (HeadlessProject)  
+INFO  REPORT: Processing project file: /saa7231.sys (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DumpAt.java '21cec' '21ae4' '21388'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/otakoi/_hueta/behold-analog/re/scripts/DumpAt.java (HeadlessAnalyzer)  
+INFO  DumpAt.java> === 21cec (FUN_00021cec @ 00021cec) === (GhidraScript)  
+INFO  DumpAt.java> 
+void FUN_00021cec(longlong param_1)
+
+{
+  undefined4 uVar1;
+  undefined4 uVar2;
+  int iVar3;
+  undefined4 uVar4;
+  uint uVar5;
+  int iVar6;
+  int iVar7;
+  int iVar8;
+  undefined4 uVar9;
+  int iVar10;
+  int iVar11;
+  uint uVar12;
+  int iVar13;
+  
+  iVar13 = *(int *)(param_1 + 0x198);
+  iVar3 = *(int *)(param_1 + 400);
+  uVar12 = *(uint *)(param_1 + 0x194);
+  iVar8 = *(int *)(param_1 + 0x19c);
+  uVar5 = 0;
+  iVar10 = *(int *)(param_1 + 0x1d0);
+  uVar4 = 0x39c;
+  iVar6 = 0;
+  uVar1 = 2;
+  uVar9 = 0x2c;
+  iVar11 = iVar8;
+  iVar7 = iVar6;
+  uVar2 = 0;
+  if (iVar10 != 1) {
+    if (iVar10 == 2) {
+      uVar4 = 0x290;
+    }
+    else {
+      iVar7 = 0;
+      uVar2 = 0;
+      uVar1 = 3;
+      uVar9 = 0;
+      if (iVar10 == 3) {
+        uVar12 = 0;
+        iVar3 = iVar3 * 0xc0;
+        iVar11 = iVar3;
+        iVar7 = iVar6;
+        uVar2 = 0;
+        uVar1 = 3;
+      }
+    }
+    goto LAB_00021e03;
+  }
+  iVar10 = *(int *)(param_1 + 0x1a4);
+  uVar1 = 2;
+  uVar4 = 0x290;
+  if (iVar10 == 1) {
+    uVar4 = 0x2f0;
+    uVar9 = 0xff06012c;
+  }
+  else {
+    if (iVar10 == 2) {
+      uVar4 = 0x2b0;
+    }
+    else if (iVar10 != 3) {
+      if (iVar10 == 4) {
+        uVar9 = 300;
+      }
+      else if (iVar10 == 5) {
+        uVar9 = 0xff05002c;
+      }
+      else if (iVar10 == 6) {
+        uVar9 = 0x4002c;
+      }
+      else {
+        uVar9 = 0x2c;
+        if (iVar10 == 7) {
+          uVar9 = 0xff01002c;
+        }
+      }
+      goto LAB_00021deb;
+    }
+    uVar9 = 0x7012c;
+  }
+LAB_00021deb:
+  if ((*(byte *)(param_1 + 0x1a8) & 4) != 0) {
+    iVar13 = iVar13 - iVar8;
+    iVar11 = iVar8 * 2;
+    uVar12 = uVar12 >> 1;
+    iVar7 = iVar8;
+    uVar2 = 1;
+  }
+LAB_00021e03:
+  *(int *)(param_1 + 0x1f0) = iVar7;
+  *(undefined4 *)(param_1 + 0x144) = uVar2;
+  *(undefined4 *)(param_1 + 0x1ec) = 0;
+  FUN_0002274c(param_1,0xff0,1);
+  FUN_0002274c(param_1,0,uVar9);
+  iVar8 = 0;
+  FUN_0002274c(param_1,4,0);
+  FUN_0002274c(param_1,iVar8 + 8,iVar8 + 7);
+  FUN_0002274c(param_1,0xc,uVar1);
+  iVar8 = 0x10;
+  FUN_0002274c(param_1,0x10,uVar4);
+  iVar10 = iVar8 + -0xe;
+  FUN_0002274c(param_1,iVar8 + 0x10,iVar10);
+  FUN_0002274c(param_1,iVar10 + 0x26,iVar13);
+  FUN_0002274c(param_1,iVar10 + 0x2a,iVar11);
+  FUN_0002274c(param_1,iVar10 + 0x2e,iVar3);
+  FUN_0002274c(param_1,iVar10 + 0x32,uVar12);
+  FUN_0002274c(param_1,iVar10 + 0x3e,iVar10);
+  FUN_0002274c(param_1,iVar10 + 0x46,iVar13);
+  FUN_0002274c(param_1,iVar10 + 0x4a,iVar11);
+  FUN_0002274c(param_1,iVar10 + 0x4e,iVar3);
+  FUN_0002274c(param_1,iVar10 + 0x52,uVar12);
+  do {
+    FUN_00021f44(param_1,uVar5,0);
+    uVar5 = uVar5 + 1;
+  } while (uVar5 < 8);
+  return;
+}
+
+ (GhidraScript)  
+INFO  DumpAt.java> === 21ae4 (FUN_00021ae4 @ 00021ae4) === (GhidraScript)  
+INFO  DumpAt.java> 
+void FUN_00021ae4(longlong param_1)
+
+{
+  uint uVar1;
+  int iVar2;
+  longlong lVar3;
+  undefined4 uVar4;
+  uint uVar5;
+  uint uVar7;
+  uint uVar6;
+  
+  uVar1 = *(uint *)(param_1 + 0x1e4);
+  uVar6 = 1;
+  uVar5 = 1;
+  uVar7 = 1;
+  lVar3 = *(longlong *)(param_1 + 0x1b8) + 0x18;
+  if (((uVar1 == 1) || (uVar1 == 3)) || ((uVar4 = 1, 4 < uVar1 && (uVar4 = 1, uVar1 < 7)))) {
+    uVar4 = 5;
+  }
+  if (uVar1 < 10) {
+    if (uVar1 == 9) {
+      iVar2 = 0x94;
+      uVar7 = uVar5;
+    }
+    else if (uVar1 == 1) {
+      iVar2 = 0x80;
+      uVar7 = uVar5;
+    }
+    else if (uVar1 == 3) {
+LAB_00021b5e:
+      iVar2 = 0x84;
+      uVar7 = uVar5;
+    }
+    else if (uVar1 == 5) {
+      iVar2 = 0x90;
+      uVar7 = uVar5;
+    }
+    else {
+      if (uVar1 == 6) goto LAB_00021b5e;
+      if (uVar1 == 7) {
+        iVar2 = 0x88;
+        uVar7 = uVar5;
+      }
+      else {
+        if (uVar1 != 8) goto LAB_00021bc5;
+        iVar2 = 0x8c;
+        uVar7 = uVar5;
+      }
+    }
+  }
+  else if (uVar1 == 10) {
+    iVar2 = 0x98;
+    uVar7 = uVar5;
+  }
+  else if (uVar1 == 0xb) {
+    iVar2 = 0x9c;
+    uVar7 = uVar5;
+  }
+  else if (uVar1 == 0xc) {
+    iVar2 = 0xa0;
+    uVar7 = uVar5;
+  }
+  else if (uVar1 == 0xd) {
+    iVar2 = 0xa4;
+    FUN_0001ff94(lVar3,0xb0,uVar4);
+    uVar7 = uVar6;
+  }
+  else {
+    if (uVar1 != 0xe) goto LAB_00021bc5;
+    iVar2 = 0xa8;
+    uVar7 = uVar5;
+  }
+  FUN_0001ff94(lVar3,iVar2,uVar4);
+LAB_00021bc5:
+  uVar4 = 0;
+  FUN_0002274c(param_1,0xff4,0);
+  uVar1 = *(uint *)(param_1 + 0x1e4);
+  if (uVar1 == 7) {
+    FUN_0001ff94(*(longlong *)(param_1 + 0x1b8) + 0x18,0x100,uVar4);
+    FUN_0001ff94(*(longlong *)(param_1 + 0x1b8) + 0x18,0x104,uVar4);
+    FUN_0001ff94(*(longlong *)(param_1 + 0x1b8) + 0x18,0x108,uVar4);
+    iVar2 = 0x10c;
+  }
+  else {
+    if (uVar1 < 0xb) {
+      return;
+    }
+    if (uVar1 < 0xd) {
+      iVar2 = 0x208;
+      if (uVar1 == 0xc) {
+        iVar2 = 0x20c;
+      }
+      if (*(char *)(param_1 + 0x1ac) == '\0') {
+        uVar7 = 0x11;
+      }
+      if (*(char *)(param_1 + 0x1ad) != '\0') {
+        uVar7 = uVar7 | 2;
+      }
+      if (*(char *)(param_1 + 0x1af) != '\0') {
+        uVar7 = uVar7 | 4;
+      }
+      if (*(char *)(param_1 + 0x1ae) != '\0') {
+        uVar7 = uVar7 | 8;
+      }
+    }
+    else {
+      if (uVar1 != 0xd) {
+        return;
+      }
+      FUN_0001ff94(*(longlong *)(param_1 + 0x1b8) + 0x18,0x210,uVar7);
+      FUN_0001ff94(*(longlong *)(param_1 + 0x1b8) + 0x18,0x204,3);
+      uVar7 = *(uint *)(param_1 + 0x1f8);
+      iVar2 = 0x200;
+    }
+  }
+  FUN_0001ff94(*(longlong *)(param_1 + 0x1b8) + 0x18,iVar2,uVar7);
+  return;
+}
+
+ (GhidraScript)  
+INFO  DumpAt.java> === 21388 (FUN_00021388 @ 00021388) === (GhidraScript)  
+INFO  DumpAt.java> 
+undefined8 FUN_00021388(longlong param_1,longlong param_2,int *param_3)
+
+{
+  undefined8 uVar1;
+  uint uVar2;
+  
+  if (((((param_2 == 0) || (param_3 == (int *)0x0)) || (param_3[3] == 0)) ||
+      ((*param_3 == 0 || (param_3[1] == 0)))) ||
+     ((param_3[2] == 0 ||
+      ((uVar2 = ((param_3[2] & 0xfffU) != 0) + 1 + ((uint)param_3[2] >> 0xc), 0x200 < uVar2 ||
+       (param_3[4] != *(int *)(param_1 + 0x1d0))))))) {
+    uVar1 = 0xc000000d;
+  }
+  else if (*(int *)(param_1 + 0x1d4) == 0) {
+    *(uint *)(param_1 + 500) = uVar2;
+    memcpy((void *)(param_1 + 400),param_3,0x20);
+    KsPinGetReferenceClockInterface(param_2,param_1 + 0x1c8);
+    FUN_00021ae4(param_1);
+    uVar1 = 0;
+    LOCK();
+    *(undefined4 *)(param_1 + 0x1d4) = 1;
+    UNLOCK();
+  }
+  else {
+    uVar1 = 0xc0000184;
+  }
+  return uVar1;
+}
+
+ (GhidraScript)  
+INFO  REPORT: Save succeeded for processed file: /saa7231.sys (HeadlessAnalyzer)  

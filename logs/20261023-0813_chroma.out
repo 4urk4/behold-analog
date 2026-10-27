@@ -1,0 +1,9 @@
+# chroma fmt=0x10 pll=0 digout=1 2026-10-23T08:13:11+03:00
+== install modules
+== reload driver
+== params
+== capture 20 frames
+v4l2-ctl exit=124
+== line layout (field 10: 288 lines x 1440 bytes, V4L2 frame 829440)
+frames: 0 bytes: 0
+== done: /home/otakoi/_hueta/behold-analog/logs/20261023-0813_chroma.out

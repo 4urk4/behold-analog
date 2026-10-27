@@ -1,0 +1,511 @@
+; Copyright (c) 2004-2015 Beholder International Ltd.  All rights reserved.
+
+[Version]
+Signature = "$Windows NT$"
+Class = Media
+ClassGUID = {4D36E96C-E325-11CE-BFC1-08002BE10318}
+Provider = %Beholder%
+PnpLockDown = 0
+DriverPackageDisplayName = "Behold TV BDA driver"
+DriverPackageType = PlugAndPlay
+CatalogFile.NT = beholder.cat
+DriverVer = 11/26/2015, 5.5.2.0
+
+[SourceDisksNames]
+1 = %DiskName%, i386.cab,
+2 = %DiskName%, amd64.cab,
+3 = %DiskName%,,
+
+[SourceDisksFiles]
+saa713x.sys = 1
+saa7231.sys = 1
+ttm6010.sys = 1
+cx2310x.sys = 1
+cxpolir.sys = 1
+bhkspex.dll = 1
+beholder.bin = 3
+
+[SourceDisksFiles.amd64]
+saa713x.sys = 2
+saa7231.sys = 2
+ttm6010.sys = 2
+cx2310x.sys = 2
+cxpolir.sys = 2
+bhkspex.x64 = 2
+bhkspex.dll = 1
+beholder.bin = 3
+
+[DestinationDirs]
+SAA713x.NTDrv = 12
+SAA7231.NTDrv = 12
+TTM6010.NTDrv = 12
+CX2310X.NTDrv = 12
+CXPOLIR.NTDrv = 12
+BHKSPEX.DllWOW = 10, SysWOW64
+BHKSPEX.Dll64 = 11
+BHKSPEX.Dll32 = 11
+
+[Manufacturer]
+%Beholder% = Beholder, NTamd64
+
+[Beholder]
+%BTV7130% = SAA713X, PCI\VEN_1131&DEV_7130&SUBSYS_00000000
+%BTV7134% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_00000000
+%BTV7135% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_00000000
+%BTV401T% = SAA713X, PCI\VEN_1131&DEV_7130&SUBSYS_00001131
+%BTV403F% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_00001131
+%BTV401T% = SAA713X, PCI\VEN_1131&DEV_7130&SUBSYS_40160000
+%BTV403T% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_40360000
+%BTV403F% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_40370000
+%BTV405F% = SAA713X, PCI\VEN_1131&DEV_7130&SUBSYS_40510000
+%BTV407F% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_40710000
+%BTV409F% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_40910000
+%BTV501T% = SAA713X, PCI\VEN_1131&DEV_7130&SUBSYS_50105ACE
+%BTV503F% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_50305ACE
+%BTV505R% = SAA713X, PCI\VEN_1131&DEV_7130&SUBSYS_50510000
+%BTV505R% = SAA713X, PCI\VEN_1131&DEV_7130&SUBSYS_505B0000
+%BTV507R% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_50710000
+%BTV507R% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_507B0000
+%BTV5201% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_52010000
+%BTV505F% = SAA713X, PCI\VEN_1131&DEV_7130&SUBSYS_50505ACE
+%BTV507F% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_50705ACE
+%BTV509F% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_50905ACE
+%BTV607F% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_60705ACE
+%BTV607F% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_60715ACE
+%BTV607R% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_60725ACE
+%BTV607R% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_60735ACE
+%BTV609F% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_60905ACE
+%BTV609F% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_60915ACE
+%BTV609R% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_60925ACE
+%BTV609R% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_60935ACE
+%BTV6191% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_61905ACE
+%BTV6192% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_61935ACE
+%BTV6193% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_61915ACE
+%BTV6290% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_62905ACE
+%BTV7595% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_75955ACE
+%BTV7595% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_75915ACE
+%BTV7190% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_71905ACE
+%BTV7190% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_71915ACE
+%BTV7090% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_70905ACE
+%BTV7150% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_71505ACE
+%BTV7150% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_71515ACE
+%BTV7290% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_72905ACE
+%BTV8000% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_80005ACE
+%BTV8000% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_80015ACE
+%BTV8100% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_81005ACE
+%BTV8100% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_81015ACE
+%BTV8050% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_80505ACE
+%BTV8050% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_80515ACE
+%BTV8150% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_81505ACE
+%BTV8150% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_81515ACE
+%BTV8200% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_82015ACE
+%BTV8250% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_82515ACE
+%BTVDEC0% = TTM6010, USB\VID_6000&PID_DEC0
+%BTVDEC1% = TTM6010, USB\VID_6000&PID_DEC1
+%BTVDEC2% = TTM6010, USB\VID_6000&PID_DEC2
+%BTVDEC3% = TTM6010, USB\VID_6000&PID_DEC3
+%BTVDEC0% = TTM6010, USB\VID_6000&PID_DEC4
+%BTVDEC1% = TTM6010, USB\VID_6000&PID_DEC5
+%BTVDEC2% = TTM6010, USB\VID_6000&PID_DEC6
+%BTVDEC3% = TTM6010, USB\VID_6000&PID_DEC7
+%BIRDEC8% = CXPOLIR, USB\VID_0572&PID_DEC8&REV_4001&MI_00
+%BTVDEC8% = CX2310X, USB\VID_0572&PID_DEC8&REV_4001&MI_01
+%BIRSTUB% = CXPOLIR, USB\VID_0572&PID_DEC9&REV_4001&MI_00
+%BTVDEC9% = CX2310X, USB\VID_0572&PID_DEC9&REV_4001&MI_01
+
+[Beholder.NTamd64]
+%BTV7130% = SAA713X, PCI\VEN_1131&DEV_7130&SUBSYS_00000000
+%BTV7134% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_00000000
+%BTV7135% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_00000000
+%BTV401T% = SAA713X, PCI\VEN_1131&DEV_7130&SUBSYS_00001131
+%BTV403F% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_00001131
+%BTV401T% = SAA713X, PCI\VEN_1131&DEV_7130&SUBSYS_40160000
+%BTV403T% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_40360000
+%BTV403F% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_40370000
+%BTV405F% = SAA713X, PCI\VEN_1131&DEV_7130&SUBSYS_40510000
+%BTV407F% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_40710000
+%BTV409F% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_40910000
+%BTV501T% = SAA713X, PCI\VEN_1131&DEV_7130&SUBSYS_50105ACE
+%BTV503F% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_50305ACE
+%BTV505R% = SAA713X, PCI\VEN_1131&DEV_7130&SUBSYS_50510000
+%BTV505R% = SAA713X, PCI\VEN_1131&DEV_7130&SUBSYS_505B0000
+%BTV507R% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_50710000
+%BTV507R% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_507B0000
+%BTV5201% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_52010000
+%BTV505F% = SAA713X, PCI\VEN_1131&DEV_7130&SUBSYS_50505ACE
+%BTV507F% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_50705ACE
+%BTV509F% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_50905ACE
+%BTV607F% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_60705ACE
+%BTV607F% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_60715ACE
+%BTV607R% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_60725ACE
+%BTV607R% = SAA713X, PCI\VEN_1131&DEV_7134&SUBSYS_60735ACE
+%BTV609F% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_60905ACE
+%BTV609F% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_60915ACE
+%BTV609R% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_60925ACE
+%BTV609R% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_60935ACE
+%BTV6191% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_61905ACE
+%BTV6192% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_61935ACE
+%BTV6193% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_61915ACE
+%BTV6290% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_62905ACE
+%BTV7595% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_75955ACE
+%BTV7595% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_75915ACE
+%BTV7190% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_71905ACE
+%BTV7190% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_71915ACE
+%BTV7090% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_70905ACE
+%BTV7150% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_71505ACE
+%BTV7150% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_71515ACE
+%BTV7290% = SAA713X, PCI\VEN_1131&DEV_7133&SUBSYS_72905ACE
+%BTV8000% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_80005ACE
+%BTV8000% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_80015ACE
+%BTV8100% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_81005ACE
+%BTV8100% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_81015ACE
+%BTV8050% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_80505ACE
+%BTV8050% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_80515ACE
+%BTV8150% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_81505ACE
+%BTV8150% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_81515ACE
+%BTV8200% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_82015ACE
+%BTV8250% = SAA7231, PCI\VEN_1131&DEV_7231&SUBSYS_82515ACE
+%BTVDEC0% = TTM6010, USB\VID_6000&PID_DEC0
+%BTVDEC1% = TTM6010, USB\VID_6000&PID_DEC1
+%BTVDEC2% = TTM6010, USB\VID_6000&PID_DEC2
+%BTVDEC3% = TTM6010, USB\VID_6000&PID_DEC3
+%BTVDEC0% = TTM6010, USB\VID_6000&PID_DEC4
+%BTVDEC1% = TTM6010, USB\VID_6000&PID_DEC5
+%BTVDEC2% = TTM6010, USB\VID_6000&PID_DEC6
+%BTVDEC3% = TTM6010, USB\VID_6000&PID_DEC7
+%BIRDEC8% = CXPOLIR, USB\VID_0572&PID_DEC8&REV_4001&MI_00
+%BTVDEC8% = CX2310X, USB\VID_0572&PID_DEC8&REV_4001&MI_01
+%BIRSTUB% = CXPOLIR, USB\VID_0572&PID_DEC9&REV_4001&MI_00
+%BTVDEC9% = CX2310X, USB\VID_0572&PID_DEC9&REV_4001&MI_01
+
+[SAA713X.NT]
+Include      = ks.inf, kscaptur.inf, bda.inf, wdmaudio.inf
+Needs        = KS.Registration, KSCAPTUR.Registration.NT, BDA.Installation.NT, WDMAUDIO.Registration.NT
+AddReg       = Common.AddReg, SAA713x.AddReg, PinNames.AddReg, WDMAUDIO.AddReg
+CopyFiles    = SAA713x.NTDrv, BHKSPEX.Dll32
+RegisterDlls = BHKSPEX.Register
+
+[SAA713X.NTamd64]
+Include      = ks.inf, kscaptur.inf, bda.inf, wdmaudio.inf
+Needs        = KS.Registration, KSCAPTUR.Registration.NT, BDA.Installation.NT, WDMAUDIO.Registration.NT
+AddReg       = Common.AddReg, SAA713x.AddReg, PinNames.AddReg, WDMAUDIO.AddReg, BHKSPEX.AddReg
+CopyFiles    = SAA713x.NTDrv, BHKSPEX.Dll64, BHKSPEX.DllWOW
+
+[SAA7231.NT]
+Include      = ks.inf, kscaptur.inf, bda.inf, wdmaudio.inf, machine.inf
+Needs        = KS.Registration, KSCAPTUR.Registration.NT, BDA.Installation.NT, WDMAUDIO.Registration.NT, PciASPMOptOut
+AddReg       = Common.AddReg, SAA7231.AddReg, PinNames.AddReg, WDMAUDIO.AddReg
+CopyFiles    = SAA7231.NTDrv, BHKSPEX.Dll32
+RegisterDlls = BHKSPEX.Register
+
+[SAA7231.NTamd64]
+Include      = ks.inf, kscaptur.inf, bda.inf, wdmaudio.inf, machine.inf
+Needs        = KS.Registration, KSCAPTUR.Registration.NT, BDA.Installation.NT, WDMAUDIO.Registration.NT, PciASPMOptOut
+AddReg       = Common.AddReg, SAA7231.AddReg, PinNames.AddReg, WDMAUDIO.AddReg, BHKSPEX.AddReg
+CopyFiles    = SAA7231.NTDrv, BHKSPEX.Dll64, BHKSPEX.DllWOW
+
+[TTM6010.NT]
+Include      = ks.inf, kscaptur.inf, bda.inf, wdmaudio.inf
+Needs        = KS.Registration, KSCAPTUR.Registration.NT, BDA.Installation.NT, WDMAUDIO.Registration.NT
+AddReg       = Common.AddReg, TTM6010.AddReg, PinNames.AddReg, WDMAUDIO.AddReg
+CopyFiles    = TTM6010.NTDrv, BHKSPEX.Dll32
+RegisterDlls = BHKSPEX.Register
+
+[TTM6010.NTamd64]
+Include      = ks.inf, kscaptur.inf, bda.inf, wdmaudio.inf
+Needs        = KS.Registration, KSCAPTUR.Registration.NT, BDA.Installation.NT, WDMAUDIO.Registration.NT
+AddReg       = Common.AddReg, TTM6010.AddReg, PinNames.AddReg, WDMAUDIO.AddReg, BHKSPEX.AddReg
+CopyFiles    = TTM6010.NTDrv, BHKSPEX.Dll64, BHKSPEX.DllWOW
+
+[CX2310X.NT]
+Include      = ks.inf, kscaptur.inf, bda.inf, wdmaudio.inf
+Needs        = KS.Registration, KSCAPTUR.Registration.NT, BDA.Installation.NT, WDMAUDIO.Registration.NT
+AddReg       = Common.AddReg, CX2310X.AddReg, PinNames.AddReg, WDMAUDIO.AddReg
+CopyFiles    = CX2310X.NTDrv, BHKSPEX.Dll32
+RegisterDlls = BHKSPEX.Register
+
+[CX2310X.NTamd64]
+Include      = ks.inf, kscaptur.inf, bda.inf, wdmaudio.inf
+Needs        = KS.Registration, KSCAPTUR.Registration.NT, BDA.Installation.NT, WDMAUDIO.Registration.NT
+AddReg       = Common.AddReg, CX2310X.AddReg, PinNames.AddReg, WDMAUDIO.AddReg, BHKSPEX.AddReg
+CopyFiles    = CX2310X.NTDrv, BHKSPEX.Dll64, BHKSPEX.DllWOW
+
+[CXPOLIR.NT]
+Include      = ks.inf
+Needs        = KS.Registration
+AddReg       = Common.AddReg, CXPOLIR.AddReg
+CopyFiles    = CXPOLIR.NTDrv
+
+[CXPOLIR.NT.HW]
+AddReg       = CXPOLIR.AddReg.HW
+
+[CXPOLIR.NTamd64]
+Include      = ks.inf
+Needs        = KS.Registration
+AddReg       = Common.AddReg, CXPOLIR.AddReg
+CopyFiles    = CXPOLIR.NTDrv
+
+[CXPOLIR.NTamd64.HW]
+AddReg       = CXPOLIR.AddReg.HW
+
+[SAA713x.NTDrv]
+saa713x.sys
+beholder.bin
+
+[SAA7231.NTDrv]
+saa7231.sys
+beholder.bin
+
+[TTM6010.NTDrv]
+ttm6010.sys
+beholder.bin
+
+[CX2310X.NTDrv]
+cx2310x.sys
+beholder.bin
+
+[CXPOLIR.NTDrv]
+cxpolir.sys
+
+[BHKSPEX.Dll32]
+bhkspex.dll
+
+[BHKSPEX.DllWOW]
+bhkspex.dll
+
+[BHKSPEX.Dll64]
+bhkspex.dll, bhkspex.x64
+
+[BHKSPEX.Register]
+11,, bhkspex.dll, 1
+
+[Common.AddReg]
+HKR,, DevLoader,, *ntkern
+HKR,, PageOutWhenUnopened, 3, 0
+HKR,, DontSuspendIfStreamsAreRunning, 3, 00
+
+[SAA713x.AddReg]
+HKR,, NTMPDriver,, saa713x.sys
+
+[SAA7231.AddReg]
+HKR,, NTMPDriver,, saa7231.sys
+
+[TTM6010.AddReg]
+HKR,, NTMPDriver,, ttm6010.sys
+
+[CX2310X.AddReg]
+HKR,, NTMPDriver,, cx2310x.sys
+
+[CXPOLIR.AddReg]
+HKR,, NTMPDriver,, cxpolir.sys
+
+[CXPOLIR.AddReg.HW]
+HKR,,DeviceCharacteristics,0x10001,0x0100
+HKR,,Security,,"D:P(A;;GA;;;SY)(A;;GA;;;BA)(A;;GRGW;;;WD)(A;;GRGW;;;RC)"
+
+[PinNames.AddReg]
+HKLM, SYSTEM\CurrentControlSet\Control\MediaCategories\%PINNAME_AIN%,  Name,, %PinName.AIN%
+HKLM, SYSTEM\CurrentControlSet\Control\MediaCategories\%PINNAME_AOUT%, Name,, %PinName.AOUT%
+HKLM, SYSTEM\CurrentControlSet\Control\MediaCategories\%PINNAME_ITU%,  Name,, %PinName.ITU%
+HKLM, SYSTEM\CurrentControlSet\Control\MediaCategories\%PINNAME_I2S%,  Name,, %PinName.I2S%
+HKLM, SYSTEM\CurrentControlSet\Control\MediaCategories\%PINNAME_MPG%,  Name,, %PinName.MPG%
+HKLM, SYSTEM\CurrentControlSet\Control\MediaCategories\%PINNAME_RDS%,  Name,, %PinName.RDS%
+HKLM, SYSTEM\CurrentControlSet\Control\MediaCategories\%PINNAME_DVBT%, Name,, %PinName.DVBT%
+
+[BHKSPEX.AddReg]
+HKLM, Software\Microsoft\Windows\CurrentVersion\RunOnce, "bhkspex",, "%11%\Regsvr32 /s %11%\bhkspex.dll"
+HKLM, Software\Microsoft\Windows\CurrentVersion\RunOnce, "bhkspexWOW",, "%10%\SysWOW64\Regsvr32 /s %10%\SysWOW64\bhkspex.dll"
+
+[WDMAUDIO.AddReg]
+HKR,, AssociatedFilters,, wdmaud
+HKR, Drivers, SubClasses,, wave
+HKR, Drivers\wave\wdmaud.drv, Driver,, wdmaud.drv
+HKR, Drivers\wave\wdmaud.drv, Description,, %DRV_DESC_WDMAUDIO%
+
+[SAA713X.NT.Services]
+AddService = SAA713x, 0x00000002, SAA713X.ServiceInstall, SAA713X.EventLogInstall
+
+[SAA713X.NTamd64.Services]
+AddService = SAA713x, 0x00000002, SAA713X.ServiceInstall, SAA713X.EventLogInstall
+
+[SAA7231.NT.Services]
+AddService = SAA7231, 0x00000002, SAA7231.ServiceInstall, SAA7231.EventLogInstall
+
+[SAA7231.NTamd64.Services]
+AddService = SAA7231, 0x00000002, SAA7231.ServiceInstall, SAA7231.EventLogInstall
+
+[TTM6010.NT.Services]
+AddService = TTM6010, 0x00000002, TTM6010.ServiceInstall, TTM6010.EventLogInstall
+
+[TTM6010.NTamd64.Services]
+AddService = TTM6010, 0x00000002, TTM6010.ServiceInstall, TTM6010.EventLogInstall
+
+[CX2310X.NT.Services]
+AddService = CX2310X, 0x00000002, CX2310X.ServiceInstall, CX2310X.EventLogInstall
+
+[CX2310X.NTamd64.Services]
+AddService = CX2310X, 0x00000002, CX2310X.ServiceInstall, CX2310X.EventLogInstall
+
+[CXPOLIR.NT.Services]
+AddService = CXPOLIR, 0x00000002, CXPOLIR.ServiceInstall, CXPOLIR.EventLogInstall
+
+[CXPOLIR.NTamd64.Services]
+AddService = CXPOLIR, 0x00000002, CXPOLIR.ServiceInstall, CXPOLIR.EventLogInstall
+
+[SAA713X.ServiceInstall]
+DisplayName   = %SERVICE_NAME_SAA713X%
+Description   = %SERVICE_NAME_SAA713X%
+ServiceType   = %SERVICE_KERNEL_DRIVER%
+StartType     = %SERVICE_DEMAND_START%
+ErrorControl  = %SERVICE_ERROR_NORMAL%
+ServiceBinary = %12%\saa713x.sys
+
+[SAA7231.ServiceInstall]
+DisplayName   = %SERVICE_NAME_SAA7231%
+Description   = %SERVICE_NAME_SAA7231%
+ServiceType   = %SERVICE_KERNEL_DRIVER%
+StartType     = %SERVICE_DEMAND_START%
+ErrorControl  = %SERVICE_ERROR_NORMAL%
+ServiceBinary = %12%\saa7231.sys
+
+[TTM6010.ServiceInstall]
+DisplayName   = %SERVICE_NAME_TTM6010%
+Description   = %SERVICE_NAME_TTM6010%
+ServiceType   = %SERVICE_KERNEL_DRIVER%
+StartType     = %SERVICE_DEMAND_START%
+ErrorControl  = %SERVICE_ERROR_NORMAL%
+ServiceBinary = %12%\ttm6010.sys
+
+[CX2310X.ServiceInstall]
+DisplayName   = %SERVICE_NAME_CX2310X%
+Description   = %SERVICE_NAME_CX2310X%
+ServiceType   = %SERVICE_KERNEL_DRIVER%
+StartType     = %SERVICE_DEMAND_START%
+ErrorControl  = %SERVICE_ERROR_NORMAL%
+ServiceBinary = %12%\cx2310x.sys
+
+[CXPOLIR.ServiceInstall]
+DisplayName   = %SERVICE_NAME_CXPOLIR%
+Description   = %SERVICE_NAME_CXPOLIR%
+ServiceType   = %SERVICE_KERNEL_DRIVER%
+StartType     = %SERVICE_DEMAND_START%
+ErrorControl  = %SERVICE_ERROR_NORMAL%
+ServiceBinary = %12%\cxpolir.sys
+
+[SAA713X.EventLogInstall]
+AddReg = SAA713X.AddEventLog.AddReg
+
+[SAA7231.EventLogInstall]
+AddReg = SAA7231.AddEventLog.AddReg
+
+[TTM6010.EventLogInstall]
+AddReg = TTM6010.AddEventLog.AddReg
+
+[CX2310X.EventLogInstall]
+AddReg = CX2310X.AddEventLog.AddReg
+
+[CXPOLIR.EventLogInstall]
+AddReg = CXPOLIR.AddEventLog.AddReg
+
+[SAA713X.AddEventLog.AddReg]
+HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\system32\drivers\saa713x.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[SAA7231.AddEventLog.AddReg]
+HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\system32\drivers\saa7231.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[TTM6010.AddEventLog.AddReg]
+HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\system32\drivers\ttm6010.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[CX2310X.AddEventLog.AddReg]
+HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\system32\drivers\cx2310x.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[CXPOLIR.AddEventLog.AddReg]
+HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\system32\drivers\cxpolir.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[Strings]
+; Pin Name GUIDs
+PINNAME_AIN           = "{4711ABF9-DFF8-41cc-9B32-4F6C9F913ECA}"
+PINNAME_AOUT          = "{66ADF9CE-CA7A-4eb7-9C94-51D43600515A}"
+PINNAME_ITU           = "{687AC981-C687-46dd-8879-7287BF5BBED8}"
+PINNAME_I2S           = "{82070B74-56C0-4dec-AD85-4C59A26DF739}"
+PINNAME_MPG           = "{D222BCB1-A594-40e7-8327-95C29BEA0D89}"
+PINNAME_RDS           = "{A4CEFD37-C2F5-4de1-987A-040A72E286A4}"
+PINNAME_DVBT          = "{6AC52C99-35FC-41ec-BED3-76EC2405C8C5}"
+; Pin Names
+PinName.AIN           = "Audio In"
+PinName.AOUT          = "Audio PCM"
+PinName.ITU           = "Video ITU"
+PinName.I2S           = "Audio I2S"
+PinName.MPG           = "MPEG Out"
+PinName.RDS           = "RDS"
+PinName.DVBT          = "Antenna"
+
+; System defines
+SERVICE_KERNEL_DRIVER = 1
+SERVICE_BOOT_START    = 0
+SERVICE_SYSTEM_START  = 1
+SERVICE_AUTO_START    = 2
+SERVICE_DEMAND_START  = 3
+SERVICE_DISABLED      = 4
+SERVICE_ERROR_IGNORE  = 0
+SERVICE_ERROR_NORMAL  = 1
+
+SERVICE_NAME_SAA713X  = "Behold TV WDM Capture (SAA713x)"
+SERVICE_NAME_SAA7231  = "Beholder BDA Capture (SAA7231)"
+SERVICE_NAME_TTM6010  = "Beholder BDA Capture (TTM6010)"
+SERVICE_NAME_CX2310X  = "Beholder BDA Capture (CX2310X)"
+SERVICE_NAME_CXPOLIR  = "Beholder CIR Decoder (CX2310X)"
+DRV_DESC_WDMAUDIO     = "Beholder Audio Record"
+
+Beholder              = "Beholder International Ltd."
+DiskName              = "Behold TV installation disk (x86/amd64)"
+
+BTV7130               = "Beholder TV Tuner (SAA7130)"
+BTV7134               = "Beholder TV Tuner (SAA7134)"
+BTV7135               = "Beholder TV Tuner (SAA7135)"
+BTV401T               = "Behold TV 401"
+BTV403T               = "Behold TV 403"
+BTV403F               = "Behold TV 403 FM"
+BTV405F               = "Behold TV 405 FM"
+BTV407F               = "Behold TV 407 FM"
+BTV409F               = "Behold TV 409 FM"
+BTV501T               = "Behold TV 501"
+BTV503F               = "Behold TV 503 FM"
+BTV505F               = "Behold TV 505 FM"
+BTV505R               = "Behold TV 505 RDS"
+BTV507F               = "Behold TV 507 FM"
+BTV507R               = "Behold TV 507 RDS"
+BTV509F               = "Behold TV 509 FM"
+BTV5201               = "Behold TV Columbus"
+BTV607F               = "Behold TV 607 FM"
+BTV607R               = "Behold TV 607 RDS"
+BTV609F               = "Behold TV 609 FM"
+BTV609R               = "Behold TV 609 RDS"
+BTV6191               = "Behold TV M6"
+BTV6192               = "Behold TV M6 Extra"
+BTV6193               = "Behold TV M63"
+BTV6290               = "Behold TV H6"
+BTV7595               = "Behold TV X7"
+BTV7190               = "Behold TV H7"
+BTV7090               = "Behold TV A7"
+BTV7150               = "Behold TV H75"
+BTV7290               = "Behold TV T7"
+BTV8000               = "Behold TV H8"
+BTV8100               = "Behold TV A8"
+BTV8050               = "Behold TV H85"
+BTV8150               = "Behold TV A85"
+BTV8200               = "Behold TV T8"
+BTV8250               = "Behold TV T85"
+BTVDEC0               = "Behold TV Wander"
+BTVDEC1               = "Behold TV Voyage"
+BTVDEC2               = "Behold TV Wander Lite"
+BTVDEC3               = "Behold TV Voyage Lite"
+BTVDEC8               = "Behold TV Cruise"
+BIRDEC8               = "Behold TV Cruise IR Receiver"
+BTVDEC9               = "Behold TV Cruise Lite"
+BIRSTUB               = "Behold TV CIR Stub"

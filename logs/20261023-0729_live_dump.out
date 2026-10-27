@@ -1,0 +1,107 @@
+# live dump 2026-10-23T07:29:05+03:00
+== install modules
+== reload driver
+== dec_init=1, start stream in background
+== registers while streaming
+-- 0x120000
+-- 0x120010
+-- 0x1200a0
+-- 0x1200a4
+-- 0x120fe0
+-- 0x120fe4
+-- 0x12c080
+-- 0x202330
+-- 0x202338
+-- 0x20233c
+-- 0x20239c
+-- 0x202410
+-- 0x202414
+-- 0x2033c0
+-- 0x2033c8
+-- 0x2033f4
+-- 0x203398
+-- 0x20339c
+== stop stream
+== markers and register reads
+[  113.120851] saa7231 avis: timing done
+[  113.120851] saa7231 vfl: avis program done
+[  113.120852] saa7231 vfl: run
+[  113.120853] saa7231 s2d: run, loading PTAs (ch=1)
+[  113.131440] saa7231 s2d: PTAs loaded, enabling channel
+[  113.131450] saa7231 vfl: streaming
+[  128.158139] saa7231 s2d: setparams port=0 type=2
+[  128.158147] saa7231 s2d: reset done
+[  128.158149] saa7231 s2d: ptables done
+[  128.158157] saa7231 s2d: id=0xa0b21000
+[  128.158160] saa7231 s2d: setparams done
+[  128.241288] saa7231 dbg_mmio bar0: [0x20239c] = 0x1
+[  129.266336] saa7231 dbg_mmio bar0: [0x203398] = 0x34
+[  130.289289] saa7231 dbg_mmio bar0: [0x20339c] = 0x0
+[  131.319516] saa7231 dbg_mmio bar0: [0x2033f4] = 0x1
+[  132.347553] saa7231 dbg_mmio bar0: [0x120000] = 0x2c
+[  133.370122] saa7231 dbg_mmio bar0: [0x1200a0] = 0x0
+[  134.395106] saa7231 dbg_mmio bar0: [0x1200a4] = 0x200000ff
+[  284.751222] saa7231 vfl: start, allocating stream
+[  284.753401] saa7231 vfl: stream allocated
+[  284.753407] saa7231 vfl: acquire
+[  284.753410] saa7231 s2d: setparams port=0 type=2
+[  284.753413] saa7231 s2d: reset done
+[  284.753415] saa7231 s2d: ptables done
+[  284.753424] saa7231 s2d: id=0xa0b21000
+[  284.753428] saa7231 s2d: setparams done
+[  284.753429] saa7231 vfl: avis program, input type 3
+[  284.753447] saa7231 avis: base init done
+[  284.753489] saa7231 avis: input table done
+[  284.753516] saa7231 avis: input setup done
+[  284.753519] saa7231 avis: timing done
+[  284.753520] saa7231 vfl: avis program done
+[  284.753521] saa7231 vfl: run
+[  284.753523] saa7231 s2d: run, loading PTAs (ch=1)
+[  284.764756] saa7231 s2d: PTAs loaded, enabling channel
+[  284.764765] saa7231 vfl: streaming
+[  287.749530] saa7231 dbg_mmio bar0: [0x120000] = 0x2d
+[  287.951888] saa7231 dbg_mmio bar0: [0x120010] = 0x2b1
+[  288.154609] saa7231 dbg_mmio bar0: [0x1200a0] = 0x200598
+[  288.357144] saa7231 dbg_mmio bar0: [0x1200a4] = 0xfe
+[  288.559429] saa7231 dbg_mmio bar0: [0x120fe0] = 0x0
+[  288.762057] saa7231 dbg_mmio bar0: [0x120fe4] = 0x1800
+[  288.964837] saa7231 dbg_mmio bar0: [0x12c080] = 0x5
+[  289.166808] saa7231 dbg_mmio bar0: [0x202330] = 0x0
+[  289.368696] saa7231 dbg_mmio bar0: [0x202338] = 0x40
+[  289.570829] saa7231 dbg_mmio bar0: [0x20233c] = 0x6
+[  289.773697] saa7231 dbg_mmio bar0: [0x20239c] = 0x1
+[  289.975503] saa7231 dbg_mmio bar0: [0x202410] = 0x0
+[  290.178280] saa7231 dbg_mmio bar0: [0x202414] = 0x10
+[  290.380863] saa7231 dbg_mmio bar0: [0x2033c0] = 0x58
+[  290.582261] saa7231 dbg_mmio bar0: [0x2033c8] = 0xd6
+[  290.783839] saa7231 dbg_mmio bar0: [0x2033f4] = 0x1
+[  290.985704] saa7231 dbg_mmio bar0: [0x203398] = 0x34
+[  291.188425] saa7231 dbg_mmio bar0: [0x20339c] = 0x0
+[  291.424860] saa7231 s2d: setparams port=0 type=2
+[  291.424870] saa7231 s2d: reset done
+[  291.424873] saa7231 s2d: ptables done
+[  291.424881] saa7231 s2d: id=0xa0b21000
+[  291.424885] saa7231 s2d: setparams done
+[  291.425521] saa7231 vfl: stop, frames=0
+== dmesg tail
+[  288.559429] saa7231 dbg_mmio bar0: [0x120fe0] = 0x0
+[  288.762057] saa7231 dbg_mmio bar0: [0x120fe4] = 0x1800
+[  288.964837] saa7231 dbg_mmio bar0: [0x12c080] = 0x5
+[  289.166808] saa7231 dbg_mmio bar0: [0x202330] = 0x0
+[  289.368696] saa7231 dbg_mmio bar0: [0x202338] = 0x40
+[  289.570829] saa7231 dbg_mmio bar0: [0x20233c] = 0x6
+[  289.773697] saa7231 dbg_mmio bar0: [0x20239c] = 0x1
+[  289.975503] saa7231 dbg_mmio bar0: [0x202410] = 0x0
+[  290.178280] saa7231 dbg_mmio bar0: [0x202414] = 0x10
+[  290.380863] saa7231 dbg_mmio bar0: [0x2033c0] = 0x58
+[  290.582261] saa7231 dbg_mmio bar0: [0x2033c8] = 0xd6
+[  290.783839] saa7231 dbg_mmio bar0: [0x2033f4] = 0x1
+[  290.985704] saa7231 dbg_mmio bar0: [0x203398] = 0x34
+[  291.188425] saa7231 dbg_mmio bar0: [0x20339c] = 0x0
+[  291.424860] saa7231 s2d: setparams port=0 type=2
+[  291.424870] saa7231 s2d: reset done
+[  291.424873] saa7231 s2d: ptables done
+[  291.424881] saa7231 s2d: id=0xa0b21000
+[  291.424885] saa7231 s2d: setparams done
+[  291.425521] saa7231 vfl: stop, frames=0
+== done: /home/otakoi/_hueta/behold-analog/logs/20261023-0729_live_dump.out

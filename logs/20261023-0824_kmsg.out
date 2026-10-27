@@ -1,0 +1,2090 @@
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009ffff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000bb0e0fff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000bb0e1000-0x00000000bb118fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000bb119000-0x00000000bb223fff] ACPI data
+[    0.000000] BIOS-e820: [mem 0x00000000bb224000-0x00000000bb7edfff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x00000000bb7ee000-0x00000000bb91efff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000bb91f000-0x00000000bb91ffff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000bb920000-0x00000000bb9a5fff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x00000000bb9a6000-0x00000000bbffffff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000d0000000-0x00000000dfffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fed1c000-0x00000000fed1ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000ffffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000043fffffff] usable
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] APIC: Static calls initialized
+[    0.000000] efi: EFI v2.3.1 by American Megatrends
+[    0.000000] efi: ESRT=0xbb8d9d18 ACPI 2.0=0xbb14e000 ACPI=0xbb14e000 SMBIOS=0xf05b0 INITRD=0xb84f5e18 
+[    0.000000] efi: Remove mem50: MMIO range=[0xd0000000-0xdfffffff] (256MB) from e820 map
+[    0.000000] e820: remove [mem 0xd0000000-0xdfffffff] reserved
+[    0.000000] efi: Not removing mem51: MMIO range=[0xfed1c000-0xfed1ffff] (16KB) from e820 map
+[    0.000000] efi: Remove mem52: MMIO range=[0xff000000-0xffffffff] (16MB) from e820 map
+[    0.000000] e820: remove [mem 0xff000000-0xffffffff] reserved
+[    0.000000] SMBIOS 2.8 present.
+[    0.000000] DMI: To be filled by O.E.M. To be filled by O.E.M./X79, BIOS 4.6.5 10/28/2019
+[    0.000000] DMI: Memory slots populated: 4/4
+[    0.000000] tsc: Fast TSC calibration using PIT
+[    0.000000] tsc: Detected 3199.825 MHz processor
+[    0.000816] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[    0.000819] e820: remove [mem 0x000a0000-0x000fffff] usable
+[    0.000824] last_pfn = 0x440000 max_arch_pfn = 0x400000000
+[    0.000832] total RAM covered: 16352M
+[    0.001007] Found optimal setting for mtrr clean up
+[    0.001008]  gran_size: 64K 	chunk_size: 64M 	num_reg: 6  	lose cover RAM: 0G
+[    0.001013] MTRR map: 8 entries (5 fixed + 3 variable; max 25), built from 10 variable MTRRs
+[    0.001014] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[    0.001319] e820: update [mem 0xbe000000-0xffffffff] usable ==> reserved
+[    0.001322] last_pfn = 0xbc000 max_arch_pfn = 0x400000000
+[    0.010236] found SMP MP-table at [mem 0x000fdb40-0x000fdb4f]
+[    0.010249] esrt: Reserving ESRT space from 0x00000000bb8d9d18 to 0x00000000bb8d9d50.
+[    0.010258] Using GB pages for direct mapping
+[    0.010405] Secure boot disabled
+[    0.010406] RAMDISK: [mem 0xb2854000-0xb650dfff]
+[    0.010412] ACPI: Early table checksum verification disabled
+[    0.010415] ACPI: RSDP 0x00000000BB14E000 000024 (v02 ALASKA)
+[    0.010419] ACPI: XSDT 0x00000000BB14E070 000064 (v01 ALASKA A M I    01072009 AMI  00010013)
+[    0.010425] ACPI: FACP 0x00000000BB1566C8 00010C (v05 ALASKA A M I    01072009 AMI  00010013)
+[    0.010431] ACPI: DSDT 0x00000000BB14E168 00855C (v02 ALASKA A M I    00000034 INTL 20051117)
+[    0.010434] ACPI: FACS 0x00000000BB7EBF80 000040
+[    0.010436] ACPI: APIC 0x00000000BB1567D8 000100 (v03 ALASKA A M I    01072009 AMI  00010013)
+[    0.010439] ACPI: FPDT 0x00000000BB1568D8 000044 (v01 ALASKA A M I    01072009 AMI  00010013)
+[    0.010442] ACPI: FIDT 0x00000000BB156920 00009C (v01 ALASKA A M I    01072009 AMI  00010013)
+[    0.010445] ACPI: MCFG 0x00000000BB1569C0 00003C (v01 ALASKA OEMMCFG. 01072009 MSFT 00000097)
+[    0.010448] ACPI: HPET 0x00000000BB156A00 000038 (v01 ALASKA A M I    01072009 AMI. 00000005)
+[    0.010451] ACPI: SSDT 0x00000000BB156A38 0CD380 (v02 INTEL  CpuPm    00004000 INTL 20051117)
+[    0.010454] ACPI: BGRT 0x00000000BB223DB8 000038 (v01 ALASKA A M I    01072009 AMI  00010013)
+[    0.010457] ACPI: Reserving FACP table memory at [mem 0xbb1566c8-0xbb1567d3]
+[    0.010458] ACPI: Reserving DSDT table memory at [mem 0xbb14e168-0xbb1566c3]
+[    0.010459] ACPI: Reserving FACS table memory at [mem 0xbb7ebf80-0xbb7ebfbf]
+[    0.010460] ACPI: Reserving APIC table memory at [mem 0xbb1567d8-0xbb1568d7]
+[    0.010461] ACPI: Reserving FPDT table memory at [mem 0xbb1568d8-0xbb15691b]
+[    0.010461] ACPI: Reserving FIDT table memory at [mem 0xbb156920-0xbb1569bb]
+[    0.010462] ACPI: Reserving MCFG table memory at [mem 0xbb1569c0-0xbb1569fb]
+[    0.010463] ACPI: Reserving HPET table memory at [mem 0xbb156a00-0xbb156a37]
+[    0.010464] ACPI: Reserving SSDT table memory at [mem 0xbb156a38-0xbb223db7]
+[    0.010465] ACPI: Reserving BGRT table memory at [mem 0xbb223db8-0xbb223def]
+[    0.010517] No NUMA configuration found
+[    0.010518] Faking a node at [mem 0x0000000000000000-0x000000043fffffff]
+[    0.010528] NODE_DATA(0) allocated [mem 0x43ffd5280-0x43fffffff]
+[    0.010792] Zone ranges:
+[    0.010792]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[    0.010794]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[    0.010796]   Normal   [mem 0x0000000100000000-0x000000043fffffff]
+[    0.010797]   Device   empty
+[    0.010798] Movable zone start for each node
+[    0.010800] Early memory node ranges
+[    0.010801]   node   0: [mem 0x0000000000001000-0x000000000009ffff]
+[    0.010802]   node   0: [mem 0x0000000000100000-0x00000000bb0e0fff]
+[    0.010803]   node   0: [mem 0x00000000bb91f000-0x00000000bb91ffff]
+[    0.010804]   node   0: [mem 0x00000000bb9a6000-0x00000000bbffffff]
+[    0.010805]   node   0: [mem 0x0000000100000000-0x000000043fffffff]
+[    0.010808] Initmem setup node 0 [mem 0x0000000000001000-0x000000043fffffff]
+[    0.010814] On node 0, zone DMA: 1 pages in unavailable ranges
+[    0.010838] On node 0, zone DMA: 96 pages in unavailable ranges
+[    0.015388] On node 0, zone DMA32: 2110 pages in unavailable ranges
+[    0.015404] On node 0, zone DMA32: 134 pages in unavailable ranges
+[    0.035787] On node 0, zone Normal: 16384 pages in unavailable ranges
+[    0.036112] ACPI: PM-Timer IO Port: 0x408
+[    0.036124] ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+[    0.036126] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+[    0.036126] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+[    0.036127] ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+[    0.036128] ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+[    0.036129] ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+[    0.036129] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+[    0.036130] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+[    0.036131] ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+[    0.036131] ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+[    0.036132] ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+[    0.036133] ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+[    0.036143] IOAPIC[0]: apic_id 0, version 32, address 0xfec00000, GSI 0-23
+[    0.036147] IOAPIC[1]: apic_id 2, version 32, address 0xfec01000, GSI 24-47
+[    0.036150] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[    0.036152] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+[    0.036156] ACPI: Using ACPI (MADT) for SMP configuration information
+[    0.036157] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+[    0.036170] e820: update [mem 0xafddf000-0xaff3efff] usable ==> reserved
+[    0.036180] TSC deadline timer available
+[    0.036186] CPU topo: Max. logical packages:   1
+[    0.036186] CPU topo: Max. logical dies:       1
+[    0.036187] CPU topo: Max. dies per package:   1
+[    0.036192] CPU topo: Max. threads per core:   2
+[    0.036193] CPU topo: Num. cores per package:     6
+[    0.036194] CPU topo: Num. threads per package:  12
+[    0.036194] CPU topo: Allowing 12 present CPUs plus 0 hotplug CPUs
+[    0.036208] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[    0.036210] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000fffff]
+[    0.036212] PM: hibernation: Registered nosave memory: [mem 0xafddf000-0xaff3efff]
+[    0.036213] PM: hibernation: Registered nosave memory: [mem 0xbb0e1000-0xbb91efff]
+[    0.036215] PM: hibernation: Registered nosave memory: [mem 0xbb920000-0xbb9a5fff]
+[    0.036216] PM: hibernation: Registered nosave memory: [mem 0xbc000000-0xffffffff]
+[    0.036218] [mem 0xbc000000-0xfed1bfff] available for PCI devices
+[    0.036219] Booting paravirtualized kernel on bare hardware
+[    0.036222] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 6370452778343963 ns
+[    0.043651] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:12 nr_cpu_ids:12 nr_node_ids:1
+[    0.044219] percpu: Embedded 63 pages/cpu s221184 r8192 d28672 u262144
+[    0.044226] pcpu-alloc: s221184 r8192 d28672 u262144 alloc=1*2097152
+[    0.044228] pcpu-alloc: [0] 00 01 02 03 04 05 06 07 [0] 08 09 10 11 -- -- -- -- 
+[    0.044251] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-linux-lts root=UUID=4266fd9d-f2d1-43f9-8530-e87d06433ca6 rw nowatchdog nvme_load=YES loglevel=3
+[    0.044329] Unknown kernel command line parameters "nvme_load=YES", will be passed to user space.
+[    0.044334] printk: log buffer data + meta data: 131072 + 458752 = 589824 bytes
+[    0.045950] Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+[    0.046771] Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+[    0.046964] software IO TLB: area num 16.
+[    0.060127] Fallback order for Node 0: 0 
+[    0.060134] Built 1 zonelists, mobility grouping on.  Total pages: 4175579
+[    0.060136] Policy zone: Normal
+[    0.060382] mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+[    0.108664] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=12, Nodes=1
+[    0.108795] Kernel/User page tables isolation: enabled
+[    0.118598] ftrace: allocating 57378 entries in 226 pages
+[    0.118601] ftrace: allocated 226 pages with 4 groups
+[    0.119601] Dynamic Preempt: voluntary
+[    0.119781] rcu: Preemptible hierarchical RCU implementation.
+[    0.119782] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=12.
+[    0.119783] rcu: 	RCU priority boosting: priority 1 delay 500 ms.
+[    0.119785] 	Trampoline variant of Tasks RCU enabled.
+[    0.119785] 	Rude variant of Tasks RCU enabled.
+[    0.119786] 	Tracing variant of Tasks RCU enabled.
+[    0.119786] rcu: RCU calculated value of scheduler-enlistment delay is 30 jiffies.
+[    0.119787] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=12
+[    0.119804] RCU Tasks: Setting shift to 4 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=12.
+[    0.119807] RCU Tasks Rude: Setting shift to 4 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=12.
+[    0.119809] RCU Tasks Trace: Setting shift to 4 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=12.
+[    0.126263] NR_IRQS: 524544, nr_irqs: 928, preallocated irqs: 16
+[    0.126487] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[    0.126520] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 6370867519511994 ns
+[    0.127013] kfence: initialized - using 2097152 bytes for 255 objects at 0x(____ptrval____)-0x(____ptrval____)
+[    0.127119] Console: colour dummy device 80x25
+[    0.127122] printk: legacy console [tty0] enabled
+[    0.127345] ACPI: Core revision 20250807
+[    0.127916] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484882848 ns
+[    0.127947] APIC: Switch to symmetric I/O mode setup
+[    0.128039] x2apic: IRQ remapping doesn't support X2APIC mode
+[    0.128552] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[    0.144611] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x2e1fa4868aa, max_idle_ns: 440795265100 ns
+[    0.144616] Calibrating delay loop (skipped), value calculated using timer frequency.. 6402.30 BogoMIPS (lpj=10666083)
+[    0.144642] CPU0: Thermal monitoring enabled (TM1)
+[    0.144691] Last level iTLB entries: 4KB 512, 2MB 8, 4MB 8
+[    0.144693] Last level dTLB entries: 4KB 512, 2MB 32, 4MB 32, 1GB 0
+[    0.144697] process: using mwait in idle threads
+[    0.144699] mitigations: Enabled attack vectors: user_kernel, user_user, guest_host, guest_guest, SMT mitigations: auto
+[    0.144704] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+[    0.144705] Spectre V2 : Mitigation: Retpolines
+[    0.144706] Spectre V2 : User space: Mitigation: STIBP via prctl
+[    0.144707] MDS: Mitigation: Clear CPU buffers
+[    0.144708] VMSCAPE: Mitigation: IBPB before exit to userspace
+[    0.144709] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[    0.144710] Spectre V2 : Spectre v2 / SpectreRSB: Filling RSB on context switch and VMEXIT
+[    0.144711] Spectre V2 : Enabling Restricted Speculation for firmware calls
+[    0.144713] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+[    0.144719] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.144721] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.144722] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[    0.144723] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[    0.144724] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+[    0.167746] Freeing SMP alternatives memory: 56K
+[    0.167751] pid_max: default: 32768 minimum: 301
+[    0.168289] LSM: initializing lsm=capability,landlock,lockdown,yama,bpf
+[    0.168787] landlock: Up and running.
+[    0.168789] Yama: becoming mindful.
+[    0.168977] LSM support for eBPF active
+[    0.169220] Mount-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    0.169246] Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    0.170836] smpboot: CPU0: Intel(R) Xeon(R) CPU E5-1650 0 @ 3.20GHz (family: 0x6, model: 0x2d, stepping: 0x7)
+[    0.171119] Performance Events: PEBS fmt1+, SandyBridge events, 16-deep LBR, full-width counters, Intel PMU driver.
+[    0.171135] ... version:                   3
+[    0.171136] ... bit width:                 48
+[    0.171137] ... generic counters:          4
+[    0.171138] ... generic bitmap:            000000000000000f
+[    0.171139] ... fixed-purpose counters:    3
+[    0.171140] ... fixed-purpose bitmap:      0000000000000007
+[    0.171141] ... value mask:                0000ffffffffffff
+[    0.171142] ... max period:                00007fffffffffff
+[    0.171142] ... global_ctrl mask:          000000070000000f
+[    0.171280] signal: max sigframe size: 1776
+[    0.171280] Estimated ratio of average max frequency by base frequency (times 1024): 1152
+[    0.171280] rcu: Hierarchical SRCU implementation.
+[    0.171280] rcu: 	Max phase no-delay instances is 1000.
+[    0.171280] Timer migration: 2 hierarchy levels; 8 children per group; 2 crossnode level
+[    0.171280] smp: Bringing up secondary CPUs ...
+[    0.171280] smpboot: x86: Booting SMP configuration:
+[    0.171280] .... node  #0, CPUs:        #1  #2  #3  #4  #5
+[    0.171280] TSC synchronization [CPU#0 -> CPU#1]:
+[    0.171280] Measured 262144 cycles TSC warp between CPUs, turning off TSC clock.
+[    0.171302] tsc: Marking TSC unstable due to check_tsc_sync_source failed
+[    0.171447]   #6  #7  #8  #9 #10 #11
+[    0.173452] MDS CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html for more details.
+[    0.173452] VMSCAPE: SMT on, STIBP is required for full protection. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/vmscape.html for more details.
+[    0.174652] smp: Brought up 1 node, 12 CPUs
+[    0.174652] smpboot: Total of 12 processors activated (76826.62 BogoMIPS)
+[    0.178094] Memory: 16178708K/16702316K available (21503K kernel code, 2942K rwdata, 16484K rodata, 4768K init, 5548K bss, 511132K reserved, 0K cma-reserved)
+[    0.178774] devtmpfs: initialized
+[    0.178774] x86/mm: Memory block size: 128MB
+[    0.179701] ACPI: PM: Registering ACPI NVS region [mem 0xbb224000-0xbb7edfff] (6070272 bytes)
+[    0.179701] ACPI: PM: Registering ACPI NVS region [mem 0xbb920000-0xbb9a5fff] (548864 bytes)
+[    0.179701] posixtimers hash table entries: 8192 (order: 5, 131072 bytes, linear)
+[    0.179701] futex hash table entries: 4096 (262144 bytes on 1 NUMA nodes, total 256 KiB, linear).
+[    0.181300] pinctrl core: initialized pinctrl subsystem
+[    0.181419] PM: RTC time: 04:24:23, date: 2026-10-23
+[    0.182149] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.182441] DMA: preallocated 2048 KiB GFP_KERNEL pool for atomic allocations
+[    0.182618] DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[    0.182802] DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[    0.182816] audit: initializing netlink subsys (disabled)
+[    0.182836] audit: type=2000 audit(1792729463.056:1): state=initialized audit_enabled=0 res=1
+[    0.182836] thermal_sys: Registered thermal governor 'fair_share'
+[    0.182836] thermal_sys: Registered thermal governor 'bang_bang'
+[    0.182836] thermal_sys: Registered thermal governor 'step_wise'
+[    0.182836] thermal_sys: Registered thermal governor 'user_space'
+[    0.182836] thermal_sys: Registered thermal governor 'power_allocator'
+[    0.182836] cpuidle: using governor ladder
+[    0.182836] cpuidle: using governor menu
+[    0.184735] efi: Freeing EFI boot services memory: 28592K
+[    0.184741] ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+[    0.184742] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[    0.185052] PCI: ECAM [mem 0xd0000000-0xdfffffff] (base 0xd0000000) for domain 0000 [bus 00-ff]
+[    0.185067] PCI: Using configuration type 1 for base access
+[    0.185128] core: PMU erratum BJ122, BV98, HSD29 worked around, HT is on
+[    0.185231] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+[    0.199770] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+[    0.199770] HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+[    0.199770] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[    0.199770] HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+[    0.201575] raid6: skipped pq benchmark and selected sse2x4
+[    0.201578] raid6: using ssse3x2 recovery algorithm
+[    0.201677] ACPI: Added _OSI(Module Device)
+[    0.201679] ACPI: Added _OSI(Processor Device)
+[    0.201680] ACPI: Added _OSI(Processor Aggregator Device)
+[    0.324662] ACPI: 2 ACPI AML tables successfully acquired and loaded
+[    0.339528] ACPI: USB4 _OSC: OS supports USB3+ DisplayPort+ PCIe+ XDomain+
+[    0.339528] ACPI: USB4 _OSC: OS controls USB3+ DisplayPort+ PCIe+ XDomain+
+[    0.343169] ACPI: Interpreter enabled
+[    0.343185] ACPI: PM: (supports S0 S1 S4 S5)
+[    0.343187] ACPI: Using IOAPIC for interrupt routing
+[    0.345744] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    0.345746] PCI: Using E820 reservations for host bridge windows
+[    0.346160] ACPI: Enabled 5 GPEs in block 00 to 3F
+[    0.362706] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+[    0.362714] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+[    0.362800] acpi PNP0A08:00: _OSC: platform does not support [SHPCHotplug PME AER LTR DPC]
+[    0.362947] acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug PCIeCapability]
+[    0.362948] acpi PNP0A08:00: FADT indicates ASPM is unsupported, using BIOS configuration
+[    0.363318] PCI host bridge to bus 0000:00
+[    0.363322] pci_bus 0000:00: root bus resource [io  0x0000-0x03af window]
+[    0.363325] pci_bus 0000:00: root bus resource [io  0x03e0-0x0cf7 window]
+[    0.363326] pci_bus 0000:00: root bus resource [io  0x03b0-0x03df window]
+[    0.363327] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+[    0.363329] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000dffff window]
+[    0.363331] pci_bus 0000:00: root bus resource [mem 0xcc000000-0xfbffffff window]
+[    0.363332] pci_bus 0000:00: root bus resource [bus 00-fe]
+[    0.363362] pci 0000:00:00.0: [8086:3c00] type 00 class 0x060000 PCIe Root Port
+[    0.363441] pci 0000:00:00.0: PME# supported from D0 D3hot D3cold
+[    0.363554] pci 0000:00:01.0: [8086:3c02] type 01 class 0x060400 PCIe Root Port
+[    0.363574] pci 0000:00:01.0: PCI bridge to [bus 01]
+[    0.363648] pci 0000:00:01.0: PME# supported from D0 D3hot D3cold
+[    0.363806] pci 0000:00:01.1: [8086:3c03] type 01 class 0x060400 PCIe Root Port
+[    0.363826] pci 0000:00:01.1: PCI bridge to [bus 02]
+[    0.363901] pci 0000:00:01.1: PME# supported from D0 D3hot D3cold
+[    0.364055] pci 0000:00:02.0: [8086:3c04] type 01 class 0x060400 PCIe Root Port
+[    0.364076] pci 0000:00:02.0: PCI bridge to [bus 03]
+[    0.364079] pci 0000:00:02.0:   bridge window [io  0xe000-0xefff]
+[    0.364082] pci 0000:00:02.0:   bridge window [mem 0xfbb00000-0xfbbfffff]
+[    0.364090] pci 0000:00:02.0:   bridge window [mem 0xe0000000-0xf01fffff 64bit pref]
+[    0.364153] pci 0000:00:02.0: PME# supported from D0 D3hot D3cold
+[    0.364303] pci 0000:00:03.0: [8086:3c08] type 01 class 0x060400 PCIe Root Port
+[    0.364323] pci 0000:00:03.0: PCI bridge to [bus 04]
+[    0.364340] pci 0000:00:03.0: enabling Extended Tags
+[    0.364399] pci 0000:00:03.0: PME# supported from D0 D3hot D3cold
+[    0.364535] pci 0000:00:05.0: [8086:3c28] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    0.364649] pci 0000:00:05.2: [8086:3c2a] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    0.364753] pci 0000:00:05.4: [8086:3c2c] type 00 class 0x080020 conventional PCI endpoint
+[    0.364781] pci 0000:00:05.4: BAR 0 [mem 0xfbc09000-0xfbc09fff]
+[    0.364870] pci 0000:00:11.0: [8086:1d3e] type 01 class 0x060400 PCIe Root Port
+[    0.364899] pci 0000:00:11.0: PCI bridge to [bus 05]
+[    0.364983] pci 0000:00:11.0: PME# supported from D0 D3hot D3cold
+[    0.365103] pci 0000:00:16.0: [8086:1d3a] type 00 class 0x078000 conventional PCI endpoint
+[    0.365145] pci 0000:00:16.0: BAR 0 [mem 0xfbc08000-0xfbc0800f 64bit]
+[    0.365185] pci 0000:00:16.0: PME# supported from D0 D3hot D3cold
+[    0.365252] pci 0000:00:1a.0: [8086:1d2d] type 00 class 0x0c0320 conventional PCI endpoint
+[    0.365293] pci 0000:00:1a.0: BAR 0 [mem 0xfbc07000-0xfbc073ff]
+[    0.365337] pci 0000:00:1a.0: PME# supported from D0 D3hot D3cold
+[    0.365425] pci 0000:00:1b.0: [8086:1d20] type 00 class 0x040300 PCIe Root Complex Integrated Endpoint
+[    0.365459] pci 0000:00:1b.0: BAR 0 [mem 0xfbc00000-0xfbc03fff 64bit]
+[    0.365509] pci 0000:00:1b.0: PME# supported from D0 D3hot D3cold
+[    0.365587] pci 0000:00:1c.0: [8086:1d10] type 01 class 0x060400 PCIe Root Port
+[    0.365613] pci 0000:00:1c.0: PCI bridge to [bus 06]
+[    0.365649] pci 0000:00:1c.0: removing 2.5GT/s downstream link speed restriction
+[    1.364628] pci 0000:00:1c.0: retraining failed
+[    2.364706] pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+[    2.364842] pci 0000:00:1c.1: [8086:1d12] type 01 class 0x060400 PCIe Root Port
+[    2.364869] pci 0000:00:1c.1: PCI bridge to [bus 07]
+[    2.364874] pci 0000:00:1c.1:   bridge window [io  0xd000-0xdfff]
+[    2.364878] pci 0000:00:1c.1:   bridge window [mem 0xfba00000-0xfbafffff]
+[    2.364911] pci 0000:00:1c.1: removing 2.5GT/s downstream link speed restriction
+[    2.364957] pci 0000:00:1c.1: PME# supported from D0 D3hot D3cold
+[    2.365072] pci 0000:00:1c.2: [8086:1d14] type 01 class 0x060400 PCIe Root Port
+[    2.365099] pci 0000:00:1c.2: PCI bridge to [bus 08]
+[    2.365105] pci 0000:00:1c.2:   bridge window [mem 0xfb900000-0xfb9fffff]
+[    2.365175] pci 0000:00:1c.2: PME# supported from D0 D3hot D3cold
+[    2.365287] pci 0000:00:1c.3: [8086:1d16] type 01 class 0x060400 PCIe Root Port
+[    2.365313] pci 0000:00:1c.3: PCI bridge to [bus 09]
+[    2.365320] pci 0000:00:1c.3:   bridge window [mem 0xfb800000-0xfb8fffff]
+[    2.365389] pci 0000:00:1c.3: PME# supported from D0 D3hot D3cold
+[    2.365500] pci 0000:00:1c.4: [8086:1d18] type 01 class 0x060400 PCIe Root Port
+[    2.365527] pci 0000:00:1c.4: PCI bridge to [bus 0a]
+[    2.365533] pci 0000:00:1c.4:   bridge window [mem 0xfb000000-0xfb7fffff]
+[    2.365564] pci 0000:00:1c.4: removing 2.5GT/s downstream link speed restriction
+[    2.365610] pci 0000:00:1c.4: PME# supported from D0 D3hot D3cold
+[    2.365721] pci 0000:00:1d.0: [8086:1d26] type 00 class 0x0c0320 conventional PCI endpoint
+[    2.365763] pci 0000:00:1d.0: BAR 0 [mem 0xfbc06000-0xfbc063ff]
+[    2.365807] pci 0000:00:1d.0: PME# supported from D0 D3hot D3cold
+[    2.365902] pci 0000:00:1e.0: [8086:244e] type 01 class 0x060401 conventional PCI bridge
+[    2.365924] pci 0000:00:1e.0: PCI bridge to [bus 0b] (subtractive decode)
+[    2.366037] pci 0000:00:1f.0: [8086:1d41] type 00 class 0x060100 conventional PCI endpoint
+[    2.366210] pci 0000:00:1f.2: [8086:1d02] type 00 class 0x010601 conventional PCI endpoint
+[    2.366241] pci 0000:00:1f.2: BAR 0 [io  0xf070-0xf077]
+[    2.366244] pci 0000:00:1f.2: BAR 1 [io  0xf060-0xf063]
+[    2.366246] pci 0000:00:1f.2: BAR 2 [io  0xf050-0xf057]
+[    2.366248] pci 0000:00:1f.2: BAR 3 [io  0xf040-0xf043]
+[    2.366250] pci 0000:00:1f.2: BAR 4 [io  0xf020-0xf03f]
+[    2.366252] pci 0000:00:1f.2: BAR 5 [mem 0xfbc05000-0xfbc057ff]
+[    2.366286] pci 0000:00:1f.2: PME# supported from D3hot
+[    2.366367] pci 0000:00:1f.3: [8086:1d22] type 00 class 0x0c0500 conventional PCI endpoint
+[    2.366401] pci 0000:00:1f.3: BAR 0 [mem 0xfbc04000-0xfbc040ff 64bit]
+[    2.366406] pci 0000:00:1f.3: BAR 4 [io  0xf000-0xf01f]
+[    2.366504] pci 0000:00:01.0: PCI bridge to [bus 01]
+[    2.366541] pci 0000:00:01.1: PCI bridge to [bus 02]
+[    2.366589] pci 0000:03:00.0: [1002:6fdf] type 00 class 0x030000 PCIe Legacy Endpoint
+[    2.366612] pci 0000:03:00.0: BAR 0 [mem 0xe0000000-0xefffffff 64bit pref]
+[    2.366615] pci 0000:03:00.0: BAR 2 [mem 0xf0000000-0xf01fffff 64bit pref]
+[    2.366617] pci 0000:03:00.0: BAR 4 [io  0xe000-0xe0ff]
+[    2.366619] pci 0000:03:00.0: BAR 5 [mem 0xfbb00000-0xfbb3ffff]
+[    2.366621] pci 0000:03:00.0: ROM [mem 0xfbb40000-0xfbb5ffff pref]
+[    2.366626] pci 0000:03:00.0: enabling Extended Tags
+[    2.366649] pci 0000:03:00.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[    2.366685] pci 0000:03:00.0: supports D1 D2
+[    2.366686] pci 0000:03:00.0: PME# supported from D1 D2 D3hot D3cold
+[    2.366804] pci 0000:03:00.1: [1002:aaf0] type 00 class 0x040300 PCIe Legacy Endpoint
+[    2.366827] pci 0000:03:00.1: BAR 0 [mem 0xfbb60000-0xfbb63fff 64bit]
+[    2.366835] pci 0000:03:00.1: enabling Extended Tags
+[    2.366872] pci 0000:03:00.1: supports D1 D2
+[    2.366935] pci 0000:00:02.0: ASPM: current common clock configuration is inconsistent, reconfiguring
+[    2.374648] pci 0000:00:02.0: PCI bridge to [bus 03]
+[    2.374711] pci 0000:00:03.0: PCI bridge to [bus 04]
+[    2.374756] pci 0000:00:11.0: PCI bridge to [bus 05]
+[    2.374805] pci 0000:00:1c.0: PCI bridge to [bus 06]
+[    2.374878] pci 0000:07:00.0: [10ec:8168] type 00 class 0x020000 PCIe Endpoint
+[    2.374946] pci 0000:07:00.0: BAR 0 [io  0xd000-0xd0ff]
+[    2.374953] pci 0000:07:00.0: BAR 2 [mem 0xfba04000-0xfba04fff 64bit]
+[    2.374958] pci 0000:07:00.0: BAR 4 [mem 0xfba00000-0xfba03fff 64bit]
+[    2.375091] pci 0000:07:00.0: supports D1 D2
+[    2.375092] pci 0000:07:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[    2.375278] pci 0000:00:1c.1: PCI bridge to [bus 07]
+[    2.375351] pci 0000:08:00.0: [1106:3483] type 00 class 0x0c0330 PCIe Endpoint
+[    2.375411] pci 0000:08:00.0: BAR 0 [mem 0xfb900000-0xfb900fff 64bit]
+[    2.375493] pci 0000:08:00.0: PME# supported from D0 D3cold
+[    2.375583] pci 0000:00:1c.2: PCI bridge to [bus 08]
+[    2.375653] pci 0000:09:00.0: [1106:3483] type 00 class 0x0c0330 PCIe Endpoint
+[    2.375713] pci 0000:09:00.0: BAR 0 [mem 0xfb800000-0xfb800fff 64bit]
+[    2.375795] pci 0000:09:00.0: PME# supported from D0 D3cold
+[    2.375880] pci 0000:00:1c.3: PCI bridge to [bus 09]
+[    2.375956] pci 0000:0a:00.0: [1131:7231] type 00 class 0x048000 PCIe Endpoint
+[    2.376032] pci 0000:0a:00.0: BAR 0 [mem 0xfb400000-0xfb7fffff 64bit]
+[    2.376037] pci 0000:0a:00.0: BAR 2 [mem 0xfb000000-0xfb3fffff 64bit]
+[    2.376140] pci 0000:0a:00.0: supports D1 D2
+[    2.376142] pci 0000:0a:00.0: PME# supported from D0 D1 D2 D3hot
+[    2.384644] pci 0000:00:1c.4: PCI bridge to [bus 0a]
+[    2.384705] pci_bus 0000:0b: extended config space not accessible
+[    2.384753] pci 0000:00:1e.0: PCI bridge to [bus 0b] (subtractive decode)
+[    2.384761] pci 0000:00:1e.0:   bridge window [io  0x0000-0x03af window] (subtractive decode)
+[    2.384763] pci 0000:00:1e.0:   bridge window [io  0x03e0-0x0cf7 window] (subtractive decode)
+[    2.384765] pci 0000:00:1e.0:   bridge window [io  0x03b0-0x03df window] (subtractive decode)
+[    2.384766] pci 0000:00:1e.0:   bridge window [io  0x0d00-0xffff window] (subtractive decode)
+[    2.384767] pci 0000:00:1e.0:   bridge window [mem 0x000a0000-0x000dffff window] (subtractive decode)
+[    2.384769] pci 0000:00:1e.0:   bridge window [mem 0xcc000000-0xfbffffff window] (subtractive decode)
+[    2.386188] ACPI: PCI Root Bridge [UNC0] (domain 0000 [bus ff])
+[    2.386193] acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+[    2.386210] acpi PNP0A03:00: _OSC: OS now controls [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+[    2.386212] acpi PNP0A03:00: FADT indicates ASPM is unsupported, using BIOS configuration
+[    2.386264] PCI host bridge to bus 0000:ff
+[    2.386268] pci_bus 0000:ff: root bus resource [bus ff]
+[    2.386277] pci 0000:ff:08.0: [8086:3c80] type 00 class 0x088000 conventional PCI endpoint
+[    2.386337] pci 0000:ff:08.3: [8086:3c83] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.386405] pci 0000:ff:08.4: [8086:3c84] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.386481] pci 0000:ff:09.0: [8086:3c90] type 00 class 0x088000 conventional PCI endpoint
+[    2.386534] pci 0000:ff:09.3: [8086:3c93] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.386600] pci 0000:ff:09.4: [8086:3c94] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.386680] pci 0000:ff:0a.0: [8086:3cc0] type 00 class 0x088000 conventional PCI endpoint
+[    2.386727] pci 0000:ff:0a.1: [8086:3cc1] type 00 class 0x088000 conventional PCI endpoint
+[    2.386771] pci 0000:ff:0a.2: [8086:3cc2] type 00 class 0x088000 conventional PCI endpoint
+[    2.386814] pci 0000:ff:0a.3: [8086:3cd0] type 00 class 0x088000 conventional PCI endpoint
+[    2.386858] pci 0000:ff:0b.0: [8086:3ce0] type 00 class 0x088000 conventional PCI endpoint
+[    2.386902] pci 0000:ff:0b.3: [8086:3ce3] type 00 class 0x088000 conventional PCI endpoint
+[    2.386944] pci 0000:ff:0c.0: [8086:3ce8] type 00 class 0x088000 conventional PCI endpoint
+[    2.386985] pci 0000:ff:0c.1: [8086:3ce8] type 00 class 0x088000 conventional PCI endpoint
+[    2.387031] pci 0000:ff:0c.2: [8086:3ce8] type 00 class 0x088000 conventional PCI endpoint
+[    2.387074] pci 0000:ff:0c.6: [8086:3cf4] type 00 class 0x088000 conventional PCI endpoint
+[    2.387117] pci 0000:ff:0c.7: [8086:3cf6] type 00 class 0x088000 conventional PCI endpoint
+[    2.387159] pci 0000:ff:0d.0: [8086:3ce8] type 00 class 0x088000 conventional PCI endpoint
+[    2.387200] pci 0000:ff:0d.1: [8086:3ce8] type 00 class 0x088000 conventional PCI endpoint
+[    2.387242] pci 0000:ff:0d.2: [8086:3ce8] type 00 class 0x088000 conventional PCI endpoint
+[    2.387284] pci 0000:ff:0d.6: [8086:3cf5] type 00 class 0x088000 conventional PCI endpoint
+[    2.387328] pci 0000:ff:0e.0: [8086:3ca0] type 00 class 0x088000 conventional PCI endpoint
+[    2.387380] pci 0000:ff:0e.1: [8086:3c46] type 00 class 0x110100 conventional PCI endpoint
+[    2.387429] pci 0000:ff:0f.0: [8086:3ca8] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.387493] pci 0000:ff:0f.1: [8086:3c71] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.387555] pci 0000:ff:0f.2: [8086:3caa] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.387615] pci 0000:ff:0f.3: [8086:3cab] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.387673] pci 0000:ff:0f.4: [8086:3cac] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.387734] pci 0000:ff:0f.5: [8086:3cad] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.387790] pci 0000:ff:0f.6: [8086:3cae] type 00 class 0x088000 conventional PCI endpoint
+[    2.387842] pci 0000:ff:10.0: [8086:3cb0] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.387904] pci 0000:ff:10.1: [8086:3cb1] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.387969] pci 0000:ff:10.2: [8086:3cb2] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.388028] pci 0000:ff:10.3: [8086:3cb3] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.388090] pci 0000:ff:10.4: [8086:3cb4] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.388149] pci 0000:ff:10.5: [8086:3cb5] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.388208] pci 0000:ff:10.6: [8086:3cb6] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.388269] pci 0000:ff:10.7: [8086:3cb7] type 00 class 0x088000 PCIe Root Complex Integrated Endpoint
+[    2.388330] pci 0000:ff:11.0: [8086:3cb8] type 00 class 0x088000 conventional PCI endpoint
+[    2.388382] pci 0000:ff:13.0: [8086:3ce4] type 00 class 0x088000 conventional PCI endpoint
+[    2.388425] pci 0000:ff:13.1: [8086:3c43] type 00 class 0x110100 conventional PCI endpoint
+[    2.388470] pci 0000:ff:13.4: [8086:3ce6] type 00 class 0x110100 conventional PCI endpoint
+[    2.388512] pci 0000:ff:13.5: [8086:3c44] type 00 class 0x110100 conventional PCI endpoint
+[    2.388555] pci 0000:ff:13.6: [8086:3c45] type 00 class 0x088000 conventional PCI endpoint
+[    2.389004] ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+[    2.389053] ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+[    2.389100] ACPI: PCI: Interrupt link LNKC configured for IRQ 3
+[    2.389147] ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+[    2.389194] ACPI: PCI: Interrupt link LNKE configured for IRQ 0
+[    2.389195] ACPI: PCI: Interrupt link LNKE disabled
+[    2.389241] ACPI: PCI: Interrupt link LNKF configured for IRQ 0
+[    2.389242] ACPI: PCI: Interrupt link LNKF disabled
+[    2.389288] ACPI: PCI: Interrupt link LNKG configured for IRQ 5
+[    2.389335] ACPI: PCI: Interrupt link LNKH configured for IRQ 7
+[    2.391299] iommu: Default domain type: Translated
+[    2.391299] iommu: DMA domain TLB invalidation policy: lazy mode
+[    2.391473] SCSI subsystem initialized
+[    2.391483] libata version 3.00 loaded.
+[    2.391483] ACPI: bus type USB registered
+[    2.391483] usbcore: registered new interface driver usbfs
+[    2.391483] usbcore: registered new interface driver hub
+[    2.391483] usbcore: registered new device driver usb
+[    2.391483] EDAC MC: Ver: 3.0.0
+[    2.391497] efivars: Registered efivars operations
+[    2.391516] NetLabel: Initializing
+[    2.391518] NetLabel:  domain hash size = 128
+[    2.391519] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[    2.391533] NetLabel:  unlabeled traffic allowed by default
+[    2.391536] mctp: management component transport protocol core
+[    2.391538] NET: Registered PF_MCTP protocol family
+[    2.391548] PCI: Using ACPI for IRQ routing
+[    2.397911] PCI: pci_cache_line_size set to 64 bytes
+[    2.398007] e820: reserve RAM buffer [mem 0xafddf000-0xafffffff]
+[    2.398010] e820: reserve RAM buffer [mem 0xbb0e1000-0xbbffffff]
+[    2.398011] e820: reserve RAM buffer [mem 0xbb920000-0xbbffffff]
+[    2.398050] pci 0000:03:00.0: vgaarb: setting as boot VGA device
+[    2.398050] pci 0000:03:00.0: vgaarb: bridge control possible
+[    2.398050] pci 0000:03:00.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[    2.398050] vgaarb: loaded
+[    2.398051] Monitor-Mwait will be used to enter C-1 state
+[    2.398054] Monitor-Mwait will be used to enter C-2 state
+[    2.401391] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+[    2.401391] hpet0: 8 comparators, 64-bit 14.318180 MHz counter
+[    2.403461] clocksource: Switched to clocksource hpet
+[    2.404139] VFS: Disk quotas dquot_6.6.0
+[    2.404139] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    2.404149] pnp: PnP ACPI init
+[    2.404149] system 00:00: [mem 0xfc000000-0xfcffffff] has been reserved
+[    2.404149] system 00:00: [mem 0xfd000000-0xfdffffff] has been reserved
+[    2.404149] system 00:00: [mem 0xfe000000-0xfeafffff] has been reserved
+[    2.404149] system 00:00: [mem 0xfeb00000-0xfebfffff] has been reserved
+[    2.404149] system 00:00: [mem 0xfed00400-0xfed3ffff] could not be reserved
+[    2.404149] system 00:00: [mem 0xfed45000-0xfedfffff] has been reserved
+[    2.404149] system 00:00: [mem 0xfee00000-0xfeefffff] has been reserved
+[    2.404149] system 00:01: [io  0x0a00-0x0a0f] has been reserved
+[    2.404149] system 00:01: [io  0x0a10-0x0a1f] has been reserved
+[    2.404149] system 00:01: [io  0x0a20-0x0a2f] has been reserved
+[    2.404149] pnp 00:04: [dma 0 disabled]
+[    2.404149] system 00:05: [io  0x04d0-0x04d1] has been reserved
+[    2.404149] system 00:06: [io  0x0400-0x0453] has been reserved
+[    2.404149] system 00:06: [io  0x0458-0x047f] has been reserved
+[    2.404149] system 00:06: [io  0x1180-0x119f] has been reserved
+[    2.404149] system 00:06: [io  0x0500-0x057f] has been reserved
+[    2.404149] system 00:06: [mem 0xfed1c000-0xfed1ffff] has been reserved
+[    2.404149] system 00:06: [mem 0xfec00000-0xfecfffff] could not be reserved
+[    2.404149] system 00:06: [mem 0xff000000-0xffffffff] has been reserved
+[    2.404447] pnp: PnP ACPI: found 7 devices
+[    2.410772] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    2.410976] NET: Registered PF_INET protocol family
+[    2.411200] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    2.427669] tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+[    2.427705] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    2.427774] TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    2.428122] TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+[    2.428397] TCP: Hash tables configured (established 131072 bind 65536)
+[    2.428507] MPTCP token hash table entries: 16384 (order: 7, 393216 bytes, linear)
+[    2.428631] UDP hash table entries: 8192 (order: 7, 524288 bytes, linear)
+[    2.428755] UDP-Lite hash table entries: 8192 (order: 7, 524288 bytes, linear)
+[    2.428893] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    2.428901] NET: Registered PF_XDP protocol family
+[    2.428926] pci 0000:00:01.0: PCI bridge to [bus 01]
+[    2.428937] pci 0000:00:01.1: PCI bridge to [bus 02]
+[    2.428947] pci 0000:00:02.0: PCI bridge to [bus 03]
+[    2.428949] pci 0000:00:02.0:   bridge window [io  0xe000-0xefff]
+[    2.428953] pci 0000:00:02.0:   bridge window [mem 0xfbb00000-0xfbbfffff]
+[    2.428956] pci 0000:00:02.0:   bridge window [mem 0xe0000000-0xf01fffff 64bit pref]
+[    2.428961] pci 0000:00:03.0: PCI bridge to [bus 04]
+[    2.428969] pci 0000:00:11.0: PCI bridge to [bus 05]
+[    2.428981] pci 0000:00:1c.0: PCI bridge to [bus 06]
+[    2.428991] pci 0000:00:1c.1: PCI bridge to [bus 07]
+[    2.428993] pci 0000:00:1c.1:   bridge window [io  0xd000-0xdfff]
+[    2.428997] pci 0000:00:1c.1:   bridge window [mem 0xfba00000-0xfbafffff]
+[    2.429005] pci 0000:00:1c.2: PCI bridge to [bus 08]
+[    2.429009] pci 0000:00:1c.2:   bridge window [mem 0xfb900000-0xfb9fffff]
+[    2.429016] pci 0000:00:1c.3: PCI bridge to [bus 09]
+[    2.429020] pci 0000:00:1c.3:   bridge window [mem 0xfb800000-0xfb8fffff]
+[    2.429028] pci 0000:00:1c.4: PCI bridge to [bus 0a]
+[    2.429032] pci 0000:00:1c.4:   bridge window [mem 0xfb000000-0xfb7fffff]
+[    2.429040] pci 0000:00:1e.0: PCI bridge to [bus 0b]
+[    2.429049] pci_bus 0000:00: resource 4 [io  0x0000-0x03af window]
+[    2.429051] pci_bus 0000:00: resource 5 [io  0x03e0-0x0cf7 window]
+[    2.429052] pci_bus 0000:00: resource 6 [io  0x03b0-0x03df window]
+[    2.429053] pci_bus 0000:00: resource 7 [io  0x0d00-0xffff window]
+[    2.429055] pci_bus 0000:00: resource 8 [mem 0x000a0000-0x000dffff window]
+[    2.429056] pci_bus 0000:00: resource 9 [mem 0xcc000000-0xfbffffff window]
+[    2.429058] pci_bus 0000:03: resource 0 [io  0xe000-0xefff]
+[    2.429059] pci_bus 0000:03: resource 1 [mem 0xfbb00000-0xfbbfffff]
+[    2.429060] pci_bus 0000:03: resource 2 [mem 0xe0000000-0xf01fffff 64bit pref]
+[    2.429062] pci_bus 0000:07: resource 0 [io  0xd000-0xdfff]
+[    2.429063] pci_bus 0000:07: resource 1 [mem 0xfba00000-0xfbafffff]
+[    2.429065] pci_bus 0000:08: resource 1 [mem 0xfb900000-0xfb9fffff]
+[    2.429066] pci_bus 0000:09: resource 1 [mem 0xfb800000-0xfb8fffff]
+[    2.429068] pci_bus 0000:0a: resource 1 [mem 0xfb000000-0xfb7fffff]
+[    2.429069] pci_bus 0000:0b: resource 4 [io  0x0000-0x03af window]
+[    2.429071] pci_bus 0000:0b: resource 5 [io  0x03e0-0x0cf7 window]
+[    2.429072] pci_bus 0000:0b: resource 6 [io  0x03b0-0x03df window]
+[    2.429073] pci_bus 0000:0b: resource 7 [io  0x0d00-0xffff window]
+[    2.429074] pci_bus 0000:0b: resource 8 [mem 0x000a0000-0x000dffff window]
+[    2.429076] pci_bus 0000:0b: resource 9 [mem 0xcc000000-0xfbffffff window]
+[    2.429160] pci 0000:00:05.0: disabled boot interrupts on device [8086:3c28]
+[    2.429505] pci 0000:03:00.1: D0 power state depends on 0000:03:00.0
+[    2.429795] PCI: CLS 64 bytes, default 64
+[    2.429808] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    2.429810] software IO TLB: mapped [mem 0x00000000abc8c000-0x00000000afc8c000] (64MB)
+[    2.429868] Trying to unpack rootfs image as initramfs...
+[    2.458449] Initialise system trusted keyrings
+[    2.458471] Key type blacklist registered
+[    2.458551] workingset: timestamp_bits=36 max_order=22 bucket_order=0
+[    2.459860] fuse: init (API version 7.45)
+[    2.460055] integrity: Platform Keyring initialized
+[    2.460061] integrity: Machine keyring initialized
+[    2.472863] xor: automatically using best checksumming function   avx       
+[    2.472869] Key type asymmetric registered
+[    2.472871] Asymmetric key parser 'x509' registered
+[    2.472935] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)
+[    2.473027] io scheduler mq-deadline registered
+[    2.473029] io scheduler kyber registered
+[    2.473072] io scheduler bfq registered
+[    2.478227] ledtrig-cpu: registered to indicate activity on CPUs
+[    2.479813] input: Power Button as /devices/platform/PNP0C0C:00/input/input0
+[    2.479828] ACPI: button: Power Button [PWRB]
+[    2.491080] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[    2.491285] 00:04: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+[    2.494011] Non-volatile memory driver v1.3
+[    2.494013] Linux agpgart interface v0.103
+[    2.494075] ACPI: bus type drm_connector registered
+[    2.495633] ahci 0000:00:1f.2: AHCI vers 0001.0300, 32 command slots, 6 Gbps, SATA mode
+[    2.495637] ahci 0000:00:1f.2: 2/6 ports implemented (port mask 0x3)
+[    2.495639] ahci 0000:00:1f.2: flags: 64bit ncq sntf pm led clo pio slum part ems apst 
+[    2.501867] scsi host0: ahci
+[    2.502057] scsi host1: ahci
+[    2.502200] scsi host2: ahci
+[    2.502323] scsi host3: ahci
+[    2.502463] scsi host4: ahci
+[    2.502589] scsi host5: ahci
+[    2.502634] ata1: SATA max UDMA/133 abar m2048@0xfbc05000 port 0xfbc05100 irq 31 lpm-pol 4
+[    2.502636] ata2: SATA max UDMA/133 abar m2048@0xfbc05000 port 0xfbc05180 irq 31 lpm-pol 4
+[    2.502638] ata3: DUMMY
+[    2.502638] ata4: DUMMY
+[    2.502639] ata5: DUMMY
+[    2.502640] ata6: DUMMY
+[    2.502879] xhci_hcd 0000:08:00.0: xHCI Host Controller
+[    2.502886] xhci_hcd 0000:08:00.0: new USB bus registered, assigned bus number 1
+[    2.503109] xhci_hcd 0000:08:00.0: hcc params 0x002841eb hci version 0x100 quirks 0x0000200000000890
+[    2.503309] ehci-pci 0000:00:1d.0: EHCI Host Controller
+[    2.503316] ehci-pci 0000:00:1d.0: new USB bus registered, assigned bus number 2
+[    2.503330] xhci_hcd 0000:08:00.0: xHCI Host Controller
+[    2.503331] ehci-pci 0000:00:1d.0: debug port 2
+[    2.503333] xhci_hcd 0000:08:00.0: new USB bus registered, assigned bus number 3
+[    2.503336] xhci_hcd 0000:08:00.0: Host supports USB 3.0 SuperSpeed
+[    2.503388] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.18
+[    2.503391] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.503392] usb usb1: Product: xHCI Host Controller
+[    2.503394] usb usb1: Manufacturer: Linux 6.18.57-2-lts xhci-hcd
+[    2.503395] usb usb1: SerialNumber: 0000:08:00.0
+[    2.503508] hub 1-0:1.0: USB hub found
+[    2.503518] hub 1-0:1.0: 1 port detected
+[    2.503631] usb usb3: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.18
+[    2.503634] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.503635] usb usb3: Product: xHCI Host Controller
+[    2.503637] usb usb3: Manufacturer: Linux 6.18.57-2-lts xhci-hcd
+[    2.503638] usb usb3: SerialNumber: 0000:08:00.0
+[    2.503730] hub 3-0:1.0: USB hub found
+[    2.503744] hub 3-0:1.0: 4 ports detected
+[    2.507240] ehci-pci 0000:00:1d.0: irq 23, io mem 0xfbc06000
+[    2.518113] ehci-pci 0000:00:1d.0: USB 2.0 started, EHCI 1.00
+[    2.518191] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.18
+[    2.518194] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.518196] usb usb2: Product: EHCI Host Controller
+[    2.518197] usb usb2: Manufacturer: Linux 6.18.57-2-lts ehci_hcd
+[    2.518198] usb usb2: SerialNumber: 0000:00:1d.0
+[    2.518344] hub 2-0:1.0: USB hub found
+[    2.518353] hub 2-0:1.0: 2 ports detected
+[    2.518518] ehci-pci 0000:00:1a.0: EHCI Host Controller
+[    2.518526] ehci-pci 0000:00:1a.0: new USB bus registered, assigned bus number 4
+[    2.518540] ehci-pci 0000:00:1a.0: debug port 2
+[    2.522473] ehci-pci 0000:00:1a.0: irq 16, io mem 0xfbc07000
+[    2.534778] ehci-pci 0000:00:1a.0: USB 2.0 started, EHCI 1.00
+[    2.534839] usb usb4: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.18
+[    2.534842] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.534843] usb usb4: Product: EHCI Host Controller
+[    2.534844] usb usb4: Manufacturer: Linux 6.18.57-2-lts ehci_hcd
+[    2.534846] usb usb4: SerialNumber: 0000:00:1a.0
+[    2.534994] hub 4-0:1.0: USB hub found
+[    2.535002] hub 4-0:1.0: 2 ports detected
+[    2.535150] xhci_hcd 0000:09:00.0: xHCI Host Controller
+[    2.535158] xhci_hcd 0000:09:00.0: new USB bus registered, assigned bus number 5
+[    2.535382] xhci_hcd 0000:09:00.0: hcc params 0x002841eb hci version 0x100 quirks 0x0000200000000890
+[    2.535602] xhci_hcd 0000:09:00.0: xHCI Host Controller
+[    2.535608] xhci_hcd 0000:09:00.0: new USB bus registered, assigned bus number 6
+[    2.535611] xhci_hcd 0000:09:00.0: Host supports USB 3.0 SuperSpeed
+[    2.535650] usb usb5: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.18
+[    2.535653] usb usb5: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.535654] usb usb5: Product: xHCI Host Controller
+[    2.535655] usb usb5: Manufacturer: Linux 6.18.57-2-lts xhci-hcd
+[    2.535656] usb usb5: SerialNumber: 0000:09:00.0
+[    2.535748] hub 5-0:1.0: USB hub found
+[    2.535757] hub 5-0:1.0: 1 port detected
+[    2.535869] usb usb6: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.18
+[    2.535871] usb usb6: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.535873] usb usb6: Product: xHCI Host Controller
+[    2.535874] usb usb6: Manufacturer: Linux 6.18.57-2-lts xhci-hcd
+[    2.535875] usb usb6: SerialNumber: 0000:09:00.0
+[    2.535958] hub 6-0:1.0: USB hub found
+[    2.535970] hub 6-0:1.0: 4 ports detected
+[    2.536147] usbcore: registered new interface driver usbserial_generic
+[    2.536156] usbserial: USB Serial support registered for generic
+[    2.536212] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+[    2.538299] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    2.538305] serio: i8042 AUX port at 0x60,0x64 irq 12
+[    2.538464] rtc_cmos PNP0B00:00: RTC can wake from S4
+[    2.538694] rtc_cmos PNP0B00:00: registered as rtc0
+[    2.538736] rtc_cmos PNP0B00:00: setting system clock to 2026-10-23T04:24:26 UTC (1792729466)
+[    2.538765] rtc_cmos PNP0B00:00: alarms up to one month, y3k, 114 bytes nvram
+[    2.539386] intel_pstate: Intel P-state driver initializing
+[    2.541112] simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic
+[    2.541116] [drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0
+[    2.541829] fbcon: Deferring console take-over
+[    2.541832] simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+[    2.541892] hid: raw HID events driver (C) Jiri Kosina
+[    2.541918] usbcore: registered new interface driver usbhid
+[    2.541919] usbhid: USB HID core driver
+[    2.541967] rust_binder: Loaded Rust Binder.
+[    2.541999] drop_monitor: Initializing network drop monitor service
+[    2.542212] NET: Registered PF_INET6 protocol family
+[    2.542545] Segment Routing with IPv6
+[    2.542546] RPL Segment Routing with IPv6
+[    2.542555] In-situ OAM (IOAM) with IPv6
+[    2.542574] NET: Registered PF_PACKET protocol family
+[    2.543905] microcode: Current revision: 0x0000071a
+[    2.543908] microcode: Updated early from: 0x00000710
+[    2.544469] IPI shorthand broadcast: enabled
+[    2.546897] registered taskstats version 1
+[    2.548144] Loading compiled-in X.509 certificates
+[    2.605707] Freeing initrd memory: 62184K
+[    2.619867] Loaded X.509 cert 'Build time autogenerated kernel key: 79cb84db5891d3c14e0773eddeee7aea1e11994c'
+[    2.625154] zswap: loaded using pool zstd
+[    2.625310] Demotion targets for Node 0: null
+[    2.625800] Key type .fscrypt registered
+[    2.625805] Key type fscrypt-provisioning registered
+[    2.626824] Btrfs loaded, zoned=yes, fsverity=yes
+[    2.626885] Key type big_key registered
+[    2.628296] PM:   Magic number: 14:549:414
+[    2.628338] thermal cooling_device10: hash matches
+[    2.630118] RAS: Correctable Errors collector initialized.
+[    2.638477] Unstable clock detected, switching default tracing clock to "global"
+               If you want to keep using the local clock, then add:
+                 "trace_clock=local"
+               on the kernel command line
+[    2.638932] clk: Disabling unused clocks
+[    2.638938] PM: genpd: Disabling unused power domains
+[    2.744888] usb 1-1: new high-speed USB device number 2 using xhci_hcd
+[    2.761523] usb 2-1: new high-speed USB device number 2 using ehci-pci
+[    2.778188] usb 4-1: new high-speed USB device number 2 using ehci-pci
+[    2.778190] usb 5-1: new high-speed USB device number 2 using xhci_hcd
+[    2.812250] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[    2.812283] ata2: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[    2.812590] ata2.00: ATA-10: KINGSTON SA400S37240G, SBFKB1E1, max UDMA/133
+[    2.812731] ata2.00: 468862128 sectors, multi 1: LBA48 NCQ (depth 32), AA
+[    2.812743] ata2.00: Features: DIPM
+[    2.812844] ata1.00: ATA-9: WDC WD10EZEX-08M2NA0, 01.01A01, max UDMA/100
+[    2.813227] ata2.00: configured for UDMA/133
+[    2.813329] ata1.00: 1953525168 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[    2.814024] ata1.00: configured for UDMA/100
+[    2.824458] scsi 0:0:0:0: Direct-Access     ATA      WDC WD10EZEX-08M 1A01 PQ: 0 ANSI: 5
+[    2.825176] sd 0:0:0:0: [sda] 1953525168 512-byte logical blocks: (1.00 TB/932 GiB)
+[    2.825180] sd 0:0:0:0: [sda] 4096-byte physical blocks
+[    2.825192] sd 0:0:0:0: [sda] Write Protect is off
+[    2.825195] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    2.825211] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    2.825245] sd 0:0:0:0: [sda] Preferred minimum I/O size 4096 bytes
+[    2.825257] scsi 1:0:0:0: Direct-Access     ATA      KINGSTON SA400S3 B1E1 PQ: 0 ANSI: 5
+[    2.825773] sd 1:0:0:0: [sdb] 468862128 512-byte logical blocks: (240 GB/224 GiB)
+[    2.825787] sd 1:0:0:0: [sdb] Write Protect is off
+[    2.825790] sd 1:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+[    2.825807] sd 1:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    2.825834] sd 1:0:0:0: [sdb] Preferred minimum I/O size 512 bytes
+[    2.872666]  sdb: sdb1 sdb2 sdb3 sdb4 sdb5
+[    2.873603] sd 1:0:0:0: [sdb] Attached SCSI disk
+[    2.877114] usb 1-1: New USB device found, idVendor=2109, idProduct=3431, bcdDevice= 4.20
+[    2.877123] usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[    2.877128] usb 1-1: Product: USB2.0 Hub
+[    2.878454] hub 1-1:1.0: USB hub found
+[    2.878761] hub 1-1:1.0: 4 ports detected
+[    2.902257] usb 2-1: New USB device found, idVendor=8087, idProduct=0024, bcdDevice= 0.00
+[    2.902269] usb 2-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    2.902884] hub 2-1:1.0: USB hub found
+[    2.903159] hub 2-1:1.0: 8 ports detected
+[    2.910837] usb 5-1: New USB device found, idVendor=2109, idProduct=3431, bcdDevice= 4.20
+[    2.910848] usb 5-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[    2.910853] usb 5-1: Product: USB2.0 Hub
+[    2.912381] hub 5-1:1.0: USB hub found
+[    2.912748] hub 5-1:1.0: 4 ports detected
+[    2.915591] usb 4-1: New USB device found, idVendor=8087, idProduct=0024, bcdDevice= 0.00
+[    2.915603] usb 4-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    2.916107] hub 4-1:1.0: USB hub found
+[    2.916260] hub 4-1:1.0: 6 ports detected
+[    2.925329]  sda: sda1 sda2 sda3 sda4 sda5 sda6 sda7 sda8 sda9 sda10 sda11
+[    2.926800] sd 0:0:0:0: [sda] Attached SCSI disk
+[    2.933864] Freeing unused decrypted memory: 2028K
+[    2.935638] Freeing unused kernel image (initmem) memory: 4768K
+[    2.935781] Write protecting the kernel read-only data: 40960k
+[    2.936957] Freeing unused kernel image (text/rodata gap) memory: 1024K
+[    2.938290] Freeing unused kernel image (rodata/data gap) memory: 1948K
+[    3.003615] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    3.003620] rodata_test: all tests were successful
+[    3.003622] x86/mm: Checking user space page tables
+[    3.045587] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    3.045647] Run /init as init process
+[    3.045652]   with arguments:
+[    3.045653]     /init
+[    3.045655]   with environment:
+[    3.045656]     HOME=/
+[    3.045658]     TERM=linux
+[    3.045659]     nvme_load=YES
+[    3.109183] systemd[1]: Successfully made /usr/ read-only.
+[    3.109587] systemd[1]: systemd 262.1-1-arch running in system mode (+PAM +AUDIT -SELINUX +APPARMOR -IMA +IPE +SMACK +SECCOMP +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF +XKBCOMMON +UTMP +LIBARCHIVE)
+[    3.109599] systemd[1]: Detected architecture x86-64.
+[    3.109604] systemd[1]: Running in initrd.
+[    3.109906] fbcon: Taking over console
+[    3.110015] systemd[1]: Hostname set to <komp>.
+[    3.111739] Console: switching to colour frame buffer device 100x37
+[    3.198144] usb 5-1.1: new full-speed USB device number 3 using xhci_hcd
+[    3.198163] usb 4-1.1: new high-speed USB device number 3 using ehci-pci
+[    3.224474] systemd[1]: bpf-restrict-fs: LSM BPF program attached
+[    3.281139] systemd[1]: Queued start job for default target Initrd Default Target.
+[    3.288419] usb 5-1.1: New USB device found, idVendor=046d, idProduct=c52f, bcdDevice=30.00
+[    3.288424] usb 5-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    3.288425] usb 5-1.1: Product: USB Receiver
+[    3.288427] usb 5-1.1: Manufacturer: Logitech
+[    3.293043] usb 4-1.1: New USB device found, idVendor=0bda, idProduct=c811, bcdDevice= 2.00
+[    3.293064] usb 4-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    3.293065] usb 4-1.1: Product: 802.11ac NIC
+[    3.293067] usb 4-1.1: Manufacturer: Realtek
+[    3.293068] usb 4-1.1: SerialNumber: 123456
+[    3.296240] input: Logitech USB Receiver as /devices/pci0000:00/0000:00:1c.3/0000:09:00.0/usb5/5-1/5-1.1/5-1.1:1.0/0003:046D:C52F.0001/input/input3
+[    3.296458] hid-generic 0003:046D:C52F.0001: input,hidraw0: USB HID v1.11 Mouse [Logitech USB Receiver] on usb-0000:09:00.0-1.1/input0
+[    3.302213] input: Logitech USB Receiver Consumer Control as /devices/pci0000:00/0000:00:1c.3/0000:09:00.0/usb5/5-1/5-1.1/5-1.1:1.1/0003:046D:C52F.0002/input/input4
+[    3.322322] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[    3.322524] systemd[1]: Expecting device /dev/disk/by-uuid/4266fd9d-f2d1-43f9-8530-e87d06433ca6...
+[    3.322678] systemd[1]: Reached target Initrd /usr File System.
+[    3.322820] systemd[1]: Reached target Path Units.
+[    3.322955] systemd[1]: Reached target Remote File Systems.
+[    3.323088] systemd[1]: Reached target Slice Units.
+[    3.323226] systemd[1]: Reached target Swaps.
+[    3.323359] systemd[1]: Reached target Timer Units.
+[    3.323603] systemd[1]: Listening on Journal Socket (/dev/log).
+[    3.323839] systemd[1]: Listening on Journal Sockets.
+[    3.324030] systemd[1]: Listening on udev Kernel Socket.
+[    3.324282] systemd[1]: Listening on udev Varlink Socket.
+[    3.324427] systemd[1]: Reached target Socket Units.
+[    3.325963] systemd[1]: Starting Create List of Static Device Nodes...
+[    3.326148] systemd[1]: Early Battery Level Check skipped, unmet condition check ConditionDirectoryNotEmpty=/sys/class/power_supply
+[    3.327839] systemd[1]: Starting Journal Service...
+[    3.328862] systemd[1]: Starting Load Kernel Modules...
+[    3.329812] systemd[1]: TPM PCR NvPCR Initialization Separator skipped, unmet condition check ConditionSecurity=measured-os
+[    3.329848] systemd[1]: TPM PCR OS Separator skipped, unmet condition check ConditionSecurity=measured-os
+[    3.329872] systemd[1]: TPM PCR Barrier (initrd) skipped, unmet condition check ConditionSecurity=measured-os
+[    3.330669] systemd[1]: Starting Virtual Console Setup...
+[    3.334458] systemd[1]: Finished Create List of Static Device Nodes.
+[    3.335829] systemd[1]: Starting Create Static Device Nodes in /dev gracefully...
+[    3.342409] Asymmetric key parser 'pkcs8' registered
+[    3.342785] i2c_dev: i2c /dev entries driver
+[    3.343621] systemd[1]: Finished Load Kernel Modules.
+[    3.344178] systemd[1]: Finished Virtual Console Setup.
+[    3.345457] systemd[1]: Starting dracut ask for additional cmdline parameters...
+[    3.346171] systemd-journald[210]: Collecting audit messages is disabled.
+[    3.346365] systemd[1]: Starting Apply Kernel Variables...
+[    3.355104] hid-generic 0003:046D:C52F.0002: input,hiddev96,hidraw1: USB HID v1.11 Device [Logitech USB Receiver] on usb-0000:09:00.0-1.1/input1
+[    3.355902] systemd[1]: Finished Apply Kernel Variables.
+[    3.358532] systemd[1]: Finished Create Static Device Nodes in /dev gracefully.
+[    3.359524] systemd[1]: Starting Create Static Device Nodes in /dev...
+[    3.361450] usb 4-1.2: new full-speed USB device number 4 using ehci-pci
+[    3.369421] systemd[1]: Finished dracut ask for additional cmdline parameters.
+[    3.370731] systemd[1]: Starting dracut cmdline hook...
+[    3.381126] systemd[1]: Finished Create Static Device Nodes in /dev.
+[    3.381413] systemd[1]: Reached target Preparation for Local File Systems.
+[    3.381609] systemd[1]: Reached target Local File Systems.
+[    3.417920] systemd[1]: Finished dracut cmdline hook.
+[    3.419069] systemd[1]: Starting dracut pre-udev hook...
+[    3.424788] usb 5-1.2: new full-speed USB device number 4 using xhci_hcd
+[    3.434433] systemd[1]: Started Journal Service.
+[    3.456667] usb 4-1.2: New USB device found, idVendor=1532, idProduct=010b, bcdDevice= 0.03
+[    3.456673] usb 4-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    3.456675] usb 4-1.2: Product: Razer Arctosa
+[    3.456677] usb 4-1.2: Manufacturer: Razer
+[    3.459413] input: Razer Razer Arctosa as /devices/pci0000:00/0000:00:1a.0/usb4/4-1/4-1.2/4-1.2:1.0/0003:1532:010B.0003/input/input7
+[    3.550200] usb 5-1.2: New USB device found, idVendor=08bb, idProduct=2902, bcdDevice= 1.00
+[    3.550208] usb 5-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    3.550210] usb 5-1.2: Product: USB Audio CODEC 
+[    3.550211] usb 5-1.2: Manufacturer: Burr-Brown from TI              
+[    3.554874] input: Burr-Brown from TI               USB Audio CODEC  as /devices/pci0000:00/0000:00:1c.3/0000:09:00.0/usb5/5-1/5-1.2/5-1.2:1.3/0003:08BB:2902.0004/input/input8
+[    3.671655] hid-generic 0003:1532:010B.0003: input,hidraw2: USB HID v1.11 Keyboard [Razer Razer Arctosa] on usb-0000:00:1a.0-1.2/input0
+[    3.673726] input: Razer Razer Arctosa Consumer Control as /devices/pci0000:00/0000:00:1a.0/usb4/4-1/4-1.2/4-1.2:1.1/0003:1532:010B.0005/input/input9
+[    3.724932] hid-generic 0003:08BB:2902.0004: input,hidraw3: USB HID v1.00 Device [Burr-Brown from TI               USB Audio CODEC ] on usb-0000:09:00.0-1.2/input3
+[    3.778215] input: Razer Razer Arctosa System Control as /devices/pci0000:00/0000:00:1a.0/usb4/4-1/4-1.2/4-1.2:1.1/0003:1532:010B.0005/input/input10
+[    3.778289] hid-generic 0003:1532:010B.0005: input,hidraw4: USB HID v1.11 Device [Razer Razer Arctosa] on usb-0000:00:1a.0-1.2/input1
+[    6.754512] amdgpu: Virtual CRAT table created for CPU
+[    6.754549] amdgpu: Topology: Add CPU node
+[    6.754739] amdgpu 0000:03:00.0: amdgpu: initializing kernel modesetting (POLARIS10 0x1002:0x6FDF 0x1DA2:0xE353 0xEF).
+[    6.754753] amdgpu 0000:03:00.0: amdgpu: register mmio base: 0xFBB00000
+[    6.754755] amdgpu 0000:03:00.0: amdgpu: register mmio size: 262144
+[    6.754941] amdgpu 0000:03:00.0: amdgpu: detected ip block number 0 <common_v1_0_0> (vi_common)
+[    6.754953] amdgpu 0000:03:00.0: amdgpu: detected ip block number 1 <gmc_v8_1_0> (gmc_v8_0)
+[    6.754959] amdgpu 0000:03:00.0: amdgpu: detected ip block number 2 <ih_v3_0_0> (tonga_ih)
+[    6.754974] amdgpu 0000:03:00.0: amdgpu: detected ip block number 3 <gfx_v8_0_0> (gfx_v8_0)
+[    6.754976] amdgpu 0000:03:00.0: amdgpu: detected ip block number 4 <sdma_v3_1_0> (sdma_v3_0)
+[    6.754977] amdgpu 0000:03:00.0: amdgpu: detected ip block number 5 <smu_v1_0_0> (powerplay)
+[    6.754979] amdgpu 0000:03:00.0: amdgpu: detected ip block number 6 <dce_v1_0_0> (dm)
+[    6.754981] amdgpu 0000:03:00.0: amdgpu: detected ip block number 7 <uvd_v6_3_0> (uvd_v6_0)
+[    6.754982] amdgpu 0000:03:00.0: amdgpu: detected ip block number 8 <vce_v3_4_0> (vce_v3_0)
+[    6.755161] amdgpu 0000:03:00.0: No more images in PCI ROM
+[    6.755181] amdgpu 0000:03:00.0: amdgpu: Fetched VBIOS from ROM BAR
+[    6.755184] amdgpu: ATOM BIOS: 113-FE3534U-O42
+[    6.755464] [drm] UVD is enabled in VM mode
+[    6.755465] [drm] UVD ENC is enabled in VM mode
+[    6.755467] [drm] VCE enabled in VM mode
+[    6.798410] Console: switching to colour dummy device 80x25
+[    6.818536] amdgpu 0000:03:00.0: vgaarb: deactivate vga console
+[    6.818540] amdgpu 0000:03:00.0: amdgpu: Trusted Memory Zone (TMZ) feature not supported
+[    6.818543] amdgpu 0000:03:00.0: amdgpu: PCIE atomic ops is not supported
+[    6.818687] amdgpu 0000:03:00.0: amdgpu: vm size is 64 GB, 2 levels, block size is 10-bit, fragment size is 9-bit
+[    6.818949] amdgpu 0000:03:00.0: amdgpu: VRAM: 4096M 0x000000F400000000 - 0x000000F4FFFFFFFF (4096M used)
+[    6.818952] amdgpu 0000:03:00.0: amdgpu: GART: 256M 0x000000FF00000000 - 0x000000FF0FFFFFFF
+[    6.818958] [drm] Detected VRAM RAM=4096M, BAR=256M
+[    6.818959] [drm] RAM width 256bits GDDR5
+[    6.819272] amdgpu 0000:03:00.0: amdgpu: amdgpu: 4096M of VRAM memory ready
+[    6.819275] amdgpu 0000:03:00.0: amdgpu: amdgpu: 7954M of GTT memory ready.
+[    6.819292] [drm] GART: num cpu pages 65536, num gpu pages 65536
+[    6.819898] [drm] PCIE GART of 256M enabled (table at 0x000000F400200000).
+[    6.820602] [drm] Chained IB support enabled!
+[    6.823430] amdgpu: hwmgr_sw_init smu backed is polaris10_smu
+[    6.825842] [drm] Found UVD firmware Version: 1.130 Family ID: 16
+[    6.827243] [drm] Found VCE firmware Version: 53.26 Binary ID: 3
+[    6.889760] amdgpu 0000:03:00.0: amdgpu: [drm] Display Core v3.2.351 initialized on DCE 11.2
+[    6.958022] [drm] UVD and UVD ENC initialized successfully.
+[    7.058978] [drm] VCE initialized successfully.
+[    7.061520] kfd kfd: amdgpu: skipped device 1002:6fdf, PCI rejects atomics 730<0
+[    7.061532] amdgpu 0000:03:00.0: amdgpu: SE 4, SH per SE 1, CU per SH 9, active_cu_number 32
+[    7.063675] amdgpu 0000:03:00.0: amdgpu: Using BACO for runtime pm
+[    7.064189] amdgpu 0000:03:00.0: [drm] Registered 6 planes with drm panic
+[    7.064191] [drm] Initialized amdgpu 3.64.0 for 0000:03:00.0 on minor 1
+[    7.080638] fbcon: amdgpudrmfb (fb0) is primary device
+[    7.103312] Console: switching to colour frame buffer device 160x45
+[    7.119543] amdgpu 0000:03:00.0: [drm] fb0: amdgpudrmfb frame buffer device
+[    7.519628] logitech-djreceiver 0003:046D:C52F.0001: hidraw0: USB HID v1.11 Mouse [Logitech USB Receiver] on usb-0000:09:00.0-1.1/input0
+[    7.658550] logitech-djreceiver 0003:046D:C52F.0002: hiddev96,hidraw1: USB HID v1.11 Device [Logitech USB Receiver] on usb-0000:09:00.0-1.1/input1
+[    7.715724] logitech-djreceiver 0003:046D:C52F.0002: device of type eQUAD step 4 DJ (0x04) connected on slot 1
+[    7.716059] input: Logitech Wireless Mouse PID:4055 Mouse as /devices/pci0000:00/0000:00:1c.3/0000:09:00.0/usb5/5-1/5-1.1/5-1.1:1.1/0003:046D:C52F.0002/0003:046D:4055.0006/input/input12
+[    7.716144] input: Logitech Wireless Mouse PID:4055 Consumer Control as /devices/pci0000:00/0000:00:1c.3/0000:09:00.0/usb5/5-1/5-1.1/5-1.1:1.1/0003:046D:C52F.0002/0003:046D:4055.0006/input/input13
+[    7.716232] hid-generic 0003:046D:4055.0006: input,hidraw5: USB HID v1.11 Mouse [Logitech Wireless Mouse PID:4055] on usb-0000:09:00.0-1.1/input1:1
+[    7.915942] input: Logitech Wireless Mouse as /devices/pci0000:00/0000:00:1c.3/0000:09:00.0/usb5/5-1/5-1.1/5-1.1:1.1/0003:046D:C52F.0002/0003:046D:4055.0006/input/input17
+[    7.916018] logitech-hidpp-device 0003:046D:4055.0006: input,hidraw5: USB HID v1.11 Mouse [Logitech Wireless Mouse] on usb-0000:09:00.0-1.1/input1:1
+[    8.076076] EXT4-fs (sdb5): mounted filesystem 4266fd9d-f2d1-43f9-8530-e87d06433ca6 r/w with ordered data mode. Quota mode: none.
+[    9.081313] systemd-journald[210]: Received SIGTERM from PID 1 (systemd).
+[    9.249273] systemd[1]: systemd 262.1-1-arch running in system mode (+PAM +AUDIT -SELINUX +APPARMOR -IMA +IPE +SMACK +SECCOMP +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF +XKBCOMMON +UTMP +LIBARCHIVE)
+[    9.249284] systemd[1]: Detected architecture x86-64.
+[    9.390703] systemd[1]: bpf-restrict-fs: LSM BPF program attached
+[   10.066708] systemd[1]: initrd-switch-root.service: Deactivated successfully.
+[   10.066918] systemd[1]: Stopped Switch Root.
+[   10.069707] systemd[1]: systemd-journald.service: Scheduled restart job, restart counter is at 1.
+[   10.070353] systemd[1]: Created slice Slice /system/dirmngr.
+[   10.071309] systemd[1]: Created slice Slice /system/getty.
+[   10.072276] systemd[1]: Created slice Slice /system/gpg-agent.
+[   10.073200] systemd[1]: Created slice Slice /system/gpg-agent-browser.
+[   10.074104] systemd[1]: Created slice Slice /system/gpg-agent-extra.
+[   10.075011] systemd[1]: Created slice Slice /system/gpg-agent-ssh.
+[   10.075913] systemd[1]: Created slice Slice /system/keyboxd.
+[   10.076823] systemd[1]: Created slice Slice /system/systemd-fsck.
+[   10.077579] systemd[1]: Created slice User and Session Slice.
+[   10.078150] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[   10.078704] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[   10.079404] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[   10.079928] systemd[1]: Expecting device /dev/disk/by-uuid/01D72FB9F6960100...
+[   10.080440] systemd[1]: Expecting device /dev/disk/by-uuid/0280-C0CC...
+[   10.080935] systemd[1]: Expecting device /dev/disk/by-uuid/C4CC82C9CC82B4E8...
+[   10.081472] systemd[1]: Reached target Local dm-clone Devices.
+[   10.082012] systemd[1]: Reached target Login Prompts.
+[   10.082541] systemd[1]: Reached target Image Downloads.
+[   10.083068] systemd[1]: Stopped target Switch Root.
+[   10.084901] systemd[1]: Stopped target Initrd File Systems.
+[   10.085804] systemd[1]: Stopped target Initrd Root File System.
+[   10.086654] systemd[1]: Reached target Local Integrity Protected Volumes.
+[   10.087536] systemd[1]: Reached target Path Units.
+[   10.088234] systemd[1]: Reached target Remote File Systems.
+[   10.088772] systemd[1]: Reached target Slice Units.
+[   10.089326] systemd[1]: Reached target Local Verity Protected Volumes.
+[   10.089978] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[   10.090626] systemd[1]: Listening on LVM2 poll daemon socket.
+[   10.092267] systemd[1]: Listening on Query the User Interactively for a Password.
+[   10.098160] systemd[1]: Listening on Process Core Dump Socket.
+[   10.099569] systemd[1]: Listening on Credential Encryption/Decryption.
+[   10.101207] systemd[1]: Listening on Disk Encryption Enrollment Service Socket.
+[   10.103459] systemd[1]: Listening on Factory Reset Management.
+[   10.104457] systemd[1]: Listening on Hostname Service Socket.
+[   10.106777] systemd[1]: Listening on Console Output Muting Service Socket.
+[   10.108257] systemd[1]: TPM PCR Measurements skipped, unmet condition check ConditionSecurity=measured-os
+[   10.108298] systemd[1]: Make TPM PCR Policy skipped, unmet condition check ConditionSecurity=measured-uki
+[   10.109272] systemd[1]: Listening on Disk Repartitioning Service Socket.
+[   10.110830] systemd[1]: Listening on Simple Block Device Backed Storage Provider.
+[   10.112474] systemd[1]: Listening on Simple File System Backed Storage Provider.
+[   10.113887] systemd[1]: Listening on System Install Tool.
+[   10.115692] systemd[1]: Listening on System Updates.
+[   10.116300] systemd[1]: Listening on udev Varlink Socket.
+[   10.116951] systemd[1]: Listening on User Database Manager Socket.
+[   10.119646] systemd[1]: Mounting Huge Pages File System...
+[   10.121677] systemd[1]: Mounting POSIX Message Queue File System...
+[   10.123100] systemd[1]: Mounting Kernel Debug File System...
+[   10.158682] systemd[1]: Mounting Kernel Trace File System...
+[   10.163836] systemd[1]: Starting Create List of Static Device Nodes...
+[   10.165422] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[   10.166031] systemd[1]: Load Kernel Module configfs skipped, unmet condition check ConditionKernelModuleLoaded=!configfs
+[   10.166083] systemd[1]: Load Kernel Module drm skipped, unmet condition check ConditionKernelModuleLoaded=!drm
+[   10.166122] systemd[1]: Load Kernel Module fuse skipped, unmet condition check ConditionKernelModuleLoaded=!fuse
+[   10.167080] systemd[1]: Mounting FUSE Control File System...
+[   10.168273] systemd[1]: Clear Stale Hibernate Storage Info skipped, unmet condition check ConditionPathExists=/sys/firmware/efi/efivars/HibernateLocation-8cf2644b-4b0b-428f-9387-6d876050dc67
+[   10.171198] systemd[1]: Starting Journal Service...
+[   10.174052] systemd[1]: Starting Load Kernel Modules...
+[   10.174954] systemd[1]: TPM PCR Machine ID Measurement skipped, unmet condition check ConditionSecurity=measured-os
+[   10.175002] systemd[1]: TPM PCR OS Separator skipped, unmet condition check ConditionSecurity=measured-os
+[   10.176063] systemd[1]: Starting Remount Root and Kernel File Systems...
+[   10.177188] systemd[1]: Early TPM SRK Setup skipped, unmet condition check ConditionSecurity=measured-os
+[   10.177250] systemd[1]: TPM PCR NvPCR Initialization Separator skipped, unmet condition check ConditionPathExists=/etc/initrd-release
+[   10.177303] systemd[1]: Reached target Local Encrypted Volumes.
+[   10.178250] systemd[1]: TPM NvPCR Product ID Measurement skipped, unmet condition check ConditionSecurity=measured-os
+[   10.179492] systemd[1]: Starting Load udev Rules from Credentials...
+[   10.181146] systemd[1]: Starting Coldplug All udev Devices...
+[   10.185434] systemd[1]: Mounted Huge Pages File System.
+[   10.186284] systemd[1]: Mounted POSIX Message Queue File System.
+[   10.187034] systemd[1]: Mounted Kernel Debug File System.
+[   10.187731] systemd[1]: Mounted Kernel Trace File System.
+[   10.188706] systemd[1]: Finished Create List of Static Device Nodes.
+[   10.189426] systemd[1]: Mounted FUSE Control File System.
+[   10.191120] systemd[1]: Starting Create Static Device Nodes in /dev gracefully...
+[   10.206345] systemd-journald[493]: Collecting audit messages is disabled.
+[   10.206794] systemd[1]: Finished Load udev Rules from Credentials.
+[   10.213049] systemd[1]: Started Journal Service.
+[   10.218145] EXT4-fs (sdb5): re-mounted 4266fd9d-f2d1-43f9-8530-e87d06433ca6.
+[   10.238908] systemd-journald[493]: Received client request to flush runtime journal.
+[   10.240874] Adding 4194300k swap on /swapfile.  Priority:-2 extents:6 across:6643708k SS
+[   10.468111] random: crng init done
+[   10.503630] device-mapper: uevent: version 1.0.3
+[   10.503714] device-mapper: ioctl: 4.50.0-ioctl (2025-04-28) initialised: dm-devel@lists.linux.dev
+[   10.854846] mousedev: PS/2 mouse device common for all mice
+[   10.855808] mc: Linux media interface: v0.10
+[   10.885735] input: PC Speaker as /devices/platform/pcspkr/input/input18
+[   10.888511] i801_smbus 0000:00:1f.3: enabling device (0001 -> 0003)
+[   10.888693] i801_smbus 0000:00:1f.3: SMBus using PCI interrupt
+[   10.890591] videodev: Linux video capture interface: v2.00
+[   10.965801] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[   10.972639] Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[   10.972908] Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+[   10.996512] iTCO_vendor_support: vendor-support=0
+[   10.997884] r8169 0000:07:00.0: can't disable ASPM; OS doesn't have ASPM control
+[   11.007013] snd_hda_intel 0000:00:1b.0: enabling device (0000 -> 0002)
+[   11.007049] RAPL PMU: API unit is 2^-32 Joules, 2 fixed counters, 163840 ms ovfl timer
+[   11.007052] RAPL PMU: hw unit of domain pp0-core 2^-16 Joules
+[   11.007053] RAPL PMU: hw unit of domain package 2^-16 Joules
+[   11.007600] snd_hda_intel 0000:03:00.1: Force to non-snoop mode
+[   11.010124] iTCO_wdt iTCO_wdt.1.auto: Found a Patsburg TCO device (Version=2, TCOBASE=0x0460)
+[   11.010205] iTCO_wdt iTCO_wdt.1.auto: initialized. heartbeat=30 sec (nowayout=0)
+[   11.012483] r8169 0000:07:00.0 eth0: RTL8168h/8111h, 0a:e0:af:b5:03:04, XID 541, IRQ 37
+[   11.012489] r8169 0000:07:00.0 eth0: jumbo features [frames: 9194 bytes, tx checksumming: ko]
+[   11.016868] r8169 0000:07:00.0 enp7s0: renamed from eth0
+[   11.042337] saa7231_core: loading out-of-tree module taints kernel.
+[   11.042351] saa7231_core: module verification failed: signature and/or required key missing - tainting kernel
+[   11.153179] ntfs3: Enabled Linux POSIX ACLs support
+[   11.153184] ntfs3: Read-only LZX/Xpress compression included
+[   11.153722] snd_hda_intel 0000:03:00.1: bound 0000:03:00.0 (ops amdgpu_dm_audio_component_bind_ops [amdgpu])
+[   11.170785] input: HDA ATI HDMI HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:02.0/0000:03:00.1/sound/card1/input19
+[   11.170835] input: HDA ATI HDMI HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:02.0/0000:03:00.1/sound/card1/input20
+[   11.170910] input: HDA ATI HDMI HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:02.0/0000:03:00.1/sound/card1/input21
+[   11.171010] input: HDA ATI HDMI HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:02.0/0000:03:00.1/sound/card1/input22
+[   11.171092] input: HDA ATI HDMI HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:02.0/0000:03:00.1/sound/card1/input23
+[   11.171178] input: HDA ATI HDMI HDMI/DP,pcm=11 as /devices/pci0000:00/0000:00:02.0/0000:03:00.1/sound/card1/input24
+[   11.175760] usbcore: registered new interface driver snd-usb-audio
+[   11.178453] SAA7231 0000:0a:00.0: enabling device (0000 -> 0002)
+[   11.187834] snd_hda_codec_alc662 hdaudioC0D2: ALC892: SKU not ready 0x00000100
+[   11.188505] snd_hda_codec_alc662 hdaudioC0D2: autoconfig for ALC892: line_outs=4 (0x14/0x16/0x15/0x17/0x0) type:line
+[   11.188510] snd_hda_codec_alc662 hdaudioC0D2:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[   11.188512] snd_hda_codec_alc662 hdaudioC0D2:    hp_outs=1 (0x1b/0x0/0x0/0x0/0x0)
+[   11.188515] snd_hda_codec_alc662 hdaudioC0D2:    mono: mono_out=0x0
+[   11.188516] snd_hda_codec_alc662 hdaudioC0D2:    dig-out=0x1e/0x0
+[   11.188518] snd_hda_codec_alc662 hdaudioC0D2:    inputs:
+[   11.188520] snd_hda_codec_alc662 hdaudioC0D2:      Rear Mic=0x18
+[   11.188522] snd_hda_codec_alc662 hdaudioC0D2:      Front Mic=0x19
+[   11.188523] snd_hda_codec_alc662 hdaudioC0D2:      Line=0x1a
+[   11.188525] snd_hda_codec_alc662 hdaudioC0D2:      CD=0x1c
+[   11.209080] input: HDA Intel PCH Rear Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input25
+[   11.209150] input: HDA Intel PCH Front Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input26
+[   11.209207] input: HDA Intel PCH Line as /devices/pci0000:00/0000:00:1b.0/sound/card0/input27
+[   11.209279] input: HDA Intel PCH Line Out Front as /devices/pci0000:00/0000:00:1b.0/sound/card0/input28
+[   11.209368] input: HDA Intel PCH Line Out Surround as /devices/pci0000:00/0000:00:1b.0/sound/card0/input29
+[   11.209514] input: HDA Intel PCH Line Out CLFE as /devices/pci0000:00/0000:00:1b.0/sound/card0/input30
+[   11.209613] input: HDA Intel PCH Line Out Side as /devices/pci0000:00/0000:00:1b.0/sound/card0/input31
+[   11.209691] input: HDA Intel PCH Front Headphone as /devices/pci0000:00/0000:00:1b.0/sound/card0/input32
+[   11.214335] rtw88_8821cu 4-1.1:1.0: Firmware version 24.11.0, H2C version 12
+[   11.264250] EDAC sbridge: Seeking for: PCI ID 8086:3ca0
+[   11.264272] EDAC sbridge: Seeking for: PCI ID 8086:3ca0
+[   11.264278] EDAC sbridge: Seeking for: PCI ID 8086:3ca8
+[   11.264284] EDAC sbridge: Seeking for: PCI ID 8086:3ca8
+[   11.264287] EDAC sbridge: Seeking for: PCI ID 8086:3c71
+[   11.264293] EDAC sbridge: Seeking for: PCI ID 8086:3c71
+[   11.264295] EDAC sbridge: Seeking for: PCI ID 8086:3caa
+[   11.264301] EDAC sbridge: Seeking for: PCI ID 8086:3caa
+[   11.264303] EDAC sbridge: Seeking for: PCI ID 8086:3cab
+[   11.264307] EDAC sbridge: Seeking for: PCI ID 8086:3cab
+[   11.264308] EDAC sbridge: Seeking for: PCI ID 8086:3cac
+[   11.264312] EDAC sbridge: Seeking for: PCI ID 8086:3cac
+[   11.264313] EDAC sbridge: Seeking for: PCI ID 8086:3cad
+[   11.264317] EDAC sbridge: Seeking for: PCI ID 8086:3cad
+[   11.264319] EDAC sbridge: Seeking for: PCI ID 8086:3cb8
+[   11.264323] EDAC sbridge: Seeking for: PCI ID 8086:3cb8
+[   11.264324] EDAC sbridge: Seeking for: PCI ID 8086:3cf4
+[   11.264327] EDAC sbridge: Seeking for: PCI ID 8086:3cf4
+[   11.264329] EDAC sbridge: Seeking for: PCI ID 8086:3cf6
+[   11.264333] EDAC sbridge: Seeking for: PCI ID 8086:3cf6
+[   11.264336] EDAC sbridge: Seeking for: PCI ID 8086:3cf5
+[   11.264341] EDAC sbridge: Seeking for: PCI ID 8086:3cf5
+[   11.264432] EDAC MC0: Giving out device to module sb_edac controller Sandy Bridge SrcID#0_Ha#0: DEV 0000:ff:0e.0 (INTERRUPT)
+[   11.264435] EDAC sbridge:  Ver: 1.1.2 
+[   11.281302] intel_rapl_common: Found RAPL domain package
+[   11.281308] intel_rapl_common: Found RAPL domain core
+[   11.352208] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[   11.362508] tda10048_readreg: readreg error (ret == -6)
+[   11.362581] tda10048_readreg: readreg error (ret == -6)
+[   11.468683] tda10048_readreg: readreg error (ret == -5)
+[   11.574441] tda10048_readreg: readreg error (ret == -5)
+[   11.588141] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[   11.596652] usbcore: registered new interface driver rtw88_8821cu
+[   11.918154] Generic FE-GE Realtek PHY r8169-0-700:00: attached PHY driver (mii_bus:phy_addr=r8169-0-700:00, irq=MAC)
+[   12.068413] r8169 0000:07:00.0 enp7s0: Link is Down
+[   21.194358] input: ydotoold virtual device as /devices/virtual/input/input33
+[   21.333113] wlan0: authenticate with 5a:22:fc:d1:57:13 (local address=a0:47:d7:60:7b:d1)
+[   21.378704] wlan0: send auth to 5a:22:fc:d1:57:13 (try 1/3)
+[   21.404157] wlan0: authenticate with 5a:22:fc:d1:57:13 (local address=a0:47:d7:60:7b:d1)
+[   21.404165] wlan0: send auth to 5a:22:fc:d1:57:13 (try 1/3)
+[   21.413263] wlan0: authenticated
+[   21.414823] wlan0: associate with 5a:22:fc:d1:57:13 (try 1/3)
+[   21.416634] wlan0: RX AssocResp from 5a:22:fc:d1:57:13 (capab=0x11 status=0 aid=1)
+[   21.429070] wlan0: associated
+[   21.554251] wlan0: Limiting TX power to 0 (-128 - 0) dBm as advertised by 5a:22:fc:d1:57:13
+[   21.899621] logitech-hidpp-device 0003:046D:4055.0006: HID++ 4.5 device connected.
+[   98.505837] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[   98.506339] tda10048_readreg: readreg error (ret == -6)
+[   98.506414] tda10048_readreg: readreg error (ret == -6)
+[   98.610387] tda10048_readreg: readreg error (ret == -5)
+[   98.713863] tda10048_readreg: readreg error (ret == -5)
+[   98.724784] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[  100.761349] saa7231 vfl: start, allocating stream
+[  100.762953] saa7231 vfl: stream allocated
+[  100.762959] saa7231 vfl: acquire
+[  100.762961] saa7231 s2d: setparams port=0 type=2
+[  100.762963] saa7231 s2d: reset done
+[  100.762965] saa7231 s2d: ptables done
+[  100.762974] saa7231 s2d: id=0xa0b21000
+[  100.762977] saa7231 s2d: setparams done
+[  100.762978] saa7231 vfl: run
+[  100.762978] saa7231 s2d: run, loading PTAs (ch=1)
+[  100.774884] saa7231 s2d: PTAs loaded, enabling channel
+[  100.774892] saa7231 vfl: streaming
+[  108.788213] saa7231 s2d: setparams port=0 type=2
+[  108.788225] saa7231 s2d: reset done
+[  108.788229] saa7231 s2d: ptables done
+[  108.788249] saa7231 s2d: id=0xa0b21000
+[  108.788255] saa7231 s2d: setparams done
+[  108.789015] ------------[ cut here ]------------
+[  108.789018] WARNING: CPU: 6 PID: 2775 at drivers/media/common/videobuf2/videobuf2-core.c:2222 __vb2_queue_cancel+0x26f/0x2f0 [videobuf2_common]
+[  108.789043] Modules linked in: saa7231_drv(OE) saa7231_core(OE) udp_diag tcp_diag inet_diag snd_seq_dummy snd_hrtimer snd_seq cmac ccm uinput tda10048 intel_rapl_msr intel_rapl_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel rtw88_8821cu rtw88_8821c rtw88_usb snd_hda_codec_alc662 rtw88_core snd_hda_codec_realtek_lib vfat fat ntfs3 kvm snd_hda_codec_atihdmi snd_hda_codec_generic mac80211 snd_hda_codec_hdmi dvb_core irqbypass videobuf2_vmalloc snd_usb_audio iTCO_wdt rapl snd_hda_intel videobuf2_memops intel_pmc_bxt intel_cstate r8169 iTCO_vendor_support videobuf2_v4l2 snd_usbmidi_lib snd_hda_codec snd_ump videobuf2_common snd_rawmidi cfg80211 realtek intel_uncore i2c_i801 snd_hda_core videodev snd_seq_device pcspkr snd_intel_dspcfg mdio_devres snd_intel_sdw_acpi i2c_smbus i2c_mux lpc_ich rfkill snd_hwdep mc libphy libarc4 snd_pcm mousedev mdio_bus snd_timer joydev mei_me snd soundcore mei ip6t_REJECT nf_reject_ipv6 xt_hl mac_hid ip6t_rt ipt_REJECT nf_reject_ipv4 xt_LOG nf_log_syslog nft_limit
+[  108.789156]  xt_limit xt_addrtype dm_mod xt_tcpudp xt_conntrack nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 nft_compat x_tables nf_tables nfnetlink hid_logitech_hidpp polyval_clmulni psmouse ghash_clmulni_intel serio_raw aesni_intel intel_oc_wdt hid_logitech_dj amdgpu drm_buddy amdxcp i2c_algo_bit drm_ttm_helper ttm drm_exec drm_panel_backlight_quirks gpu_sched drm_suballoc_helper video wmi drm_display_helper cec i2c_dev crypto_user pkcs8_key_parser
+[  108.789204] Unloaded tainted modules: saa7231_core(OE):1 saa7231_drv(OE):1 [last unloaded: saa7231_core(OE)]
+[  108.789216] CPU: 6 UID: 0 PID: 2775 Comm: v4l2-ctl Tainted: G           OE       6.18.57-2-lts #1 PREEMPT(voluntary)  8d81262170519862cce2eb1ae50814aaaeca7008
+[  108.789225] Tainted: [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  108.789228] Hardware name: To be filled by O.E.M. To be filled by O.E.M./X79, BIOS 4.6.5 10/28/2019
+[  108.789231] RIP: 0010:__vb2_queue_cancel+0x26f/0x2f0 [videobuf2_common]
+[  108.789245] Code: 48 83 c4 28 c3 cc cc cc cc 48 8b 50 30 48 8b 52 68 48 85 d2 0f 84 fa fe ff ff 48 89 df e8 69 86 12 dd 48 8b 03 e9 ea fe ff ff <0f> 0b 45 8b 84 24 e0 00 00 00 45 85 c0 74 56 48 89 6c 24 08 48 89
+[  108.789249] RSP: 0018:ffffd403866c3bb8 EFLAGS: 00010202
+[  108.789253] RAX: 0000000000000000 RBX: ffff8cea0999a888 RCX: 0000000015506006
+[  108.789256] RDX: 0000000000000000 RSI: ffffffff9f6871b0 RDI: 807370c8e98cffff
+[  108.789259] RBP: ffff8cea0999a930 R08: 0000000000000000 R09: 0000000000000004
+[  108.789262] R10: ffff8ce9c8707300 R11: ffff8ce9c0042900 R12: ffff8cea0999a888
+[  108.789264] R13: ffff8ce9c4b10020 R14: ffff8ce9f9457480 R15: ffff8ce9d64c3680
+[  108.789267] FS:  00007eff5cafdcc0(0000) GS:ffff8ced50531000(0000) knlGS:0000000000000000
+[  108.789271] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[  108.789274] CR2: 00007fd2201ed2ac CR3: 000000036e024001 CR4: 00000000000626f0
+[  108.789278] Call Trace:
+[  108.789282]  <TASK>
+[  108.789286]  vb2_core_queue_release+0x22/0x80 [videobuf2_common 04170a756c56978a1f8d6f74c84af57f695e3e2b]
+[  108.789302]  _vb2_fop_release+0x58/0xb0 [videobuf2_v4l2 c3594be017cef731cc79e3d9b81fa0c455247bcc]
+[  108.789314]  v4l2_release+0x92/0xc0 [videodev 8a6f54aeb0aae9377914628cdc9832cd334f39e1]
+[  108.789358]  __fput+0xf6/0x2e0
+[  108.789366]  task_work_run+0x66/0xa0
+[  108.789371]  do_exit+0x2f9/0xbd0
+[  108.789377]  do_group_exit+0x2d/0xc0
+[  108.789381]  ? __pfx___video_do_ioctl+0x10/0x10 [videodev 8a6f54aeb0aae9377914628cdc9832cd334f39e1]
+[  108.789416]  get_signal+0x8f7/0x900
+[  108.789422]  arch_do_signal_or_restart+0x77/0x2c0
+[  108.789430]  exit_to_user_mode_loop+0x86/0x180
+[  108.789439]  do_syscall_64+0x1ff/0x810
+[  108.789447]  ? v4l2_ioctl+0x4e/0x60 [videodev 8a6f54aeb0aae9377914628cdc9832cd334f39e1]
+[  108.789479]  ? __x64_sys_ioctl+0xb9/0x100
+[  108.789487]  ? do_syscall_64+0x83/0x810
+[  108.789493]  ? v4l2_ioctl+0x4e/0x60 [videodev 8a6f54aeb0aae9377914628cdc9832cd334f39e1]
+[  108.789525]  ? __x64_sys_ioctl+0xb9/0x100
+[  108.789530]  ? do_syscall_64+0x83/0x810
+[  108.789536]  ? exc_page_fault+0x8f/0x1d0
+[  108.789543]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+[  108.789549] RIP: 0033:0x7eff5c51bd9d
+[  108.789579] Code: Unable to access opcode bytes at 0x7eff5c51bd73.
+[  108.789581] RSP: 002b:00007ffcfdc76430 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[  108.789586] RAX: fffffffffffffe00 RBX: 00007ffcfdc7afe0 RCX: 00007eff5c51bd9d
+[  108.789588] RDX: 00007ffcfdc767b8 RSI: 00000000c0585611 RDI: 0000000000000003
+[  108.789591] RBP: 00007ffcfdc76480 R08: 00007ffcfdc765b8 R09: 00007ffcfdc76b60
+[  108.789593] R10: 00007ffcfdc76900 R11: 0000000000000246 R12: 0000000000000008
+[  108.789596] R13: 00007ffcfdc767b8 R14: 000055970a4bda40 R15: 00007ffcfdc78f30
+[  108.789602]  </TASK>
+[  108.789604] ---[ end trace 0000000000000000 ]---
+[  108.789608] videobuf2_common: driver bug: stop_streaming operation is leaving buffer 0 in active state
+[  108.789611] videobuf2_common: driver bug: stop_streaming operation is leaving buffer 1 in active state
+[  108.789613] videobuf2_common: driver bug: stop_streaming operation is leaving buffer 2 in active state
+[  108.789615] videobuf2_common: driver bug: stop_streaming operation is leaving buffer 3 in active state
+[  109.017747] saa7231 dbg_mmio bar0: [0x120000] = 0x2c
+[  110.048337] saa7231 dbg_mmio bar0: [0x12000c] = 0x2
+[  111.071107] saa7231 dbg_mmio bar0: [0x1200a0] = 0x0
+[  112.097670] saa7231 dbg_mmio bar0: [0x1200a4] = 0x200000ff
+[  113.119141] saa7231 vfl: start, allocating stream
+[  113.120738] saa7231 vfl: stream allocated
+[  113.120743] saa7231 vfl: acquire
+[  113.120745] saa7231 s2d: setparams port=0 type=2
+[  113.120747] saa7231 s2d: reset done
+[  113.120749] saa7231 s2d: ptables done
+[  113.120757] saa7231 s2d: id=0xa0b21000
+[  113.120760] saa7231 s2d: setparams done
+[  113.120761] saa7231 vfl: avis program, input type 3
+[  113.120780] saa7231 avis: base init done
+[  113.120822] saa7231 avis: input table done
+[  113.120848] saa7231 avis: input setup done
+[  113.120851] saa7231 avis: timing done
+[  113.120851] saa7231 vfl: avis program done
+[  113.120852] saa7231 vfl: run
+[  113.120853] saa7231 s2d: run, loading PTAs (ch=1)
+[  113.131440] saa7231 s2d: PTAs loaded, enabling channel
+[  113.131450] saa7231 vfl: streaming
+[  128.158139] saa7231 s2d: setparams port=0 type=2
+[  128.158147] saa7231 s2d: reset done
+[  128.158149] saa7231 s2d: ptables done
+[  128.158157] saa7231 s2d: id=0xa0b21000
+[  128.158160] saa7231 s2d: setparams done
+[  128.158584] ------------[ cut here ]------------
+[  128.158585] WARNING: CPU: 2 PID: 2866 at drivers/media/common/videobuf2/videobuf2-core.c:2222 __vb2_queue_cancel+0x26f/0x2f0 [videobuf2_common]
+[  128.158599] Modules linked in: saa7231_drv(OE) saa7231_core(OE) udp_diag tcp_diag inet_diag snd_seq_dummy snd_hrtimer snd_seq cmac ccm uinput tda10048 intel_rapl_msr intel_rapl_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel rtw88_8821cu rtw88_8821c rtw88_usb snd_hda_codec_alc662 rtw88_core snd_hda_codec_realtek_lib vfat fat ntfs3 kvm snd_hda_codec_atihdmi snd_hda_codec_generic mac80211 snd_hda_codec_hdmi dvb_core irqbypass videobuf2_vmalloc snd_usb_audio iTCO_wdt rapl snd_hda_intel videobuf2_memops intel_pmc_bxt intel_cstate r8169 iTCO_vendor_support videobuf2_v4l2 snd_usbmidi_lib snd_hda_codec snd_ump videobuf2_common snd_rawmidi cfg80211 realtek intel_uncore i2c_i801 snd_hda_core videodev snd_seq_device pcspkr snd_intel_dspcfg mdio_devres snd_intel_sdw_acpi i2c_smbus i2c_mux lpc_ich rfkill snd_hwdep mc libphy libarc4 snd_pcm mousedev mdio_bus snd_timer joydev mei_me snd soundcore mei ip6t_REJECT nf_reject_ipv6 xt_hl mac_hid ip6t_rt ipt_REJECT nf_reject_ipv4 xt_LOG nf_log_syslog nft_limit
+[  128.158652]  xt_limit xt_addrtype dm_mod xt_tcpudp xt_conntrack nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 nft_compat x_tables nf_tables nfnetlink hid_logitech_hidpp polyval_clmulni psmouse ghash_clmulni_intel serio_raw aesni_intel intel_oc_wdt hid_logitech_dj amdgpu drm_buddy amdxcp i2c_algo_bit drm_ttm_helper ttm drm_exec drm_panel_backlight_quirks gpu_sched drm_suballoc_helper video wmi drm_display_helper cec i2c_dev crypto_user pkcs8_key_parser
+[  128.158675] Unloaded tainted modules: saa7231_core(OE):1 saa7231_drv(OE):1 [last unloaded: saa7231_core(OE)]
+[  128.158682] CPU: 2 UID: 0 PID: 2866 Comm: v4l2-ctl Tainted: G        W  OE       6.18.57-2-lts #1 PREEMPT(voluntary)  8d81262170519862cce2eb1ae50814aaaeca7008
+[  128.158686] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  128.158687] Hardware name: To be filled by O.E.M. To be filled by O.E.M./X79, BIOS 4.6.5 10/28/2019
+[  128.158689] RIP: 0010:__vb2_queue_cancel+0x26f/0x2f0 [videobuf2_common]
+[  128.158695] Code: 48 83 c4 28 c3 cc cc cc cc 48 8b 50 30 48 8b 52 68 48 85 d2 0f 84 fa fe ff ff 48 89 df e8 69 86 12 dd 48 8b 03 e9 ea fe ff ff <0f> 0b 45 8b 84 24 e0 00 00 00 45 85 c0 74 56 48 89 6c 24 08 48 89
+[  128.158697] RSP: 0018:ffffd40383567aa8 EFLAGS: 00010202
+[  128.158699] RAX: 0000000000000000 RBX: ffff8cea0999a888 RCX: 000000000094a002
+[  128.158700] RDX: 0000000000000000 RSI: ffffffff9f6871b0 RDI: 80429631ea8cffff
+[  128.158701] RBP: ffff8cea0999a930 R08: 0000000000000000 R09: 0000000000000004
+[  128.158703] R10: ffff8cea31964200 R11: ffff8ce9c0042900 R12: ffff8cea0999a888
+[  128.158704] R13: ffff8ce9c4b10020 R14: ffff8ce9f9457480 R15: ffff8cea0e273680
+[  128.158705] FS:  00007f92eb114cc0(0000) GS:ffff8ced50431000(0000) knlGS:0000000000000000
+[  128.158707] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[  128.158708] CR2: 00007f49b4009728 CR3: 000000036e024005 CR4: 00000000000626f0
+[  128.158710] Call Trace:
+[  128.158712]  <TASK>
+[  128.158716]  vb2_core_queue_release+0x22/0x80 [videobuf2_common 04170a756c56978a1f8d6f74c84af57f695e3e2b]
+[  128.158723]  _vb2_fop_release+0x58/0xb0 [videobuf2_v4l2 c3594be017cef731cc79e3d9b81fa0c455247bcc]
+[  128.158729]  v4l2_release+0x92/0xc0 [videodev 8a6f54aeb0aae9377914628cdc9832cd334f39e1]
+[  128.158753]  __fput+0xf6/0x2e0
+[  128.158757]  task_work_run+0x66/0xa0
+[  128.158760]  do_exit+0x2f9/0xbd0
+[  128.158763]  do_group_exit+0x2d/0xc0
+[  128.158765]  ? __pfx___video_do_ioctl+0x10/0x10 [videodev 8a6f54aeb0aae9377914628cdc9832cd334f39e1]
+[  128.158780]  get_signal+0x8f7/0x900
+[  128.158784]  arch_do_signal_or_restart+0x77/0x2c0
+[  128.158788]  exit_to_user_mode_loop+0x86/0x180
+[  128.158792]  do_syscall_64+0x1ff/0x810
+[  128.158797]  ? __rseq_handle_notify_resume+0xa6/0x4d0
+[  128.158801]  ? exit_to_user_mode_loop+0xd9/0x180
+[  128.158804]  ? do_syscall_64+0x234/0x810
+[  128.158806]  ? vm_mmap_pgoff+0x161/0x210
+[  128.158810]  ? ksys_mmap_pgoff+0x168/0x200
+[  128.158813]  ? do_syscall_64+0x83/0x810
+[  128.158816]  ? do_user_addr_fault+0x23b/0x730
+[  128.158820]  ? exc_page_fault+0x8f/0x1d0
+[  128.158824]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+[  128.158827] RIP: 0033:0x7f92eab1bd9d
+[  128.158846] Code: Unable to access opcode bytes at 0x7f92eab1bd73.
+[  128.158847] RSP: 002b:00007ffd548ad180 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[  128.158849] RAX: fffffffffffffe00 RBX: 00007ffd548b1d30 RCX: 00007f92eab1bd9d
+[  128.158850] RDX: 00007ffd548ad508 RSI: 00000000c0585611 RDI: 0000000000000003
+[  128.158851] RBP: 00007ffd548ad1d0 R08: 00007ffd548ad308 R09: 00007ffd548ad8b0
+[  128.158852] R10: 00007ffd548ad650 R11: 0000000000000246 R12: 0000000000000008
+[  128.158853] R13: 00007ffd548ad508 R14: 000055c36a538a40 R15: 00007ffd548afc80
+[  128.158856]  </TASK>
+[  128.158857] ---[ end trace 0000000000000000 ]---
+[  128.158859] videobuf2_common: driver bug: stop_streaming operation is leaving buffer 0 in active state
+[  128.158861] videobuf2_common: driver bug: stop_streaming operation is leaving buffer 1 in active state
+[  128.158862] videobuf2_common: driver bug: stop_streaming operation is leaving buffer 2 in active state
+[  128.158863] videobuf2_common: driver bug: stop_streaming operation is leaving buffer 3 in active state
+[  128.241288] saa7231 dbg_mmio bar0: [0x20239c] = 0x1
+[  129.266336] saa7231 dbg_mmio bar0: [0x203398] = 0x34
+[  130.289289] saa7231 dbg_mmio bar0: [0x20339c] = 0x0
+[  131.319516] saa7231 dbg_mmio bar0: [0x2033f4] = 0x1
+[  132.347553] saa7231 dbg_mmio bar0: [0x120000] = 0x2c
+[  133.370122] saa7231 dbg_mmio bar0: [0x1200a0] = 0x0
+[  134.395106] saa7231 dbg_mmio bar0: [0x1200a4] = 0x200000ff
+[  157.321992] warning: `ThreadPoolForeg' uses wireless extensions which will stop working for Wi-Fi 7 hardware; use nl80211
+[  283.509621] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[  283.510091] tda10048_readreg: readreg error (ret == -6)
+[  283.510165] tda10048_readreg: readreg error (ret == -6)
+[  283.614933] tda10048_readreg: readreg error (ret == -5)
+[  283.718040] tda10048_readreg: readreg error (ret == -5)
+[  283.731503] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[  284.751222] saa7231 vfl: start, allocating stream
+[  284.753401] saa7231 vfl: stream allocated
+[  284.753407] saa7231 vfl: acquire
+[  284.753410] saa7231 s2d: setparams port=0 type=2
+[  284.753413] saa7231 s2d: reset done
+[  284.753415] saa7231 s2d: ptables done
+[  284.753424] saa7231 s2d: id=0xa0b21000
+[  284.753428] saa7231 s2d: setparams done
+[  284.753429] saa7231 vfl: avis program, input type 3
+[  284.753447] saa7231 avis: base init done
+[  284.753489] saa7231 avis: input table done
+[  284.753516] saa7231 avis: input setup done
+[  284.753519] saa7231 avis: timing done
+[  284.753520] saa7231 vfl: avis program done
+[  284.753521] saa7231 vfl: run
+[  284.753523] saa7231 s2d: run, loading PTAs (ch=1)
+[  284.764756] saa7231 s2d: PTAs loaded, enabling channel
+[  284.764765] saa7231 vfl: streaming
+[  287.749530] saa7231 dbg_mmio bar0: [0x120000] = 0x2d
+[  287.951888] saa7231 dbg_mmio bar0: [0x120010] = 0x2b1
+[  288.154609] saa7231 dbg_mmio bar0: [0x1200a0] = 0x200598
+[  288.357144] saa7231 dbg_mmio bar0: [0x1200a4] = 0xfe
+[  288.559429] saa7231 dbg_mmio bar0: [0x120fe0] = 0x0
+[  288.762057] saa7231 dbg_mmio bar0: [0x120fe4] = 0x1800
+[  288.964837] saa7231 dbg_mmio bar0: [0x12c080] = 0x5
+[  289.166808] saa7231 dbg_mmio bar0: [0x202330] = 0x0
+[  289.368696] saa7231 dbg_mmio bar0: [0x202338] = 0x40
+[  289.570829] saa7231 dbg_mmio bar0: [0x20233c] = 0x6
+[  289.773697] saa7231 dbg_mmio bar0: [0x20239c] = 0x1
+[  289.975503] saa7231 dbg_mmio bar0: [0x202410] = 0x0
+[  290.178280] saa7231 dbg_mmio bar0: [0x202414] = 0x10
+[  290.380863] saa7231 dbg_mmio bar0: [0x2033c0] = 0x58
+[  290.582261] saa7231 dbg_mmio bar0: [0x2033c8] = 0xd6
+[  290.783839] saa7231 dbg_mmio bar0: [0x2033f4] = 0x1
+[  290.985704] saa7231 dbg_mmio bar0: [0x203398] = 0x34
+[  291.188425] saa7231 dbg_mmio bar0: [0x20339c] = 0x0
+[  291.424860] saa7231 s2d: setparams port=0 type=2
+[  291.424870] saa7231 s2d: reset done
+[  291.424873] saa7231 s2d: ptables done
+[  291.424881] saa7231 s2d: id=0xa0b21000
+[  291.424885] saa7231 s2d: setparams done
+[  291.425521] saa7231 vfl: stop, frames=0
+[  513.509002] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[  513.509530] tda10048_readreg: readreg error (ret == -6)
+[  513.509604] tda10048_readreg: readreg error (ret == -6)
+[  513.614827] tda10048_readreg: readreg error (ret == -5)
+[  513.724017] tda10048_readreg: readreg error (ret == -5)
+[  513.738081] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[  514.757088] saa7231 vfl: start, allocating stream
+[  514.758778] saa7231 vfl: stream allocated
+[  514.758781] saa7231 vfl: acquire
+[  514.758783] saa7231 s2d: setparams port=0 type=2
+[  514.758784] saa7231 s2d: reset done
+[  514.758786] saa7231 s2d: ptables done
+[  514.758796] saa7231 s2d: id=0xa0b21000
+[  514.758799] saa7231 s2d: setparams done
+[  514.758800] saa7231 vfl: avis program, input type 3
+[  514.758819] saa7231 avis: base init done
+[  514.758861] saa7231 avis: input table done
+[  514.758887] saa7231 avis: input setup done
+[  514.758890] saa7231 avis: timing done
+[  514.758890] saa7231 vfl: avis program done
+[  514.758891] saa7231 vfl: run
+[  514.758892] saa7231 s2d: run, loading PTAs (ch=1)
+[  514.771465] saa7231 s2d: PTAs loaded, enabling channel
+[  514.771480] saa7231 vfl: streaming
+[  517.756027] saa7231 dbg_mmio bar0: [0x120000] = 0x2d
+[  517.957769] saa7231 dbg_mmio bar0: [0x120010] = 0x2b1
+[  518.159979] saa7231 dbg_mmio bar0: [0x1200a0] = 0x0
+[  518.361654] saa7231 dbg_mmio bar0: [0x1200a4] = 0x300000fe
+[  518.564319] saa7231 dbg_mmio bar0: [0x120fe0] = 0x0
+[  518.766090] saa7231 dbg_mmio bar0: [0x120fe4] = 0x1800
+[  518.968836] saa7231 dbg_mmio bar0: [0x12c080] = 0x5
+[  519.171303] saa7231 dbg_mmio bar0: [0x202330] = 0x0
+[  519.373988] saa7231 dbg_mmio bar0: [0x202338] = 0x40
+[  519.575976] saa7231 dbg_mmio bar0: [0x20233c] = 0x6
+[  519.777419] saa7231 dbg_mmio bar0: [0x20239c] = 0x0
+[  519.978912] saa7231 dbg_mmio bar0: [0x202410] = 0x0
+[  520.181330] saa7231 dbg_mmio bar0: [0x202414] = 0x10
+[  520.383996] saa7231 dbg_mmio bar0: [0x2033c0] = 0x58
+[  520.586720] saa7231 dbg_mmio bar0: [0x2033c8] = 0xd6
+[  520.788341] saa7231 dbg_mmio bar0: [0x2033f4] = 0x1
+[  520.989979] saa7231 dbg_mmio bar0: [0x203398] = 0x34
+[  521.191669] saa7231 dbg_mmio bar0: [0x20339c] = 0x0
+[  521.431452] saa7231 s2d: setparams port=0 type=2
+[  521.431459] saa7231 s2d: reset done
+[  521.431462] saa7231 s2d: ptables done
+[  521.431471] saa7231 s2d: id=0xa0b21000
+[  521.431474] saa7231 s2d: setparams done
+[  521.432106] saa7231 vfl: stop, frames=0
+[  786.526357] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[  786.527047] tda10048_readreg: readreg error (ret == -6)
+[  786.527120] tda10048_readreg: readreg error (ret == -6)
+[  786.630799] tda10048_readreg: readreg error (ret == -5)
+[  786.733872] tda10048_readreg: readreg error (ret == -5)
+[  786.744815] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[  787.764512] saa7231 vfl: start, allocating stream
+[  787.766516] saa7231 vfl: stream allocated
+[  787.766520] saa7231 vfl: acquire
+[  787.766523] saa7231 s2d: setparams port=0 type=2
+[  787.766524] saa7231 s2d: reset done
+[  787.766526] saa7231 s2d: ptables done
+[  787.766535] saa7231 s2d: id=0xa0b21000
+[  787.766538] saa7231 s2d: setparams done
+[  787.766539] saa7231 vfl: avis program, input type 3
+[  787.766559] saa7231 avis: base init done
+[  787.766601] saa7231 avis: input table done
+[  787.766627] saa7231 avis: input setup done
+[  787.766630] saa7231 avis: timing done
+[  787.766631] saa7231 vfl: avis program done
+[  787.766631] saa7231 vfl: run
+[  787.766632] saa7231 s2d: run, loading PTAs (ch=1)
+[  787.778038] saa7231 s2d: PTAs loaded, enabling channel
+[  787.778046] saa7231 vfl: streaming
+[  787.818172] saa7231 vfl: first frame (dma 0)
+[  790.763213] saa7231 dbg_mmio bar0: [0x120000] = 0x2d
+[  790.965096] saa7231 dbg_mmio bar0: [0x120010] = 0x2b1
+[  791.167401] saa7231 dbg_mmio bar0: [0x1200a0] = 0x2557fc
+[  791.369152] saa7231 dbg_mmio bar0: [0x1200a4] = 0x210e200
+[  791.570763] saa7231 dbg_mmio bar0: [0x20233c] = 0x6
+[  791.772568] saa7231 dbg_mmio bar0: [0x20239c] = 0x0
+[  791.975465] saa7231 dbg_mmio bar0: [0x2033c0] = 0x2f
+[  792.178155] saa7231 dbg_mmio bar0: [0x2033c8] = 0x1
+[  792.380458] saa7231 dbg_mmio bar0: [0x2033cc] = 0x0
+[  792.582111] saa7231 dbg_mmio bar0: [0x2033f4] = 0x1
+[  792.783822] saa7231 dbg_mmio bar0: [0x203398] = 0x34
+[  793.021376] saa7231 s2d: setparams port=0 type=2
+[  793.021382] saa7231 s2d: reset done
+[  793.021385] saa7231 s2d: ptables done
+[  793.021394] saa7231 s2d: id=0xa0b21000
+[  793.021397] saa7231 s2d: setparams done
+[  793.021996] saa7231 vfl: stop, frames=259
+[  880.932344] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[  880.933221] tda10048_readreg: readreg error (ret == -6)
+[  880.933297] tda10048_readreg: readreg error (ret == -6)
+[  881.037622] tda10048_readreg: readreg error (ret == -5)
+[  881.140766] tda10048_readreg: readreg error (ret == -5)
+[  881.151437] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[  882.171143] saa7231 vfl: start, allocating stream
+[  882.173001] saa7231 vfl: stream allocated
+[  882.173005] saa7231 vfl: acquire
+[  882.173008] saa7231 s2d: setparams port=0 type=2
+[  882.173010] saa7231 s2d: reset done
+[  882.173012] saa7231 s2d: ptables done
+[  882.173021] saa7231 s2d: id=0xa0b21000
+[  882.173024] saa7231 s2d: setparams done
+[  882.173025] saa7231 vfl: avis program, input type 3
+[  882.173045] saa7231 avis: base init done
+[  882.173087] saa7231 avis: input table done
+[  882.173113] saa7231 avis: input setup done
+[  882.173116] saa7231 avis: timing done
+[  882.173117] saa7231 vfl: avis program done
+[  882.173117] saa7231 vfl: run
+[  882.173118] saa7231 s2d: run, loading PTAs (ch=1)
+[  882.188121] saa7231 s2d: PTAs loaded, enabling channel
+[  882.188129] saa7231 vfl: streaming
+[  882.228192] saa7231 vfl: first frame (dma 0)
+[  882.754753] saa7231 s2d: setparams port=0 type=2
+[  882.754759] saa7231 s2d: reset done
+[  882.754762] saa7231 s2d: ptables done
+[  882.754770] saa7231 s2d: id=0xa0b21000
+[  882.754773] saa7231 s2d: setparams done
+[  882.755005] saa7231 vfl: stop, frames=25
+[  993.149676] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[  993.150218] tda10048_readreg: readreg error (ret == -6)
+[  993.150302] tda10048_readreg: readreg error (ret == -6)
+[  993.253775] tda10048_readreg: readreg error (ret == -5)
+[  993.356969] tda10048_readreg: readreg error (ret == -5)
+[  993.368081] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[  994.393076] saa7231 vfl: start, allocating stream
+[  994.395004] saa7231 vfl: stream allocated
+[  994.395008] saa7231 vfl: acquire
+[  994.395010] saa7231 s2d: setparams port=0 type=2
+[  994.395012] saa7231 s2d: reset done
+[  994.395014] saa7231 s2d: ptables done
+[  994.395023] saa7231 s2d: id=0xa0b21000
+[  994.395027] saa7231 s2d: setparams done
+[  994.395028] saa7231 vfl: avis program, input type 3
+[  994.395047] saa7231 avis: base init done
+[  994.395168] saa7231 avis: input table done
+[  994.395194] saa7231 avis: input setup done
+[  994.395197] saa7231 avis: timing done
+[  994.395197] saa7231 vfl: avis program done
+[  994.395198] saa7231 vfl: run
+[  994.395199] saa7231 s2d: run, loading PTAs (ch=1)
+[  994.411362] saa7231 s2d: PTAs loaded, enabling channel
+[  994.411370] saa7231 vfl: streaming
+[  994.441492] saa7231 vfl: first frame (dma 0)
+[  994.964764] saa7231 s2d: setparams port=0 type=2
+[  994.964775] saa7231 s2d: reset done
+[  994.964780] saa7231 s2d: ptables done
+[  994.964788] saa7231 s2d: id=0xa0b21000
+[  994.964805] saa7231 s2d: setparams done
+[  994.965361] saa7231 vfl: stop, frames=25
+[ 1177.842974] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[ 1177.843532] tda10048_readreg: readreg error (ret == -6)
+[ 1177.843601] tda10048_readreg: readreg error (ret == -6)
+[ 1177.948077] tda10048_readreg: readreg error (ret == -5)
+[ 1178.051144] tda10048_readreg: readreg error (ret == -5)
+[ 1178.064703] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[ 1179.085494] saa7231 vfl: start, allocating stream
+[ 1179.087334] saa7231 vfl: stream allocated
+[ 1179.087337] saa7231 vfl: acquire
+[ 1179.087339] saa7231 s2d: setparams port=0 type=2
+[ 1179.087341] saa7231 s2d: reset done
+[ 1179.087343] saa7231 s2d: ptables done
+[ 1179.087364] saa7231 s2d: id=0xa0b21000
+[ 1179.087368] saa7231 s2d: setparams done
+[ 1179.087369] saa7231 vfl: avis program, input type 3
+[ 1179.087388] saa7231 avis: base init done
+[ 1179.087515] saa7231 avis: input table done
+[ 1179.087541] saa7231 avis: input setup done
+[ 1179.087544] saa7231 avis: timing done
+[ 1179.087544] saa7231 vfl: avis program done
+[ 1179.087545] saa7231 vfl: run
+[ 1179.087546] saa7231 s2d: run, loading PTAs (ch=1)
+[ 1179.098096] saa7231 s2d: PTAs loaded, enabling channel
+[ 1179.098104] saa7231 vfl: streaming
+[ 1179.141516] saa7231 vfl: first frame (dma 0)
+[ 1179.668033] saa7231 s2d: setparams port=0 type=2
+[ 1179.668059] saa7231 s2d: reset done
+[ 1179.668064] saa7231 s2d: ptables done
+[ 1179.668071] saa7231 s2d: id=0xa0b21000
+[ 1179.668078] saa7231 s2d: setparams done
+[ 1179.669014] saa7231 vfl: stop, frames=25
+[ 1238.289723] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[ 1238.290215] tda10048_readreg: readreg error (ret == -6)
+[ 1238.290289] tda10048_readreg: readreg error (ret == -6)
+[ 1238.395389] tda10048_readreg: readreg error (ret == -5)
+[ 1238.498589] tda10048_readreg: readreg error (ret == -5)
+[ 1238.514723] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[ 1239.537485] saa7231 vfl: start, allocating stream
+[ 1239.539184] saa7231 vfl: stream allocated
+[ 1239.539188] saa7231 vfl: acquire
+[ 1239.539190] saa7231 s2d: setparams port=0 type=2
+[ 1239.539192] saa7231 s2d: reset done
+[ 1239.539193] saa7231 s2d: ptables done
+[ 1239.539202] saa7231 s2d: id=0xa0b21000
+[ 1239.539205] saa7231 s2d: setparams done
+[ 1239.539206] saa7231 vfl: avis program, input type 3
+[ 1239.539226] saa7231 avis: base init done
+[ 1239.539353] saa7231 avis: input table done
+[ 1239.539378] saa7231 avis: input setup done
+[ 1239.539381] saa7231 avis: timing done
+[ 1239.539381] saa7231 vfl: avis program done
+[ 1239.539382] saa7231 vfl: run
+[ 1239.539383] saa7231 s2d: run, loading PTAs (ch=1)
+[ 1239.551389] saa7231 s2d: PTAs loaded, enabling channel
+[ 1239.551414] saa7231 vfl: streaming
+[ 1239.618143] saa7231 vfl: first frame (dma 0)
+[ 1239.741440] saa7231 s2d: setparams port=0 type=2
+[ 1239.741447] saa7231 s2d: reset done
+[ 1239.741449] saa7231 s2d: ptables done
+[ 1239.741458] saa7231 s2d: id=0xa0b21000
+[ 1239.741475] saa7231 s2d: setparams done
+[ 1239.742092] saa7231 vfl: stop, frames=5
+[ 1239.749574] saa7231 vfl: start, allocating stream
+[ 1239.751470] saa7231 vfl: stream allocated
+[ 1239.751473] saa7231 vfl: acquire
+[ 1239.751474] saa7231 s2d: setparams port=0 type=2
+[ 1239.751476] saa7231 s2d: reset done
+[ 1239.751478] saa7231 s2d: ptables done
+[ 1239.751487] saa7231 s2d: id=0xa0b21000
+[ 1239.751490] saa7231 s2d: setparams done
+[ 1239.751491] saa7231 vfl: avis program, input type 9
+[ 1239.751511] saa7231 avis: base init done
+[ 1239.751638] saa7231 avis: input table done
+[ 1239.751663] saa7231 avis: input setup done
+[ 1239.751666] saa7231 avis: timing done
+[ 1239.751666] saa7231 vfl: avis program done
+[ 1239.751667] saa7231 vfl: run
+[ 1239.751668] saa7231 s2d: run, loading PTAs (ch=1)
+[ 1239.764748] saa7231 s2d: PTAs loaded, enabling channel
+[ 1239.764756] saa7231 vfl: streaming
+[ 1239.814970] saa7231 vfl: first frame (dma 0)
+[ 1239.937998] saa7231 s2d: setparams port=0 type=2
+[ 1239.938005] saa7231 s2d: reset done
+[ 1239.938007] saa7231 s2d: ptables done
+[ 1239.938016] saa7231 s2d: id=0xa0b21000
+[ 1239.938019] saa7231 s2d: setparams done
+[ 1239.938242] saa7231 vfl: stop, frames=5
+[ 1239.942616] saa7231 vfl: start, allocating stream
+[ 1239.944062] saa7231 vfl: stream allocated
+[ 1239.944067] saa7231 vfl: acquire
+[ 1239.944068] saa7231 s2d: setparams port=0 type=2
+[ 1239.944070] saa7231 s2d: reset done
+[ 1239.944072] saa7231 s2d: ptables done
+[ 1239.944081] saa7231 s2d: id=0xa0b21000
+[ 1239.944084] saa7231 s2d: setparams done
+[ 1239.944085] saa7231 vfl: avis program, input type 10
+[ 1239.944105] saa7231 avis: base init done
+[ 1239.944232] saa7231 avis: input table done
+[ 1239.944255] saa7231 avis: input setup done
+[ 1239.944257] saa7231 avis: timing done
+[ 1239.944258] saa7231 vfl: avis program done
+[ 1239.944258] saa7231 vfl: run
+[ 1239.944259] saa7231 s2d: run, loading PTAs (ch=1)
+[ 1239.954654] saa7231 s2d: PTAs loaded, enabling channel
+[ 1239.954663] saa7231 vfl: streaming
+[ 1240.014818] saa7231 vfl: first frame (dma 0)
+[ 1240.138006] saa7231 s2d: setparams port=0 type=2
+[ 1240.138011] saa7231 s2d: reset done
+[ 1240.138013] saa7231 s2d: ptables done
+[ 1240.138022] saa7231 s2d: id=0xa0b21000
+[ 1240.138025] saa7231 s2d: setparams done
+[ 1240.138263] saa7231 vfl: stop, frames=5
+[ 1240.142677] saa7231 vfl: start, allocating stream
+[ 1240.144233] saa7231 vfl: stream allocated
+[ 1240.144237] saa7231 vfl: acquire
+[ 1240.144239] saa7231 s2d: setparams port=0 type=2
+[ 1240.144241] saa7231 s2d: reset done
+[ 1240.144243] saa7231 s2d: ptables done
+[ 1240.144252] saa7231 s2d: id=0xa0b21000
+[ 1240.144255] saa7231 s2d: setparams done
+[ 1240.144256] saa7231 vfl: avis program, input type 12
+[ 1240.144276] saa7231 avis: base init done
+[ 1240.144407] saa7231 avis: input table done
+[ 1240.144429] saa7231 avis: input setup done
+[ 1240.144432] saa7231 avis: timing done
+[ 1240.144432] saa7231 vfl: avis program done
+[ 1240.144433] saa7231 vfl: run
+[ 1240.144434] saa7231 s2d: run, loading PTAs (ch=1)
+[ 1240.154686] saa7231 s2d: PTAs loaded, enabling channel
+[ 1240.154711] saa7231 vfl: streaming
+[ 1240.214826] saa7231 vfl: first frame (dma 0)
+[ 1240.338065] saa7231 s2d: setparams port=0 type=2
+[ 1240.338092] saa7231 s2d: reset done
+[ 1240.338094] saa7231 s2d: ptables done
+[ 1240.338103] saa7231 s2d: id=0xa0b21000
+[ 1240.338106] saa7231 s2d: setparams done
+[ 1240.338322] saa7231 vfl: stop, frames=5
+[ 1485.563082] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[ 1485.563726] tda10048_readreg: readreg error (ret == -6)
+[ 1485.563799] tda10048_readreg: readreg error (ret == -6)
+[ 1485.668564] tda10048_readreg: readreg error (ret == -5)
+[ 1485.771581] tda10048_readreg: readreg error (ret == -5)
+[ 1485.784654] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[ 1486.806406] saa7231 vfl: start, allocating stream
+[ 1486.808236] saa7231 vfl: stream allocated
+[ 1486.808240] saa7231 vfl: acquire
+[ 1486.808243] saa7231 s2d: setparams port=0 type=2
+[ 1486.808245] saa7231 s2d: reset done
+[ 1486.808247] saa7231 s2d: ptables done
+[ 1486.808256] saa7231 s2d: id=0xa0b21000
+[ 1486.808259] saa7231 s2d: setparams done
+[ 1486.808260] saa7231 vfl: avis program, input type 3
+[ 1486.808280] saa7231 avis: base init done
+[ 1486.808408] saa7231 avis: input table done
+[ 1486.808433] saa7231 avis: input setup done
+[ 1486.808436] saa7231 avis: timing done
+[ 1486.808437] saa7231 vfl: avis program done
+[ 1486.808438] saa7231 vfl: run
+[ 1486.808439] saa7231 s2d: run, loading PTAs (ch=1)
+[ 1486.824716] saa7231 s2d: PTAs loaded, enabling channel
+[ 1486.824726] saa7231 vfl: streaming
+[ 1486.864869] saa7231 vfl: first frame (dma 0)
+[ 1486.941423] saa7231 s2d: setparams port=0 type=2
+[ 1486.941430] saa7231 s2d: reset done
+[ 1486.941432] saa7231 s2d: ptables done
+[ 1486.941452] saa7231 s2d: id=0xa0b21000
+[ 1486.941459] saa7231 s2d: setparams done
+[ 1486.941991] saa7231 vfl: stop, frames=3
+[ 1487.078837] saa7231 vfl: start, allocating stream
+[ 1487.080643] saa7231 vfl: stream allocated
+[ 1487.080647] saa7231 vfl: acquire
+[ 1487.080649] saa7231 s2d: setparams port=0 type=2
+[ 1487.080652] saa7231 s2d: reset done
+[ 1487.080655] saa7231 s2d: ptables done
+[ 1487.080663] saa7231 s2d: id=0xa0b21000
+[ 1487.080667] saa7231 s2d: setparams done
+[ 1487.080668] saa7231 vfl: avis program, input type 3
+[ 1487.080687] saa7231 avis: base init done
+[ 1487.080815] saa7231 avis: input table done
+[ 1487.080841] saa7231 avis: input setup done
+[ 1487.080844] saa7231 avis: timing done
+[ 1487.080844] saa7231 vfl: avis program done
+[ 1487.080845] saa7231 vfl: run
+[ 1487.080846] saa7231 s2d: run, loading PTAs (ch=1)
+[ 1487.094732] saa7231 s2d: PTAs loaded, enabling channel
+[ 1487.094744] saa7231 vfl: streaming
+[ 1487.121456] saa7231 vfl: first frame (dma 0)
+[ 1487.204755] saa7231 s2d: setparams port=0 type=2
+[ 1487.204762] saa7231 s2d: reset done
+[ 1487.204764] saa7231 s2d: ptables done
+[ 1487.204784] saa7231 s2d: id=0xa0b21000
+[ 1487.204791] saa7231 s2d: setparams done
+[ 1487.205427] saa7231 vfl: stop, frames=3
+[ 1487.379442] saa7231 vfl: start, allocating stream
+[ 1487.380947] saa7231 vfl: stream allocated
+[ 1487.380951] saa7231 vfl: acquire
+[ 1487.380953] saa7231 s2d: setparams port=0 type=2
+[ 1487.380955] saa7231 s2d: reset done
+[ 1487.380957] saa7231 s2d: ptables done
+[ 1487.380966] saa7231 s2d: id=0xa0b21000
+[ 1487.380969] saa7231 s2d: setparams done
+[ 1487.380970] saa7231 vfl: avis program, input type 3
+[ 1487.380990] saa7231 avis: base init done
+[ 1487.381117] saa7231 avis: input table done
+[ 1487.381143] saa7231 avis: input setup done
+[ 1487.381146] saa7231 avis: timing done
+[ 1487.381146] saa7231 vfl: avis program done
+[ 1487.381147] saa7231 vfl: run
+[ 1487.381148] saa7231 s2d: run, loading PTAs (ch=1)
+[ 1487.391368] saa7231 s2d: PTAs loaded, enabling channel
+[ 1487.391378] saa7231 vfl: streaming
+[ 1487.441542] saa7231 vfl: first frame (dma 0)
+[ 1487.524756] saa7231 s2d: setparams port=0 type=2
+[ 1487.524762] saa7231 s2d: reset done
+[ 1487.524764] saa7231 s2d: ptables done
+[ 1487.524785] saa7231 s2d: id=0xa0b21000
+[ 1487.524792] saa7231 s2d: setparams done
+[ 1487.525322] saa7231 vfl: stop, frames=3
+[ 1585.196309] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[ 1585.196799] tda10048_readreg: readreg error (ret == -6)
+[ 1585.196874] tda10048_readreg: readreg error (ret == -6)
+[ 1585.302337] tda10048_readreg: readreg error (ret == -5)
+[ 1585.406898] tda10048_readreg: readreg error (ret == -5)
+[ 1585.421356] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[ 1586.442806] saa7231 vfl: start, allocating stream
+[ 1586.444816] saa7231 vfl: stream allocated
+[ 1586.444818] saa7231 vfl: acquire
+[ 1586.444821] saa7231 s2d: setparams port=0 type=2
+[ 1586.444822] saa7231 s2d: reset done
+[ 1586.444824] saa7231 s2d: ptables done
+[ 1586.444833] saa7231 s2d: id=0xa0b21000
+[ 1586.444836] saa7231 s2d: setparams done
+[ 1586.444837] saa7231 vfl: avis program, input type 3
+[ 1586.444857] saa7231 avis: base init done
+[ 1586.444984] saa7231 avis: input table done
+[ 1586.445010] saa7231 avis: input setup done
+[ 1586.445012] saa7231 avis: timing done
+[ 1586.445013] saa7231 vfl: avis program done
+[ 1586.445013] saa7231 vfl: run
+[ 1586.445014] saa7231 s2d: run, loading PTAs (ch=1)
+[ 1586.457964] saa7231 s2d: PTAs loaded, enabling channel
+[ 1586.457973] saa7231 vfl: streaming
+[ 1586.504891] saa7231 vfl: first frame (dma 1)
+[ 1587.511353] saa7231 s2d: setparams port=0 type=2
+[ 1587.511359] saa7231 s2d: reset done
+[ 1587.511362] saa7231 s2d: ptables done
+[ 1587.511370] saa7231 s2d: id=0xa0b21000
+[ 1587.511373] saa7231 s2d: setparams done
+[ 1587.511806] saa7231 vfl: stop, frames=25
+[ 2305.749712] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[ 2305.750543] tda10048_readreg: readreg error (ret == -6)
+[ 2305.750621] tda10048_readreg: readreg error (ret == -6)
+[ 2305.855354] tda10048_readreg: readreg error (ret == -5)
+[ 2305.958421] tda10048_readreg: readreg error (ret == -5)
+[ 2305.971340] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[ 2306.992464] saa7231 vfl: start, allocating stream
+[ 2306.994378] saa7231 vfl: stream allocated
+[ 2306.994382] saa7231 vfl: acquire
+[ 2306.994384] saa7231 s2d: setparams port=0 type=2
+[ 2306.994386] saa7231 s2d: reset done
+[ 2306.994388] saa7231 s2d: ptables done
+[ 2306.994397] saa7231 s2d: id=0xa0b21000
+[ 2306.994400] saa7231 s2d: setparams done
+[ 2306.994402] saa7231 vfl: avis program, input type 3
+[ 2306.994421] saa7231 avis: base init done
+[ 2306.994583] saa7231 avis: input table done
+[ 2306.994621] saa7231 avis: input setup done
+[ 2306.994625] saa7231 avis: timing done
+[ 2306.994626] saa7231 vfl: avis program done
+[ 2306.994627] saa7231 vfl: run
+[ 2306.994628] saa7231 s2d: run, loading PTAs (ch=1)
+[ 2307.011224] saa7231 s2d: PTAs loaded, enabling channel
+[ 2307.011234] saa7231 vfl: streaming
+[ 2307.068219] saa7231 vfl: first frame (dma 1)
+[ 2307.874673] saa7231 s2d: setparams port=0 type=2
+[ 2307.874687] saa7231 s2d: reset done
+[ 2307.874692] saa7231 s2d: ptables done
+[ 2307.874700] saa7231 s2d: id=0xa0b21000
+[ 2307.874706] saa7231 s2d: setparams done
+[ 2307.875264] saa7231 vfl: stop, frames=20
+[ 2344.133251] saa7231 vfl: start, allocating stream
+[ 2344.134867] saa7231 vfl: stream allocated
+[ 2344.134870] saa7231 vfl: acquire
+[ 2344.134872] saa7231 s2d: setparams port=0 type=2
+[ 2344.134873] saa7231 s2d: reset done
+[ 2344.134875] saa7231 s2d: ptables done
+[ 2344.134884] saa7231 s2d: id=0xa0b21000
+[ 2344.134887] saa7231 s2d: setparams done
+[ 2344.134888] saa7231 vfl: avis program, input type 3
+[ 2344.134908] saa7231 avis: base init done
+[ 2344.135035] saa7231 avis: input table done
+[ 2344.135062] saa7231 avis: input setup done
+[ 2344.135064] saa7231 avis: timing done
+[ 2344.135065] saa7231 vfl: avis program done
+[ 2344.135065] saa7231 vfl: run
+[ 2344.135066] saa7231 s2d: run, loading PTAs (ch=1)
+[ 2344.147883] saa7231 s2d: PTAs loaded, enabling channel
+[ 2344.147893] saa7231 vfl: streaming
+[ 2344.231390] saa7231 vfl: first frame (dma 1)
+[ 2345.031345] saa7231 s2d: setparams port=0 type=2
+[ 2345.031351] saa7231 s2d: reset done
+[ 2345.031353] saa7231 s2d: ptables done
+[ 2345.031362] saa7231 s2d: id=0xa0b21000
+[ 2345.031365] saa7231 s2d: setparams done
+[ 2345.032254] saa7231 vfl: stop, frames=20
+[ 2443.976355] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[ 2443.976988] tda10048_readreg: readreg error (ret == -6)
+[ 2443.977066] tda10048_readreg: readreg error (ret == -6)
+[ 2444.082019] tda10048_readreg: readreg error (ret == -5)
+[ 2444.185092] tda10048_readreg: readreg error (ret == -5)
+[ 2444.197959] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[ 2445.219468] saa7231 vfl: start, allocating stream
+[ 2445.221418] saa7231 vfl: stream allocated
+[ 2445.221422] saa7231 vfl: acquire
+[ 2445.221424] saa7231 s2d: setparams port=0 type=2
+[ 2445.221426] saa7231 s2d: reset done
+[ 2445.221428] saa7231 s2d: ptables done
+[ 2445.221437] saa7231 s2d: id=0xa0b21000
+[ 2445.221440] saa7231 s2d: setparams done
+[ 2445.221442] saa7231 vfl: avis program, input type 3
+[ 2445.221461] saa7231 avis: base init done
+[ 2445.221588] saa7231 avis: input table done
+[ 2445.221614] saa7231 avis: input setup done
+[ 2445.221617] saa7231 avis: timing done
+[ 2445.221618] saa7231 vfl: avis program done
+[ 2445.221619] saa7231 vfl: run
+[ 2445.221620] saa7231 s2d: run, loading PTAs (ch=1)
+[ 2445.234626] saa7231 s2d: PTAs loaded, enabling channel
+[ 2445.234635] saa7231 vfl: streaming
+[ 2445.318050] saa7231 vfl: first frame (dma 1)
+[ 2446.117886] saa7231 s2d: setparams port=0 type=2
+[ 2446.117893] saa7231 s2d: reset done
+[ 2446.117895] saa7231 s2d: ptables done
+[ 2446.117904] saa7231 s2d: id=0xa0b21000
+[ 2446.117907] saa7231 s2d: setparams done
+[ 2446.118202] saa7231 vfl: stop, frames=20
+[ 2815.906348] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[ 2815.907195] tda10048_readreg: readreg error (ret == -6)
+[ 2815.907270] tda10048_readreg: readreg error (ret == -6)
+[ 2816.011651] tda10048_readreg: readreg error (ret == -5)
+[ 2816.114726] tda10048_readreg: readreg error (ret == -5)
+[ 2816.127963] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[ 2817.152203] saa7231 vfl: start, allocating stream
+[ 2817.154144] saa7231 vfl: stream allocated
+[ 2817.154148] saa7231 vfl: acquire
+[ 2817.154150] saa7231 s2d: setparams port=0 type=2
+[ 2817.154152] saa7231 s2d: reset done
+[ 2817.154154] saa7231 s2d: ptables done
+[ 2817.154163] saa7231 s2d: id=0xa0b21000
+[ 2817.154167] saa7231 s2d: setparams done
+[ 2817.154168] saa7231 vfl: avis program, input type 3
+[ 2817.154190] saa7231 avis: base init done
+[ 2817.154316] saa7231 avis: input table done
+[ 2817.154343] saa7231 avis: input setup done
+[ 2817.154346] saa7231 avis: timing done
+[ 2817.154346] saa7231 vfl: avis program done
+[ 2817.154347] saa7231 vfl: run
+[ 2817.154348] saa7231 s2d: run, loading PTAs (ch=1)
+[ 2817.164552] saa7231 s2d: PTAs loaded, enabling channel
+[ 2817.164574] saa7231 vfl: streaming
+[ 2817.224565] saa7231 vfl: first frame (dma 1)
+[ 2818.034516] saa7231 s2d: setparams port=0 type=2
+[ 2818.034523] saa7231 s2d: reset done
+[ 2818.034526] saa7231 s2d: ptables done
+[ 2818.034545] saa7231 s2d: id=0xa0b21000
+[ 2818.034549] saa7231 s2d: setparams done
+[ 2818.034861] saa7231 vfl: stop, frames=20
+[ 2929.425649] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[ 2929.426219] tda10048_readreg: readreg error (ret == -6)
+[ 2929.426293] tda10048_readreg: readreg error (ret == -6)
+[ 2929.531664] tda10048_readreg: readreg error (ret == -5)
+[ 2929.636530] tda10048_readreg: readreg error (ret == -5)
+[ 2929.651245] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[ 2930.674407] saa7231 vfl: start, allocating stream
+[ 2930.676256] saa7231 vfl: stream allocated
+[ 2930.676259] saa7231 vfl: acquire
+[ 2930.676261] saa7231 s2d: setparams port=0 type=2
+[ 2930.676263] saa7231 s2d: reset done
+[ 2930.676265] saa7231 s2d: ptables done
+[ 2930.676274] saa7231 s2d: id=0xa0b21000
+[ 2930.676277] saa7231 s2d: setparams done
+[ 2930.676278] saa7231 vfl: avis program, input type 3
+[ 2930.676297] saa7231 avis: base init done
+[ 2930.676424] saa7231 avis: input table done
+[ 2930.676451] saa7231 avis: input setup done
+[ 2930.676453] saa7231 avis: timing done
+[ 2930.676454] saa7231 vfl: avis program done
+[ 2930.676454] saa7231 vfl: run
+[ 2930.676455] saa7231 s2d: run, loading PTAs (ch=1)
+[ 2930.687924] saa7231 s2d: PTAs loaded, enabling channel
+[ 2930.687934] saa7231 vfl: streaming
+[ 2945.714567] saa7231 s2d: setparams port=0 type=2
+[ 2945.714580] saa7231 s2d: reset done
+[ 2945.714585] saa7231 s2d: ptables done
+[ 2945.714593] saa7231 s2d: id=0xa0b21000
+[ 2945.714599] saa7231 s2d: setparams done
+[ 2945.714962] saa7231 vfl: stop, frames=0
+[ 3051.159702] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[ 3051.160789] tda10048_readreg: readreg error (ret == -6)
+[ 3051.160868] tda10048_readreg: readreg error (ret == -6)
+[ 3051.265391] tda10048_readreg: readreg error (ret == -5)
+[ 3051.368519] tda10048_readreg: readreg error (ret == -5)
+[ 3051.381255] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[ 3052.405038] saa7231 vfl: start, allocating stream
+[ 3052.406634] saa7231 vfl: stream allocated
+[ 3052.406637] saa7231 vfl: acquire
+[ 3052.406639] saa7231 s2d: setparams port=0 type=2
+[ 3052.406641] saa7231 s2d: reset done
+[ 3052.406644] saa7231 s2d: ptables done
+[ 3052.406653] saa7231 s2d: id=0xa0b21000
+[ 3052.406657] saa7231 s2d: setparams done
+[ 3052.406658] saa7231 vfl: avis program, input type 3
+[ 3052.406685] saa7231 avis: base init done
+[ 3052.406813] saa7231 avis: input table done
+[ 3052.406840] saa7231 avis: input setup done
+[ 3052.406843] saa7231 avis: timing done
+[ 3052.406844] saa7231 vfl: avis program done
+[ 3052.406845] saa7231 vfl: run
+[ 3052.406846] saa7231 s2d: run, loading PTAs (ch=1)
+[ 3052.417816] saa7231 s2d: PTAs loaded, enabling channel
+[ 3052.417826] saa7231 vfl: streaming
+[ 3052.491232] saa7231 vfl: first frame (dma 1)
+[ 3053.297898] saa7231 s2d: setparams port=0 type=2
+[ 3053.297906] saa7231 s2d: reset done
+[ 3053.297908] saa7231 s2d: ptables done
+[ 3053.297929] saa7231 s2d: id=0xa0b21000
+[ 3053.297936] saa7231 s2d: setparams done
+[ 3053.298516] saa7231 vfl: stop, frames=20
+[ 3203.342948] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[ 3203.343592] tda10048_readreg: readreg error (ret == -6)
+[ 3203.343665] tda10048_readreg: readreg error (ret == -6)
+[ 3203.447687] tda10048_readreg: readreg error (ret == -5)
+[ 3203.550811] tda10048_readreg: readreg error (ret == -5)
+[ 3203.561248] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[ 3204.587638] saa7231 vfl: start, allocating stream
+[ 3204.589550] saa7231 vfl: stream allocated
+[ 3204.589555] saa7231 vfl: acquire
+[ 3204.589558] saa7231 s2d: setparams port=0 type=2
+[ 3204.589559] saa7231 s2d: reset done
+[ 3204.589562] saa7231 s2d: ptables done
+[ 3204.589570] saa7231 s2d: id=0xa0b21000
+[ 3204.589574] saa7231 s2d: setparams done
+[ 3204.590065] saa7231 vfl: avis program, input type 3
+[ 3204.590078] saa7231 avis: base init done
+[ 3204.590205] saa7231 avis: input table done
+[ 3204.590232] saa7231 avis: input setup done
+[ 3204.590235] saa7231 avis: timing done
+[ 3204.590236] saa7231 vfl: avis program done
+[ 3204.590237] saa7231 vfl: run
+[ 3204.590238] saa7231 s2d: run, loading PTAs (ch=1)
+[ 3204.601133] saa7231 s2d: PTAs loaded, enabling channel
+[ 3204.601143] saa7231 vfl: streaming
+[ 3204.647873] saa7231 vfl: first frame (dma 1)
+[ 3205.451141] saa7231 s2d: setparams port=0 type=2
+[ 3205.451148] saa7231 s2d: reset done
+[ 3205.451150] saa7231 s2d: ptables done
+[ 3205.451159] saa7231 s2d: id=0xa0b21000
+[ 3205.451162] saa7231 s2d: setparams done
+[ 3205.451409] saa7231 vfl: stop, frames=20
+[ 3346.272228] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[ 3346.272651] tda10048_readreg: readreg error (ret == -6)
+[ 3346.272720] tda10048_readreg: readreg error (ret == -6)
+[ 3346.378208] tda10048_readreg: readreg error (ret == -5)
+[ 3346.483441] tda10048_readreg: readreg error (ret == -5)
+[ 3346.494552] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[ 3347.516269] saa7231 vfl: start, allocating stream
+[ 3347.518222] saa7231 vfl: stream allocated
+[ 3347.518226] saa7231 vfl: acquire
+[ 3347.518229] saa7231 s2d: setparams port=0 type=2
+[ 3347.518231] saa7231 s2d: reset done
+[ 3347.518233] saa7231 s2d: ptables done
+[ 3347.518242] saa7231 s2d: id=0xa0b21000
+[ 3347.518245] saa7231 s2d: setparams done
+[ 3347.518246] saa7231 vfl: avis program, input type 3
+[ 3347.518266] saa7231 avis: base init done
+[ 3347.518392] saa7231 avis: input table done
+[ 3347.518420] saa7231 avis: input setup done
+[ 3347.518422] saa7231 avis: timing done
+[ 3347.518423] saa7231 vfl: avis program done
+[ 3347.518424] saa7231 vfl: run
+[ 3347.518425] saa7231 s2d: run, loading PTAs (ch=1)
+[ 3347.531120] saa7231 s2d: PTAs loaded, enabling channel
+[ 3347.531129] saa7231 vfl: streaming
+[ 3347.607927] saa7231 vfl: first frame (dma 1)
+[ 3348.411223] saa7231 s2d: setparams port=0 type=2
+[ 3348.411230] saa7231 s2d: reset done
+[ 3348.411233] saa7231 s2d: ptables done
+[ 3348.411241] saa7231 s2d: id=0xa0b21000
+[ 3348.411244] saa7231 s2d: setparams done
+[ 3348.411863] saa7231 vfl: stop, frames=20
+[ 3349.415306] saa7231 dbg_mmio bar0: [0x202330] = 0x0
+[ 3349.516707] saa7231 dbg_mmio bar0: [0x202338] = 0xc2
+[ 3349.618067] saa7231 dbg_mmio bar0: [0x20233c] = 0x1
+[ 3349.719618] saa7231 dbg_mmio bar0: [0x202398] = 0xa4
+[ 3349.821495] saa7231 dbg_mmio bar0: [0x20239c] = 0x0
+[ 3349.923903] saa7231 dbg_mmio bar0: [0x202280] = 0x40
+[ 3350.025565] saa7231 dbg_mmio bar0: [0x202288] = 0x50
+[ 3350.127894] saa7231 dbg_mmio bar0: [0x202290] = 0x6
+[ 3350.230435] saa7231 dbg_mmio bar0: [0x202294] = 0x1
+[ 3350.332384] saa7231 dbg_mmio bar0: [0x2022a4] = 0xc1
+[ 3350.434514] saa7231 dbg_mmio bar0: [0x2022c0] = 0x72
+[ 3350.536995] saa7231 dbg_mmio bar0: [0x2022c4] = 0x87
+[ 3350.639004] saa7231 dbg_mmio bar0: [0x202260] = 0x40
+[ 3350.741402] saa7231 dbg_mmio bar0: [0x202410] = 0x0
+[ 3350.843682] saa7231 dbg_mmio bar0: [0x202414] = 0x10
+[ 3350.945593] saa7231 dbg_mmio bar0: [0x2033c0] = 0x2f
+[ 3351.047265] saa7231 dbg_mmio bar0: [0x2033c8] = 0x1
+[ 3351.149546] saa7231 dbg_mmio bar0: [0x2033f4] = 0x1
+[ 3493.678901] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[ 3493.679571] tda10048_readreg: readreg error (ret == -6)
+[ 3493.679649] tda10048_readreg: readreg error (ret == -6)
+[ 3493.784986] tda10048_readreg: readreg error (ret == -5)
+[ 3493.889651] tda10048_readreg: readreg error (ret == -5)
+[ 3493.901288] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[ 3494.925770] saa7231 vfl: start, allocating stream
+[ 3494.927623] saa7231 vfl: stream allocated
+[ 3494.927626] saa7231 vfl: acquire
+[ 3494.927629] saa7231 s2d: setparams port=0 type=2
+[ 3494.927631] saa7231 s2d: reset done
+[ 3494.927633] saa7231 s2d: ptables done
+[ 3494.927642] saa7231 s2d: id=0xa0b21000
+[ 3494.927645] saa7231 s2d: setparams done
+[ 3494.928189] saa7231 vfl: avis program, input type 3
+[ 3494.928203] saa7231 avis: base init done
+[ 3494.928330] saa7231 avis: input table done
+[ 3494.928357] saa7231 avis: input setup done
+[ 3494.928360] saa7231 avis: timing done
+[ 3494.928361] saa7231 vfl: avis program done
+[ 3494.928361] saa7231 vfl: run
+[ 3494.928362] saa7231 s2d: run, loading PTAs (ch=1)
+[ 3494.941169] saa7231 s2d: PTAs loaded, enabling channel
+[ 3494.941179] saa7231 vfl: streaming
+[ 3495.131327] saa7231 vfl: first frame (dma 1)
+[ 3497.807883] saa7231 s2d: setparams port=0 type=2
+[ 3497.807888] saa7231 s2d: reset done
+[ 3497.807890] saa7231 s2d: ptables done
+[ 3497.807899] saa7231 s2d: id=0xa0b21000
+[ 3497.807914] saa7231 s2d: setparams done
+[ 3497.808892] saa7231 vfl: stop, frames=20
+[ 3498.812691] saa7231 dbg_mmio bar0: [0x202330] = 0x0
+[ 3498.915198] saa7231 dbg_mmio bar0: [0x202338] = 0xc4
+[ 3499.016760] saa7231 dbg_mmio bar0: [0x20233c] = 0x6
+[ 3499.118799] saa7231 dbg_mmio bar0: [0x202398] = 0xa0
+[ 3499.220049] saa7231 dbg_mmio bar0: [0x20239c] = 0x1
+[ 3499.321410] saa7231 dbg_mmio bar0: [0x202280] = 0x40
+[ 3499.422741] saa7231 dbg_mmio bar0: [0x202288] = 0x10
+[ 3499.524075] saa7231 dbg_mmio bar0: [0x202290] = 0x6
+[ 3499.625451] saa7231 dbg_mmio bar0: [0x202294] = 0x1
+[ 3499.726857] saa7231 dbg_mmio bar0: [0x2022a4] = 0xc1
+[ 3499.828843] saa7231 dbg_mmio bar0: [0x2022c0] = 0x70
+[ 3499.931341] saa7231 dbg_mmio bar0: [0x2022c4] = 0x87
+[ 3500.033862] saa7231 dbg_mmio bar0: [0x202260] = 0x40
+[ 3500.136477] saa7231 dbg_mmio bar0: [0x202410] = 0x0
+[ 3500.238533] saa7231 dbg_mmio bar0: [0x202414] = 0x10
+[ 3500.341050] saa7231 dbg_mmio bar0: [0x2033c0] = 0x58
+[ 3500.442997] saa7231 dbg_mmio bar0: [0x2033c8] = 0xd6
+[ 3500.545416] saa7231 dbg_mmio bar0: [0x2033f4] = 0x0
+[ 3632.632584] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[ 3632.633259] tda10048_readreg: readreg error (ret == -6)
+[ 3632.633340] tda10048_readreg: readreg error (ret == -6)
+[ 3632.737620] tda10048_readreg: readreg error (ret == -5)
+[ 3632.840617] tda10048_readreg: readreg error (ret == -5)
+[ 3632.851172] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[ 3633.872236] saa7231 vfl: start, allocating stream
+[ 3633.874188] saa7231 vfl: stream allocated
+[ 3633.874192] saa7231 vfl: acquire
+[ 3633.874195] saa7231 s2d: setparams port=0 type=2
+[ 3633.874197] saa7231 s2d: reset done
+[ 3633.874199] saa7231 s2d: ptables done
+[ 3633.874208] saa7231 s2d: id=0xa0b21000
+[ 3633.874211] saa7231 s2d: setparams done
+[ 3633.874744] saa7231 vfl: avis program, input type 3
+[ 3633.874758] saa7231 avis: base init done
+[ 3633.874888] saa7231 avis: input table done
+[ 3633.874915] saa7231 avis: input setup done
+[ 3633.874917] saa7231 avis: timing done
+[ 3633.874918] saa7231 vfl: avis program done
+[ 3633.874919] saa7231 vfl: run
+[ 3633.874920] saa7231 s2d: run, loading PTAs (ch=1)
+[ 3633.891103] saa7231 s2d: PTAs loaded, enabling channel
+[ 3633.891113] saa7231 vfl: streaming
+[ 3633.951165] saa7231 vfl: first frame (dma 1)
+[ 3634.754427] saa7231 s2d: setparams port=0 type=2
+[ 3634.754434] saa7231 s2d: reset done
+[ 3634.754437] saa7231 s2d: ptables done
+[ 3634.754456] saa7231 s2d: id=0xa0b21000
+[ 3634.754460] saa7231 s2d: setparams done
+[ 3634.754779] saa7231 vfl: stop, frames=20
+[ 3635.757320] saa7231 dbg_mmio bar0: [0x202330] = 0x0
+[ 3635.859265] saa7231 dbg_mmio bar0: [0x202338] = 0xc4
+[ 3635.961103] saa7231 dbg_mmio bar0: [0x20233c] = 0x0
+[ 3636.062633] saa7231 dbg_mmio bar0: [0x202398] = 0xa4
+[ 3636.164318] saa7231 dbg_mmio bar0: [0x20239c] = 0x0
+[ 3636.266767] saa7231 dbg_mmio bar0: [0x202280] = 0x40
+[ 3636.368745] saa7231 dbg_mmio bar0: [0x202288] = 0x10
+[ 3636.470375] saa7231 dbg_mmio bar0: [0x202290] = 0x6
+[ 3636.572394] saa7231 dbg_mmio bar0: [0x202294] = 0x1
+[ 3636.674984] saa7231 dbg_mmio bar0: [0x2022a4] = 0xc1
+[ 3636.776328] saa7231 dbg_mmio bar0: [0x2022c0] = 0x70
+[ 3636.877816] saa7231 dbg_mmio bar0: [0x2022c4] = 0x87
+[ 3636.979369] saa7231 dbg_mmio bar0: [0x202260] = 0x40
+[ 3637.080879] saa7231 dbg_mmio bar0: [0x202410] = 0x0
+[ 3637.183424] saa7231 dbg_mmio bar0: [0x202414] = 0x10
+[ 3637.285484] saa7231 dbg_mmio bar0: [0x2033c0] = 0x2f
+[ 3637.387090] saa7231 dbg_mmio bar0: [0x2033c8] = 0x1
+[ 3637.488941] saa7231 dbg_mmio bar0: [0x2033f4] = 0x1

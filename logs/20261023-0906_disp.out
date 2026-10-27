@@ -1,0 +1,108 @@
+openjdk version "27" 2026-09-15
+OpenJDK Runtime Environment (build 27)
+OpenJDK 64-Bit Server VM (build 27, mixed mode)
+INFO  Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/otakoi/.config/ghidra/ghidra_12.1.2_DEV/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/otakoi/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1821 ms) (ClassSearcher)  
+WARNING: Final field name in class ghidra.util.charset.CharsetInfo has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @58d75e99 (file:/opt/ghidra/Ghidra/Framework/Generic/lib/gson-2.13.2.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (3487 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/opt/ghidra/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /tmp/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: /home/otakoi/_hueta/behold-analog/re/ghidra/SAA7231 (HeadlessAnalyzer)  
+INFO  Opening project: /home/otakoi/_hueta/behold-analog/re/ghidra/SAA7231 (HeadlessProject)  
+INFO  REPORT: Processing project file: /saa7231.sys (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: FindDisp.java '1a4' '1a0' '150'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /tmp/ghidra_scripts/FindDisp.java (HeadlessAnalyzer)  
+INFO  FindDisp.java> 0001075b XCHG dword ptr [RCX + 0x1a4],R9D  | FUN_000106bc @000106bc (GhidraScript)  
+INFO  FindDisp.java> 00010762 MOV EAX,dword ptr [RCX + 0x1a0]  | FUN_000106bc @000106bc (GhidraScript)  
+INFO  FindDisp.java> 00010842 MOV EDX,dword ptr [R11 + 0x150]  | FUN_0001080c @0001080c (GhidraScript)  
+INFO  FindDisp.java> 00010a46 MOV ECX,dword ptr [RAX + 0x150]  | FUN_00010938 @00010938 (GhidraScript)  
+INFO  FindDisp.java> 00010f6d MOV EDX,dword ptr [R9 + 0x1a0]  | FUN_00010e7c @00010e7c (GhidraScript)  
+INFO  FindDisp.java> 00011013 XCHG dword ptr [RCX + 0x1a4],EAX  | FUN_00010e7c @00010e7c (GhidraScript)  
+INFO  FindDisp.java> 00011019 MOV EDX,dword ptr [RCX + 0x1a0]  | FUN_00010e7c @00010e7c (GhidraScript)  
+INFO  FindDisp.java> 00011038 CMP dword ptr [RCX + 0x150],EAX  | FUN_00010e7c @00010e7c (GhidraScript)  
+INFO  FindDisp.java> 00011044 XCHG dword ptr [RCX + 0x150],EAX  | FUN_00010e7c @00010e7c (GhidraScript)  
+INFO  FindDisp.java> 0001104a CMP dword ptr [RCX + 0x1a4],EBX  | FUN_00010e7c @00010e7c (GhidraScript)  
+INFO  FindDisp.java> 00011056 MOV EAX,dword ptr [RCX + 0x1a0]  | FUN_00010e7c @00010e7c (GhidraScript)  
+INFO  FindDisp.java> 000111e6 MOV EAX,dword ptr [RCX + 0x1a0]  | FUN_00010e7c @00010e7c (GhidraScript)  
+INFO  FindDisp.java> 00012768 MOV EDX,dword ptr [RBX + 0x1a0]  | FUN_00012458 @00012458 (GhidraScript)  
+INFO  FindDisp.java> 000136ce MOV EDX,dword ptr [RBX + 0x1a0]  | FUN_0001356c @0001356c (GhidraScript)  
+INFO  FindDisp.java> 0001751f MOV R8D,0x150  | FUN_000172d8 @000172d8 (GhidraScript)  
+INFO  FindDisp.java> 0001783f MOV qword ptr [RSP + 0x150],RAX  | FUN_00017828 @00017828 (GhidraScript)  
+INFO  FindDisp.java> 00017a0b MOV RCX,qword ptr [RSP + 0x150]  | FUN_00017828 @00017828 (GhidraScript)  
+INFO  FindDisp.java> 00017a50 MOV qword ptr [RSP + 0x150],RAX  | FUN_00017a34 @00017a34 (GhidraScript)  
+INFO  FindDisp.java> 00017af7 MOV RCX,qword ptr [RSP + 0x150]  | FUN_00017a34 @00017a34 (GhidraScript)  
+INFO  FindDisp.java> 00017b40 MOV qword ptr [RSP + 0x150],RAX  | FUN_00017b24 @00017b24 (GhidraScript)  
+INFO  FindDisp.java> 00017be7 MOV RCX,qword ptr [RSP + 0x150]  | FUN_00017b24 @00017b24 (GhidraScript)  
+INFO  FindDisp.java> 00017c30 MOV qword ptr [RSP + 0x150],RAX  | FUN_00017c14 @00017c14 (GhidraScript)  
+INFO  FindDisp.java> 00017cd0 MOV RCX,qword ptr [RSP + 0x150]  | FUN_00017c14 @00017c14 (GhidraScript)  
+INFO  FindDisp.java> 00017d18 MOV qword ptr [RSP + 0x150],RAX  | FUN_00017cfc @00017cfc (GhidraScript)  
+INFO  FindDisp.java> 00017e41 MOV RCX,qword ptr [RSP + 0x150]  | FUN_00017cfc @00017cfc (GhidraScript)  
+INFO  FindDisp.java> 00017e89 MOV qword ptr [RSP + 0x150],RAX  | FUN_00017e6c @00017e6c (GhidraScript)  
+INFO  FindDisp.java> 00017fa2 MOV RCX,qword ptr [RSP + 0x150]  | FUN_00017e6c @00017e6c (GhidraScript)  
+INFO  FindDisp.java> 00017fb2 MOV RBX,qword ptr [RSP + 0x1a0]  | FUN_00017e6c @00017e6c (GhidraScript)  
+INFO  FindDisp.java> 00020e4e LEA RCX,[RDI + 0x150]  | FUN_00020d1c @00020d1c (GhidraScript)  
+INFO  FindDisp.java> 0002165d LEA RCX,[RDI + 0x150]  | FUN_000215f4 @000215f4 (GhidraScript)  
+INFO  FindDisp.java> 00021d7f MOV ECX,dword ptr [RBX + 0x1a4]  | FUN_00021cec @00021cec (GhidraScript)  
+INFO  FindDisp.java> 000235cd XCHG dword ptr [RBX + 0x1a0],EAX  | FUN_00023534 @00023534 (GhidraScript)  
+INFO  FindDisp.java> 00023cff MOV EDX,dword ptr [RBX + 0x1a0]  | FUN_00023b00 @00023b00 (GhidraScript)  
+INFO  FindDisp.java> 00023de2 MOV R8D,dword ptr [RCX + 0x1a0]  | FUN_00023db4 @00023db4 (GhidraScript)  
+INFO  FindDisp.java> 00024010 MOV EDX,dword ptr [RCX + 0x1a4]  | FUN_00023ff4 @00023ff4 (GhidraScript)  
+INFO  FindDisp.java> 00024028 MOV EAX,dword ptr [RCX + 0x1a0]  | FUN_00023ff4 @00023ff4 (GhidraScript)  
+INFO  FindDisp.java> 00024039 MOV EAX,dword ptr [R15 + 0x150]  | FUN_00023ff4 @00023ff4 (GhidraScript)  
+INFO  FindDisp.java> 000243fa MOV EAX,dword ptr [RBP + 0x1a0]  | FUN_00024310 @00024310 (GhidraScript)  
+INFO  FindDisp.java> 0002479c CMP dword ptr [RCX + 0x1a0],0x6  | FUN_0002476c @0002476c (GhidraScript)  
+INFO  FindDisp.java> 000252a0 XCHG dword ptr [RBX + 0x1a0],R11D  | FUN_00024f78 @00024f78 (GhidraScript)  
+INFO  FindDisp.java> 00025423 MOV EDX,dword ptr [RBX + 0x1a0]  | FUN_000252c0 @000252c0 (GhidraScript)  
+INFO  FindDisp.java> 000258c1 MOV EAX,dword ptr [RDI + 0x1a0]  | FUN_00025764 @00025764 (GhidraScript)  
+INFO  FindDisp.java> 00025c8a MOV dword ptr [RSI + 0x1a0],R12D  | FUN_00025b98 @00025b98 (GhidraScript)  
+INFO  FindDisp.java> 00025ca6 MOV dword ptr [RSI + 0x1a4],R12D  | FUN_00025b98 @00025b98 (GhidraScript)  
+INFO  FindDisp.java> 0002c36f MOV RDI,qword ptr [RBP + 0x150]  | FUN_0002c29c @0002c29c (GhidraScript)  
+INFO  FindDisp.java> 00030977 MOV R8D,0x150  | FUN_00030914 @00030914 (GhidraScript)  
+INFO  FindDisp.java> 00030aae MOV EAX,dword ptr [RCX + RDI*0x8 + 0x150]  | FUN_00030a60 @00030a60 (GhidraScript)  
+INFO  FindDisp.java> 000322bc MOV R8B,byte ptr [RBX + 0x150]  | FUN_00032128 @00032128 (GhidraScript)  
+INFO  FindDisp.java> 00032301 MOV R8B,byte ptr [RBX + 0x150]  | FUN_00032128 @00032128 (GhidraScript)  
+INFO  FindDisp.java> 000324c3 SUB ECX,dword ptr [RBX + R9*0x8 + 0x1a0]  | FUN_00032464 @00032464 (GhidraScript)  
+INFO  FindDisp.java> 000326c2 MOV AL,byte ptr [RBX + 0x150]  | FUN_00032464 @00032464 (GhidraScript)  
+INFO  FindDisp.java> 000326e3 MOV byte ptr [RBX + 0x150],CL  | FUN_00032464 @00032464 (GhidraScript)  
+INFO  FindDisp.java> 00032879 ADD EDI,dword ptr [RBX + RBP*0x8 + 0x1a0]  | FUN_00032820 @00032820 (GhidraScript)  
+INFO  FindDisp.java> 0003291f CMP EDI,dword ptr [RBX + RBP*0x8 + 0x1a4]  | FUN_00032820 @00032820 (GhidraScript)  
+INFO  FindDisp.java> 00032db0 LEA RAX,[RCX + 0x1a4]  | FUN_00032db0 @00032db0 (GhidraScript)  
+INFO  FindDisp.java> 00032e59 MOV dword ptr [RCX + 0x1a0],R8D  | FUN_00032db0 @00032db0 (GhidraScript)  
+INFO  REPORT: Save succeeded for processed file: /saa7231.sys (HeadlessAnalyzer)  

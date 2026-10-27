@@ -1,0 +1,137 @@
+openjdk version "27" 2026-09-15
+OpenJDK Runtime Environment (build 27)
+OpenJDK 64-Bit Server VM (build 27, mixed mode)
+INFO  Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/otakoi/.config/ghidra/ghidra_12.1.2_DEV/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/otakoi/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1890 ms) (ClassSearcher)  
+WARNING: Final field name in class ghidra.util.charset.CharsetInfo has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @58d75e99 (file:/opt/ghidra/Ghidra/Framework/Generic/lib/gson-2.13.2.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (3645 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/opt/ghidra/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/otakoi/_hueta/behold-analog/re/scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: /home/otakoi/_hueta/behold-analog/re/ghidra/SAA7231 (HeadlessAnalyzer)  
+INFO  Opening project: /home/otakoi/_hueta/behold-analog/re/ghidra/SAA7231 (HeadlessProject)  
+INFO  REPORT: Processing project file: /saa7231.sys (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DumpFuncs.java '15db8' '15df8' '15f74'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/otakoi/_hueta/behold-analog/re/scripts/DumpFuncs.java (HeadlessAnalyzer)  
+INFO  DumpFuncs.java> === 15db8 (FUN_00015db8 @ 00015db8) === (GhidraScript)  
+INFO  DumpFuncs.java> 
+undefined8 FUN_00015db8(longlong param_1,longlong param_2,longlong param_3)
+
+{
+  longlong lVar1;
+  undefined8 uVar2;
+  
+  lVar1 = FUN_000161d4(param_1);
+  if (lVar1 == 0) {
+    uVar2 = 0xc0000001;
+  }
+  else {
+    uVar2 = FUN_000157d0(lVar1,param_2,param_3);
+  }
+  return uVar2;
+}
+
+ (GhidraScript)  
+INFO  DumpFuncs.java> === 15df8 (FUN_00015df8 @ 00015df8) === (GhidraScript)  
+INFO  DumpFuncs.java> 
+int FUN_00015df8(longlong param_1,longlong param_2,longlong param_3)
+
+{
+  int iVar1;
+  longlong lVar2;
+  
+  lVar2 = FUN_000161d4(param_1);
+  if (lVar2 == 0) {
+    iVar1 = -0x3fffffff;
+  }
+  else {
+    iVar1 = FUN_00015980(lVar2,param_2,param_3);
+  }
+  return iVar1;
+}
+
+ (GhidraScript)  
+INFO  DumpFuncs.java> === 15f74 (FUN_00015f74 @ 00015f74) === (GhidraScript)  
+INFO  DumpFuncs.java> 
+int FUN_00015f74(undefined8 *param_1,int param_2,undefined4 param_3,longlong param_4,int param_5)
+
+{
+  longlong lVar1;
+  int iVar2;
+  undefined8 uVar3;
+  longlong lVar4;
+  int local_38 [4];
+  undefined1 local_28 [32];
+  
+  iVar2 = *(int *)(param_1 + 1);
+  if (iVar2 == 0) {
+    if ((param_4 == 0) || (param_5 == 0)) {
+      iVar2 = -0x3ffffff3;
+    }
+    else {
+      uVar3 = IoGetAttachedDeviceReference(*param_1);
+      KeInitializeEvent(local_28,0,0);
+      lVar4 = IoBuildSynchronousFsdRequest(0x1b,uVar3,0,0,0,local_28,local_38);
+      if (lVar4 == 0) {
+        ObfDereferenceObject(uVar3);
+        iVar2 = -0x3fffff66;
+      }
+      else {
+        lVar1 = *(longlong *)(lVar4 + 0xb8);
+        *(undefined4 *)(lVar4 + 0x30) = 0xc00000bb;
+        *(undefined4 *)(lVar1 + -0x40) = 0;
+        *(undefined1 *)(lVar1 + -0x48) = 0x1b;
+        *(longlong *)(lVar1 + -0x38) = param_4;
+        *(undefined4 *)(lVar1 + -0x30) = param_3;
+        *(char *)(lVar1 + -0x47) = (param_2 != 0) + '\x0f';
+        *(int *)(lVar1 + -0x28) = param_5;
+        iVar2 = IofCallDriver(uVar3,lVar4);
+        if (iVar2 == 0x103) {
+          KeWaitForSingleObject(local_28,0,0,0,0);
+          iVar2 = local_38[0];
+        }
+        ObfDereferenceObject(uVar3);
+      }
+    }
+  }
+  return iVar2;
+}
+
+ (GhidraScript)  
+INFO  REPORT: Save succeeded for processed file: /saa7231.sys (HeadlessAnalyzer)  

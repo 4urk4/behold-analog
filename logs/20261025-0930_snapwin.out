@@ -1,0 +1,71 @@
+# windows reference snapshot 2026-10-25T09:30:10+03:00
+== unload
+== load with snap_init=1 (probe happens in saa7231_drv)
+== AUDIO / AS2D rows
+[  114.793922] saa7231 snap 0x280000: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.794554] saa7231 snap 0x280020: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.795208] saa7231 snap 0x280040: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.795840] saa7231 snap 0x280060: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.796468] saa7231 snap 0x280080: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.797097] saa7231 snap 0x2800a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.797725] saa7231 snap 0x2800c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798374] saa7231 snap 0x2800e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798403] saa7231 snap 0x280100: 00000000 00000000 00000000 00000000 00000000 00034180 000000e1 000000e2
+[  114.798425] saa7231 snap 0x280120: 00000000 00000000 00000000 00000000 00000000 00000800 00000000 00000000
+[  114.798447] saa7231 snap 0x280140: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798470] saa7231 snap 0x280160: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798492] saa7231 snap 0x280180: 00000000 00000006 68208200 00001249 00000000 00000000 00000000 00000000
+[  114.798515] saa7231 snap 0x2801a0: 00000000 00c20000 00000000 00000000 00000000 00000000 00000000 00000000
+[  114.798538] saa7231 snap 0x2801c0: 00000000 00000000 00000000 00000000 00002020 00324bca 00000000 01000002
+[  114.798562] saa7231 snap 0x2801e0: 00000000 00000000 00000001 00000002 00000000 00000000 00000000 ffffffff
+[  114.798584] saa7231 snap 0x280200: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798606] saa7231 snap 0x280220: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798628] saa7231 snap 0x280240: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798649] saa7231 snap 0x280260: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798672] saa7231 snap 0x280280: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798695] saa7231 snap 0x2802a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798717] saa7231 snap 0x2802c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798740] saa7231 snap 0x2802e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798763] saa7231 snap 0x280300: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798785] saa7231 snap 0x280320: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798808] saa7231 snap 0x280340: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798831] saa7231 snap 0x280360: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798855] saa7231 snap 0x280380: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798877] saa7231 snap 0x2803a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798901] saa7231 snap 0x2803c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798924] saa7231 snap 0x2803e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798946] saa7231 snap 0x280400: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798969] saa7231 snap 0x280420: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.798991] saa7231 snap 0x280440: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799013] saa7231 snap 0x280460: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799036] saa7231 snap 0x280480: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799059] saa7231 snap 0x2804a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799081] saa7231 snap 0x2804c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799104] saa7231 snap 0x2804e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799127] saa7231 snap 0x280500: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799149] saa7231 snap 0x280520: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799172] saa7231 snap 0x280540: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799195] saa7231 snap 0x280560: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799218] saa7231 snap 0x280580: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799240] saa7231 snap 0x2805a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799263] saa7231 snap 0x2805c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799286] saa7231 snap 0x2805e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799308] saa7231 snap 0x280600: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799330] saa7231 snap 0x280620: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799353] saa7231 snap 0x280640: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799376] saa7231 snap 0x280660: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799399] saa7231 snap 0x280680: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799422] saa7231 snap 0x2806a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799445] saa7231 snap 0x2806c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799467] saa7231 snap 0x2806e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799490] saa7231 snap 0x280700: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799513] saa7231 snap 0x280720: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799536] saa7231 snap 0x280740: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799558] saa7231 snap 0x280760: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799581] saa7231 snap 0x280780: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799604] saa7231 snap 0x2807a0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799627] saa7231 snap 0x2807c0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+[  114.799649] saa7231 snap 0x2807e0: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+== AVIS input rows
+== how many rows: 1166
+== done: /home/otakoi/_hueta/behold-analog/logs/20261025-0930_snapwin.out / logs/20261025-0930_snap.txt

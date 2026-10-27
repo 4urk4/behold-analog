@@ -1,0 +1,2 @@
+# AVIS probe 2026-10-23T06:34:22+03:00
+ERROR: /sys/module/saa7231_core/parameters/dbg_avis отсутствует — модуль собран без dbg_avis?

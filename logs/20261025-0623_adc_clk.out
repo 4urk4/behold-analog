@@ -1,0 +1,70 @@
+# adc_clk=1 ctrl=0x7012c packed_src=1 2026-10-25T06:23:46+03:00
+== install modules
+== reload driver
+== params
+== raw pass: 6 frames, raw_dump=1 fill_aa=1
+<<<<<<
+Video input set to 0 (Composite: Camera, ok)
+raw pass exit=0
+== normal pass: 75 frames, raw_dump=0
+<<<<<<<<<<<<<<<<<<<<<<<<<<< 0.00 fps
+<<<<<<<<<== registers during stream
+<<<<<<<<<<<<<<<< 0.00 fps
+<<<<<<<<<<<<<<<<<<<<<<<
+Video input set to 0 (Composite: Camera, ok)
+normal exit=0
+== raw pass layout (whole 829440-byte DMA buffer)
+raw frames: 6 bytes: 4976640
+line   0: first distinct=125 top=[(128, 363), (179, 14)] | second distinct= 71 top=[(128, 360), (73, 17)]
+   first32=13 80 13 80 13 80 13 80 12 80 11 80 0f 80 12 80 08 80 45 80 a2 80 a4 80 a2 80 a3 80 af 80 a1 80
+   mid32  =59 80 61 80 66 80 4f 80 5a 80 69 80 56 80 54 80 60 80 58 80 63 80 6d 80 58 80 58 80 60 80 53 80
+line   1: first distinct=123 top=[(128, 363), (179, 15)] | second distinct= 76 top=[(128, 360), (70, 14)]
+   first32=12 80 13 80 12 80 12 80 12 80 11 80 0f 80 12 80 07 80 41 80 ac 80 aa 80 a7 80 b4 80 ab 80 a4 80
+   mid32  =60 80 6b 80 53 80 68 80 72 80 5a 80 65 80 69 80 5a 80 67 80 68 80 58 80 5e 80 60 80 5e 80 69 80
+line 100: first distinct=103 top=[(128, 364), (172, 11)] | second distinct= 91 top=[(128, 361), (82, 21)]
+   first32=12 80 12 80 12 80 11 80 11 80 10 80 0d 80 10 80 09 80 1b 80 97 80 c6 80 a1 80 9f 80 b6 80 ab 80
+   mid32  =61 80 64 80 5e 80 61 80 68 80 5d 80 56 80 5c 80 63 80 5a 80 54 80 55 80 50 80 67 80 83 80 7d 80
+line 287: first distinct=  9 top=[(128, 360), (11, 271)] | second distinct=  4 top=[(128, 360), (10, 316)]
+   first32=0b 80 0b 80 0b 80 0b 80 0a 80 0b 80 0b 80 0c 80 0b 80 0b 80 0b 80 0b 80 0b 80 0b 80 0b 80 0b 80
+   mid32  =0b 80 0b 80 0b 80 0b 80 0a 80 0a 80 0b 80 0a 80 0a 80 0a 80 0a 80 0a 80 0a 80 0a 80 0a 80 0a 80
+line 288: first distinct= 10 top=[(128, 360), (1, 297)] | second distinct=  9 top=[(128, 360), (1, 309)]
+   first32=01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80
+   mid32  =01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80 01 80
+line 300: first distinct=  1 top=[(170, 720)] | second distinct=  1 top=[(170, 720)]
+   first32=aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa
+   mid32  =aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa
+line 575: first distinct=  1 top=[(170, 720)] | second distinct=  1 top=[(170, 720)]
+   first32=aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa
+   mid32  =aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa
+block   0..287: aa=1036/414720
+block 288..575: aa=411840/414720
+== normal layout (YUY2 720x576)
+frames: 75 bytes: 62208000
+first  half: distinct=235 top=[(128, 208498), (168, 3026), (171, 2924)]
+second half: distinct=245 top=[(128, 208593), (74, 3264), (73, 3203)]
+Y positions: distinct=245 top=[(74, 4747), (73, 4714), (77, 4694)]
+U/V positions: distinct=1 top=[(128, 414720)]
+-rw-r--r-- 1 root root 466523 окт 25 06:23 /home/otakoi/_hueta/behold-analog/logs/20261025-0623_normal.png
+-rw-r--r-- 1 root root 235986 окт 25 06:23 /home/otakoi/_hueta/behold-analog/logs/20261025-0623_rawpass.png
+== driver log
+[ 2986.066931] saa7231 s2d: ptables done
+[ 2986.066940] saa7231 s2d: id=0xa0b21000
+[ 2986.066943] saa7231 s2d: setparams done
+[ 2986.066944] saa7231 vfl: avis program, input type 3
+[ 2986.066964] saa7231 avis: base init done
+[ 2986.067094] saa7231 avis: input table done
+[ 2986.067122] saa7231 avis: input setup done
+[ 2986.067124] saa7231 avis: timing done
+[ 2986.067125] saa7231 vfl: avis program done
+[ 2986.067126] saa7231 vfl: run
+[ 2986.067127] saa7231 s2d: run, loading PTAs (ch=1)
+[ 2986.077867] saa7231 s2d: PTAs loaded, enabling channel
+[ 2986.077877] saa7231 vfl: streaming
+[ 2986.131322] saa7231 vfl: first frame (dma 1)
+[ 2989.131167] saa7231 s2d: setparams port=0 type=2
+[ 2989.131174] saa7231 s2d: reset done
+[ 2989.131177] saa7231 s2d: ptables done
+[ 2989.131186] saa7231 s2d: id=0xa0b21000
+[ 2989.131190] saa7231 s2d: setparams done
+[ 2989.131664] saa7231 vfl: stop, frames=75
+== done: /home/otakoi/_hueta/behold-analog/logs/20261025-0623_adc_clk.out / /home/otakoi/_hueta/behold-analog/logs/20261025-0623_normal.png / /home/otakoi/_hueta/behold-analog/logs/20261025-0623_rawpass.png

@@ -1,0 +1,123 @@
+# analog enum 2026-10-23T06:53:27+03:00
+== install modules
+== reload driver
+== dec_init parameter
+0
+== video devices
+crw-rw----+ 1 root video 81, 0 окт 23 06:53 /dev/video0
+Behold TV H8 (PCI:0000:0a:00.0):
+	/dev/video0
+== /dev/video0
+ioctl: VIDIOC_ENUMINPUT
+	Input       : 0
+	Name        : Composite
+	Type        : 0x00000002 (Camera)
+	Audioset    : 0x00000000
+	Tuner       : 0x00000000
+	Standard    : 0x000000000000B0FF (PAL-B/B1/G/H/I/D/D1/K NTSC-M/M-JP/M-KR)
+	Status      : 0x00000000 (ok)
+	Capabilities: 0x00000000 (not defined)
+
+	Input       : 1
+	Name        : S-Video
+	Type        : 0x00000002 (Camera)
+	Audioset    : 0x00000000
+	Tuner       : 0x00000000
+	Standard    : 0x000000000000B0FF (PAL-B/B1/G/H/I/D/D1/K NTSC-M/M-JP/M-KR)
+	Status      : 0x00000000 (ok)
+	Capabilities: 0x00000000 (not defined)
+
+	Input       : 2
+	Name        : YPbPr
+	Type        : 0x00000002 (Camera)
+	Audioset    : 0x00000000
+	Tuner       : 0x00000000
+	Standard    : 0x000000000000B0FF (PAL-B/B1/G/H/I/D/D1/K NTSC-M/M-JP/M-KR)
+	Status      : 0x00000000 (ok)
+	Capabilities: 0x00000000 (not defined)
+
+	Input       : 3
+	Name        : RGB
+	Type        : 0x00000002 (Camera)
+	Audioset    : 0x00000000
+	Tuner       : 0x00000000
+	Standard    : 0x000000000000B0FF (PAL-B/B1/G/H/I/D/D1/K NTSC-M/M-JP/M-KR)
+	Status      : 0x00000000 (ok)
+	Capabilities: 0x00000000 (not defined)
+ioctl: VIDIOC_ENUM_FMT
+	Type: Video Capture
+
+	[0]: 'YUYV' (YUYV 4:2:2)
+Format Video Capture:
+	Width/Height      : 720/576
+	Pixel Format      : 'YUYV' (YUYV 4:2:2)
+	Field             : Interlaced
+	Bytes per Line    : 1440
+	Size Image        : 829440
+	Colorspace        : sRGB
+	Transfer Function : Default (maps to sRGB)
+	YCbCr/HSV Encoding: Default (maps to ITU-R 601)
+	Quantization      : Default (maps to Limited Range)
+	Flags             : 
+== dmesg tail
+[15616.444992] Code: ff ff e9 3c fe ff ff 48 83 b8 e8 00 00 00 00 0f 85 61 fd ff ff e9 63 fd ff ff 48 83 78 78 00 0f 85 3c fd ff ff e9 3e fd ff ff <0f> 0b 48 8b 5c 24 28 48 8b 6c 24 30 4c 8b 7c 24 50 e9 3f fa ff ff
+[15616.444995] RSP: 0018:ffffd298c1c4ba58 EFLAGS: 00010246
+[15616.444999] RAX: 0000000000000000 RBX: ffff8de5879c6800 RCX: 0000000000000001
+[15616.445001] RDX: ffff8de7c89e0008 RSI: 0000000000000000 RDI: 0000000000000000
+[15616.445003] RBP: 00000000ffffffff R08: ffffffffc2319ac0 R09: 0000000000000000
+[15616.445005] R10: ffffd298c1c4bab8 R11: 0000000000000020 R12: ffffffffc2319ac0
+[15616.445008] R13: ffff8de7c89e01f0 R14: ffff8de7c89e0008 R15: 0000000000000001
+[15616.445010] FS:  00007f6e995c1740(0000) GS:ffff8de917bb1000(0000) knlGS:0000000000000000
+[15616.445013] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[15616.445015] CR2: 00007f6e98cf1900 CR3: 0000000339b10003 CR4: 00000000000626f0
+[15616.445018] Call Trace:
+[15616.445022]  <TASK>
+[15616.445027]  saa7231_vfl_init+0x1b2/0x220 [saa7231_core 222747a4fbc443f4d1603544bbb4ec4876d90d0f]
+[15616.445071]  saa7231_pci_probe+0x1bd/0x1d0 [saa7231_drv d6aae4c12b95a139b9ae8f57a91136b058ea2288]
+[15616.445083]  local_pci_probe+0x4e/0xa0
+[15616.445088]  ? cpu_hotplug_disable+0x15/0x30
+[15616.445094]  pci_device_probe+0x10c/0x2f0
+[15616.445098]  ? __pfx_pci_device_probe+0x10/0x10
+[15616.445102]  really_probe+0xe9/0x370
+[15616.445107]  ? pm_runtime_barrier+0x61/0xb0
+[15616.445113]  __driver_probe_device+0x90/0x190
+[15616.445116]  driver_probe_device+0x1f/0x80
+[15616.445121]  ? __pfx___driver_attach+0x10/0x10
+[15616.445125]  __driver_attach+0xca/0x1d0
+[15616.445130]  ? __pfx___driver_attach+0x10/0x10
+[15616.445133]  bus_for_each_dev+0x97/0x100
+[15616.445138]  bus_add_driver+0x129/0x230
+[15616.445143]  ? __pfx_saa7231_init+0x10/0x10 [saa7231_drv d6aae4c12b95a139b9ae8f57a91136b058ea2288]
+[15616.445153]  driver_register+0x75/0xe0
+[15616.445158]  do_one_initcall+0x8d/0x3c0
+[15616.445168]  do_init_module+0x6a/0x260
+[15616.445174]  ? init_module_from_file+0xcf/0x130
+[15616.445179]  init_module_from_file+0xcf/0x130
+[15616.445185]  idempotent_init_module+0x23e/0x360
+[15616.445191]  __x64_sys_finit_module+0x7f/0x100
+[15616.445196]  do_syscall_64+0x83/0x810
+[15616.445203]  ? exc_page_fault+0x8f/0x1d0
+[15616.445210]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+[15616.445214] RIP: 0033:0x7f6e98d1e46d
+[15616.445235] Code: ff c3 66 2e 0f 1f 84 00 00 00 00 00 90 f3 0f 1e fa 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d 73 a8 0f 00 f7 d8 64 89 01 48
+[15616.445238] RSP: 002b:00007ffff2f1f4b8 EFLAGS: 00000246 ORIG_RAX: 0000000000000139
+[15616.445242] RAX: ffffffffffffffda RBX: 000055940fe29850 RCX: 00007f6e98d1e46d
+[15616.445245] RDX: 0000000000000000 RSI: 00005593f6b51a1b RDI: 0000000000000003
+[15616.445247] RBP: 00007ffff2f1f550 R08: 0000000000000000 R09: 0000000000000000
+[15616.445249] R10: 0000000000000000 R11: 0000000000000246 R12: 00005593f6b51a1b
+[15616.445251] R13: 0000000000040000 R14: 000055940fe29960 R15: 000055940fe2a900
+[15616.445256]  </TASK>
+[15616.445258] ---[ end trace 0000000000000000 ]---
+[15616.445263] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[15616.445817] tda10048_readreg: readreg error (ret == -6)
+[15616.445892] tda10048_readreg: readreg error (ret == -6)
+[15616.550897] tda10048_readreg: readreg error (ret == -5)
+[15616.654086] tda10048_readreg: readreg error (ret == -5)
+[15616.666560] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[15717.397512] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[15717.398022] tda10048_readreg: readreg error (ret == -6)
+[15717.398098] tda10048_readreg: readreg error (ret == -6)
+[15717.501551] tda10048_readreg: readreg error (ret == -5)
+[15717.605071] tda10048_readreg: readreg error (ret == -5)
+[15717.616577] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+== done: /home/otakoi/_hueta/behold-analog/logs/20261023-0653_analog_enum.out

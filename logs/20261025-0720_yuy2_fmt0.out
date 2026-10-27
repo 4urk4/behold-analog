@@ -1,0 +1,38 @@
+# yuy2 avis_fmt=0x00 ctrl=0x7012c chctrl=0x2b0 2026-10-25T07:20:19+03:00
+== install modules
+== reload driver
+== params
+== raw pass: 6 frames, YUY2 avis_fmt=0x00
+<<<<<<
+Video input set to 0 (Composite: Camera, ok)
+raw pass exit=0
+== registers
+== YUY2 analysis
+frames: 6 bytes: 4976640
+first32: 15 80 15 80 14 80 13 80 14 80 13 80 12 7c 12 80 14 79 2b 80 40 7a 42 82 3f 79 39 84 3c 7c 3f 87
+Y  distinct=247 top=[(23, 22124), (24, 17104), (25, 12810), (22, 10131), (26, 9250)]
+UV distinct=134 top=[(128, 94811), (126, 9624), (132, 4609), (131, 4592), (125, 4490)]
+UV exactly 0x80: 94811 / 207360
+-rw-r--r-- 1 root root 255708 окт 25 07:20 /home/otakoi/_hueta/behold-analog/logs/20261025-0720_yuy2_fmt0.png
+== driver log
+[ 6377.320906] saa7231 s2d: ptables done
+[ 6377.320915] saa7231 s2d: id=0xa0b21000
+[ 6377.320918] saa7231 s2d: setparams done
+[ 6377.321414] saa7231 vfl: avis program, input type 3
+[ 6377.321427] saa7231 avis: base init done
+[ 6377.321554] saa7231 avis: input table done
+[ 6377.321581] saa7231 avis: input setup done
+[ 6377.321584] saa7231 avis: timing done
+[ 6377.321585] saa7231 vfl: avis program done
+[ 6377.321586] saa7231 vfl: run
+[ 6377.321587] saa7231 s2d: run, loading PTAs (ch=1)
+[ 6377.334217] saa7231 s2d: PTAs loaded, enabling channel
+[ 6377.334245] saa7231 vfl: streaming
+[ 6377.387627] saa7231 vfl: first frame (dma 1)
+[ 6377.637575] saa7231 s2d: setparams port=0 type=2
+[ 6377.637583] saa7231 s2d: reset done
+[ 6377.637585] saa7231 s2d: ptables done
+[ 6377.637594] saa7231 s2d: id=0xa0b21000
+[ 6377.637597] saa7231 s2d: setparams done
+[ 6377.638152] saa7231 vfl: stop, frames=6
+== done: /home/otakoi/_hueta/behold-analog/logs/20261025-0720_yuy2_fmt0.out / /home/otakoi/_hueta/behold-analog/logs/20261025-0720_yuy2_fmt0.png

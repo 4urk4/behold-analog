@@ -1,0 +1,70 @@
+# AVIS probe 2026-10-23T06:37:12+03:00
+== install modules
+== reload driver (h8_fw_load=0 h8_rgu=0)
+== activate video clocks
+== read 0x120ffc (06:37:16)
+== read 0x280ffc (06:37:18)
+== read 0x200ffc (06:37:19)
+== read 0x20239c (06:37:20)
+== dmesg tail
+[14520.031065] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14520.039952] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14520.040825] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14520.041788] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14520.042607] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14520.043455] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14520.907898] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14520.908663] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14520.909426] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14520.910189] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14520.910932] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.062066] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.062826] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.063586] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.064329] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.065067] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.207680] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.208436] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.209184] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.209920] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.210671] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.402091] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.402845] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.403600] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.404336] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.405068] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.456207] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.456979] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.457718] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.458453] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14521.459185] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14522.142359] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14522.143115] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14522.143908] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14522.144652] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14522.145387] amdgpu 0000:03:00.0: amdgpu: [drm] *ERROR* Unsupported screen format RA24 little-endian (0x34324152)
+[14614.965999] saa7231_stream_exit (0): INFO: Freeing MODE:0x20 for PORT=0x08
+[14614.966821] saa7231_stream_exit (0): INFO: Freeing MODE:0x20 for PORT=0x0b
+[14614.967370] saa7231_pci_exit (0): SAA7231 mem(0): 0x000000004a69643a mem(2): 0x00000000d0d94aa3
+[14615.291569] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[14615.292381] tda10048_readreg: readreg error (ret == -6)
+[14615.292458] tda10048_readreg: readreg error (ret == -6)
+[14615.396947] tda10048_readreg: readreg error (ret == -5)
+[14615.500094] tda10048_readreg: readreg error (ret == -5)
+[14615.513445] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[14617.669311] saa7231 dbg_mmio bar0: [0x120ffc] = 0xa0b21000
+[14618.709831] saa7231 dbg_mmio bar0: [0x280ffc] = 0x0
+[14619.737289] saa7231 dbg_mmio bar0: [0x200ffc] = 0xa0fc0000
+[14620.768802] saa7231 dbg_mmio bar0: [0x20239c] = 0x0
+[14742.711484] dvbdev: DVB: registering new adapter (SAA7231 DVB-S Internal Adapter)
+[14742.712367] tda10048_readreg: readreg error (ret == -6)
+[14742.712443] tda10048_readreg: readreg error (ret == -6)
+[14742.817200] tda10048_readreg: readreg error (ret == -5)
+[14742.920327] tda10048_readreg: readreg error (ret == -5)
+[14742.933329] dvbdev: DVB: registering new adapter (SAA7231 DVB External Adapter:1)
+[14743.949368] saa7231 dbg_avis: video clocks, ret=0
+[14745.135272] saa7231 dbg_mmio bar0: [0x120ffc] = 0xa0b21000
+[14746.202875] saa7231 dbg_mmio bar0: [0x280ffc] = 0x0
+[14747.272206] saa7231 dbg_mmio bar0: [0x200ffc] = 0xa0fc0000
+[14748.311530] saa7231 dbg_mmio bar0: [0x20239c] = 0x0
+== done: /home/otakoi/_hueta/behold-analog/logs/20261023-0637_avis_probe.out

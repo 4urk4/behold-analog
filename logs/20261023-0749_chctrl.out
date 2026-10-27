@@ -1,0 +1,29 @@
+# chctrl 2026-10-23T07:49:07+03:00
+== install modules
+== reload driver
+== dec_init=1 dcsc_power=1
+== chctrl 0x2b0
+<<<
+Video input set to 0 (Composite: Camera, ok)
+exit=0
+nonzero 0..719: 720  720..1439: 0
+even: 360  odd: 360
+distinct 2 Y min/max 0 254 Y distinct 2
+png: /home/otakoi/_hueta/behold-analog/logs/20261023-0749_cc0x2b0.png
+== chctrl 0x290
+<<<
+Video input set to 0 (Composite: Camera, ok)
+exit=0
+nonzero 0..719: 720  720..1439: 0
+even: 360  odd: 360
+distinct 121 Y min/max 0 119 Y distinct 119
+png: /home/otakoi/_hueta/behold-analog/logs/20261023-0749_cc0x290.png
+== chctrl 0x2f0
+<<<
+Video input set to 0 (Composite: Camera, ok)
+exit=0
+nonzero 0..719: 720  720..1439: 0
+even: 360  odd: 360
+distinct 123 Y min/max 0 121 Y distinct 120
+png: /home/otakoi/_hueta/behold-analog/logs/20261023-0749_cc0x2f0.png
+== done: /home/otakoi/_hueta/behold-analog/logs/20261023-0749_chctrl.out

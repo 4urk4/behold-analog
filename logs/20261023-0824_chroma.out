@@ -1,0 +1,42 @@
+# chroma fmt=0x10 pll=0 digout=0 fill_aa=1 c0=0x70 stream_on=0 adc_clk=1 2026-10-23T08:24:54+03:00
+== install modules
+== reload driver
+== params
+== capture 20 frames
+<<<<<<<<<<<<<<<<<<<<
+Video input set to 0 (Composite: Camera, ok)
+v4l2-ctl exit=0
+== registers (dbg_avis, read after stop)
+== line layout + PNG (field 10, 576 lines x 1440 bytes)
+frames: 20 bytes: 16588800
+first  half: distinct=219 top=[(35, 28173), (37, 26693), (33, 25511)]
+second half: distinct=1 top=[(170, 414720)]
+-rw-r--r-- 1 root root   1621 окт 23 08:25 /home/otakoi/_hueta/behold-analog/logs/20261023-0824_chroma.png
+-rw-r--r-- 1 root root 251692 окт 23 08:25 /home/otakoi/_hueta/behold-analog/logs/20261023-0824_luma.png
+== avis registers
+[ 3499.931341] saa7231 dbg_mmio bar0: [0x2022c4] = 0x87
+[ 3500.033862] saa7231 dbg_mmio bar0: [0x202260] = 0x40
+[ 3500.136477] saa7231 dbg_mmio bar0: [0x202410] = 0x0
+[ 3500.238533] saa7231 dbg_mmio bar0: [0x202414] = 0x10
+[ 3500.341050] saa7231 dbg_mmio bar0: [0x2033c0] = 0x58
+[ 3500.442997] saa7231 dbg_mmio bar0: [0x2033c8] = 0xd6
+[ 3500.545416] saa7231 dbg_mmio bar0: [0x2033f4] = 0x0
+[ 3635.757320] saa7231 dbg_mmio bar0: [0x202330] = 0x0
+[ 3635.859265] saa7231 dbg_mmio bar0: [0x202338] = 0xc4
+[ 3635.961103] saa7231 dbg_mmio bar0: [0x20233c] = 0x0
+[ 3636.062633] saa7231 dbg_mmio bar0: [0x202398] = 0xa4
+[ 3636.164318] saa7231 dbg_mmio bar0: [0x20239c] = 0x0
+[ 3636.266767] saa7231 dbg_mmio bar0: [0x202280] = 0x40
+[ 3636.368745] saa7231 dbg_mmio bar0: [0x202288] = 0x10
+[ 3636.470375] saa7231 dbg_mmio bar0: [0x202290] = 0x6
+[ 3636.572394] saa7231 dbg_mmio bar0: [0x202294] = 0x1
+[ 3636.674984] saa7231 dbg_mmio bar0: [0x2022a4] = 0xc1
+[ 3636.776328] saa7231 dbg_mmio bar0: [0x2022c0] = 0x70
+[ 3636.877816] saa7231 dbg_mmio bar0: [0x2022c4] = 0x87
+[ 3636.979369] saa7231 dbg_mmio bar0: [0x202260] = 0x40
+[ 3637.080879] saa7231 dbg_mmio bar0: [0x202410] = 0x0
+[ 3637.183424] saa7231 dbg_mmio bar0: [0x202414] = 0x10
+[ 3637.285484] saa7231 dbg_mmio bar0: [0x2033c0] = 0x2f
+[ 3637.387090] saa7231 dbg_mmio bar0: [0x2033c8] = 0x1
+[ 3637.488941] saa7231 dbg_mmio bar0: [0x2033f4] = 0x1
+== done: /home/otakoi/_hueta/behold-analog/logs/20261023-0824_chroma.out

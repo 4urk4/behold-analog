@@ -1,0 +1,6 @@
+# analog stream 2026-10-23T06:57:16+03:00
+== install modules
+== reload driver
+== enable decoder init
+1
+== stream 20 frames from input 0 (composite), 20s timeout

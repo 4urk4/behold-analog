@@ -1,0 +1,17 @@
+# v4l2 png 2026-10-23T07:50:46+03:00
+== install modules
+== reload driver
+== params
+== capture 25 frames via V4L2
+<<<<<<<<<<<<<<<<<<<<<<<<<
+Video input set to 0 (Composite: Camera, ok)
+v4l2-ctl exit=0
+== skip 10 frames, decode the next one
+-rw-r--r-- 1 root root   829440 окт 23 07:50 /home/otakoi/_hueta/behold-analog/logs/20261023-0750_frame10.raw
+-rw-r--r-- 1 root root 20736000 окт 23 07:50 /home/otakoi/_hueta/behold-analog/logs/20261023-0750_v4l2.raw
+-rw-r--r-- 1 root root 295688 окт 23 07:50 /home/otakoi/_hueta/behold-analog/logs/20261023-0750_frame10.png
+== driver frame counter
+[ 1487.525322] saa7231 vfl: stop, frames=3
+[ 1586.504891] saa7231 vfl: first frame (dma 1)
+[ 1587.511806] saa7231 vfl: stop, frames=25
+== done: /home/otakoi/_hueta/behold-analog/logs/20261023-0750_v4l2.out / /home/otakoi/_hueta/behold-analog/logs/20261023-0750_frame10.png

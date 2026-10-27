@@ -1,0 +1,70 @@
+# analog audio 2026-10-25T09:18:26+03:00
+== install modules
+== reload driver
+== params
+dec_init=1 dcsc_power=1 audio_init=1 input=0 rate=0
+== capture 25 video frames (audio starts with the stream)
+<<<<<<<<<<<<<<<<<<<<<<<<<
+Video input set to 0 (Composite: Camera, ok)
+v4l2-ctl exit=0
+-- audio lines for run1 (std=0 input=0):
+-- buffers for run1 (std=0 input=0): 0
+== capture 25 video frames (audio starts with the stream)
+<<<<<<<<<<<<<<<<<<<<<<<<<
+Video input set to 0 (Composite: Camera, ok)
+v4l2-ctl exit=0
+-- audio lines for run2 (std=3 input=0):
+-- buffers for run2 (std=3 input=0): 0
+== capture 25 video frames (audio starts with the stream)
+<<<<<<<<<<<<<<<<<<<<<<<<<
+Video input set to 0 (Composite: Camera, ok)
+v4l2-ctl exit=0
+-- audio lines for run3 (std=0 input=1):
+-- buffers for run3 (std=0 input=1): 0
+== S2D / audio log
+[13468.760150] saa7231 s2d: reset done
+[13468.760153] saa7231 s2d: ptables done
+[13468.760161] saa7231 s2d: id=0xa0b21000
+[13468.760165] saa7231 s2d: setparams done
+[13468.760521] saa7231 vfl: stop, frames=26
+[13470.777515] saa7231 vfl: start, allocating stream
+[13470.779457] saa7231 vfl: stream allocated
+[13470.779462] saa7231 vfl: acquire
+[13470.779464] saa7231 s2d: setparams port=0 type=2
+[13470.779467] saa7231 s2d: reset done
+[13470.779469] saa7231 s2d: ptables done
+[13470.779478] saa7231 s2d: id=0xa0b21000
+[13470.779481] saa7231 s2d: setparams done
+[13470.779483] saa7231 vfl: avis program, input type 3
+[13470.779612] saa7231 vfl: avis program done
+[13470.779613] saa7231 vfl: run
+[13470.779614] saa7231 s2d: run, loading PTAs (ch=1)
+[13470.793540] saa7231 s2d: PTAs loaded, enabling channel
+[13470.793827] saa7231 s2d: setparams port=6 type=1
+[13470.793830] saa7231 s2d: reset done
+[13470.793832] saa7231 s2d: ptables done
+[13470.793848] saa7231 s2d: id=0xa0af1000
+[13470.793851] saa7231 s2d: setparams done
+[13470.823520] saa7231 s2d: run, loading PTAs (ch=7)
+[13470.836872] saa7231 s2d: PTAs loaded, enabling channel
+[13470.837101] saa7231 audio: streaming 32000 Hz
+[13470.837106] saa7231 vfl: streaming
+[13470.876915] saa7231 vfl: first frame (dma 3)
+[13471.893445] saa7231 s2d: setparams port=6 type=1
+[13471.893453] saa7231 s2d: reset done
+[13471.893455] saa7231 s2d: ptables done
+[13471.893464] saa7231 s2d: id=0xa0af1000
+[13471.893468] saa7231 s2d: setparams done
+[13471.893523] saa7231 audio: stop, 1 buffers
+[13471.943450] saa7231 s2d: setparams port=0 type=2
+[13471.943457] saa7231 s2d: reset done
+[13471.943460] saa7231 s2d: ptables done
+[13471.943469] saa7231 s2d: id=0xa0b21000
+[13471.943472] saa7231 s2d: setparams done
+[13471.943910] saa7231 vfl: stop, frames=26
+== audio verdict
+audio buffers reported: 0
+VERDICT: NO AUDIO DMA (index never advanced)
+== errors
+[   10.921698] saa7231_core: module verification failed: signature and/or required key missing - tainting kernel
+== done: /home/otakoi/_hueta/behold-analog/logs/20261025-0918_audio.out

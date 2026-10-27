@@ -1,0 +1,96 @@
+openjdk version "27" 2026-09-15
+OpenJDK Runtime Environment (build 27)
+OpenJDK 64-Bit Server VM (build 27, mixed mode)
+INFO  Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/otakoi/.config/ghidra/ghidra_12.1.2_DEV/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/otakoi/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1837 ms) (ClassSearcher)  
+WARNING: Final field name in class ghidra.util.charset.CharsetInfo has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @58d75e99 (file:/opt/ghidra/Ghidra/Framework/Generic/lib/gson-2.13.2.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (3616 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/opt/ghidra/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/otakoi/_hueta/behold-analog/re/scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: /home/otakoi/_hueta/behold-analog/re/ghidra/SAA7231 (HeadlessAnalyzer)  
+INFO  Opening project: /home/otakoi/_hueta/behold-analog/re/ghidra/SAA7231 (HeadlessProject)  
+INFO  REPORT: Processing project file: /saa7231.sys (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DumpMem.java '45d80:160' '45d98:80' '45da8:80' '45d90:20'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/otakoi/_hueta/behold-analog/re/scripts/DumpMem.java (HeadlessAnalyzer)  
+INFO  DumpMem.java> == 00045d80 len 0x160 == (GhidraScript)  
+INFO  DumpMem.java> 00045d80  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ (GhidraScript)  
+INFO  DumpMem.java> 00045d90  00 00 00 00 00 00 00 00 32 d9 db ef 08 8f 9c 4b  ........2......K (GhidraScript)  
+INFO  DumpMem.java> 00045da0  89 03 46 44 c0 21 97 d6 0f 66 cd 63 48 63 c4 4f  ..FD.!...f.cHc.O (GhidraScript)  
+INFO  DumpMem.java> 00045db0  8a 27 44 01 37 95 ce 44 62 84 aa d7 e8 2b 42 4f  .'D.7..Db....+BO (GhidraScript)  
+INFO  DumpMem.java> 00045dc0  b7 25 0b 1a 98 63 79 ca 06 2e 63 2e 5a b9 48 4d  .%...cy...c.Z.HM (GhidraScript)  
+INFO  DumpMem.java> 00045dd0  b0 75 bc c2 90 a1 d8 8d 2d 20 a4 01 7a 64 41 45  .u......- ..zdAE (GhidraScript)  
+INFO  DumpMem.java> 00045de0  ba bc 22 7b 0e 64 10 6a 96 33 e0 d0 4b ae 6c 46  .."{.d.j.3..K.lF (GhidraScript)  
+INFO  DumpMem.java> 00045df0  85 a0 68 e8 67 2e b3 ea 87 02 90 ae 08 25 68 44  ..h.g........%hD (GhidraScript)  
+INFO  DumpMem.java> 00045e00  9f c6 0e c8 32 22 bf 76 91 cc d2 06 56 7c 57 40  ....2".v....V|W@ (GhidraScript)  
+INFO  DumpMem.java> 00045e10  8a f1 73 ec 15 38 c1 c9 09 df a3 2a ae c0 bd 49  ..s..8.....*...I (GhidraScript)  
+INFO  DumpMem.java> 00045e20  8c e4 cf 47 13 4f 8c 49 f9 f4 97 ba be 3b 5a 40  ...G.O.I.....;Z@ (GhidraScript)  
+INFO  DumpMem.java> 00045e30  83 6f 5e 72 fe c5 de d0 f3 4e 3c 64 6a 85 3d 40  .o^r.....N<dj.=@ (GhidraScript)  
+INFO  DumpMem.java> 00045e40  af d6 9e aa 54 4c d5 c5 f9 ab 11 47 f8 df cc 41  ....TL.....G...A (GhidraScript)  
+INFO  DumpMem.java> 00045e50  9b 32 4f 6c 9f 91 3e ca ce f9 ad 66 7a ca b7 4e  .2Ol..>....fz..N (GhidraScript)  
+INFO  DumpMem.java> 00045e60  9c 94 51 d4 36 00 51 5a 37 fd ce a4 f5 c2 e1 4d  ..Q.6.QZ7......M (GhidraScript)  
+INFO  DumpMem.java> 00045e70  98 7a 04 0a 72 e2 86 a4 99 2c c5 6a fc 35 ec 41  .z..r....,.j.5.A (GhidraScript)  
+INFO  DumpMem.java> 00045e80  be d3 76 ec 24 05 c8 c5 98 00 c1 56 0c 65 b8 4d  ..v.$......V.e.M (GhidraScript)  
+INFO  DumpMem.java> 00045e90  8f 97 b9 c1 c3 78 4c 3a f8 8f 04 00 00 00 00 00  .....xL:........ [08]->0x48ff8  (GhidraScript)  
+INFO  DumpMem.java> 00045ea0  80 f6 04 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ [00]->0x4f680  (GhidraScript)  
+INFO  DumpMem.java> 00045eb0  60 b9 03 00 00 00 00 00 20 b9 03 00 00 00 00 00  `....... ....... [00]->0x3b960  [08]->0x3b920  (GhidraScript)  
+INFO  DumpMem.java> 00045ec0  ff ff ff ff 00 00 00 00 98 5d 04 00 00 00 00 00  .........]...... [08]->0x45d98  (GhidraScript)  
+INFO  DumpMem.java> 00045ed0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ (GhidraScript)  
+INFO  DumpMem.java> == 00045d98 len 0x80 == (GhidraScript)  
+INFO  DumpMem.java> 00045d98  32 d9 db ef 08 8f 9c 4b 89 03 46 44 c0 21 97 d6  2......K..FD.!.. (GhidraScript)  
+INFO  DumpMem.java> 00045da8  0f 66 cd 63 48 63 c4 4f 8a 27 44 01 37 95 ce 44  .f.cHc.O.'D.7..D (GhidraScript)  
+INFO  DumpMem.java> 00045db8  62 84 aa d7 e8 2b 42 4f b7 25 0b 1a 98 63 79 ca  b....+BO.%...cy. (GhidraScript)  
+INFO  DumpMem.java> 00045dc8  06 2e 63 2e 5a b9 48 4d b0 75 bc c2 90 a1 d8 8d  ..c.Z.HM.u...... (GhidraScript)  
+INFO  DumpMem.java> 00045dd8  2d 20 a4 01 7a 64 41 45 ba bc 22 7b 0e 64 10 6a  - ..zdAE.."{.d.j (GhidraScript)  
+INFO  DumpMem.java> 00045de8  96 33 e0 d0 4b ae 6c 46 85 a0 68 e8 67 2e b3 ea  .3..K.lF..h.g... (GhidraScript)  
+INFO  DumpMem.java> 00045df8  87 02 90 ae 08 25 68 44 9f c6 0e c8 32 22 bf 76  .....%hD....2".v (GhidraScript)  
+INFO  DumpMem.java> 00045e08  91 cc d2 06 56 7c 57 40 8a f1 73 ec 15 38 c1 c9  ....V|W@..s..8.. (GhidraScript)  
+INFO  DumpMem.java> == 00045da8 len 0x80 == (GhidraScript)  
+INFO  DumpMem.java> 00045da8  0f 66 cd 63 48 63 c4 4f 8a 27 44 01 37 95 ce 44  .f.cHc.O.'D.7..D (GhidraScript)  
+INFO  DumpMem.java> 00045db8  62 84 aa d7 e8 2b 42 4f b7 25 0b 1a 98 63 79 ca  b....+BO.%...cy. (GhidraScript)  
+INFO  DumpMem.java> 00045dc8  06 2e 63 2e 5a b9 48 4d b0 75 bc c2 90 a1 d8 8d  ..c.Z.HM.u...... (GhidraScript)  
+INFO  DumpMem.java> 00045dd8  2d 20 a4 01 7a 64 41 45 ba bc 22 7b 0e 64 10 6a  - ..zdAE.."{.d.j (GhidraScript)  
+INFO  DumpMem.java> 00045de8  96 33 e0 d0 4b ae 6c 46 85 a0 68 e8 67 2e b3 ea  .3..K.lF..h.g... (GhidraScript)  
+INFO  DumpMem.java> 00045df8  87 02 90 ae 08 25 68 44 9f c6 0e c8 32 22 bf 76  .....%hD....2".v (GhidraScript)  
+INFO  DumpMem.java> 00045e08  91 cc d2 06 56 7c 57 40 8a f1 73 ec 15 38 c1 c9  ....V|W@..s..8.. (GhidraScript)  
+INFO  DumpMem.java> 00045e18  09 df a3 2a ae c0 bd 49 8c e4 cf 47 13 4f 8c 49  ...*...I...G.O.I (GhidraScript)  
+INFO  DumpMem.java> == 00045d90 len 0x20 == (GhidraScript)  
+INFO  DumpMem.java> 00045d90  00 00 00 00 00 00 00 00 32 d9 db ef 08 8f 9c 4b  ........2......K (GhidraScript)  
+INFO  DumpMem.java> 00045da0  89 03 46 44 c0 21 97 d6 0f 66 cd 63 48 63 c4 4f  ..FD.!...f.cHc.O (GhidraScript)  
+INFO  REPORT: Save succeeded for processed file: /saa7231.sys (HeadlessAnalyzer)  

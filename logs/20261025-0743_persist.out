@@ -1,0 +1,38 @@
+# persist dec_init=1 dcsc_power=1 via modprobe.d 2026-10-25T07:43:17+03:00
+== install modules
+== write /etc/modprobe.d/saa7231-analog.conf
+# Behold TV H8 (SAA7231): аналоговый захват.
+# dec_init/dcsc_power включают программирование AVIS/DCSC при старте
+# видеопотока (вендорские последовательности). Только video-ветка.
+options saa7231_core dec_init=1 dcsc_power=1
+== reload driver (без записи в sysfs)
+== params (должны прийти из modprobe.d)
+dec_init=1
+dcsc_power=1
+avis_fmt=0 chctrl=688 s2d=459052 packed=1
+== capture 25 frames via V4L2
+<<<<<<<<<<<<<<<<<<<<<<<<<
+Video input set to 0 (Composite: Camera, ok)
+v4l2-ctl exit=0
+== skip 10 frames, decode the next one
+-rw-r--r-- 1 root root   829440 окт 25 07:43 /home/otakoi/_hueta/behold-analog/logs/20261025-0743_frame10.raw
+-rw-r--r-- 1 root root 20736000 окт 25 07:43 /home/otakoi/_hueta/behold-analog/logs/20261025-0743_persist.raw
+-rw-r--r-- 1 root root 545799 окт 25 07:43 /home/otakoi/_hueta/behold-analog/logs/20261025-0743_frame10.png
+== chroma check (frame 10)
+U/V distinct=163, exactly 0x80: 86955 / 207360 (41.9%)
+top U/V: [(128, 86955), (126, 5904), (129, 5077), (130, 3189), (131, 2358)]
+VERDICT: COLOR OK
+== driver log
+[ 7755.035875] saa7231 vfl: stream allocated
+[ 7755.035879] saa7231 vfl: acquire
+[ 7755.035900] saa7231 vfl: avis program, input type 3
+[ 7755.035919] saa7231 avis: base init done
+[ 7755.036046] saa7231 avis: input table done
+[ 7755.036073] saa7231 avis: input setup done
+[ 7755.036075] saa7231 avis: timing done
+[ 7755.036076] saa7231 vfl: avis program done
+[ 7755.036077] saa7231 vfl: run
+[ 7755.050687] saa7231 vfl: streaming
+[ 7755.117441] saa7231 vfl: first frame (dma 1)
+[ 7756.114708] saa7231 vfl: stop, frames=25
+== done: /home/otakoi/_hueta/behold-analog/logs/20261025-0743_persist.out / /home/otakoi/_hueta/behold-analog/logs/20261025-0743_frame10.png

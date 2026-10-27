@@ -1,0 +1,13 @@
+# chroma fmt=0x10 2026-10-23T08:02:47+03:00
+== install modules
+== reload driver
+== params
+== capture 20 frames
+<<<<<<<<<<<<<<<<<<<<
+Video input set to 0 (Composite: Camera, ok)
+v4l2-ctl exit=0
+== line layout (field 10: 288 lines x 1440 bytes, V4L2 frame 829440)
+frames: 20 bytes: 16588800
+first  half: distinct=160 top=[(128, 207378), (31, 18987), (29, 17637)]
+second half: distinct=167 top=[(128, 207385), (29, 20696), (27, 19830)]
+== done: /home/otakoi/_hueta/behold-analog/logs/20261023-0802_chroma.out

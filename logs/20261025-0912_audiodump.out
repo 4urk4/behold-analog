@@ -1,0 +1,38 @@
+# audio register dump 2026-10-25T09:12:42+03:00
+== install modules
+== dumps before stream
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+-- idle:
+== capture 100 frames (~4 s) in background
+<<<<<<<<<<<<<<<<<<<<<<<<<< 0.00 fps
+<<<<<<<<<== dumps during stream
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+trash/step_26_audio_dump.sh: line 50: echo: write error: Invalid argument
+<<<<<<<<-- streaming:
+<<<<<<<< 0.00 fps
+<<<<<<<<<<<<<<<<<<<<<<<<<< 0.00 fps
+<<<<<<<<<<<<<<<<<<<<<<<
+Video input set to 0 (Composite: Camera, ok)
+== audio lines
+[12924.553733] saa7231 audio: stop, 1 buffers
+[12926.697175] saa7231 audio: streaming 32000 Hz
+[12927.720257] saa7231 audio: stop, 1 buffers
+[13120.800249] saa7231 audio: streaming 32000 Hz
+[13124.850401] saa7231 audio: stop, 1 buffers
+count: 0
+== done: /home/otakoi/_hueta/behold-analog/logs/20261025-0912_audiodump.out
